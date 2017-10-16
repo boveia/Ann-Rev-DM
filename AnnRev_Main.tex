@@ -52,101 +52,47 @@ keywords, separated by comma, no full stop, lowercase
 
 % Heading 1
 \section{INTRODUCTION}
-Please begin the main text of your article here. 
+\label{sec:intro}
 
+Define Standard Model (SM). 
 
+%CD: need to decide whether Dark Matter or dark matter.
+
+%\input{00_Examples}
 
 %Heading 1
-\section{FIRST-LEVEL HEADING}
-This is dummy text. 
-% Heading 2
-\subsection{Second-Level Heading}
-This is dummy text. This is dummy text. This is dummy text. This is dummy text.
+\section{REACTIONS FOR INVISIBLE PARTICLE SEARCHES AT THE LHC}
 
-% Heading 3
-\subsubsection{Third-Level Heading}
-This is dummy text. This is dummy text. This is dummy text. This is dummy text. 
+\input{02_Reactions}
 
-% Heading 4
-\paragraph{Fourth-Level Heading} Fourth-level headings are placed as part of the paragraph.
+%shared context: many possible new physics searches at the LHC
+%problem: can't do them all
+%solution: strong theoretical motivation, as well as observability
+%exposition: particular case of DM
 
-%Example of a Figure
-\section{ELEMENTS\ OF\ THE\ MANUSCRIPT} 
-\subsection{Figures}Figures should be cited in the main text in chronological order. This is dummy text with a citation to the first figure (\textbf{Figure \ref{fig1}}). Citations to \textbf{Figure \ref{fig1}} (and other figures) will be bold. 
+Collider experiments have a nearly unlimited number of theoretically motivated BSM search targets. 
+Theoretical arguments are not sufficient for a new physics model to be tested at the LHC: 
+couplings to SM particles need to feature in the model, to produce new particles and observe 
+their signatures in the detectors. 
 
-\begin{figure}[h]
-\includegraphics[width=3in]{SampleFigure}
-\caption{Figure caption with descriptions of parts a and b}
-\label{fig1}
-\end{figure}
+Dark matter is one of the priorities for the physics programs of LHC experiments
+as a large number of its theoretical representations can be observed at the LHC detectors. 
 
-% Example of a Table
-\subsection{Tables} Tables should also be cited in the main text in chronological order (\textbf {Table \ref{tab1}}).
+%everyone thinks of WIMPs, how strong is strong, how weak is weak? quantitative question of coupling, depends on model. in the introduction: need to talk about DM properties. Weak enough that there is no visible EM signal (no light emission or absorption). Relate those properties to what the particle physics properties need to be. Have a model in mind: s-channel mediator between DM and SM, weakness of interaction comes from particle being heavy or coupling being small. DMF models have order=1 couplings. 
 
-\begin{table}[h]
-\tabcolsep7.5pt
-\caption{Table caption}
-\label{tab1}
-\begin{center}
-\begin{tabular}{@{}l|c|c|c|c@{}}
-\hline
-Head 1 &&&&Head 5\\
-{(}units)$^{\rm a}$ &Head 2 &Head 3 &Head 4 &{(}units)\\
-\hline
-Column 1 &Column 2 &Column3$^{\rm b}$ &Column4 &Column\\
-Column 1 &Column 2 &Column3 &Column4 &Column\\
-Column 1 &Column 2 &Column3 &Column4 &Column\\
-Column 1 &Column 2 &Column3 &Column4 &Column\\
-\hline
-\end{tabular}
-\end{center}
-\begin{tabnote}
-$^{\rm a}$Table footnote; $^{\rm b}$second table footnote.
-\end{tabnote}
-\end{table}
+Models of particle dark matter generally include SM couplings to satisfy cosmological observations
+in the freeze-out case. These couplings need to be weak enough that there is no visible signal of dark matter particles, as there is no evidence for dark matter interacting strongly with baryonic matter, 
+nor for its emission or absorption of light. %i don't like its
 
-% Example of lists
-\subsection{Lists and Extracts} Here is an example of a numbered list:
-\begin{enumerate}
-\item List entry number 1,
-\item List entry number 2,
-\item List entry number 3,\item List entry number 4, and
-\item List entry number 5.
-\end{enumerate}
+The observations mentioned in Section~\ref{sec:intro} require the dark matter particle
+to be stable on a cosmological timescale, so dark matter itself will be
+invisible to colliders. However, the rest of the event is not: one can observe DM particles
+due to their missing momentum in the transverse plane, if they recoil against one or 
+more visible SM particles. 
+%talk about LHC transverse momentum conservation
 
-Here is an example of a extract.
-\begin{extract}
-This is an example text of quote or extract.
-This is an example text of quote or extract.
-\end{extract}
+\clearpage
 
-\subsection{Sidebars and Margin Notes}
-% Margin Note
-\begin{marginnote}[]
-\entry{Term A}{definition}
-\entry{Term B}{definition}
-\entry{Term C}{defintion}
-\end{marginnote}
-
-\begin{textbox}[h]\section{SIDEBARS}
-Sidebar text goes here.
-\subsection{Sidebar Second-Level Heading}
-More text goes here.\subsubsection{Sidebar third-level heading}
-Text goes here.\end{textbox}
-
-
-
-\subsection{Equations}
-% Example of a single-line equation
-\begin{equation}
-a = b \ {\rm ((Single\ Equation\ Numbered))}
-\end{equation}
-%Example of multiple-line equation
-Equations can also be multiple lines as shown in Equations 2 and 3.
-\begin{eqnarray}
-c = 0 \ {\rm ((Multiple\  Lines, \ Numbered))}\\
-ac = 0 \ {\rm ((Multiple \ Lines, \ Numbered))}
-\end{eqnarray}
 
 % Summary Points
 \begin{summary}[SUMMARY POINTS]
