@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
+<editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
+  <editor content-size="{1328, 810}" scroll-position="{1, 13648}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
+    <sidebar visible="yes" width="158" selected-tab="styles"/>
+    <column-states columns-id="b52DL6hgXrN">
+      <column-state column-id="cDSetknF6xF" hidden="yes" width="32" summary="state"/>
+      <column-state column-id="kmDe5MlE9uM" width="18"/>
+      <column-state column-id="hQDTXD-kJn_" width="1220"/>
+      <column-state column-id="oHuf3qYSbYa" width="70"/>
+      <column-state column-id="kAOZXbQLKLR" width="349"/>
+      <column-state column-id="fSf7pS1NI8r" width="343"/>
+      <column-state column-id="eI70F4vZLW4" width="150"/>
+      <column-state column-id="dqw7AjAgcG5" hidden="yes" width="115" summary="sum"/>
+    </column-states>
+    <note-split-view height="33"/>
+    <item-states>
+      <item item-id="a-_cW52y4Hw" note-expanded="yes"/>
+      <item item-id="a9L58XMPmv-" note-expanded="yes"/>
+      <item item-id="aIz4LSz7Xhq" expanded="yes"/>
+      <item item-id="aK6BrIqglfD" expanded="yes"/>
+      <item item-id="aXa0pjDEsRX" expanded="yes" note-expanded="yes"/>
+      <item item-id="aYt_Lhc2Ubl" expanded="yes"/>
+      <item item-id="aZ-PcFWrIrZ" expanded="yes" note-expanded="yes"/>
+      <item item-id="abrmjzLc5Q-" expanded="yes"/>
+      <item item-id="ahR1htZUzk6" note-expanded="yes"/>
+      <item item-id="aiJkEes4kJY" expanded="yes"/>
+      <item item-id="aouzVZTj8PV" expanded="yes"/>
+      <item item-id="au8R26feI1Y" expanded="yes" note-expanded="yes"/>
+      <item item-id="b2FAv1sHYWU" expanded="yes"/>
+      <item item-id="b3MvCl3YEaR" expanded="yes"/>
+      <item item-id="b4xudGXE5k7" expanded="yes" note-expanded="yes"/>
+      <item item-id="bNaKXtv2Dbh" expanded="yes"/>
+      <item item-id="bcy9xF1CZcb" expanded="yes"/>
+      <item item-id="bqS2TDkKCaS" expanded="yes" note-expanded="yes"/>
+      <item item-id="brF46S1J7CE" expanded="yes"/>
+      <item item-id="bzYtJ1-daP7" expanded="yes" note-expanded="yes"/>
+      <item item-id="bzaXEUt0eVo" expanded="yes"/>
+      <item item-id="c-mAxbnlI2K" expanded="yes"/>
+      <item item-id="c1CXwTUGFUJ" expanded="yes" note-expanded="yes"/>
+      <item item-id="c5cIULe9R4K" expanded="yes"/>
+      <item item-id="c5iFuOExnOm" expanded="yes"/>
+      <item item-id="c70fQ0NsqWl" note-expanded="yes"/>
+      <item item-id="cHomV6EGE20" note-expanded="yes"/>
+      <item item-id="cJa8URAiyXA" note-expanded="yes"/>
+      <item item-id="cNOYMYkZloH" note-expanded="yes"/>
+      <item item-id="ccUPl_CdRpM" expanded="yes" note-expanded="yes"/>
+      <item item-id="crLNSULXUGg" expanded="yes" note-expanded="yes"/>
+      <item item-id="cyqwhon3mtz" expanded="yes"/>
+      <item item-id="d-QF8tF-Nyx" note-expanded="yes"/>
+      <item item-id="d16KoNcyMzi" expanded="yes"/>
+      <item item-id="d4QPHRWGDxH" expanded="yes"/>
+      <item item-id="d6HXyGpYGTo" expanded="yes" note-expanded="yes"/>
+      <item item-id="dBAOBsjKo5R" expanded="yes" note-expanded="yes"/>
+      <item item-id="dJwUXa3HK7L" expanded="yes" note-expanded="yes"/>
+      <item item-id="dOaOYuMLFvS" expanded="yes"/>
+      <item item-id="dS81EwdVTgM" note-expanded="yes"/>
+      <item item-id="dcD0ckwHDZN" note-expanded="yes"/>
+      <item item-id="dnMnZNtoj5X" expanded="yes" note-expanded="yes"/>
+      <item item-id="doetYFJSo37" note-expanded="yes"/>
+      <item item-id="e7YPWhKsGl3" expanded="yes"/>
+      <item item-id="e8e3OOJvIuf" expanded="yes"/>
+      <item item-id="eCKsrVpLruX" expanded="yes"/>
+      <item item-id="eJvVbVMhcnn" expanded="yes"/>
+      <item item-id="eNwO-df98nN" expanded="yes" note-expanded="yes"/>
+      <item item-id="eRg6_Kltn0n" expanded="yes"/>
+      <item item-id="eV89coGvRr7" note-expanded="yes"/>
+      <item item-id="eWq8E2Ix1rj" note-expanded="yes"/>
+      <item item-id="ea4JTF3OoTh" note-expanded="yes"/>
+      <item item-id="ebeXGzWRgkf" note-expanded="yes"/>
+      <item item-id="ejO45gp8p8U" note-expanded="yes"/>
+      <item item-id="ejYY8N3fQWC" expanded="yes"/>
+      <item item-id="elgH4r5ut2T" expanded="yes" note-expanded="yes"/>
+      <item item-id="erkJXtCI4U6" expanded="yes"/>
+      <item item-id="espXlYI7R0g" expanded="yes"/>
+      <item item-id="esu12XiX1A2" expanded="yes"/>
+      <item item-id="ewpUCCTLsDM" expanded="yes"/>
+      <item item-id="f3Cv85O-whg" expanded="yes"/>
+      <item item-id="fER5LW6GXKT" expanded="yes"/>
+      <item item-id="fPZrqQsKZZU" note-expanded="yes"/>
+      <item item-id="fXNu06HDJiD" expanded="yes"/>
+      <item item-id="fmF8ufy4FnP" expanded="yes"/>
+      <item item-id="fpa5TGey9Yt" expanded="yes" note-expanded="yes"/>
+      <item item-id="fpvYKG8yaqR" note-expanded="yes"/>
+      <item item-id="ftuollQL20M" note-expanded="yes"/>
+      <item item-id="g7Wt5Pz4cMY" expanded="yes" note-expanded="yes"/>
+      <item item-id="gBJBfDk88wn" expanded="yes"/>
+      <item item-id="gCwHmb92v_V" expanded="yes"/>
+      <item item-id="gGj97RI3nIw" expanded="yes"/>
+      <item item-id="gJyyMLQk5PL" expanded="yes"/>
+      <item item-id="gK98sUmJtNM" expanded="yes"/>
+      <item item-id="gRirao1InDX" note-expanded="yes"/>
+      <item item-id="gT6XtIO3Vj3" expanded="yes" note-expanded="yes"/>
+      <item item-id="gXjy501tHg1" expanded="yes" note-expanded="yes"/>
+      <item item-id="gguD-ftuiBl" note-expanded="yes"/>
+      <item item-id="gpZJvd30Aap" expanded="yes"/>
+      <item item-id="gq-Er4rYiN6" expanded="yes"/>
+      <item item-id="h4rifiorkF0" expanded="yes" note-expanded="yes"/>
+      <item item-id="hI6e6CgHyOz" expanded="yes"/>
+      <item item-id="hIKWbrgtyrt" expanded="yes"/>
+      <item item-id="hM6mwLEG6io" expanded="yes"/>
+      <item item-id="hM8saYuK6CD" expanded="yes" note-expanded="yes"/>
+      <item item-id="hMU24ad2gDU" expanded="yes" note-expanded="yes"/>
+      <item item-id="h_AZQxJ86O4" note-expanded="yes"/>
+      <item item-id="hcNYXvfUFte" expanded="yes" note-expanded="yes"/>
+      <item item-id="heIwGVozGTB" expanded="yes"/>
+      <item item-id="hkEOeV8pR3T" expanded="yes"/>
+      <item item-id="hr8Xiebso7A" expanded="yes" note-expanded="yes"/>
+      <item item-id="hsrzzf9V8g6" expanded="yes" note-expanded="yes"/>
+      <item item-id="hwg8VTB5NjX" expanded="yes"/>
+      <item item-id="hye_FCgsfMb" expanded="yes"/>
+      <item item-id="i3-Puj_Tr2R" note-expanded="yes"/>
+      <item item-id="iCIQJMGgsTI" note-expanded="yes"/>
+      <item item-id="iEUWP2GzHz5" note-expanded="yes"/>
+      <item item-id="iJpbNpxZU_A" expanded="yes" note-expanded="yes"/>
+      <item item-id="iKKjIr4L_DD" expanded="yes"/>
+      <item item-id="iPmZN_ZMjn2" expanded="yes"/>
+      <item item-id="iQx0PDsG1fY" expanded="yes"/>
+      <item item-id="iV6wE_WH6k6" expanded="yes"/>
+      <item item-id="ihjdc1KRitL" expanded="yes" note-expanded="yes"/>
+      <item item-id="ijfYrpCROl3" note-expanded="yes"/>
+      <item item-id="ikgcRzhVlDx" expanded="yes"/>
+      <item item-id="imtW9jK9l3P" expanded="yes" note-expanded="yes"/>
+      <item item-id="is8yIW4buom" expanded="yes"/>
+      <item item-id="ixI3f9b9wvT" expanded="yes" note-expanded="yes"/>
+      <item item-id="j-vy9OO3YgG" note-expanded="yes"/>
+      <item item-id="j80Q-gI1Pve" note-expanded="yes"/>
+      <item item-id="jMoOSBJKZEL" expanded="yes" note-expanded="yes"/>
+      <item item-id="jO8-wk8NO-r" note-expanded="yes"/>
+      <item item-id="jPy2mbre-RK" expanded="yes"/>
+      <item item-id="jU_F0xnWX3N" expanded="yes"/>
+      <item item-id="jej2jNzJruU" note-expanded="yes"/>
+      <item item-id="jfMeEcfwd-f" expanded="yes"/>
+      <item item-id="ji5NgaH8it-" expanded="yes"/>
+      <item item-id="jjZXfUe3OL4" note-expanded="yes"/>
+      <item item-id="jkSnEGx3_Ko" expanded="yes" note-expanded="yes"/>
+      <item item-id="jlVYyv0aYvk" expanded="yes" note-expanded="yes"/>
+      <item item-id="jnrAKmLzVk1" expanded="yes" note-expanded="yes"/>
+      <item item-id="jttaIN5vD2h" expanded="yes" note-expanded="yes"/>
+      <item item-id="jwh4eWvwp5Z" expanded="yes"/>
+      <item item-id="jx1P0rj4QiM" expanded="yes"/>
+      <item item-id="k4HY0idPDkH" expanded="yes" note-expanded="yes"/>
+      <item item-id="kAzzQkbgQex" expanded="yes"/>
+      <item item-id="kCs1WmVrKED" note-expanded="yes"/>
+      <item item-id="kFeI2zGlSH2" note-expanded="yes"/>
+      <item item-id="kY1ZRdlfP47" expanded="yes"/>
+      <item item-id="k_5L3jDoPF2" expanded="yes"/>
+      <item item-id="kgzfUY9T7ZT" expanded="yes"/>
+      <item item-id="l33x5KTRWjy" expanded="yes" note-expanded="yes"/>
+      <item item-id="lOOgDs9Udfe" note-expanded="yes"/>
+      <item item-id="l_c-CQaq2oY" note-expanded="yes"/>
+      <item item-id="ldZ9G7F37I_" expanded="yes"/>
+      <item item-id="lkD2Ac14T5W" note-expanded="yes"/>
+      <item item-id="lstRrwmWdNi" note-expanded="yes"/>
+      <item item-id="luIAdsC2jTN" expanded="yes"/>
+      <item item-id="lxvab70re3D" note-expanded="yes"/>
+      <item item-id="m0m4l6mm8zX" note-expanded="yes"/>
+      <item item-id="m17f5D9Pypd" expanded="yes"/>
+      <item item-id="m1v1uA81nxO" expanded="yes" note-expanded="yes"/>
+      <item item-id="m4aOgGPofqF" note-expanded="yes"/>
+      <item item-id="m4v6RYQJKAb" expanded="yes"/>
+      <item item-id="mBroW9nQHOV" expanded="yes"/>
+      <item item-id="mVp3M4pZFBm" expanded="yes"/>
+      <item item-id="mYCR9tMTXif" expanded="yes"/>
+      <item item-id="mce3HkDhi25" expanded="yes"/>
+      <item item-id="meJD62ohyq2" expanded="yes"/>
+      <item item-id="miZflb-fRSB" expanded="yes"/>
+      <item item-id="mphJbbH4Oal" expanded="yes"/>
+      <item item-id="mqodQoSW9s8" expanded="yes"/>
+      <item item-id="msJczDENMic" expanded="yes"/>
+      <item item-id="mtEvqoIr4dR" expanded="yes"/>
+      <item item-id="muwPDfFmlDH" expanded="yes"/>
+      <item item-id="n4Ek5CR4Mpt" expanded="yes"/>
+      <item item-id="nC22X59irBT" expanded="yes"/>
+      <item item-id="nIUukXcctDh" expanded="yes" note-expanded="yes"/>
+      <item item-id="nJyW1KSf2FK" expanded="yes" note-expanded="yes"/>
+      <item item-id="naBQTIP2Yo6" note-expanded="yes"/>
+      <item item-id="naVMt4M0Qfh" expanded="yes"/>
+      <item item-id="nbC119UO3jw" expanded="yes" note-expanded="yes"/>
+      <item item-id="nbWUuyEdhUz" note-expanded="yes"/>
+      <item item-id="ncyPsMpIQyP" expanded="yes"/>
+      <item item-id="ngEubNHeg2_" note-expanded="yes"/>
+      <item item-id="ngFopYoy_XM" expanded="yes"/>
+      <item item-id="noE5h9hxpx5" expanded="yes"/>
+      <item item-id="nocTJrO_cz3" expanded="yes"/>
+      <item item-id="nrFaO5qmSjS" note-expanded="yes"/>
+      <item item-id="nvkw9X9CVT3" expanded="yes"/>
+      <item item-id="oAWrN-1xF63" expanded="yes"/>
+      <item item-id="oJg5RZCpjcL" note-expanded="yes"/>
+      <item item-id="oKhzZqC0bCz" expanded="yes"/>
+      <item item-id="oLwSsXeiweM" expanded="yes"/>
+      <item item-id="oNOiR2mEZrw" expanded="yes"/>
+      <item item-id="oSPlnbrq65K" expanded="yes"/>
+      <item item-id="oUp0LSJUf64" expanded="yes"/>
+      <item item-id="oUr9v_T_1lY" expanded="yes" note-expanded="yes"/>
+      <item item-id="onkUx6CYor-" expanded="yes" note-expanded="yes"/>
+      <item item-id="p3swyNnItay" expanded="yes"/>
+      <item item-id="pEBxg_wLO6W" expanded="yes"/>
+      <item item-id="pEDmegvb662" expanded="yes"/>
+      <item item-id="pGv1gPE_MyR" expanded="yes"/>
+      <item item-id="pM85l7BOrie" expanded="yes" note-expanded="yes"/>
+      <item item-id="piDjT0I1v5U" note-expanded="yes"/>
+      <item item-id="pyGRjorc0M5" note-expanded="yes"/>
+    </item-states>
+    <selected-items>
+      <item item-id="hye_FCgsfMb"/>
+    </selected-items>
+    <selected-columns>
+      <column-ref idref="hQDTXD-kJn_"/>
+    </selected-columns>
+    <selected-characters range="{42, 0}"/>
+  </editor>
+</editors>
