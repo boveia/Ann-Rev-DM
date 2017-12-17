@@ -1,14 +1,155 @@
-As described in the previous chapter, DM itself is not visible at colliders and has
-to be observed indirectly in association with other visible particles. 
+%As described in the previous chapter, DM itself is not visible at colliders and has
+%to be observed indirectly in association with other visible particles. 
+%
+%Signals of DM can come from MonoX and diX searches. 
+%
+%State of the art MC:
+%
+%Vector and scalar models are known at NLO~\cite{Neubert:2015fka,Haisch:2013ata}
+%NLO corrections for vector and scalar models in monoZ and monojet
+%
+%t-channel
+%
+%From Millie's talk (see Reaction OmniOutliner):
+%Since the DM-mediator-quark vertices allow for simultaneous FS partons with different hard scale, particular prescription needs to be used for the generation of samples with different partons that splits samples in number of mediators. Interference between the diagrams is neglected following Papucci et al. 
 
-Signals of DM can come from MonoX and diX searches. 
+%%%Bunch of text from ERC that could be useful for TLA part
 
-State of the art MC:
+%At the LHC, proton beams with a center of mass energy of 13 \tera\electronvolt \ will collide up to 
+%every 25 \nano\second \ at the four interaction points, where experiments are installed. 
+%The ATLAS (\textbf{A} \textbf{T}oroidal \textbf{L}HC \textbf{A}pparatu\textbf{S}) experiment 
+%is a general purpose detector located at the Interaction Point 1.
+%From the Spring of 2010 to Fall 2012 the LHC has recorded a total of 25 \invfb of collision data 
+%at 7 and 8 \tera\electronvolt. 
+%
+%It is the high interaction rate of proton-proton collisions at the LHC that 
+%allows the collection of the large dataset necessary to search for rare processes. 
+%The design and operation of the ATLAS detector is described in 
+%References~\cite{DetectorPaper}. The key subsystems employed in this projects are the calorimeters, 
+%where energy deposits from the collimated sprays of particles originated by 
+%quarks and gluons are detected. The energy deposits are used as inputs of 
+%\textit{jet algorithms}~\cite{Salam:2009jx}: 
+%the experimental output used for the analysis is a reconstructed jet that, after calibration, 
+%contains information on the kinematics of the original physics process. 
+%The system and technologies employed to select and collect interesting data are the crucial components for the 
+%innovative Trigger Level Analysis searches outlined in WP2 and WP3, 
+%and they are described in more detail in Section~\ref{subsub:datacollection}. 
+%
+%The LHC will restart operations in Summer 2015, increasing the center of mass energy to 13 TeV. 
+%The dataset collected over the course of the planned three years of operations (called \textit{Run 2}, 
+%ongoing until mid-2018) corresponds to 100 \invpb~\cite{KEKRossi}. 
+%Upgrades to further increase the data rate and the center of mass energy to 14 TeV will be 
+%undertaken during the course of 2016, and completed during the 1.5 year technical stop (called LS2).
+%LS2 will last until the beginning of 2020, leading to the third LHC run 
+%that will collect an additional 200 \invpb of data. 
+%
+%During LS2, the LHC experiments will undergo major upgrades to their hardware (called Phase-I upgrades). 
+%In the final two years of this project that coincide with the LHC Run 3, 
+%I will exploit the new gFEX trigger board~\cite{Bartoldus:1602235} to extend the Trigger-Level Analysis 
+%method to obtain an increased sensitivity for four-jet final states. 
+%
+%\subsubsection{Data collection and data analysis in ATLAS at the LHC}
+%\label{subsub:datacollection}
+%
+%The data rate delivered by the LHC (up to 40 million collisions per second in nominal conditions) exceeds the 
+%current capabilities for recording events offline, both in terms of recording speed and storage space. 
+%The rare signal events sought are buried in an overwhelming number of background events.
+%It is therefore necessary to have a \textit{trigger} system that in a very short timescale 
+%selects the interesting collision events based on the presence of high transverse momentum physics objects 
+%(muons, electrons, photons, jets and tau leptons). 
+%
+%The ATLAS data collection rate at the end of the trigger selection still surpasses other ``Big data'' 
+%challenges both in academic research and in industry. 
+%As an example, ATLAS and the three other main detectors at the LHC produced and recorded 
+%13 petabytes of data just in 2010~\cite{NaturePetabyte}. It is clear
+%that with such large dataset new ideas and new analysis techniques are needed,
+%especially in the case of small deviations over large backgrounds. 
+%One such idea consists of moving the data analysis as close
+%to the data taking as possible, ultimately removing the need for storage at all. 
+%This proposal moves the first steps for the ATLAS detector in this direction, 
+%proposing to only retain a subset of the event information, and eventually 
+%to move an entire search to be done in real-time as soon as the data
+%is collected. 
+%
+%\paragraph{The ATLAS Trigger system}
+%
+%The ATLAS trigger system is subdivided in two levels: Level-1 and High Level Trigger (HLT)
+%The first, fast selection is made at L1 using coarse detector information. 
+%Its logic is mostly hardwired in the readout electronics, 
+%given that the decision needs to be made in less than 2.5 $\mu$ \second. 
+%The bandwidth available for data transfer to the HLT and the HLT computing power
+%limit the rate that could be accepted by the L1 to 75 kHZ from the initial 40 MHz 
+%provided by the LHC~\cite{Sfyrla:1510140}. The events accepted by the L1 trigger 
+%are passed on to the HLT trigger, a software subsystem. The longer latency allows 
+%to perform a more refined reconstruction of the objects that are used for the selection.
+%Jets reconstructed within the HLT system will be called \textit{trigger jets} in the following,
+%while \textit{offline jets} are those reconstructed after the event has passed the full trigger chain.
+%During the 2012 data taking, ATLAS recorded and reconstructed data at a rate of 
+%400 Hz, leaving an additional 200 Hz of recorded data for later reconstruction
+%(\textit{delayed} data).  
+%
+%Since the rate for certain signatures (e.g. multi-jet events that are backgrounds of the 
+%searches outlined in this proposal) would saturate the limited bandwidth that needs to be shared 
+%by all triggers, some triggers are \textit{prescaled}. 
+%This means that only a fraction of the events accepted 
+%are effectively passed onto the next level.
+%A prescale of 1 means that all events 
+%selected by the trigger are accepted, while larger prescales mean that only a fraction 
+%1/prescale is accepted. This in turn harms the sensitivity of searches, as signal events
+%will be rejected by the trigger system as well. 
 
-Vector and scalar models are known at NLO~\cite{Neubert:2015fka,Haisch:2013ata}
-NLO corrections for vector and scalar models in monoZ and monojet
+%Blurb from ERC
 
-t-channel
+%Hadronic jets are a particularly promising final state for both the Dark Matter mediators 
+%produced at the LHC, but also for new, unknown particles that might be created when crossing 
+%the threshold of a new energy scale such as in the upcoming LHC run. 
+%Not knowing the exact nature of these new particles, it is not possible
+%to pin down at which energy scales they are going to be produced, 
+%and at which rates. This calls for generic searches that are sensitive 
+%to a broad range of theoretical benchmarks, and whose results can be easily
+%re-interpreted in different frameworks. The absence of any New Physics discoveries 
+%during the first LHC run also points to the need for the study of more elaborate 
+%and rare processes that can only be achieved with new analysis techniques. 
 
-From Millie's talk (see Reaction OmniOutliner):
-Since the DM-mediator-quark vertices allow for simultaneous FS partons with different hard scale, particular prescription needs to be used for the generation of samples with different partons that splits samples in number of mediators. Interference between the diagrams is neglected following Papucci et al. 
+%A wide range of theoretical models attempt to incorporate Dark Matter. 
+%Many of these models postulate the presence of a new massive subatomic particle
+%that interacts only feebly with SM particles as a Dark Matter candidate.
+%The presence of these Weakly Interacting Massive Particles (WIMPs) can be inferred in 
+%in a variety of experiments. \textit{Direct Detection} 
+%experiments detect the interaction between an incoming 
+%Dark Matter particle and target nuclei within the detector, by measuring nucleon recoil.
+%\textit{Indirect Detection} experiments detect the fluxes of SM particles that 
+%are produced from the annihilation of DM particles~\cite{Bertone:2004pz, Bauer:2013ihz}. 
+%Dark Matter searches at colliders are supported by the consistency
+%of the thermal relic density and the annihilation rates of WIMP candidates with masses
+%in the GeV-TeV range, compatible with the energy regime of the LHC~\cite{Bertone:2004pz}. 
+%The complementarity of those searches in terms of the WIMP-SM interaction of interest 
+%is shown in Figures~\ref{fig:complementarity} (a-c). 
+%
+%\begin{wrapfigure}{L}{0.7\textwidth}
+%% \begin{figure}[!h]
+%\centering
+%    \includegraphics[width=0.65\textwidth]{figures/SimplifiedModels}
+%  \caption[Complementarity of DM searches]{\label{fig:complementarity} Sketch showing the complementarity 
+%  between different experiments searching for Dark Matter (a-c). The difference between
+%  the EFT approach and the simplified model approach is depicted for collider searches in (c-d).}
+%% \end{figure}
+%\end{wrapfigure}
+%
+%Indirect detection experiments such as 
+%FERMI~\cite{Hooper:2010mq}, AMS 
+%~\cite{PhysRevLett.113.121101} and DAMA~\cite{Bernabei:2003za}
+%have observed tantalizing signals 
+%with a possible Dark Matter explanation.
+%There some tension between direct detection experiments: the signal-like excesses 
+%and characteristics of events in the CDMS and CoGENT experiments~\cite{Agnese:2013rvf,Hooper:2010uy}
+%are not confirmed by other experiments such as LUX~\cite{Akerib:2013tjd}. 
+%
+%The flagship searches for Dark Matter at the LHC and at the Tevatron 
+%exploit the recoil of undetected pair-produced WIMPs against a jet radiated 
+%by one of the initial-state quarks or gluons. Such searches have yet to find 
+%evidence for WIMPs (see e.g. Refs. ~\cite{Aad:2013oja,ATLAS:2014wra,Aad:2014vka,Aad:2014vea,Aad:2014tda,ATLAS-CONF-2012-147}
+%for the ATLAS Collaboration). 
+%
+%Results from all these experiments need to be connected in a coherent framework for a 
+%successful program of study of Dark Matter in the coming years. 
