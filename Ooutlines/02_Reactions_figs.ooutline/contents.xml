@@ -1,0 +1,3298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-v5.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
+<outline xmlns="http://www.omnigroup.com/namespace/OmniOutliner/v5" type-of-file-on-disk="package">
+  <style-attribute-registry>
+    <style-attribute version="0" key="font-family" group="font" name="family" class="string">Helvetica</style-attribute>
+    <style-attribute version="1" key="font-fill" group="font" name="fill color" class="color">
+      <color w="0"/>
+    </style-attribute>
+    <style-attribute version="0" key="font-fixed-pitch" group="font" name="fixed pitch" class="bool">no</style-attribute>
+    <style-attribute version="0" key="font-italic" group="font" name="italic" class="bool">no</style-attribute>
+    <style-attribute version="0" key="font-size" group="font" name="size" class="number" integral="0" min="1" max="65536">12</style-attribute>
+    <style-attribute version="0" key="font-weight" group="font" name="weight" class="number" integral="1" min="1" max="14">5</style-attribute>
+    <style-attribute version="0" key="paragraph-alignment" group="paragraph" name="alignment" class="enum">
+      <enum-name-table default-value="4">
+        <enum-name-table-element value="0" name="left"/>
+        <enum-name-table-element value="1" name="right"/>
+        <enum-name-table-element value="2" name="center"/>
+        <enum-name-table-element value="3" name="justified"/>
+        <enum-name-table-element value="4" name="natural"/>
+      </enum-name-table>
+    </style-attribute>
+    <style-attribute version="0" key="paragraph-base-writing-direction" group="paragraph" name="writing direction" class="enum">
+      <enum-name-table default-value="-1">
+        <enum-name-table-element value="-1" name="natural"/>
+        <enum-name-table-element value="0" name="left-to-right"/>
+        <enum-name-table-element value="1" name="right-to-left"/>
+      </enum-name-table>
+    </style-attribute>
+    <style-attribute version="0" key="paragraph-line-height-multiple" group="paragraph" name="line height multiple" class="number" integral="0" min="0" max="1000">0</style-attribute>
+    <style-attribute version="1" key="strikethrough-color" group="strikethrough" name="color" class="color">
+      <color w="0"/>
+    </style-attribute>
+    <style-attribute version="0" key="text-background-color" group="text" name="background color" class="color">
+      <color w="0" a="0"/>
+    </style-attribute>
+    <style-attribute version="1" key="underline-color" group="underline" name="color" class="color">
+      <color w="0"/>
+    </style-attribute>
+  </style-attribute-registry>
+  <named-styles>
+    <named-style id="n02BqyzilMy" name="Heading 1" display-order="0">
+      <style>
+        <value key="font-family">Arial Rounded MT Bold</value>
+        <value key="font-fill">
+          <color space="srgb" r="0.256066" g="0.256073" b="0.25607"/>
+        </value>
+        <value key="font-size">30</value>
+        <value key="font-weight">3</value>
+      </style>
+    </named-style>
+    <named-style id="gllQyhtVH9o" name="Heading 2" display-order="1">
+      <style>
+        <value key="font-family">Arial Rounded MT Bold</value>
+        <value key="font-fill">
+          <color space="srgb" r="0.256066" g="0.256073" b="0.25607"/>
+        </value>
+        <value key="font-size">20</value>
+      </style>
+    </named-style>
+    <named-style id="ksieKz8WlEz" name="Heading 3" display-order="2">
+      <style>
+        <value key="font-family">Arial Rounded MT Bold</value>
+        <value key="font-size">14</value>
+      </style>
+    </named-style>
+    <named-style id="oOB72YiGlyj" name="Highlight 1" display-order="3">
+      <style>
+        <value key="text-background-color">
+          <color space="srgb" r="1" g="0.774726" b="0" a="0.25"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="dxrN1O306w1" name="Highlight 2" display-order="4">
+      <style>
+        <value key="text-background-color">
+          <color space="srgb" r="0.968049" g="0.472297" b="0.539657" a="0.25"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="ktFDCVaYVnS" name="Highlight 3" display-order="5">
+      <style>
+        <value key="text-background-color">
+          <color space="srgb" r="0.470589" g="0.768627" b="0.270588" a="0.25"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="esaGNHoovYO" name="Vermilion" display-order="6">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.624083" g="0.238528" b="0.221111"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="iiDYggGaunu" name="Ultramarine" display-order="7">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.364903" g="0.406056" b="0.834725"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="g0MTwSIvHLI" name="Malachite" display-order="8">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.241635" g="0.602056" b="0.380318"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="hzc-jeI75P5" name="Ochre" display-order="9">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.743609" g="0.56725" b="0.0945957"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="eiUz6IBsQl4" name="Kohl" display-order="10">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0" g="0" b="0"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="o2l1SyFzq0p" name="Heading 4" display-order="11">
+      <style>
+        <value key="font-size">15</value>
+        <value key="font-weight">9</value>
+      </style>
+    </named-style>
+    <named-style id="ovYuDj9XEhY" name="Heading 5" display-order="12">
+      <style>
+        <value key="font-size">13</value>
+        <value key="font-weight">9</value>
+      </style>
+    </named-style>
+    <named-style id="fJ-vsyDL1VM" name="Heading 6" display-order="13">
+      <style>
+        <value key="font-weight">9</value>
+      </style>
+    </named-style>
+  </named-styles>
+  <attachments>
+    <attachment id="att2" href="attachments/Pasted_Graphic.png" type="image"/>
+    <attachment id="e1ad7RolKl8" href="attachments/Pasted_Graphic_1_1.png" type="image"/>
+    <attachment id="att3" href="attachments/Pasted_Graphic_2.png" type="image"/>
+    <attachment id="jm6dvlVl45x" href="attachments/Pasted_Graphic_3.png" type="image"/>
+    <attachment id="att4" href="attachments/Pasted_Graphic_4.png" type="image"/>
+    <attachment id="att5" href="attachments/Pasted_Graphic_7.png" type="image"/>
+    <attachment id="att6" href="attachments/Pasted_Graphic_8.png" type="image"/>
+    <attachment id="att7" href="attachments/Pasted_Graphic_9.png" type="image"/>
+  </attachments>
+  <settings>
+    <base-style>
+      <style>
+        <value key="paragraph-base-writing-direction">left-to-right</value>
+      </style>
+    </base-style>
+    <alternate-color>
+      <color space="gg22" w="0" a="0"/>
+    </alternate-color>
+    <margin-color>
+      <color space="srgb" r="1" g="0.540893" b="0.365867"/>
+    </margin-color>
+    <horizontal-grid-color>
+      <color space="srgb" r="1" g="0.610714" b="0.674636"/>
+    </horizontal-grid-color>
+    <vertical-grid-color>
+      <color space="srgb" r="0.477481" g="0.333125" b="1"/>
+    </vertical-grid-color>
+    <print-info>
+      <print-info-key name="NSJobFeatures" type="coded">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCEhAhOU09iamVjdACFhAFpAIY=</print-info-key>
+      <print-info-key name="NSJobSavingFileNameExtensionHidden" type="boolean">true</print-info-key>
+      <print-info-key name="NSJobSavingURL" type="coded">BAtzdHJlYW10eXBlZIHoA4QBQISEhAVOU1VSTACEhAhOU09iamVjdACFhAFjAJKEhIQITlNTdHJpbmcBlIQBK05maWxlOi8vL1VzZXJzL2JvdmVpYS9MaWJyYXJ5L1BERiUyMFNlcnZpY2VzL1NhdmUlMjBQREYlMjB0byUyMERFVk9OdGhpbmslMjBQcm+Ghg==</print-info-key>
+      <print-info-key name="NSPagesPerSheet" type="int">1</print-info-key>
+      <print-info-key name="NSReversePageOrder" type="boolean">false</print-info-key>
+      <print-info-key name="NSSavePath" type="string">/Users/boveia/Library/PDF Services/Save PDF to DEVONthink Pro</print-info-key>
+      <print-info-key name="OOColumnHeaderPrintBehavior" type="int">0</print-info-key>
+      <print-info-key name="OOPageHeaderPrintBehavior" type="int">0</print-info-key>
+    </print-info>
+  </settings>
+  <columns id="b52DL6hgXrN" is-base-schema="yes" outline-column="hQDTXD-kJn_" status-column="cDSetknF6xF" note-column="kmDe5MlE9uM">
+    <style>
+      <value key="font-weight">6</value>
+    </style>
+    <column id="kmDe5MlE9uM" type="text" minimum-width="18" maximum-width="18">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.404342" g="0.404352" b="0.404347"/>
+        </value>
+        <value key="font-italic">yes</value>
+        <value key="font-size">10</value>
+        <value key="strikethrough-color">
+          <color space="srgb" r="0.404342" g="0.404352" b="0.404347"/>
+        </value>
+        <value key="underline-color">
+          <color space="srgb" r="0.404342" g="0.404352" b="0.404347"/>
+        </value>
+      </style>
+      <title>
+        <text>
+          <p/>
+        </text>
+      </title>
+    </column>
+    <column id="cDSetknF6xF" type="checkbox" minimum-width="13" maximum-width="1000000">
+      <title>
+        <text>
+          <p/>
+        </text>
+      </title>
+    </column>
+    <column id="hQDTXD-kJn_" type="text" minimum-width="13" maximum-width="1000000">
+      <style>
+        <value key="font-size">10</value>
+      </style>
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>Outline and sentences</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+    <column id="dqw7AjAgcG5" type="number" minimum-width="13" maximum-width="1000000">
+      <style>
+        <value key="paragraph-alignment">right</value>
+      </style>
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>Approximate Length (pages)</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+      <formatter type="number">#,##0.00;0.00;-#,##0.00</formatter>
+    </column>
+    <column id="fSf7pS1NI8r" type="text" minimum-width="13" maximum-width="1000000">
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>Sentences</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+    <column id="kAOZXbQLKLR" type="text" minimum-width="13" maximum-width="1000000">
+      <style>
+        <value key="font-family">Inconsolata</value>
+        <value key="font-fill">
+          <color space="srgb" r="0" g="0" b="0"/>
+        </value>
+        <value key="font-size">9</value>
+        <value key="text-background-color">
+          <color space="srgb" r="0.877955" g="0.877955" b="0.877955"/>
+        </value>
+      </style>
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>ABCD comments</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+    <column id="oHuf3qYSbYa" type="text" minimum-width="13" maximum-width="1000000">
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit># of pages</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+    <column id="eI70F4vZLW4" type="text" minimum-width="13" maximum-width="1000000">
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>Column 2</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+  </columns>
+  <items>
+    <style>
+      <value key="paragraph-line-height-multiple">1.2</value>
+    </style>
+    <style>
+      <value key="font-family">Iowan Old Style</value>
+      <value key="font-size">22</value>
+    </style>
+    <style>
+      <value key="font-family">Lato</value>
+      <value key="font-size">18</value>
+    </style>
+    <style>
+      <value key="font-family">Lato</value>
+      <value key="font-size">14</value>
+    </style>
+    <style>
+      <value key="font-family">Lato</value>
+      <value key="font-size">13</value>
+    </style>
+    <item rank="" is-root="yes" schema="b52DL6hgXrN" children-are-sections="yes">
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="a9L58XMPmv-" parent-id="eNwO-df98nN" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>what makes it special? (other than the fact that it was endorsed)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="aXa0pjDEsRX" parent-id="jMoOSBJKZEL" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>why going for more realistic models: downsides of simplified models from the point of view of LHC searches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="aZ-PcFWrIrZ" parent-id="gT6XtIO3Vj3" rank="0004">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>or full models that produce long-lived partners</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="aaF6AvQ-o0o" parent-id="iV6wE_WH6k6" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>Toward (Finally!) Ruling Out Z and Higgs Mediated Dark Matter Models, 10.1088/1475-7516/2016/12/029</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Bounds on Dark Matter Interactions with Electroweak Gauge Bosons, 10.1103/PhysRevD.88.116009</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Benchmarks for Dark Matter Searches at the LHC - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1402.6287.pdf" name="https://arxiv.org/pdf/1402.6287.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded]</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>(Ambitious figure: summary of constraints from Z/H-mediated searches? Maybe if we can take from paper above…)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="aiJkEes4kJY" parent-id="elgH4r5ut2T" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>systematic classification of production of invisible particles: from simple (WIMP pair+ISR) to complex (SUSY or hidden valley cascades)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="aouzVZTj8PV" parent-id="jlVYyv0aYvk" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Primary reason: highlighting phase space regions that were missed / places where more signatures contribute rather than simplified model like searches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="arEQzwOM7Ho" parent-id="iQx0PDsG1fY" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Main Feynman diagrams from [1]: </lit>
+          </run>
+          <run>
+            <lit><cell refid="e1ad7RolKl8" expanded="yes" name="Pasted_Graphic"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="au8R26feI1Y" parent-id="jnrAKmLzVk1" rank="0003">
+      <text>
+        <p>
+          <run>
+            <lit>e.g. co-annihilation simpl. models</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit> outside the Dark Matter Forum / WG</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Examples of? do more research on literature. go back to DMF report, see who cites it. For models: why and how they are different. </lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>1/2 page: list of things</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="b2FAv1sHYWU" parent-id="ji5NgaH8it-" rank="" children-are-sections="yes">
+      <style>
+        <inherited-style name="Heading 2" idref="gllQyhtVH9o"/>
+      </style>
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <style>
+              <inherited-style name="Heading 2" idref="gllQyhtVH9o"/>
+              <value key="font-family">Iowan Old Style</value>
+              <value key="font-size">22</value>
+            </style>
+            <lit>short introduction motivating looking for DM@LHC </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>here we want to explain the general philosophy of the chapter, from simple to complex. Idea that I am trying to follow: this introduction introduces the various parts of this chapter embedded in the motivations. What I&apos;m not happy with yet: bouncing between theoretical and detection motivation. </lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <style>
+              <inherited-style name="Heading 2" idref="gllQyhtVH9o"/>
+              <value key="font-size">12</value>
+            </style>
+            <lit>0.5</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="b4xudGXE5k7" parent-id="jnrAKmLzVk1" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>e.g. vector and scalar mediators</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Dark Matter Benchmark Models for Early LHC Run-2 Searches: Report of the ATLAS/CMS Dark Matter Forum, arXiv:1507.00966</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Oxford proceedings: Simplified Models for Dark Matter Searches at the LHC 10.1016/j.dark.2015.08.001</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Exotics workshop proceedings: Simplified Models for Dark Matter and Missing Energy Searches at the LHC, arXiv:1409.2893</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>in the Dark Matter Forum / WG</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Philosophy? Talk about the fact that people got together and agreed. Not physics but it&apos;s a story of the community and it influenced the searches.</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="bNaKXtv2Dbh" parent-id="h4rifiorkF0" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Long-lived models and connection to invisible particles (1 page)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="bb-WfDwTF0F" parent-id="fpa5TGey9Yt" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Two new DM states that are closely spaced in mass</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="bbNQvZIBZQy" parent-id="m4v6RYQJKAb" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>RPV don&apos;t have dark matter candidate</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="bc4AWNGZjoV" parent-id="bcy9xF1CZcb" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>paper by Oliver</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="bcy9xF1CZcb" parent-id="gT6XtIO3Vj3" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>reductionist approach</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="bpgz4WFBjcC" parent-id="hkEOeV8pR3T" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Viable model that could be realized in nature</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="c1CXwTUGFUJ" parent-id="nIUukXcctDh" rank="00ff">
+      <text>
+        <p>
+          <run>
+            <lit>[33]: H. Goldberg, “Constraint on the photino mass from cosmology,” Phys. Rev. Lett. 50 (1983), </lit>
+          </run>
+          <run>
+            <lit><cell href="https://lib-extopc.kek.jp/preprints/PDF/1983/8303/8303082.pdf" name="https://lib-extopc.kek.jp/preprints/PDF/1983/8303/8303082.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> -&gt; 1200 citations [downloaded]</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>[34] J. R. Ellis, J. S. Hagelin, D. V. Nanopoulos, K. A. Olive, and M. Srednicki, “Supersymmetric relics from the big bang,” Nucl. Phys. B238 (1984) 453–476. </lit>
+          </run>
+          <run>
+            <lit><cell href="http://cds.cern.ch/record/149076" name="http://cds.cern.ch/record/149076" type="link"/></lit>
+          </run>
+          <run>
+            <lit> -&gt; 1600 citations [downloaded]</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Supersymmetric Dark Matter Candidates - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1001.3651.pdf" name="https://arxiv.org/pdf/1001.3651.pdf" type="link"/></lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>PDG SUSY review - </lit>
+          </run>
+          <run>
+            <lit><cell href="http://pdg.lbl.gov/2017/reviews/rpp2016-rev-susy-1-theory.pdf" name="http://pdg.lbl.gov/2017/reviews/rpp2016-rev-susy-1-theory.pdf" type="link"/></lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Discuss neutralino as type of WIMP</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Feng&apos;s AR: </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit><cell href="https://arxiv.org/pdf/1302.6587.pdf" name="https://arxiv.org/pdf/1302.6587.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit> [downloaded]</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Also cite his DM AR</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Also see PDG</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>GMSB-mediated (DM is gravitino): </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit><cell href="http://xxx.lanl.gov/abs/hep-ph/9801271" name="http://xxx.lanl.gov/abs/hep-ph/9801271" type="link"/></lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit> </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="c7LL0yO38v3" parent-id="g7Wt5Pz4cMY" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Main consequences: new diboson signatures</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="cNORUARcu4b" parent-id="fmF8ufy4FnP" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>simplest tree-level things that could show up in early Run-2 data</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="cNOYMYkZloH" parent-id="l33x5KTRWjy" rank="00003f">
+      <text>
+        <p>
+          <run>
+            <lit>A White Paper on keV sterile neutrino Dark Matter:</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit><cell href="http://iopscience.iop.org/article/10.1088/1475-7516/2017/01/025/meta" name="http://iopscience.iop.org/article/10.1088/1475-7516/2017/01/025/meta" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded], appealing to solve more than one problem at once</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Sterile neutrino portal to Dark Matter I and II: The U(1)B−L case, has many new scalars and a sterile neutrino</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit><cell href="https://arxiv.org/abs/1606.01258" name="https://arxiv.org/abs/1606.01258" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded], </lit>
+          </run>
+          <run>
+            <lit><cell href="https://link.springer.com/article/10.1140/epjc/s10052-017-4963-x" name="https://link.springer.com/article/10.1140/epjc/s10052-017-4963-x" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [not downloaded]</lit>
+          </run>
+        </p>
+        <p/>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Sterile neutrino DM</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit><cell href="https://arxiv.org/pdf/1704.08708.pdf" name="https://arxiv.org/pdf/1704.08708.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>, but has too many new particles to belong to neutrino portal: &quot;A simple model of neutrino portal DM based on the Type-I seesaw contains three new fields, N, </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>χ</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>, </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>φ</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>, where N and </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>χ</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit> are two component Weyl fermions and </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit>φ</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit> is a real scalar field&quot;. </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit><cell href="https://inspirehep.net/record/1326101/" name="https://inspirehep.net/record/1326101/" type="link"/></lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit> ? Also this wants a new neutrino in the game. Could also think of </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit><cell href="http://iopscience.iop.org/article/10.1088/1475-7516/2015/12/032/pdf" name="http://iopscience.iop.org/article/10.1088/1475-7516/2015/12/032/pdf" type="link"/></lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">10</value>
+            </style>
+            <lit> &quot;The U(1)B−L extension of the Standard Model requires the existence of right- handed neutrinos and naturally realizes the seesaw mechanism of neutrino mass generation.&quot; and then they add an extra scalar on top of the Z_BL that can serve as DM. This may go in the &quot;extra candidates&quot; as it seems fairly minimal, but it&apos;s singling out a model over others? Maybe just talk briefly about the attractiveness of fixing both neutrino masses and DM at once? PDG also says: The seemingly most obvious WIMP candidate is a heavy neutrino. However, an SU(2) doublet neutrino will have too small a relic density if its mass exceeds MZ/2, as required by LEP data. One can suppress the annihilation cross section, and hence increase the relic density, by postulating mixing between a heavy SU(2) doublet and some sterile neutrino. However, one also has to require the neutrino to be stable; it is not obvious why a massive neutrino should not be allowed to decay. </lit>
+          </run>
+        </p>
+        <p/>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ccUPl_CdRpM" parent-id="gXjy501tHg1" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>simplified models of simple BSM mediation (2 pages)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Give examples of very specific models that are used, e.g. with Dirac DM. When you relax that assumption, this is what you expect to see. In monojet, it doesn&apos;t change the xsec that much, but changes something else in ID. </lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>2</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="cgKMx6L-r3h" parent-id="nJyW1KSf2FK" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>as stated before, the LHC does not detect DM per se, detects invisible particles that don&apos;t interact with detector and live long enough to escape before decay</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="crLNSULXUGg" parent-id="jMoOSBJKZEL" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>2HDM (1/2 page or less)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>We don&apos;t need to spend too much time on this. Context: one example of a model like this that does the job, rather than latest and greatest. </lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>1/2</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="cu4OviO2Cu7" parent-id="hr8Xiebso7A" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>possible but higher loop</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="cwfvdqODIPz" parent-id="hye_FCgsfMb" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Strong SUSY -&gt; neutralino</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="d-QF8tF-Nyx" parent-id="ngFopYoy_XM" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>Supersymmetric Dark Matter Candidates - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1001.3651.pdf" name="https://arxiv.org/pdf/1001.3651.pdf" type="link"/></lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Bino/Wino/Higgsino: explain what it means to have mixed states</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="dBAOBsjKo5R" parent-id="iJpbNpxZU_A" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Dark Scalar </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="dS81EwdVTgM" parent-id="crLNSULXUGg" rank="00ff">
+      <text>
+        <p>
+          <run>
+            <lit>Towards the next generation of simplified Dark Matter models - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1607.06680.pdf" name="https://arxiv.org/pdf/1607.06680.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit>, S-Channel Dark Matter Simplified Models and Unitarity </lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit> - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1604.07975.pdf" name="https://arxiv.org/pdf/1604.07975.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> </lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>SMM / Englert as precursor: add only one pseudoscalar</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="doetYFJSo37" parent-id="pM85l7BOrie" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Colored scalar</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="e6ZHrcthx0M" parent-id="fpa5TGey9Yt" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Strong interaction between the DM state and the co-annihilating, drives cosmological history</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="eCKsrVpLruX" parent-id="fpa5TGey9Yt" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Not completely covered at the LHC</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="eNwO-df98nN" parent-id="jlVYyv0aYvk" rank="0003">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>overview of Uli&apos;s 2HDM</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-fixed-pitch">yes</value>
+            </style>
+            <lit>Don&apos;t have a specific Uli-ness of this chapter</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ea4JTF3OoTh" parent-id="jlVYyv0aYvk" rank="0004">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>what other similar models are there to do the same thing or different? Summarize whitepaper here </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ebeXGzWRgkf" parent-id="oUr9v_T_1lY" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>Oliver&apos;s paper</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Use current simplified models for production and decay, add a long-lived partner</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="elgH4r5ut2T" parent-id="ji5NgaH8it-" rank="0001" children-are-sections="yes">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>models for reactions at the LHC [4 1/2 pages] </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-size">8</value>
+            </style>
+            <lit>How much do we want to go into Lagrangian? I would say we do if we can, because this is the reference. At least if I was a PhD student I would want to make the connection between observables and interaction (e.g. width, spectrum). But we don&apos;t have the space, and this is messy for other models. So no lagrangians. </lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="erkJXtCI4U6" parent-id="nIUukXcctDh" rank="00ff4f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Discuss gravitino as DM candidate</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="eynMw5vZ8Vo" parent-id="hr8Xiebso7A" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>monojet signature, but still unconstrained</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="f3Cv85O-whg" parent-id="mVp3M4pZFBm" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>too many of these models to fully explore here, we will mention some because:</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="f5q94ZHhfS3" parent-id="fXNu06HDJiD" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Give up either solution to hierarchy problem or coupling unification</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fJCIWPoD8NT" parent-id="doetYFJSo37" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>From Millie&apos;s talk and DMF</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fXNu06HDJiD" parent-id="nIUukXcctDh" rank="00ff57">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Neutral naturalness: can&apos;t solve everything at once with LHC data</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fY4ySovOXlT" parent-id="jPy2mbre-RK" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>many ways to have long lifetimes</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fdN3mD_JgL3" parent-id="nJyW1KSf2FK" rank="00ff5f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>particle long-enough lived to escape detector have different signatures (challenging: non-conventional signatures), so they are collected with MET triggers</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fmF8ufy4FnP" parent-id="mVp3M4pZFBm" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Limited choice for previous set:</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fpa5TGey9Yt" parent-id="au8R26feI1Y" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>Coannihilation codex, 10.1007/JHEP12(2015)120</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Simplified Phenomenology for Colored Dark Sectors - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1703.00452.pdf" name="https://arxiv.org/pdf/1703.00452.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit>, Simplified models of dark matter with a long-lived co-annihilation partner - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1702.00750.pdf" name="https://arxiv.org/pdf/1702.00750.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded both], Hunting for Dark Matter Coannihilation by Mixing Dijet Resonances and Missing Transverse Energy - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1605.08056.pdf" name="https://arxiv.org/pdf/1605.08056.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded]</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Co-annihilation: codex, add a second DM particle (simple step beyond the previous simplified models)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fuokCP5QXbC" parent-id="oAWrN-1xF63" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Coannihilation codex as a comprehensive list (but they don&apos;t mention explicitly LLP)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="g2Xu4irYf9O" parent-id="f3Cv85O-whg" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>they have different kinematic consequences / different signatures</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="g7Wt5Pz4cMY" parent-id="au8R26feI1Y" rank="0002">
+      <text>
+        <p>
+          <run>
+            <lit>Simplified dark matter models with a spin-2 mediator at the LHC - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1701.07008.pdf" name="https://arxiv.org/pdf/1701.07008.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> </lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Spin-2 mediator</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>MET searches are less competitive than direct mediator searches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="gQj6gmqDycq" parent-id="hkEOeV8pR3T" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Could this be explaining all DM in the universe? check with relic</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="gT6XtIO3Vj3" parent-id="bNaKXtv2Dbh" rank="00001f">
+      <text>
+        <p>
+          <run>
+            <lit>Cosmic frontiers summary </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/abs/1707.04591" name="https://arxiv.org/abs/1707.04591" type="link"/></lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Jessie Shelton&apos;s paper or Curtin&apos;s summary</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Echoes of a Hidden Valley at Hadron Colliders (Zurek/Strassler, 2006) </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/abs/hep-ph/0604261" name="https://arxiv.org/abs/hep-ph/0604261" type="link"/></lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>still, the DM candidate must be stable so we&apos;re talking about adding an additional particle added to the spectrum, common to many models</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="gXjy501tHg1" parent-id="aiJkEes4kJY" rank="0001">
+      <text>
+        <p>
+          <run>
+            <lit>goals: new search targets and effective description for kinematics of specific final states</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>BSM mediators and other new particles (4 1/2 pages)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Inconsolata</value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">9</value>
+            </style>
+            <lit>Infinite number of possibilities. Are there other consequences to the model, is it just MET at the LHC? Or are there visible particles? How specific are the predictions about the numbers/energy distributions and so forth? The more specific/complicated those things are, the more handles you have to do a search, the more sensitive the search can be. If the prediction is that you always get a WIMP LSP with 4 top quarks with a given invariant mass, then you can use that in the search. Conversely you have a specific search that can catch less. Sensitivity vs generality problem. We start with more general searches with fewer handles. Focus on specificity of signatures rather than classifications of other models. </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="gfE7-Jw24bi" parent-id="hcNYXvfUFte" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>strong SUSY partners (squarks, gluinos) not an option BUT they look a lot like t-channel so they still have someting to do with DM</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="gpZJvd30Aap" parent-id="aXa0pjDEsRX" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>risk is continuing to turn the crank and improving on something too simple (a toy)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="gq-Er4rYiN6" parent-id="gXjy501tHg1" rank="00fe">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Why simplified models</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="h4rifiorkF0" parent-id="ji5NgaH8it-" rank="0002">
+      <text>
+        <p>
+          <run>
+            <lit>dark photons, co-annihilation models</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>this is what is coming: sketch connections to searches for MET+soft particles, long-lived particles (LLP) [1 page]</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="hI6e6CgHyOz" parent-id="l33x5KTRWjy" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>we&apos;re not going to try to be comprehensive, just looking at </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="hM8saYuK6CD" parent-id="bNaKXtv2Dbh" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Open questions to connect LLP to DM (maybe in future?)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="hcNYXvfUFte" parent-id="c1CXwTUGFUJ" rank="00ff">
+      <text>
+        <p>
+          <run>
+            <lit>see Feng&apos;s AR: The neutral supersymmetric particles are then </lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Spin 3/2 Fermion: Gravitino G ̃ (12) Spin 1/2 Fermions: B ̃, W ̃ , H ̃u, H ̃d </lit>
+          </run>
+          <run>
+            <lit>→</lit>
+          </run>
+          <run>
+            <lit> Neutralinos χ1, χ2, χ3, χ4 (13) Spin 0 Scalars: Sneutrinos ν ̃e, ν ̃μ, ν ̃τ . (14) </lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>As indicated, the neutral spin 1/2 fermions mix to form four mass eigenstates, the neu- tralinos. The lightest of these, χ </lit>
+          </run>
+          <run>
+            <lit>≡</lit>
+          </run>
+          <run>
+            <lit> χ1, is a WIMP dark matter candidate (35; 36). The sneutrinos are not good dark matter candidates, as both their their annihilation and scat- tering cross sections are large, and so they are under-abundant or excluded by null results from direct detection experiments for all masses near mweak (37; 38). The gravitino is not a WIMP, but it is a viable and fascinating dark matter candidate, as discussed in Secs. IV and VI. </lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>needs to be a neutral particle, otherwise it binds to atoms</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="hhTNi6MeWVJ" parent-id="bcy9xF1CZcb" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>mention LLP whitepaper if it looks like it&apos;s going somewhere</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="hkEOeV8pR3T" parent-id="nIUukXcctDh" rank="00fe3f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Logic of SUSY as DM</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="hr8Xiebso7A" parent-id="au8R26feI1Y" rank="00003f">
+      <text>
+        <p>
+          <run>
+            <lit>Mono-jet Signatures of Gluphilic Scalar Dark Matter - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1605.04756.pdf" name="https://arxiv.org/pdf/1605.04756.pdf" type="link"/></lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Gluphilic thing</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="hye_FCgsfMb" parent-id="c1CXwTUGFUJ" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Distinction between strong and weak SUSY: </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="i3-Puj_Tr2R" parent-id="nIUukXcctDh" rank="00fe">
+      <text>
+        <p>
+          <run>
+            <lit>Supersymmetric Dark Matter Candidates - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1001.3651.pdf" name="https://arxiv.org/pdf/1001.3651.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded]</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Refer to a review for the theory side</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="iCIQJMGgsTI" parent-id="jlVYyv0aYvk" rank="0002">
+      <text>
+        <p>
+          <run>
+            <lit>work of the DMWG, cite Felix/Stefania/Jose </lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>brief overview of the 2HDMs around the world</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="iEUWP2GzHz5" parent-id="gpZJvd30Aap" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>for example, one cannot conclude simply because we rule out that relic lines close	</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Phil Harris&apos;s thought &quot;we are done with DM@LHC because we have ruled out relic for vector&quot; is dangerous but common</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="iJpbNpxZU_A" parent-id="gT6XtIO3Vj3" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>models where particle can be the mediator in the same way as the simplified models above</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="iQx0PDsG1fY" parent-id="mce3HkDhi25" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Z as DM mediator, add only one DM particle to the SM and let the Z decays into that</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="iV6wE_WH6k6" parent-id="mce3HkDhi25" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Higgs as DM mediator, add only one DM particle to the SM and the H decays into that</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="imtW9jK9l3P" parent-id="b4xudGXE5k7" rank="0002">
+      <text>
+        <p>
+          <run>
+            <lit>discuss the implications of two-body resonance searches e.g. dijet/dilepton searches </lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>unavoidable consequences: visible mediator decays</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="is8yIW4buom" parent-id="pM85l7BOrie" rank="00fe">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Neutral</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ixI3f9b9wvT" parent-id="iJpbNpxZU_A" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Dark Boson</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jG6Gbr-rLSA" parent-id="au8R26feI1Y" rank="0003">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Others...</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jMoOSBJKZEL" parent-id="gXjy501tHg1" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>more realistic models: important targets (2 pages)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>2</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="jPy2mbre-RK" parent-id="nJyW1KSf2FK" rank="00ff3f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>in the limit of particle not decaying, then the particles are DM themselves. huge range of other lifetimes that is not long enough to be cosmologically stable but still escapes detector</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jblU72vjBy6" parent-id="nIUukXcctDh" rank="00ff5f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>discuss the global fits, here or later? probably later, it&apos;s an experimental result</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jej2jNzJruU" parent-id="au8R26feI1Y" rank="00006f">
+      <text>
+        <p>
+          <run>
+            <lit>LHC Searches for Dark Sector Showers - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1707.05326.pdf" name="https://arxiv.org/pdf/1707.05326.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded]</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Dark sector showers -&gt; see later</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ji5NgaH8it-" rank="" children-are-sections="yes">
+      <style>
+        <inherited-style name="Heading 1" idref="n02BqyzilMy"/>
+      </style>
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>reactions for invisible particle searches at the LHC (6p)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jlVYyv0aYvk" parent-id="crLNSULXUGg" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Philosophy why DMWG went into this needs to be clear:</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jnrAKmLzVk1" parent-id="ccUPl_CdRpM" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>SUSY: Simplified Models for LHC New Physics Searches, </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/abs/1105.2838" name="https://arxiv.org/abs/1105.2838" type="link"/></lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Simplified Models for LHC New Physics Searches, 10.1088/0954-3899/39/10/105005</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>LHC Bounds on UV-Complete Models of Dark Matter, arXiv:1111.2359</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Check CD&apos;s Nature Physics for a couple more citations</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Is this the first &quot;simplified models for DM&quot; paper? A Classification of Dark Matter Candidates with Primarily Spin-Dependent Interactions with Matter, </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/abs/1003.1912" name="https://arxiv.org/abs/1003.1912" type="link"/></lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>Not yet cited either here or above: \cite{An:2012va,An:2012ue,Tait:2013,Buchmueller:2013dya,Bai:2013iqa,Bai:2014osa,An:2013xka,Yavin:14092893,Malik:2014ggr,Harris:2014hga,Buckley:2014fba,Haisch:2015ioa,Bai:2012xg,Carpenter:2012rg,Bell:2012rg,Petrov:2013nia,Carpenter:2013xra}).</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>examples of Simplified models, where they come from and how they should be used</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jttaIN5vD2h" parent-id="b4xudGXE5k7" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>Shoemaker&apos;s Z&apos; paper: Unitarity and Monojet Bounds on Models for DAMA, CoGeNT, and CRESST-II, 10.1103/PhysRevD.86.015023</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Oliver and Sarah&apos;s paper: Interplay and Characterization of Dark Matter Searches at Colliders and in Direct Detection Experiments, 10.1016/j.dark.2015.03.003</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>F. J. Petriello, S. Quackenbush, and K. M. Zurek, The Invisible Z′ at the CERN LHC, Phys. Rev. D77 (2008) 115020, [arXiv:0803.4005].</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Y. Gershtein, F. Petriello, S. Quackenbush, and K. M. Zurek, Discovering hidden sectors with mono-photon Z′ searches, Phys. Rev. D78 (2008) 095002, [arXiv:0809.2849].</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Vector / axial vector mediator</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>this is a descriptive paragraph. What are the consequences of this choice? </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="jw0-crb6gxW" parent-id="luIAdsC2jTN" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>also requires a lot of work on detector reconstruction side that takes more time than regular searches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="k2wOaatoNRz" parent-id="eCKsrVpLruX" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>e.g. 4jet signatures</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="k3JReG-uqUE" parent-id="aXa0pjDEsRX" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>simplified models are standalone models for standalone searches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="k4-GSOmX7ni" parent-id="l33x5KTRWjy" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>KK gluons</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="k4HY0idPDkH" parent-id="au8R26feI1Y" rank="0001">
+      <text>
+        <p>
+          <run>
+            <lit>Hunting the dark Higgs - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1701.08780.pdf" name="https://arxiv.org/pdf/1701.08780.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded], Mono-Z&apos; is the mirror of dark higgs - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1504.01386.pdf" name="https://arxiv.org/pdf/1504.01386.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> [downloaded], How to save the WIMP: global analysis of a dark matter model with two s-channel mediators - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1606.07609.pdf" name="https://arxiv.org/pdf/1606.07609.pdf" type="link"/></lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Dark terminator from Felix</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="k4wWQjNnJOr" parent-id="erkJXtCI4U6" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>gravitino is not a WIMP because it has only gravitational strenght interactions, says Feng</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="kEVx916ua0w" parent-id="is8yIW4buom" rank="00ff3f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit><cell refid="att7" expanded="yes" name="Pasted_Graphic_9"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="kFeI2zGlSH2" parent-id="oAWrN-1xF63" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>The model by Khoze</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="kP9PGjZ1dT8" parent-id="k4HY0idPDkH" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>attempt at solving the mass-generation problem of the vector/axial vector models by introducing a dark Higgs</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="kRDLDOiHP--" parent-id="jttaIN5vD2h" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Interacting with Higgs - so-called ZB / vector model</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="kegxXS-_p_G" parent-id="oUr9v_T_1lY" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Mention LLP strategy? Unpublished by then</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ksH4fZEtTdy" parent-id="kRDLDOiHP--" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit><cell refid="jm6dvlVl45x" expanded="yes" name="Pasted_Graphic_3"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="l33x5KTRWjy" parent-id="jMoOSBJKZEL" rank="00013f">
+      <text>
+        <p>
+          <run>
+            <lit>A different model by Nima producing a light state, but not quite a LLP A Theory of Dark Matter  - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/0810.0713.pdf" name="https://arxiv.org/pdf/0810.0713.pdf" type="link"/></lit>
+          </run>
+          <run>
+            <lit> </lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Other scenarios: only sketch</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>1/2 page</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="l9kbHDEjzpL" parent-id="jMoOSBJKZEL" rank="00fe">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>why going for more realistic models for theory: more interesting, solve more than one theory problem at once</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lAVgBlDUeFT" parent-id="eCKsrVpLruX" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>e.g. tau signatures of the paper by Khoze</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lEO3l7TmRc3" parent-id="mTSX_aqpi8T" rank="">
+      <style>
+        <inherited-style name="Heading 2" idref="gllQyhtVH9o"/>
+      </style>
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit><cell refid="att3" expanded="yes" name="Pasted_Graphic_2"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lZJUmDoHSvE" parent-id="luIAdsC2jTN" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>better period to do these searches: luminosity increase rather than energy increase</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="l_c-CQaq2oY" parent-id="jPy2mbre-RK" rank="">
+      <text>
+        <p>
+          <run>
+            <lit>Patrick Meade, Eilat, Berkeley workshop</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>make the parallel with the SM: many things are long lived</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lgKjAR6lqwp" parent-id="eNwO-df98nN" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>why does it have to be pseudoscalar?</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lkD2Ac14T5W" parent-id="ixI3f9b9wvT" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Jessie Shelton&apos;s sketches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lsI-mwOFMKb" parent-id="erkJXtCI4U6" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>arises in SUSY</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lstRrwmWdNi" parent-id="aouzVZTj8PV" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Combination is also a plus but secondary</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="luIAdsC2jTN" parent-id="gT6XtIO3Vj3" rank="00fe">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>emerging area focus for LHC, not yet mature, requires what classes of models are more interesting</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="lwxPS_AwZyG" parent-id="c1CXwTUGFUJ" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Discuss briefly pMSSM</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="m4v6RYQJKAb" parent-id="aZ-PcFWrIrZ" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit> more SUSY? need to have a better idea, there are ideas in LLP paper</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mTPEPA475FE" parent-id="is8yIW4buom" rank="00ff1f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>regular scalar with loops</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mTSX_aqpi8T" parent-id="b2FAv1sHYWU" rank="">
+      <style>
+        <inherited-style name="Heading 2" idref="gllQyhtVH9o"/>
+      </style>
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Lato</value>
+              <value key="font-fill">
+                <color w="0"/>
+              </value>
+              <value key="font-fixed-pitch">yes</value>
+              <value key="font-size">18</value>
+            </style>
+            <lit>Example figure for EFT and monojet and mediator s-channel</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mVp3M4pZFBm" parent-id="au8R26feI1Y" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>What is important about looking beyond?</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mce3HkDhi25" parent-id="aiJkEes4kJY" rank="00001f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Other SM bosons as the SM-DM mediator (1/2 page)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mphJbbH4Oal" parent-id="is8yIW4buom" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>heavy flavours (Yukawa-favoured) are easier to distinguish experimentally</lit>
+          </run>
+          <run>
+            <lit><cell refid="att2" expanded="yes" name="Pasted_Graphic"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>compare with the top loop, same number of vertices and it&apos;s not ttbar+MET, just MET+jets - HF final states make it easier to pick it out of the background</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mqdHeZgEZM3" parent-id="fmF8ufy4FnP" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>there are UV-complete models that are important and interesting beyond simplified approach (e.g. SUSY)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mtEvqoIr4dR" parent-id="nJyW1KSf2FK" rank="00ff67">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>in non-thermal freeze-out scenarios, light particles with long lifetimes are connected to DM</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mwOQUiPtjyJ" parent-id="fJCIWPoD8NT" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit><cell refid="att5" expanded="yes" name="Pasted_Graphic_7"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="n9OOET70iE9" parent-id="au8R26feI1Y" rank="00005f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Monotop</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="nITG6ubeyYo" parent-id="is8yIW4buom" rank="00003f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Interacting with Higgs</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="nIUukXcctDh" parent-id="jMoOSBJKZEL" rank="0001">
+      <text>
+        <p>
+          <run>
+            <lit>e.g. electroweakino searches, compressed scenario, maybe also focus point SUSY but very Feng-dependent, minimal DM</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>discuss some SUSY scenarios that remain viable (1 1/2 pages)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>1 1/2 (or less)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+    </item>
+    <item id="nJyW1KSf2FK" parent-id="bNaKXtv2Dbh" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>MET as the limit of long-lived</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="nUBYs3GXDms" parent-id="fmF8ufy4FnP" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>simplified model approach, restricted sense - if something doesn&apos;t fit and we miss it, we miss a search target</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="naBQTIP2Yo6" parent-id="dBAOBsjKo5R" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Dark Higgs (?)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="nbWUuyEdhUz" parent-id="hM8saYuK6CD" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Cosmology may not be described by freeze-out: freeze-in. How to connect is still an open question, but we can reference back to the introduction and sketch the basics of freeze-in</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ngFopYoy_XM" parent-id="hye_FCgsfMb" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>EW SUSY</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="oAWrN-1xF63" parent-id="onkUx6CYor-" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Coannihilation models, examples</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="oJg5RZCpjcL" parent-id="l33x5KTRWjy" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>See Bertone&apos;s book for non-SUSY candidates at the EW scale</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="oL6mTnQcA6b" parent-id="erkJXtCI4U6" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>cannot have been in thermal equilibrium at the beginning of the universe, so not a thermal relic</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="oUr9v_T_1lY" parent-id="hM8saYuK6CD" rank="00003f">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Future directions for the creation of a prioritised list of simplified models</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="oWFWIlTAHRx" parent-id="mphJbbH4Oal" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit><cell refid="att6" expanded="yes" name="Pasted_Graphic_8"/></lit>
+          </run>
+          <run>
+            <lit>but also monob?</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="olGZFW2RSgS" parent-id="ngFopYoy_XM" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Is one or the other combinations having more or less xsec at the LHC?</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="onRvqzEhOq1" parent-id="mtEvqoIr4dR" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Jesse Shelton&apos;s argument: can do much lower couplings</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="onkUx6CYor-" parent-id="gT6XtIO3Vj3" rank="0003">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>one can have more complex models (see above)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="p-4ngaZ5FVa" parent-id="hI6e6CgHyOz" rank="00ff">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>solving more than one problem at once and they are not SUSY</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="pKdWYv3_9RW" parent-id="hkEOeV8pR3T" rank="0002">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Caveat: even most complex SUSY models have a decoupled sector that we assume not involved in DM</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="pL3uZPXMpGI" parent-id="f3Cv85O-whg" rank="0001">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>they have been source of interest</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="pM85l7BOrie" parent-id="b4xudGXE5k7" rank="0001">
+      <text>
+        <p>
+          <run>
+            <lit>Scalar Simplified Models for Dark Matter - </lit>
+          </run>
+          <run>
+            <lit><cell href="https://arxiv.org/pdf/1410.6497.pdf" name="https://arxiv.org/pdf/1410.6497.pdf" type="link"/></lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>Other citations needed</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>Scalar / pseudoscalar mediators</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="pT_2MtW6mRm" parent-id="erkJXtCI4U6" rank="0003">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>NLSP that decays into gravitinos is the question</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ptCJoarBz-m" parent-id="nITG6ubeyYo" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit><cell refid="att4" expanded="yes" name="Pasted_Graphic_4"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="pvZ__f1oOe4" parent-id="hI6e6CgHyOz" rank="">
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>new search targets, hope to be found at the LHC (need to have LHC consequences)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+  </items>
+</outline>
