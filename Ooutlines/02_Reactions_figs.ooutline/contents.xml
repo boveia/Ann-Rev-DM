@@ -139,6 +139,7 @@
   </named-styles>
   <attachments>
     <attachment id="att2" href="attachments/Pasted_Graphic.png" type="image"/>
+    <attachment id="att8" href="attachments/Pasted_Graphic_10.png" type="image"/>
     <attachment id="e1ad7RolKl8" href="attachments/Pasted_Graphic_1_1.png" type="image"/>
     <attachment id="att3" href="attachments/Pasted_Graphic_2.png" type="image"/>
     <attachment id="jm6dvlVl45x" href="attachments/Pasted_Graphic_3.png" type="image"/>
@@ -337,22 +338,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="aXa0pjDEsRX" parent-id="jMoOSBJKZEL" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>why going for more realistic models: downsides of simplified models from the point of view of LHC searches</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="aZ-PcFWrIrZ" parent-id="gT6XtIO3Vj3" rank="0004">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -398,6 +383,25 @@
         <p>
           <run>
             <lit>(Ambitious figure: summary of constraints from Z/H-mediated searches? Maybe if we can take from paper above…)</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="afmZpQJSx6Y" parent-id="crLNSULXUGg" rank="00fe">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>from Uli and Bauer&apos;s paper</lit>
+          </run>
+          <run>
+            <lit><cell refid="att8" expanded="yes" name="Pasted_Graphic_10"/></lit>
           </run>
         </p>
       </text>
@@ -807,22 +811,6 @@
         <p>
           <run>
             <lit>Main consequences: new diboson signatures</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="cNORUARcu4b" parent-id="fmF8ufy4FnP" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>simplest tree-level things that could show up in early Run-2 data</lit>
           </run>
         </p>
       </text>
@@ -1359,22 +1347,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="f3Cv85O-whg" parent-id="mVp3M4pZFBm" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>too many of these models to fully explore here, we will mention some because:</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="f5q94ZHhfS3" parent-id="fXNu06HDJiD" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1455,22 +1427,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="fmF8ufy4FnP" parent-id="mVp3M4pZFBm" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Limited choice for previous set:</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="fpa5TGey9Yt" parent-id="au8R26feI1Y" rank="">
       <text>
         <p>
@@ -1523,22 +1479,6 @@
         <p>
           <run>
             <lit>Coannihilation codex as a comprehensive list (but they don&apos;t mention explicitly LLP)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="g2Xu4irYf9O" parent-id="f3Cv85O-whg" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>they have different kinematic consequences / different signatures</lit>
           </run>
         </p>
       </text>
@@ -1676,22 +1616,6 @@
         <p>
           <run>
             <lit>strong SUSY partners (squarks, gluinos) not an option BUT they look a lot like t-channel so they still have someting to do with DM</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="gpZJvd30Aap" parent-id="aXa0pjDEsRX" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>risk is continuing to turn the crank and improving on something too simple (a toy)</lit>
           </run>
         </p>
       </text>
@@ -1935,28 +1859,6 @@
         <p>
           <run>
             <lit>brief overview of the 2HDMs around the world</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="iEUWP2GzHz5" parent-id="gpZJvd30Aap" rank="">
-      <text>
-        <p>
-          <run>
-            <lit>for example, one cannot conclude simply because we rule out that relic lines close	</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Phil Harris&apos;s thought &quot;we are done with DM@LHC because we have ruled out relic for vector&quot; is dangerous but common</lit>
           </run>
         </p>
       </text>
@@ -2333,22 +2235,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="k3JReG-uqUE" parent-id="aXa0pjDEsRX" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>simplified models are standalone models for standalone searches</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="k4-GSOmX7ni" parent-id="l33x5KTRWjy" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2546,22 +2432,6 @@
           </run>
         </p>
       </text>
-      <entry/>
-    </item>
-    <item id="l9kbHDEjzpL" parent-id="jMoOSBJKZEL" rank="00fe">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>why going for more realistic models for theory: more interesting, solve more than one theory problem at once</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
       <entry/>
     </item>
     <item id="lAVgBlDUeFT" parent-id="eCKsrVpLruX" rank="">
@@ -2792,22 +2662,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="mVp3M4pZFBm" parent-id="au8R26feI1Y" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>What is important about looking beyond?</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="mce3HkDhi25" parent-id="aiJkEes4kJY" rank="00001f">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2846,22 +2700,6 @@
           </run>
         </p>
       </text>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="mqdHeZgEZM3" parent-id="fmF8ufy4FnP" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>there are UV-complete models that are important and interesting beyond simplified approach (e.g. SUSY)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
       <entry/>
       <entry/>
     </item>
@@ -2964,22 +2802,6 @@
         <p>
           <run>
             <lit>MET as the limit of long-lived</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="nUBYs3GXDms" parent-id="fmF8ufy4FnP" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>simplified model approach, restricted sense - if something doesn&apos;t fit and we miss it, we miss a search target</lit>
           </run>
         </p>
       </text>
@@ -3191,22 +3013,6 @@
         <p>
           <run>
             <lit>Caveat: even most complex SUSY models have a decoupled sector that we assume not involved in DM</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="pL3uZPXMpGI" parent-id="f3Cv85O-whg" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>they have been source of interest</lit>
           </run>
         </p>
       </text>

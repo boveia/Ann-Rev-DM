@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
 <editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
-  <editor content-size="{1328, 787}" vertical-scrollbar-visible-width="15" scroll-position="{0, 2050}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
+  <editor content-size="{1328, 787}" vertical-scrollbar-visible-width="15" scroll-position="{0, 5188}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
     <sidebar visible="yes" width="158" selected-tab="styles"/>
     <column-states columns-id="b52DL6hgXrN">
       <column-state column-id="cDSetknF6xF" hidden="yes" width="32" summary="state"/>
@@ -16,7 +16,6 @@
     <note-split-view height="33"/>
     <item-states>
       <item item-id="a9L58XMPmv-" note-expanded="yes"/>
-      <item item-id="aXa0pjDEsRX" expanded="yes" note-expanded="yes"/>
       <item item-id="aZ-PcFWrIrZ" expanded="yes" note-expanded="yes"/>
       <item item-id="aaF6AvQ-o0o" note-expanded="yes"/>
       <item item-id="aiJkEes4kJY" expanded="yes"/>
@@ -29,7 +28,7 @@
       <item item-id="c1CXwTUGFUJ" expanded="yes" note-expanded="yes"/>
       <item item-id="cNOYMYkZloH" note-expanded="yes"/>
       <item item-id="ccUPl_CdRpM" expanded="yes" note-expanded="yes"/>
-      <item item-id="crLNSULXUGg" expanded="yes" note-expanded="yes"/>
+      <item item-id="crLNSULXUGg" expanded="yes"/>
       <item item-id="d-QF8tF-Nyx" note-expanded="yes"/>
       <item item-id="dBAOBsjKo5R" expanded="yes" note-expanded="yes"/>
       <item item-id="dS81EwdVTgM" note-expanded="yes"/>
@@ -40,15 +39,12 @@
       <item item-id="ebeXGzWRgkf" note-expanded="yes"/>
       <item item-id="elgH4r5ut2T" expanded="yes" note-expanded="yes"/>
       <item item-id="erkJXtCI4U6" expanded="yes"/>
-      <item item-id="f3Cv85O-whg" expanded="yes"/>
       <item item-id="fJCIWPoD8NT" expanded="yes"/>
       <item item-id="fXNu06HDJiD" expanded="yes"/>
-      <item item-id="fmF8ufy4FnP" expanded="yes"/>
       <item item-id="fpa5TGey9Yt" expanded="yes" note-expanded="yes"/>
       <item item-id="g7Wt5Pz4cMY" expanded="yes" note-expanded="yes"/>
       <item item-id="gT6XtIO3Vj3" expanded="yes" note-expanded="yes"/>
       <item item-id="gXjy501tHg1" expanded="yes" note-expanded="yes"/>
-      <item item-id="gpZJvd30Aap" expanded="yes"/>
       <item item-id="h4rifiorkF0" expanded="yes" note-expanded="yes"/>
       <item item-id="hI6e6CgHyOz" expanded="yes"/>
       <item item-id="hM8saYuK6CD" expanded="yes" note-expanded="yes"/>
@@ -58,14 +54,13 @@
       <item item-id="hye_FCgsfMb" expanded="yes"/>
       <item item-id="i3-Puj_Tr2R" note-expanded="yes"/>
       <item item-id="iCIQJMGgsTI" note-expanded="yes"/>
-      <item item-id="iEUWP2GzHz5" note-expanded="yes"/>
       <item item-id="iJpbNpxZU_A" expanded="yes" note-expanded="yes"/>
       <item item-id="iQx0PDsG1fY" expanded="yes"/>
       <item item-id="iV6wE_WH6k6" expanded="yes"/>
       <item item-id="imtW9jK9l3P" note-expanded="yes"/>
       <item item-id="is8yIW4buom" expanded="yes"/>
       <item item-id="ixI3f9b9wvT" expanded="yes" note-expanded="yes"/>
-      <item item-id="jMoOSBJKZEL" expanded="yes" note-expanded="yes"/>
+      <item item-id="jMoOSBJKZEL" expanded="yes"/>
       <item item-id="jPy2mbre-RK" expanded="yes"/>
       <item item-id="jej2jNzJruU" note-expanded="yes"/>
       <item item-id="ji5NgaH8it-" expanded="yes"/>
@@ -82,7 +77,6 @@
       <item item-id="luIAdsC2jTN" expanded="yes"/>
       <item item-id="m4v6RYQJKAb" expanded="yes"/>
       <item item-id="mTSX_aqpi8T" expanded="yes"/>
-      <item item-id="mVp3M4pZFBm" expanded="yes"/>
       <item item-id="mce3HkDhi25" expanded="yes"/>
       <item item-id="mphJbbH4Oal" expanded="yes"/>
       <item item-id="mtEvqoIr4dR" expanded="yes"/>
@@ -99,11 +93,11 @@
       <item item-id="pM85l7BOrie" expanded="yes" note-expanded="yes"/>
     </item-states>
     <selected-items>
-      <item item-id="kRDLDOiHP--"/>
+      <item item-id="dS81EwdVTgM"/>
     </selected-items>
     <selected-columns>
-      <column-ref idref="hQDTXD-kJn_"/>
+      <column-ref idref="kmDe5MlE9uM"/>
     </selected-columns>
-    <selected-characters range="{52, 0}"/>
+    <selected-characters range="{196, 0}"/>
   </editor>
 </editors>
