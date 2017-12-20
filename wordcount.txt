@@ -1,0 +1,51 @@
+File: AnnRev_Main.tex
+Encoding: ascii
+Words in text: 177
+Words in headers: 20
+Words outside text (captions, etc.): 0
+Number of headers: 7
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  13+6+0 (2/0/0/0) _top_
+  15+1+0 (1/0/0/0) Section: INTRODUCTION
+  112+8+0 (1/0/0/0) Section: REACTIONS FOR INVISIBLE PARTICLE SEARCHES AT THE LHC
+  24+2+0 (1/0/0/0) Section: DISCLOSURE STATEMENT
+  13+1+0 (1/0/0/0) Section: ACKNOWLEDGMENTS
+  0+2+0 (1/0/0/0) Section: LITERATURE\ CITED
+
+Included file: ./02_Reactions.tex
+Encoding: utf8
+Words in text: 5425
+Words in headers: 53
+Words outside text (captions, etc.): 85
+Number of headers: 12
+Number of floats/tables/figures: 1
+Number of math inlines: 27
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  41+0+0 (0/0/0/0) _top_
+  731+10+0 (1/0/3/0) Subsection: Observations on DM as a guide for its particle properties
+  381+4+0 (1/0/1/0) Subsection: Caveats and grounding assumptions
+  610+11+0 (3/0/3/0) Subsection: Higgs and Z boson portals
+  3500+20+85 (5/1/20/0) Subsection: Simplified models of BSM mediators
+  42+5+0 (1/0/0/0) Subsection: Supersymmetric models and other theories
+  120+3+0 (1/0/0/0) Subsection: Long-lived particle models
+
+File(s) total: AnnRev_Main.tex
+Words in text: 5602
+Words in headers: 73
+Words outside text (captions, etc.): 85
+Number of headers: 19
+Number of floats/tables/figures: 1
+Number of math inlines: 27
+Number of math displayed: 0
+Files: 2
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  177+20+0 (7/0/0/0) File: AnnRev_Main.tex
+  5425+53+85 (12/1/27/0) Included file: ./02_Reactions.tex
+
