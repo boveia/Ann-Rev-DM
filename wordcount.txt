@@ -1,9 +1,9 @@
 File: AnnRev_Main.tex
 Encoding: ascii
 Words in text: 177
-Words in headers: 20
+Words in headers: 22
 Words outside text (captions, etc.): 0
-Number of headers: 7
+Number of headers: 8
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
@@ -11,7 +11,8 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   13+6+0 (2/0/0/0) _top_
   15+1+0 (1/0/0/0) Section: INTRODUCTION
-  112+8+0 (1/0/0/0) Section: REACTIONS FOR INVISIBLE PARTICLE SEARCHES AT THE LHC
+  0+8+0 (1/0/0/0) Section: REACTIONS FOR INVISIBLE PARTICLE SEARCHES AT THE LHC
+  112+2+0 (1/0/0/0) Section: EXPERIMENTAL RESULTS
   24+2+0 (1/0/0/0) Section: DISCLOSURE STATEMENT
   13+1+0 (1/0/0/0) Section: ACKNOWLEDGMENTS
   0+2+0 (1/0/0/0) Section: LITERATURE\ CITED
@@ -23,7 +24,7 @@ Words in headers: 57
 Words outside text (captions, etc.): 85
 Number of headers: 12
 Number of floats/tables/figures: 1
-Number of math inlines: 30
+Number of math inlines: 31
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
@@ -31,21 +32,39 @@ Subcounts:
   731+10+0 (1/0/3/0) Subsection: Observations on DM as a guide for its particle properties
   381+4+0 (1/0/1/0) Subsection: Caveats and grounding assumptions
   610+11+0 (3/0/3/0) Subsection: Higgs and Z boson portals
-  3500+24+85 (5/1/20/0) Subsection: Effective Field Theories and Simplified models of BSM mediators
+  3500+24+85 (5/1/21/0) Subsection: Effective Field Theories and Simplified models of BSM mediators
   42+5+0 (1/0/0/0) Subsection: Supersymmetric models and other theories
   536+3+0 (1/0/3/0) Subsection: Long-lived particle models
 
-File(s) total: AnnRev_Main.tex
-Words in text: 6018
-Words in headers: 77
-Words outside text (captions, etc.): 85
-Number of headers: 19
-Number of floats/tables/figures: 1
-Number of math inlines: 30
+Included file: ./03_ExperimentalResults.tex
+Encoding: ascii
+Words in text: 468
+Words in headers: 50
+Words outside text (captions, etc.): 0
+Number of headers: 9
+Number of floats/tables/figures: 0
+Number of math inlines: 1
 Number of math displayed: 0
-Files: 2
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  177+20+0 (7/0/0/0) File: AnnRev_Main.tex
-  5841+57+85 (12/1/30/0) Included file: ./02_Reactions.tex
+  128+0+0 (0/0/0/0) _top_
+  305+8+0 (1/0/1/0) Subsection: Searches for DM in interactions mediated by SM-boson
+  35+30+0 (6/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
+  0+4+0 (1/0/0/0) Subsection: Searches for SUSY DM
+  0+8+0 (1/0/0/0) Subsection: Searches for DM in association with long-lived particles
+
+File(s) total: AnnRev_Main.tex
+Words in text: 6486
+Words in headers: 129
+Words outside text (captions, etc.): 85
+Number of headers: 29
+Number of floats/tables/figures: 1
+Number of math inlines: 32
+Number of math displayed: 0
+Files: 3
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  177+22+0 (8/0/0/0) File: AnnRev_Main.tex
+  5841+57+85 (12/1/31/0) Included file: ./02_Reactions.tex
+  468+50+0 (9/0/1/0) Included file: ./03_ExperimentalResults.tex
 
