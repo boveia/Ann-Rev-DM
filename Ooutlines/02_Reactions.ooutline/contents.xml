@@ -165,7 +165,6 @@
       <print-info-key name="NSJobSavingFileNameExtensionHidden" type="boolean">true</print-info-key>
       <print-info-key name="NSJobSavingURL" type="coded">BAtzdHJlYW10eXBlZIHoA4QBQISEhAVOU1VSTACEhAhOU09iamVjdACFhAFjAJKEhIQITlNTdHJpbmcBlIQBK05maWxlOi8vL1VzZXJzL2JvdmVpYS9MaWJyYXJ5L1BERiUyMFNlcnZpY2VzL1NhdmUlMjBQREYlMjB0byUyMERFVk9OdGhpbmslMjBQcm+Ghg==</print-info-key>
       <print-info-key name="NSPagesPerSheet" type="int">1</print-info-key>
-      <print-info-key name="NSPaperSize" type="size">{595.28001499176025, 841.8900146484375}</print-info-key>
       <print-info-key name="NSReversePageOrder" type="boolean">false</print-info-key>
       <print-info-key name="NSSavePath" type="string">/Users/boveia/Library/PDF Services/Save PDF to DEVONthink Pro</print-info-key>
       <print-info-key name="OOColumnHeaderPrintBehavior" type="int">0</print-info-key>
@@ -307,9 +306,9 @@
       <value key="font-family">Lato</value>
       <value key="font-size">13</value>
     </style>
-    <item rank="" is-root="yes" children-are-sections="yes">
+    <item rank="" is-root="yes" schema="b52DL6hgXrN" children-are-sections="yes">
       <entry/>
-      <checkbox>unchecked</checkbox>
+      <entry/>
       <entry/>
       <entry/>
       <entry/>
@@ -3411,7 +3410,7 @@
       <text>
         <p>
           <run>
-            <lit>Open questions to connect LLP to DM (maybe in future?)</lit>
+            <lit>Open questions to connect LLP to DM (move to future?)</lit>
           </run>
         </p>
       </text>

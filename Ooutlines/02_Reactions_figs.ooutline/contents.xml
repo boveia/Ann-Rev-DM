@@ -2647,7 +2647,7 @@
             <style>
               <value key="font-family">Lato</value>
               <value key="font-fill">
-                <color w="0"/>
+                <color space="gg22" w="0"/>
               </value>
               <value key="font-fixed-pitch">yes</value>
               <value key="font-size">18</value>

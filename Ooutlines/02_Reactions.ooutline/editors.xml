@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
 <editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
-  <editor content-size="{1328, 810}" scroll-position="{1, 13648}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
+  <editor content-size="{1121, 606}" vertical-scrollbar-visible-width="15" scroll-position="{2, 16291}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
     <sidebar visible="yes" width="158" selected-tab="styles"/>
     <column-states columns-id="b52DL6hgXrN">
       <column-state column-id="cDSetknF6xF" hidden="yes" width="32" summary="state"/>
@@ -99,7 +99,7 @@
       <item item-id="hI6e6CgHyOz" expanded="yes"/>
       <item item-id="hIKWbrgtyrt" expanded="yes"/>
       <item item-id="hM6mwLEG6io" expanded="yes"/>
-      <item item-id="hM8saYuK6CD" expanded="yes" note-expanded="yes"/>
+      <item item-id="hM8saYuK6CD" expanded="yes"/>
       <item item-id="hMU24ad2gDU" expanded="yes" note-expanded="yes"/>
       <item item-id="h_AZQxJ86O4" note-expanded="yes"/>
       <item item-id="hcNYXvfUFte" expanded="yes" note-expanded="yes"/>
@@ -203,11 +203,11 @@
       <item item-id="pyGRjorc0M5" note-expanded="yes"/>
     </item-states>
     <selected-items>
-      <item item-id="hye_FCgsfMb"/>
+      <item item-id="hM8saYuK6CD"/>
     </selected-items>
     <selected-columns>
       <column-ref idref="hQDTXD-kJn_"/>
     </selected-columns>
-    <selected-characters range="{42, 0}"/>
+    <selected-characters range="{47, 0}"/>
   </editor>
 </editors>
