@@ -38,10 +38,10 @@ Subcounts:
 
 Included file: ./03_ExperimentalResults.tex
 Encoding: ascii
-Words in text: 1046
-Words in headers: 58
+Words in text: 1239
+Words in headers: 89
 Words outside text (captions, etc.): 23
-Number of headers: 10
+Number of headers: 17
 Number of floats/tables/figures: 0
 Number of math inlines: 10
 Number of math displayed: 0
@@ -49,16 +49,16 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   173+0+0 (0/0/1/0) _top_
   838+8+23 (1/0/9/0) Subsection: Searches for DM in interactions mediated by SM-boson
-  35+30+0 (6/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
-  0+4+0 (1/0/0/0) Subsection: Searches for SUSY DM
-  0+8+0 (1/0/0/0) Subsection: Experimental challenges for DM searches at the LHC
+  189+39+0 (7/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
+  0+12+0 (4/0/0/0) Subsection: Searches for SUSY DM
+  39+22+0 (4/0/0/0) Subsection: Experimental challenges for DM searches at the LHC
   0+8+0 (1/0/0/0) Subsection: Searches for DM in association with long-lived particles
 
 File(s) total: AnnRev_Main.tex
-Words in text: 7064
-Words in headers: 137
+Words in text: 7257
+Words in headers: 168
 Words outside text (captions, etc.): 108
-Number of headers: 30
+Number of headers: 37
 Number of floats/tables/figures: 1
 Number of math inlines: 41
 Number of math displayed: 0
@@ -67,5 +67,5 @@ Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   177+22+0 (8/0/0/0) File: AnnRev_Main.tex
   5841+57+85 (12/1/31/0) Included file: ./02_Reactions.tex
-  1046+58+23 (10/0/10/0) Included file: ./03_ExperimentalResults.tex
+  1239+89+23 (17/0/10/0) Included file: ./03_ExperimentalResults.tex
 
