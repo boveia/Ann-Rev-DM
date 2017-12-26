@@ -87,37 +87,49 @@ We begin this section by describing the LHC searches for missing transverse mome
 
 %%Intro and event selection
 
-Events containing invisible particles can be identified and selected at colliders if initial state radiation (ISR) is present. For $e^+e^-$ colliders, the most frequently radiated object is a photon, while for hadron colliders gluon radiation dominates. Searches for excesses of these events have been termed "Mono-X", where X is the radiated object, although the radiation of a single object is only the leading process in a SM-DM $s-$channel interaction~\cite{Haisch:2013ata}. For this reason, the most recent LHC searches for MET with jets~\cite{Sirunyan:2017jix,Aaboud:2017phn} allow for events containing more than one jet in the final state. 
+Events containing invisible particles can be identified and selected at colliders if initial state radiation (ISR) is present. For $e^+e^-$ colliders, the most frequently radiated object is a photon, while for hadron colliders gluon radiation dominates. Searches for excesses of  events with significant \MET have been termed "Mono-X", where X is the radiated object, although the radiation of a single object is only the leading process in a SM-DM $s-$channel interaction~\cite{Haisch:2013ata}. For this reason, the most recent LHC searches for MET with jets~\cite{Sirunyan:2017jix,Aaboud:2017phn} allow for events containing more than one jet in the final state. 
 %up to 3 jets with pT>30 GeV for ATLAS
-Events are selected if they contain at least one jet in the central region of the detector ($\eta<2.4$) with \pt $>$ 250 GeV (ATLAS) or \pt $>$ 100 GeV (CMS) and \MET $>$ 250 GeV (ATLAS) or \MET $>$ 200 GeV (CMS). This selection ensures that all events with these characteristics are recorded by the trigger system for further analysis, as described in more detail in Sec.~\ref{sub:trigger}. A lepton veto is used to suppress background from leptonically decaying W bosons. QCD background where large \MET originates from mismeasured jets is rejected by requiring that the $\phi$ direction of the missing transverse momentum vector does not align with the direction of the four-momentum of the jets with the highest \pt (leading jets). Events containing fake \MET due to non-collision background (e.g. cosmic rays, beam-gas interactions, calorimeter problems) is rejected with specific quality criteria discussed in Sec.~\ref{sub:MET}
+Events are selected for the search in the \textit{signal region} if they contain at least one jet in the central region of the detector ($\eta<2.4$) with \pt $>$ 250 GeV (ATLAS) or \pt $>$ 100 GeV (CMS) and \MET $>$ 250 GeV (ATLAS) or \MET $>$ 200 GeV (CMS). This selection ensures that all events with these characteristics are recorded by the trigger system for further analysis, as described in more detail in Sec.~\ref{sub:trigger}. A lepton veto is used to suppress background from leptonically decaying W bosons. 
+%CMS excludes taus, while ATLAS does not. Too much detail imo. 
+QCD background where large \MET originates from mismeasured jets is rejected by requiring that the $\phi$ direction of the missing transverse momentum vector does not align with the direction of the four-momentum of the jets with the highest \pt (leading jets). The remaining QCD background estimated from data amounts to a maximum of 0.4\% of the total background. Events containing fake \MET due to non-collision background (e.g. cosmic rays, beam-gas interactions, calorimeter problems) is rejected with specific quality criteria discussed in Sec.~\ref{sub:MET}. 
 %CMS: up to 4 leading jets 
 The CMS analysis also applies specific vetoes for photons and heavy flavour jets, to reject events with photon ISR or containing top quarks. The CMS analysis also includes a signal region targeting hadronic decays of the W and Z bosons using substructure techniques, which is considered separately in the case of ATLAS and will be discussed in Sec.~\ref{subsub:monoV}. 
 
 %%Backgrounds
 
-The main background contributions that remain after the event selection are invisible decays of the Z boson into neutrinos (approximately 60\% of the total background) 
-%numbers in Livia's talk: https://indico.cern.ch/event/682235/contributions/2817876/attachments/1576792/2490208/DMWG-2017_V2.pdf
-and leptonic decays of the W boson where the lepton is not reconstructed (approximately 30\% of the total background), in association with jets. 
-
-%CMS excludes taus, while ATLAS does not. Too much detail? 
-
-
-
+The main background contributions that remain after the event selection are
+invisible decays of the Z boson into neutrinos (approximately 55-70\% of the total background) 
+%numbers in Livia's talk: https://indico.cern.ch/event/682235/contributions/2817876/attachments/1576792/2490208/DMWG-2017_V2.pdf and in Francesca's talk:
+%https://indico.cern.ch/event/682235/contributions/2817877/attachments/1576793/2490236/171218_atlas_ungaro.pdf
+and leptonic decays of the W boson where the lepton is not
+reconstructed (approximately 20-35\% of the total background), in association with jets. 
+%
+In order to reduce theoretical and experimental uncertainties on the main V+jet backgrounds, the number of events in the signal region from each of these backgrounds are derived from data in signal-free \textit{control regions} selecting V+jet processes where the W and Z bosons decay into visible particles ($Z\rightarrow ll, W\rightarrow l\nu+jets$, where $l$ = $e, \mu$). 
+%not sure we should say that the bin by bin estimates are used, here it's ambiguous
+The event selection follows that of the signal region, substituting a lepton requirement to the lepton veto. The visible decay products in events selected for the control regions are subtracted from the total transverse momentum balance, providing an estimate of the contribution of these backgrounds in the signal region. CMS also uses a $\gamma$+jet control region following the same procedure to increase the statistical precision of the background estimate. 
+%
+The distribution of events in the main observable used for the search, the shape of the \MET distribution, is simulated and reweighted for each of the control regions using the most recent perturbative calculations for NLO QCD and QED~\ref{Lindert:2017olm}. This step is particularly important for the consistent treatment of the different processes used in the background estimation. The full information on the theoretical and experimental uncertainties and their correlations from this procedure is used in a simultaneous fit to control and signal region to determine the overall background estimate in each of the \MET regions considered. 
+%and leads to an improvement of 40 to 50% in the search
+Backgrounds from top processes in ATLAS are estimated using a dedicated control region with a requirement of a $b-$jet that is included in the simultaneous fit, while CMS takes this background from simulation. Smaller diboson backgrounds are estimated from simulation. 
 
 %%Experimental uncertainties
+The systematic uncertainties on the background estimate for the jet+MET search range from 2 to 7\% (CMS) and 2 to 10\% (ATLAS), depending on the \MET region. The main uncertainties are due to the identification of leptons (CMS) and the understanding of the jet and \MET calibration (ATLAS). 
 
 %%What it means for the models we talked about
 
+\begin{itemize}
+\item s-channel BSM mediators
+\item t-channel BSM mediators
+\item monoH
+\item Others: compressed scenarios, extra dimensions
+\end{itemize}
+
 %Mention that this also works for compressed scenarios
 
-%%Prospects
+%%Reinterpretation
+Given the importance of this search to constrain a wide variety of reactions for invisible particles, various approaches have been taken to allow model-builders and phenomenologists to more easily reinterpret ints results. All experimental data published from the two collaborations is provided on the HEPData platform~\cite{Maguire:2017ypu}. 
 
-
-However, it is not always one single object that gets radiated. 
-
-
-Searches called "mono-X" have been , as they rely on initial state radiation of a SM object to make the WIMP visible.  
-
+Mention R ratio as example of unfolded search, simplified likelihood. 
 
 %s-channel and t-channel 
 
@@ -126,7 +138,7 @@ Searches called "mono-X" have been , as they rely on initial state radiation of 
 %monophoton, monoV
 
 %Cite MonoZ: https://arxiv.org/pdf/0803.4005.pdf, also for ZZDark
-
+%Compare ATLAS and CMS searches for MonoV(had)
 
 \subsubsection{Searches with heavy-flavor quarks}
 %ttbar+MET
@@ -137,7 +149,12 @@ Searches called "mono-X" have been , as they rely on initial state radiation of 
 
 \subsubsection{Two-body mediator searches}
 
+%Dijet and dilepton
+%Mention TLA
+
 \subsubsection{Comparison of sensitivity of visible and invisible LHC searches}
+
+%It would be nice to make tables of lowest mediator/DM searches+refs, as a poor-person approximation of a summary plot we can't make because ATLAS data not public. 
 
 \subsection{Searches for SUSY DM}
 \label{sec:results_SUSYSearches}
