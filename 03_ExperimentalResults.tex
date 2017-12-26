@@ -85,11 +85,44 @@ We begin this section by describing the LHC searches for missing transverse mome
 \subsubsection{Searches with jets}
 %monojet
 
-\cite{Sirunyan:2017jix,Aaboud:2017phn}
+%%Intro and event selection
+
+Events containing invisible particles can be identified and selected at colliders if initial state radiation (ISR) is present. For $e^+e^-$ colliders, the most frequently radiated object is a photon, while for hadron colliders gluon radiation dominates. Searches for excesses of these events have been termed "Mono-X", where X is the radiated object, although the radiation of a single object is only the leading process in a SM-DM $s-$channel interaction~\cite{Haisch:2013ata}. For this reason, the most recent LHC searches for MET with jets~\cite{Sirunyan:2017jix,Aaboud:2017phn} allow for events containing more than one jet in the final state. 
+%up to 3 jets with pT>30 GeV for ATLAS
+Events are selected if they contain at least one jet in the central region of the detector ($\eta<2.4$) with \pt $>$ 250 GeV (ATLAS) or \pt $>$ 100 GeV (CMS) and \MET $>$ 250 GeV (ATLAS) or \MET $>$ 200 GeV (CMS). This selection ensures that all events with these characteristics are recorded by the trigger system for further analysis, as described in more detail in Sec.~\ref{sub:trigger}. A lepton veto is used to suppress background from leptonically decaying W bosons. QCD background where large \MET originates from mismeasured jets is rejected by requiring that the $\phi$ direction of the missing transverse momentum vector does not align with the direction of the four-momentum of the jets with the highest \pt (leading jets). Events containing fake \MET due to non-collision background (e.g. cosmic rays, beam-gas interactions, calorimeter problems) is rejected with specific quality criteria discussed in Sec.~\ref{sub:MET}
+%CMS: up to 4 leading jets 
+The CMS analysis also applies specific vetoes for photons and heavy flavour jets, to reject events with photon ISR or containing top quarks. The CMS analysis also includes a signal region targeting hadronic decays of the W and Z bosons using substructure techniques, which is considered separately in the case of ATLAS and will be discussed in Sec.~\ref{subsub:monoV}. 
+
+%%Backgrounds
+
+The main background contributions that remain after the event selection are invisible decays of the Z boson into neutrinos (approximately 60\% of the total background) 
+%numbers in Livia's talk: https://indico.cern.ch/event/682235/contributions/2817876/attachments/1576792/2490208/DMWG-2017_V2.pdf
+and leptonic decays of the W boson where the lepton is not reconstructed (approximately 30\% of the total background), in association with jets. 
+
+%CMS excludes taus, while ATLAS does not. Too much detail? 
+
+
+
+
+%%Experimental uncertainties
+
+%%What it means for the models we talked about
+
+%Mention that this also works for compressed scenarios
+
+%%Prospects
+
+
+However, it is not always one single object that gets radiated. 
+
+
+Searches called "mono-X" have been , as they rely on initial state radiation of a SM object to make the WIMP visible.  
+
 
 %s-channel and t-channel 
 
 \subsubsection{Searches with photons and vector bosons}
+\label{subsub:monoV}
 %monophoton, monoV
 
 %Cite MonoZ: https://arxiv.org/pdf/0803.4005.pdf, also for ZZDark
@@ -125,11 +158,25 @@ Now that we have seen the searches for invisible particles and their sensitivity
 the Run-2 and Run-3 datasets. 
 
 \subsubsection{Missing transverse momentum}
+\label{sub:MET} 
+
+Main points:
+\begin{itemize}
+\item The measurement of \MET relies on the precise measurement of all reconstructed physics objects. 
+\item Some description of \MET significance may be needed, but it may also be too academic. 
+\item Fake \MET is rejected using quality cuts.  
+\item Pile-up needs specific techniques because of the soft terms. 
+\item \MET at the trigger level is the driving reason why we can't go lower, see next section.
+\end{itemize}
+
+%Valerio's talk for relevant plots 
+%https://indico.cern.ch/event/466934/contributions/2590281/attachments/1489278/2314178/20170706_EPS_DMatATLAS.pdf
 
 %MET significance: in VBF CMS search
 %For the 8 TeV dataset, an additional requirement is set on an approximate missing transverse energy significance variable S(Emiss) defined as the ratio of Emiss to the square root of the scalar sum of the transverse energy of all PF objects in the event [62]. Selected events are required to satisfy S(Emiss) > 4?GeV.
 
 \subsubsection{Event selection: triggering on visible and invisible particles}
+\label{sub:trigger}
 
 \subsubsection{Precise background estimation}
 
@@ -218,7 +265,8 @@ the Run-2 and Run-3 datasets.
 %selects the interesting collision events based on the presence of high transverse momentum physics objects 
 %(muons, electrons, photons, jets and tau leptons). 
 %
-%The ATLAS data collection rate at the end of the trigger selection still surpasses other ``Big data'' 
+%The ATLAS data collection rate at the end of the trigger selection still
+%surpasses other ``Big data'' 
 %challenges both in academic research and in industry. 
 %As an example, ATLAS and the three other main detectors at the LHC produced and recorded 
 %13 petabytes of data just in 2010~\cite{NaturePetabyte}. It is clear
