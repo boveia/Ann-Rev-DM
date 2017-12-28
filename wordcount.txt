@@ -19,7 +19,7 @@ Subcounts:
 
 Included file: ./02_Reactions.tex
 Encoding: utf8
-Words in text: 5841
+Words in text: 5859
 Words in headers: 57
 Words outside text (captions, etc.): 85
 Number of headers: 12
@@ -29,7 +29,7 @@ Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   41+0+0 (0/0/0/0) _top_
-  731+10+0 (1/0/3/0) Subsection: Observations on DM as a guide for its particle properties
+  749+10+0 (1/0/3/0) Subsection: Observations on DM as a guide for its particle properties
   381+4+0 (1/0/1/0) Subsection: Caveats and grounding assumptions
   610+11+0 (3/0/3/0) Subsection: Higgs and Z boson portals
   3500+24+85 (5/1/21/0) Subsection: Effective Field Theories and Simplified models of BSM mediators
@@ -38,34 +38,45 @@ Subcounts:
 
 Included file: ./03_ExperimentalResults.tex
 Encoding: ascii
-Words in text: 1239
+Words in text: 2475
 Words in headers: 89
 Words outside text (captions, etc.): 23
 Number of headers: 17
 Number of floats/tables/figures: 0
-Number of math inlines: 10
+Number of math inlines: 28
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   173+0+0 (0/0/1/0) _top_
   838+8+23 (1/0/9/0) Subsection: Searches for DM in interactions mediated by SM-boson
-  189+39+0 (7/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
+  1365+39+0 (7/0/18/0) Subsection: Generic searches for DM with missing transverse momentum
   0+12+0 (4/0/0/0) Subsection: Searches for SUSY DM
-  39+22+0 (4/0/0/0) Subsection: Experimental challenges for DM searches at the LHC
+  99+22+0 (4/0/0/0) Subsection: Experimental challenges for DM searches at the LHC
   0+8+0 (1/0/0/0) Subsection: Searches for DM in association with long-lived particles
 
-File(s) total: AnnRev_Main.tex
-Words in text: 7257
-Words in headers: 168
-Words outside text (captions, etc.): 108
-Number of headers: 37
+Included file: ./03_SummaryTable.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 0
+Words outside text (captions, etc.): 9
+Number of headers: 0
 Number of floats/tables/figures: 1
-Number of math inlines: 41
+Number of math inlines: 0
 Number of math displayed: 0
-Files: 3
+
+File(s) total: AnnRev_Main.tex
+Words in text: 8511
+Words in headers: 168
+Words outside text (captions, etc.): 117
+Number of headers: 37
+Number of floats/tables/figures: 2
+Number of math inlines: 59
+Number of math displayed: 0
+Files: 4
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   177+22+0 (8/0/0/0) File: AnnRev_Main.tex
-  5841+57+85 (12/1/31/0) Included file: ./02_Reactions.tex
-  1239+89+23 (17/0/10/0) Included file: ./03_ExperimentalResults.tex
+  5859+57+85 (12/1/31/0) Included file: ./02_Reactions.tex
+  2475+89+23 (17/0/28/0) Included file: ./03_ExperimentalResults.tex
+  0+0+9 (0/1/0/0) Included file: ./03_SummaryTable.tex
 

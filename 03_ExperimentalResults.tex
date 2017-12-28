@@ -85,11 +85,14 @@ We begin this section by describing the LHC searches for missing transverse mome
 \subsubsection{Searches with jets}
 %monojet
 
+%%CD: I am not sure I would want to read this summary of monojet search. But maybe I'm just jaded. Anyway, if we can, we should make it more interesting / give it a slightly different spin than just a plain description. 
+
 %%Intro and event selection
 
-Events containing invisible particles can be identified and selected at colliders if initial state radiation (ISR) is present. For $e^+e^-$ colliders, the most frequently radiated object is a photon, while for hadron colliders gluon radiation dominates. Searches for excesses of  events with significant \MET have been termed "Mono-X", where X is the radiated object, although the radiation of a single object is only the leading process in a SM-DM $s-$channel interaction~\cite{Haisch:2013ata}. For this reason, the most recent LHC searches for MET with jets~\cite{Sirunyan:2017jix,Aaboud:2017phn} allow for events containing more than one jet in the final state. 
+Events containing invisible particles can be identified and selected at colliders if initial state radiation (ISR) is present. For $e^+e^-$ colliders, the most frequently radiated object is a photon, while for hadron colliders gluon radiation dominates. These searches have been called "Mono-X", where X is the radiated object, although the radiation of a single object is only the leading process in a SM-DM $s-$channel interaction~\cite{Haisch:2013ata}. For this reason, the most recent LHC searches for MET with jets~\cite{Sirunyan:2017jix,Aaboud:2017phn} allow for events containing more than one jet in the final state. Since the presence of highly energetic invisible particles would manifest as an excess of events with a significant \MET,  the main observable for this search is the number of events in \MET regions, either exclusive (in bins of \MET) or inclusive (considering all events above a given \MET threshold). 
+
 %up to 3 jets with pT>30 GeV for ATLAS
-Events are selected for the search in the \textit{signal region} if they contain at least one jet in the central region of the detector ($\eta<2.4$) with \pt $>$ 250 GeV (ATLAS) or \pt $>$ 100 GeV (CMS) and \MET $>$ 250 GeV (ATLAS) or \MET $>$ 200 GeV (CMS). This selection ensures that all events with these characteristics are recorded by the trigger system for further analysis, as described in more detail in Sec.~\ref{sub:trigger}. A lepton veto is used to suppress background from leptonically decaying W bosons. 
+Events are selected to enter the \textit{signal region} if they contain at least one jet in the central region of the detector ($\eta<2.4$) with \pt $>$ 250 GeV (ATLAS) or \pt $>$ 100 GeV (CMS) and \MET $>$ 250 GeV (ATLAS) or \MET $>$ 200 GeV (CMS). This selection ensures that all events with these characteristics are recorded by the trigger system for further analysis, as described in more detail in Sec.~\ref{sub:trigger}. A lepton veto is used to suppress background from leptonically decaying W bosons. 
 %CMS excludes taus, while ATLAS does not. Too much detail imo. 
 QCD background where large \MET originates from mismeasured jets is rejected by requiring that the $\phi$ direction of the missing transverse momentum vector does not align with the direction of the four-momentum of the jets with the highest \pt (leading jets). The remaining QCD background estimated from data amounts to a maximum of 0.4\% of the total background. Events containing fake \MET due to non-collision background (e.g. cosmic rays, beam-gas interactions, calorimeter problems) is rejected with specific quality criteria discussed in Sec.~\ref{sub:MET}. 
 %CMS: up to 4 leading jets 
@@ -108,25 +111,43 @@ In order to reduce theoretical and experimental uncertainties on the main V+jet 
 %not sure we should say that the bin by bin estimates are used, here it's ambiguous
 The event selection follows that of the signal region, substituting a lepton requirement to the lepton veto. The visible decay products in events selected for the control regions are subtracted from the total transverse momentum balance, providing an estimate of the contribution of these backgrounds in the signal region. CMS also uses a $\gamma$+jet control region following the same procedure to increase the statistical precision of the background estimate. 
 %
-The distribution of events in the main observable used for the search, the shape of the \MET distribution, is simulated and reweighted for each of the control regions using the most recent perturbative calculations for NLO QCD and QED~\ref{Lindert:2017olm}. This step is particularly important for the consistent treatment of the different processes used in the background estimation. The full information on the theoretical and experimental uncertainties and their correlations from this procedure is used in a simultaneous fit to control and signal region to determine the overall background estimate in each of the \MET regions considered. 
+The distribution of events in the main observable used for the search, the shape of the \MET distribution, is simulated and reweighted for each of the control regions using the most recent perturbative calculations for NLO QCD and QED~\ref{Lindert:2017olm}. This step is particularly important for the consistent treatment of the different processes used in the background estimation. The full information on the theoretical and experimental uncertainties and their correlations from this procedure is used in a simultaneous fit to control and signal regions, to determine the overall background estimate in each of the \MET regions considered. 
 %and leads to an improvement of 40 to 50% in the search
-Backgrounds from top processes in ATLAS are estimated using a dedicated control region with a requirement of a $b-$jet that is included in the simultaneous fit, while CMS takes this background from simulation. Smaller diboson backgrounds are estimated from simulation. 
+Backgrounds from top processes in ATLAS are estimated using a dedicated control region with a requirement of a $b-$jet that is included in the fit, while CMS takes this background from simulation. Smaller diboson backgrounds are estimated from simulation. 
 
 %%Experimental uncertainties
 The systematic uncertainties on the background estimate for the jet+MET search range from 2 to 7\% (CMS) and 2 to 10\% (ATLAS), depending on the \MET region. The main uncertainties are due to the identification of leptons (CMS) and the understanding of the jet and \MET calibration (ATLAS). 
 
 %%What it means for the models we talked about
 
-\begin{itemize}
-\item s-channel BSM mediators
-\item t-channel BSM mediators
-\item monoH
-\item Others: compressed scenarios, extra dimensions
-\end{itemize}
+Since no significant excess is found in any of the signal regions, limits are set on the parameter space of Higgs portal models described in Sec.~\ref{sec:HZPortalModels} and simplified models described in Sec.~\ref{sec:BSMMediatorModels}, namely where the SM-DM interaction is mediated by $s-$channel vector (V), axial vector (AV), scalar (S) and pseudoscalar (P) and colored scalar mediators. 
+%CD: Maybe we put this in the reactions chapter? It is quite an important statement
+Since the simulation of the entire parameter space for these models by the experiments is computationally intensive, the Dark Matter Forum had agreed on a limited set of benchmark parameters to be tested~\cite{Abercrombie:2015wmb}, privileging those that change the LHC kinematics of the search (e.g. give a harder \MET spectrum) rather than those that only change the cross-section of the process and can therefore be reinterpreted from the search results. For example, the kinematics and cross-section of the vector and axial vector mediators is very similar at the LHC, while the DD and ID cross-sections change. 
+The parameter values used as benchmarks (e.g. couplings) have been selected considering the sensitivity of early Run-2 searches, precision constraints and general simplicity arguments. As described more in detail in Section~\ref{sub:comparisonVisibleInvisible}, the plane \mdm, \mmed is scanned fixing the couplings to \gq=0.25 and \gdm=1.0 for vector and axial vector mediated models, and \gq=\gdm=1.0 for scalar and pseudoscalar models. 
 
-%Mention that this also works for compressed scenarios
+%monoH come from CMS but maybe ATLAS has a better reinterpretation. 
+The most stringent 95\% C.L. observed (expected) upper limits on the invisible branching fraction from jet+\MET searches are 53\% (40\%).  TODO look for ATLAS?
+%(CMS, combining jet and vector boson radiation categories). 
+%V/AV come from CMS search, ATLAS is less sensitive as it's 1.55 TeV
+Vector and axial vector mediators are excluded by LHC searches at values of \mdm up to 700 and 400 GeV respectively with \mmed up to 1.8 TeV. This choice of model and couplings produces a relic density that is lower than the Planck measurement and it is still unconstrained by LHC searches for \mdm$>$0.3 TeV at \mdm$=$1.8 TeV for the vector mediator, and for 0.65$<$\mdm$<$0.75 TeV at \mdm=1.8 TeV for the axial vector mediator. 
+%CD: Not sure this is interesting for anyone? A bit complicated to project a 2D plot in words
+%pseudoscalar comes from CMS
+The LHC limit on the pseudoscalar mediator mass is lower due to the Yukawa-like couplings suppressing the cross-section with respect to spin-1 mediators, and it is 0.4 TeV in the CMS search for \mdm up to roughly 150 GeV. 
+Jet+\MET searches are not yet sensitive to scalar mediators with the chosen couplings. 
+%t-channel comes from ATLAS
+%CMS
+%Colored scalar mediators with masses up to 1.4 TeV at values of \mdm = 60 GeV are excluded.
+%ATLAS
+%CD TODO: what parameters are people using?
+Colored scalar mediators with masses up to 1.7 TeV at values of \mdm = 10 GeV are excluded. Considering this exclusion limit, this model still provides a viable DM relic density for \mmed \mdm above roughly 500 GeV at \mmed=1.7 TeV. 
 
-%%Reinterpretation
+Other benchmark scenarios such as compressed SUSY scenarios, squark pair production, 
+%maybe explain?, 
+non-thermal singly-produced DM, 
+%who ordered that
+and Large Extra Dimensions (ADD) are also constrained by the ATLAS and CMS searches, in some cases providing the most stringent constraints to date. 
+
+%%Reinterpretation - this is the only thing that I think fits well here
 Given the importance of this search to constrain a wide variety of reactions for invisible particles, various approaches have been taken to allow model-builders and phenomenologists to more easily reinterpret ints results. All experimental data published from the two collaborations is provided on the HEPData platform~\cite{Maguire:2017ypu}. 
 
 Mention R ratio as example of unfolded search, simplified likelihood. 
@@ -153,8 +174,14 @@ Mention R ratio as example of unfolded search, simplified likelihood.
 %Mention TLA
 
 \subsubsection{Comparison of sensitivity of visible and invisible LHC searches}
-
+\label{sub:comparisonVisibleInvisible}
 %It would be nice to make tables of lowest mediator/DM searches+refs, as a poor-person approximation of a summary plot we can't make because ATLAS data not public. 
+
+%%%SUMMARY TABLE FOR MONOX SEARCHES
+\input{03_SummaryTable}
+
+%The CMS analysis also scans the coupling-mass plane by fixing the ratio between \mdm and \mmed to ensure perturbativity - nice but maybe we put it later. 
+%CMS sentence: Quark couplings down to 0.05 for mediator masses at 50 GeV are excluded for the spin- 1 simplified models as shown in Fig. 12. 
 
 \subsection{Searches for SUSY DM}
 \label{sec:results_SUSYSearches}
