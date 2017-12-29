@@ -138,6 +138,7 @@
     </named-style>
   </named-styles>
   <attachments>
+    <attachment id="att4" href="attachments/Pasted_Graphic.png" type="image"/>
     <attachment id="att0" href="attachments/Pasted_Graphic_1.png" type="image"/>
     <attachment id="att2" href="attachments/Pasted_Graphic_2.png" type="image"/>
     <attachment id="att1" href="attachments/Pasted_Graphic_2_1.png" type="image"/>
@@ -166,7 +167,7 @@
       <print-info-key name="NSJobSavingFileNameExtensionHidden" type="boolean">true</print-info-key>
       <print-info-key name="NSJobSavingURL" type="coded">BAtzdHJlYW10eXBlZIHoA4QBQISEhAVOU1VSTACEhAhOU09iamVjdACFhAFjAJKEhIQITlNTdHJpbmcBlIQBK05maWxlOi8vL1VzZXJzL2JvdmVpYS9MaWJyYXJ5L1BERiUyMFNlcnZpY2VzL1NhdmUlMjBQREYlMjB0byUyMERFVk9OdGhpbmslMjBQcm+Ghg==</print-info-key>
       <print-info-key name="NSPagesPerSheet" type="int">1</print-info-key>
-      <print-info-key name="NSPaperSize" type="size">{595.28001499176025, 841.8900146484375}</print-info-key>
+      <print-info-key name="NSPaperSize" type="size">{595.27554893493652, 841.8897705078125}</print-info-key>
       <print-info-key name="NSReversePageOrder" type="boolean">false</print-info-key>
       <print-info-key name="NSSavePath" type="string">/Users/boveia/Library/PDF Services/Save PDF to DEVONthink Pro</print-info-key>
       <print-info-key name="OOColumnHeaderPrintBehavior" type="int">0</print-info-key>
@@ -318,38 +319,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="a0zTXIQR_Hp" parent-id="kvYF0ajJ0U6" rank="0004">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>how is the MET calculated</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="a2VY1FIbeXF" parent-id="nj32QOqT2ZN" rank="0003">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Discuss main systematic uncertainties</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="aJrxwqCTGRH" parent-id="p6QfE6xxIDB" rank="00ff3f">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -417,22 +386,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="aWRShKhbQ_v" parent-id="icVBBQR65M9" rank="0003">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>explain megafit to all CR and SR simultaneously</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="aYNB51hgk40" parent-id="hP9teZoRms4" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -490,22 +443,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="adPeUvREjS7" parent-id="e-vBoHVHw02" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Z to invisible</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="agvliafrap9" parent-id="aZw3yGBvfli" rank="0002">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -532,38 +469,6 @@
         <p>
           <run>
             <lit>philosophy (as before): integrate out extra degrees of freedom and only look at the collider signature for the model of interest</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="anVhPMNp6mj" parent-id="bHbJ3zdEVNJ" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>look at Higgs vs heavy mediator case: very different distributions</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="ao7in0kuCgx" parent-id="jWtAcW8h88S" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Znunu / Wlnu: EW backgrounds</lit>
           </run>
         </p>
       </text>
@@ -719,22 +624,6 @@
       </text>
       <entry/>
     </item>
-    <item id="b17XX8LI9xx" parent-id="ocNz71XUePg" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>signature: 1 or more jets recoiling against the DM (MET)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="b2k2KOEG6XB" parent-id="j-DPXg3S0cF" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -742,22 +631,6 @@
         <p>
           <run>
             <lit>start out with simple case: X is only one thing</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="b9C6Et5I1am" parent-id="edFZd0fbazs" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>observation of Z to leptons invisible:</lit>
           </run>
         </p>
       </text>
@@ -793,22 +666,6 @@
         <p>
           <run>
             <lit>LEP is still the best for precision measurements of the Z</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="bHbJ3zdEVNJ" parent-id="hHsUzL2uWos" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>what kind of signals give us high MET?</lit>
           </run>
         </p>
       </text>
@@ -875,22 +732,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="bVNj6ZlOKqK" parent-id="e-vBoHVHw02" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>instrumental</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="bewaZEmQ3km" parent-id="agvliafrap9" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -917,22 +758,6 @@
         <p>
           <run>
             <lit>some things can&apos;t still not be done at LHC: </lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="bmNdibkCOl1" parent-id="fQOL0ZDzriE" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Later result: MC-based except for multijet</lit>
           </run>
         </p>
       </text>
@@ -1012,38 +837,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="cMlluEpoUPB" parent-id="ogvLz5BTSkb" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>theoretical issues with using Z and W</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="cN5pbEO8Yjr" parent-id="kUmrNZp5-36" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>description of the search</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="cQgDQsZ6WBS" parent-id="nUHme_tk73r" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1079,22 +872,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="cTstfPoevtL" parent-id="ogvLz5BTSkb" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Pozzorini paper: shit is complicated, W and Z are one thing but if you want to do photon it&apos;s a different story</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="cXcktHIQWMI" parent-id="o4VUxMK42Sv" rank="0002">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1102,22 +879,6 @@
         <p>
           <run>
             <lit>targeted searches</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="cY1pAUlIdab" parent-id="go0JMFU0I37" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>invisible particle search: ADD, all sorts of other theories (KK gluons) </lit>
           </run>
         </p>
       </text>
@@ -1146,38 +907,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="cekjWMTZxhn" parent-id="hU_zVadBQ5L" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>then move on to consequences of the production mechanism</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="cjzuAO3eZrj" parent-id="kMgofZWZNXf" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>categorization based on the simplified models / analysers (monojet, monophoton, HF, monoW, monoZ, monoH) -&gt; bureaucracy of ATLAS, not the physics</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="cm9S1Q4e4vT" parent-id="hc3YLj20tXH" rank="00ff">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1185,22 +914,6 @@
         <p>
           <run>
             <lit>ATLAS, CMS and the Tevatron, LEP, SPS experiments</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="coMi_tbkT1k" parent-id="ezPuXzlyVFG" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>The SM contribution has BR very small</lit>
           </run>
         </p>
       </text>
@@ -1296,44 +1009,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="dBgLTXVr7fj" parent-id="f_k82KJI0aC" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>with more luminosity, assuming a scaling of X, PUB note</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="dCZOxTr8lgx" parent-id="b9C6Et5I1am" rank="0001">
-      <text>
-        <p>
-          <run>
-            <lit>Arcadi&apos;s paper, see previous article</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>indirect through the Z width</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="dH-nsOyG86F" parent-id="cpBHUQO3zOs" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1344,38 +1019,6 @@
               <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
             </style>
             <lit>LHCb paper</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="dfeoMemvfI0" parent-id="fOab8ItT__G" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>LHC has validation regions</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="dfl4OVZk5Cf" parent-id="gTsYdDl-f2J" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>QCD: matrix method a la SUSY</lit>
           </run>
         </p>
       </text>
@@ -1401,22 +1044,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="diXBE6auCcB" parent-id="mu-ZzMwMuH5" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Explain it</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="djtu2bb1UFq" parent-id="cXcktHIQWMI" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1424,76 +1051,6 @@
         <p>
           <run>
             <lit>simplified models still used to design those searches</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="dooe5u085MV" parent-id="ezPuXzlyVFG" rank="0002">
-      <text>
-        <p>
-          <run>
-            <lit>More recent: CMS result, also Bogdan Dobrescu paper</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Invisible Higgs width</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="dtmAVS14OUf" parent-id="dfeoMemvfI0" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>check ttbar</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="e-lPX-7qFZL" parent-id="bHbJ3zdEVNJ" rank="0003">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>why light signals are interesting: other extra particles with similar mass as the Higgs decaying (scalars)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="e-vBoHVHw02" parent-id="nj32QOqT2ZN" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>what backgrounds? at LHC and Tevatron</lit>
           </run>
         </p>
       </text>
@@ -1529,64 +1086,6 @@
         <p>
           <run>
             <lit>more challenging search targets in case of LLP</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="e6HPqDBr9fP" parent-id="pYzNTiwqCct" rank="00fe3f">
-      <text>
-        <p>
-          <run>
-            <lit>Higgs portal by Djouadi</lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <style>
-              <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-            </style>
-            <lit><cell href="http://dx.doi.org/10.1103/PhysRevD.85.015009" name="The dark side of the Higgs boson, 10.1103/PhysRevD.85.015009" type="link"/></lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <style>
-              <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-            </style>
-            <lit>Higgs-field Portal into Hidden Sectors, </lit>
-          </run>
-          <run>
-            <style>
-              <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-            </style>
-            <lit><cell href="https://arxiv.org/abs/hep-ph/0605188" name="https://arxiv.org/abs/hep-ph/0605188" type="link"/></lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <style>
-              <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-            </style>
-            <lit>Combined analysis of effective Higgs portal dark matter models </lit>
-          </run>
-          <run>
-            <style>
-              <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-            </style>
-            <lit><cell href="http://dx.doi.org/10.1103/PhysRevD.93.115016" name="10.1103/PhysRevD.93.115016" type="link"/></lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>target is clear: need a Z or a H decaying to invisible particles</lit>
           </run>
         </p>
       </text>
@@ -1666,47 +1165,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="edFZd0fbazs" parent-id="llAcKTGVHXm" rank="">
-      <text>
-        <p>
-          <run>
-            <lit><cell href="https://arxiv.org/pdf/hep-ph/0308053.pdf" name="https://arxiv.org/pdf/hep-ph/0308053.pdf" type="link"/></lit>
-          </run>
-          <run>
-            <lit> [downloaded]</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Z to invisible has been observed at LEP (SM rate is well known 20%)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="epx-ogzD-60" parent-id="fiMcLOi06SB" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>quote an example number of S/B from most recent monojet paper</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="er3OC2asJjv" parent-id="lOIRM3r-otb" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1714,100 +1172,6 @@
         <p>
           <run>
             <lit>Some specific SR regions from stop searches are optimised for DM</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="exgjEukEJ_G" parent-id="b9C6Et5I1am" rank="">
-      <text>
-        <p>
-          <run>
-            <lit>cite PDG and first observation from MAC? </lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <lit><cell href="http://pdg.lbl.gov/2010/reviews/rpp2010-rev-light-neutrino-types.pdf" name="http://pdg.lbl.gov/2010/reviews/rpp2010-rev-light-neutrino-types.pdf" type="link"/></lit>
-          </run>
-          <run>
-            <lit> [downloaded]</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>direct rates from e+e- colliders in association with a gamma, gamma*/Z at the Z peak</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="ezPuXzlyVFG" parent-id="llAcKTGVHXm" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>after observation of the Higgs, we could start looking into decays to invisible particles.</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="f0r5BpcAnuN" parent-id="ezPuXzlyVFG" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>because this is so much below X%, any observation of the invisible width would signal invisible particles</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="f7tBTBJ4J65" parent-id="nj32QOqT2ZN" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>how much of an excess?</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="f8yIDWGXybi" parent-id="lbxZZpqsspC" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>W-&gt;qq is 70%, Znunu is 20%</lit>
           </run>
         </p>
       </text>
@@ -1906,93 +1270,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="fOab8ItT__G" parent-id="joP6tGIV-hh" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Other backgrounds (diboson, top)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="fP0ioxjgeR0" parent-id="kvYF0ajJ0U6" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>pT cuts, symmetric or not</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="fQOL0ZDzriE" parent-id="ao7in0kuCgx" rank="">
-      <text>
-        <p>
-          <run>
-            <lit>FIrst time this was done as a monojet analysis at CDF: </lit>
-          </run>
-          <run>
-            <lit><cell href="https://www-cdf.fnal.gov/physics/exotic/r2a/20050901.LED_JetMet/" name="https://www-cdf.fnal.gov/physics/exotic/r2a/20050901.LED_JetMet/" type="link"/></lit>
-          </run>
-          <run>
-            <lit>, </lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <lit>6.7/fb PRL CDF - </lit>
-          </run>
-          <run>
-            <lit><cell href="https://arxiv.org/pdf/1203.0742.pdf" name="https://arxiv.org/pdf/1203.0742.pdf" type="link"/></lit>
-          </run>
-          <run>
-            <lit> </lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>how was it estimated at the Tevatron?</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="fTQlGyB4T8w" parent-id="jt676YfOOIQ" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>recoil of DM against one or more objects</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="f_5F-aRn9H4" parent-id="joBunkaThDg" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2012,54 +1289,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="f_6pxk1PdGp" parent-id="lbxZZpqsspC" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>WZ and WW xsec is similar</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="f_k82KJI0aC" parent-id="nj32QOqT2ZN" rank="0004">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Prospects</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="f_tRwUhWLJd" parent-id="i2M1hFWixr9" rank="00fe">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>as learned in the SPS UA2 result, backgrounds to MET can be subtle:</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="fcv7_umNZt5" parent-id="mcR9zlcXEYX" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2067,22 +1296,6 @@
         <p>
           <run>
             <lit>what is done: see Oliver&apos;s presentation at GGI</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="fiMcLOi06SB" parent-id="f7tBTBJ4J65" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>low MET: harder, SM backgrounds higher and too much data (trigger thresholds)</lit>
           </run>
         </p>
       </text>
@@ -2115,38 +1328,6 @@
         <p>
           <run>
             <lit>transition</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="foURglOHRNH" parent-id="go0JMFU0I37" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>simplified models results for vector and scalar, ATLAS and CMS</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="ft_oqtTedFA" parent-id="p1dpgMVVTDG" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>beam background: exploit track pointing to jet and calorimeter layers</lit>
           </run>
         </p>
       </text>
@@ -2332,60 +1513,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="gSVAWDZ7mNU" parent-id="ao7in0kuCgx" rank="0001">
-      <text>
-        <p>
-          <run>
-            <lit>citations for most recent</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>LHC results</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="gT5-PDaHHfV" parent-id="gTsYdDl-f2J" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>beam backgrounds: like CDF, more refined</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="gTsYdDl-f2J" parent-id="joP6tGIV-hh" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>LHC:</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="gVT-8Kz0JWI" parent-id="bjuJYAYN4pk" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2437,22 +1564,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="go0JMFU0I37" parent-id="nj32QOqT2ZN" rank="00033f">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Results</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="go6SfbkYPUR" parent-id="h6D37mZqtSX" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2476,38 +1587,6 @@
         <p>
           <run>
             <lit>the only way to know the hierarchy of those searches is if there is a SM coupling. If NP, then the hierarchy of couplings is unknown and one needs to do all of these</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="gwuxyXAeFYc" parent-id="e6HPqDBr9fP" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>role of EW precision constraints</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="gy8ZSWUG3YH" parent-id="e-vBoHVHw02" rank="0004">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>ttbar (if not multijet veto)</lit>
           </run>
         </p>
       </text>
@@ -2587,89 +1666,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="hC152WBDhQ_" parent-id="cTstfPoevtL" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>EW corrections</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="hGtNp8yMGM5" parent-id="n8vOYs0t7YI" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <style>
-              <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-            </style>
-            <lit>Cite again Tevatron/LHC (from above)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="hHsUzL2uWos" parent-id="f7tBTBJ4J65" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>high MET: easier, SM backgrounds low</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="hKe5cby3ufg" parent-id="jt676YfOOIQ" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>this is consistent among all experiments, take an official definition from a performance paper and cite that</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="hMd_M337X14" parent-id="cTstfPoevtL" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>QCD correction</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="hOPoGFbqmy_" parent-id="flr5-ozDWv2" rank="00ff3f">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2693,22 +1689,6 @@
         <p>
           <run>
             <lit>therefore look for very simple signatures capturing a wide variety of models</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="hU_zVadBQ5L" parent-id="n8vOYs0t7YI" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>order of presentation:</lit>
           </run>
         </p>
       </text>
@@ -2744,22 +1724,6 @@
               <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
             </style>
             <lit>CMS trigger paper??</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="hab_dJDFJwW" parent-id="icVBBQR65M9" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>tail search or normalization search</lit>
           </run>
         </p>
       </text>
@@ -2882,22 +1846,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="i2M1hFWixr9" parent-id="icVBBQR65M9" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>how the background are estimated</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="i2Sqg8eeC4c" parent-id="p-beIJLXbJK" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2914,45 +1862,16 @@
       <entry/>
       <entry/>
     </item>
-    <item id="i3DvMd56k_s" parent-id="n8vOYs0t7YI" rank="0001">
+    <item id="iRRS7bbawZs" parent-id="hWgkSMMGp3v" rank="">
       <entry/>
-      <checkbox>unchecked</checkbox>
+      <entry/>
       <text>
         <p>
           <run>
-            <lit><cell href="http://dx.doi.org/10.1103/PhysRevD.84.014028" name="LEP shines light on dark matter, 10.1103/PhysRevD.84.014028" type="link"/></lit>
+            <lit>CMS monoZ leptonic</lit>
           </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="iI279wM7DUX" parent-id="hU_zVadBQ5L" rank="0003">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
           <run>
-            <lit>then compare sensitivity (summary plots)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="icVBBQR65M9" parent-id="nj32QOqT2ZN" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>search strategy</lit>
+            <lit><cell refid="att4" expanded="yes" name="Pasted_Graphic"/></lit>
           </run>
         </p>
       </text>
@@ -3131,28 +2050,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="jF8q8wYyNFw" parent-id="fTQlGyB4T8w" rank="">
-      <text>
-        <p>
-          <run>
-            <lit>Uli&apos;s paper</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>QCD corrections: not a monojet</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="jGAVSC0bfIV" parent-id="o4VUxMK42Sv" rank="00003f">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3201,22 +2098,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="jWtAcW8h88S" parent-id="i2M1hFWixr9" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>the different ways that one can estimate this (broader view, LHC)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="jYT5POjyQFD" parent-id="g2OwsH7x2gu" rank="0002">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3224,22 +2105,6 @@
         <p>
           <run>
             <lit>precision tracking and PID, good for identification of light particles decaying into soft SM particles </lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="j_bRVHS5Y4j" parent-id="f_k82KJI0aC" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>forward reference: this is an inclusive sample for more exclusive searches and it&apos;s already there</lit>
           </run>
         </p>
       </text>
@@ -3284,22 +2149,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="joP6tGIV-hh" parent-id="ao7in0kuCgx" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Mismeasured MET (combining instrumental effects and beam/cosmics background)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="jqtBjZ5cLI7" parent-id="h6D37mZqtSX" rank="0002">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3323,22 +2172,6 @@
         <p>
           <run>
             <lit>no mass peak, neutrino</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="jt676YfOOIQ" parent-id="cN5pbEO8Yjr" rank="00fe">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>description of MET coming from invisible particles and experimentally</lit>
           </run>
         </p>
       </text>
@@ -3399,54 +2232,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="kGOX78XrVIe" parent-id="fOab8ItT__G" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Small so using MC</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="kMgofZWZNXf" parent-id="hU_zVadBQ5L" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>start with bosons, then more model-independent to model-specific</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="kOXN5Cbp_Gd" parent-id="kvYF0ajJ0U6" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>background estimated</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="kP6j3TbInH6" parent-id="aYoZV4V6Awv" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3477,31 +2262,6 @@
       <entry/>
       <entry/>
       <entry/>
-      <entry/>
-    </item>
-    <item id="kUmrNZp5-36" parent-id="aZw3yGBvfli" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="font-fixed-pitch">yes</value>
-            </style>
-            <lit>MET+X where X=jet</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <text>
-        <p>
-          <run>
-            <lit>2</lit>
-          </run>
-        </p>
-      </text>
       <entry/>
     </item>
     <item id="k_iHg3-z8LJ" parent-id="p1s7Js44y0q" rank="0001">
@@ -3567,22 +2327,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="kdwYGK_juaF" parent-id="dCZOxTr8lgx" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Measure the shape of the resonance into electrons and muons, use overall width to constrain what could be non-SM</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="kez_fB4Y4pV" parent-id="p4zIBZO0fD8" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3618,70 +2362,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="kjXtcbKB5dr" parent-id="cN5pbEO8Yjr" rank="00fd">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>how does the signal look like? </lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="klRVWbugRcp" parent-id="p1dpgMVVTDG" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>QCD: shitty method from Mario (extrapolation changing the veto)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="kvYF0ajJ0U6" parent-id="icVBBQR65M9" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Do a minireview table or inlet of monojet searches (only for monojets)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="kwAtbHCxMJ2" parent-id="lY9dWjlU77V" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>also: ratio, measurement of SM backgrounds and doing unfolded search</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="kwg_b56nAgZ" parent-id="hc3YLj20tXH" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3698,22 +2378,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="l11T28KMn8m" parent-id="cTstfPoevtL" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>dependence of result on analysis cuts</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="l2n7360K9GW" parent-id="oJ1Z3qEuolV" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3721,22 +2385,6 @@
         <p>
           <run>
             <lit>fake photons (tag object), fragmentation photons</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="l3hr3_CeVwq" parent-id="fTQlGyB4T8w" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>why jet: SM loves jets</lit>
           </run>
         </p>
       </text>
@@ -3945,22 +2593,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="lY9dWjlU77V" parent-id="a2VY1FIbeXF" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>where to improve</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="l_ygHJJKib9" parent-id="pqhN81qJf22" rank="0002">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3968,22 +2600,6 @@
         <p>
           <run>
             <lit>fixed target experiments at existing colliders existing on the board (mention only), like</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="laZGAgvbzFK" parent-id="mC2HzGFdKsc" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>how much detail?</lit>
           </run>
         </p>
       </text>
@@ -4009,22 +2625,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="lbxZZpqsspC" parent-id="e-vBoHVHw02" rank="0006">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Diboson with W either decaying hadronically or with missed leptons</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="lhE2cUrQR8g" parent-id="gVT-8Kz0JWI" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -4041,22 +2641,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="llAcKTGVHXm" parent-id="e6HPqDBr9fP" rank="00fe">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>direct searches</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="lm7_uQ3l1O9" parent-id="bBxEN2lV7Pl" rank="00003f">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -4064,22 +2648,6 @@
         <p>
           <run>
             <lit>ATLAS results</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="lmDLk1OmDWx" parent-id="hHsUzL2uWos" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>quote an example number of S/B from most recent monojet papers</lit>
           </run>
         </p>
       </text>
@@ -4176,28 +2744,6 @@
         <p>
           <run>
             <lit>LDMX</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="mC2HzGFdKsc" parent-id="ezPuXzlyVFG" rank="0003">
-      <text>
-        <p>
-          <run>
-            <lit>ATLAS and CMS papers</lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>indirect (coupling) searches</lit>
           </run>
         </p>
       </text>
@@ -4350,22 +2896,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="mf41smHO4Zg" parent-id="gwuxyXAeFYc" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>assume that there is no new physics, then add an extra term and see how much of it there can be</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="mhAyhjo0HDd" parent-id="l_ygHJJKib9" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -4433,38 +2963,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="mu-ZzMwMuH5" parent-id="fQOL0ZDzriE" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>First result: transfer factor method</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="muSw2XJ4-B2" parent-id="gT5-PDaHHfV" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>can have a % of how many events would have been</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="n5sZ7YwODGO" parent-id="bBxEN2lV7Pl" rank="">
       <text>
         <p>
@@ -4513,22 +3011,6 @@
         <p>
           <run>
             <lit>check ATLAS and CMS papers for details</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="n8vOYs0t7YI" parent-id="aZw3yGBvfli" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>short introduction</lit>
           </run>
         </p>
       </text>
@@ -4666,22 +3148,6 @@
         <p>
           <run>
             <lit>monojet search is an example</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="nj32QOqT2ZN" parent-id="cN5pbEO8Yjr" rank="00ff">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>looking for excess of MET above SM backgrounds</lit>
           </run>
         </p>
       </text>
@@ -4832,22 +3298,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="oIrRmS_-zKC" parent-id="e-vBoHVHw02" rank="0005">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>QCD with bad resolution</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="oJ1Z3qEuolV" parent-id="bQ0r6huOTbo" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -4880,60 +3330,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="oOY5BoVxd_1" parent-id="bHbJ3zdEVNJ" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>light DM particle, heavy mediator, then DM particle is going to be highly boosted (lots of momentum).</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="oYfn6WiIm2V" parent-id="coMi_tbkT1k" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>this is because the Higgs couples to mass, and neutrinos will not give a significant contribution to the BR</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="obiGgw7d1za" parent-id="f_tRwUhWLJd" rank="0001">
-      <text>
-        <p>
-          <run>
-            <lit><cell href="https://cds.cern.ch/record/159861/files/198507018.pdf" name="https://cds.cern.ch/record/159861/files/198507018.pdf" type="link"/></lit>
-          </run>
-        </p>
-      </text>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>SM backgrounds, subprocesses matter</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="oc-bsCYF8IW" parent-id="fGbZErsRBNw" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -4941,22 +3337,6 @@
         <p>
           <run>
             <lit>we talk about them later on</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="ocNz71XUePg" parent-id="pUyQpTxl0XP" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>every invisible particle can give you a monojet signature</lit>
           </run>
         </p>
       </text>
@@ -4995,38 +3375,6 @@
               <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
             </style>
             <lit>ATLAS trigger paper 2015</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="ogvLz5BTSkb" parent-id="gSVAWDZ7mNU" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Differences between ATLAS and CMS:</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="ometghDgeWu" parent-id="kvYF0ajJ0U6" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>how many jets</lit>
           </run>
         </p>
       </text>
@@ -5075,22 +3423,6 @@
         <p>
           <run>
             <lit>rates are better but still small cross-sections</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="p1dpgMVVTDG" parent-id="joP6tGIV-hh" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>CDF</lit>
           </run>
         </p>
       </text>
@@ -5205,54 +3537,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="pAlVdJGOcFL" parent-id="e-vBoHVHw02" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>W to neutrino + missed lepton</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="pAtk_FCp_SV" parent-id="kvYF0ajJ0U6" rank="0003">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>is anything else allowed in the event</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="pJ9oKjqdUcp" parent-id="f_tRwUhWLJd" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>instrumental, very large before cleaning</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="pKs-AHaE6z6" parent-id="az-ypzy73NH" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -5260,38 +3544,6 @@
         <p>
           <run>
             <lit>monob (FDM)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="pS2eHS3Xh5C" parent-id="ogvLz5BTSkb" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>CMS starts with only Z, ATLAS uses Z and W, CMS uses everything including gamma</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="pUyQpTxl0XP" parent-id="kUmrNZp5-36" rank="00fe">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>intro: why more model-independent</lit>
           </run>
         </p>
       </text>
@@ -5355,22 +3607,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="pf8EY7FKhz_" parent-id="a2VY1FIbeXF" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>do they all have the same dominant systematic uncertainties?</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="pk5x4b1861J" parent-id="lm7_uQ3l1O9" rank="">
       <entry/>
       <entry/>
@@ -5378,22 +3614,6 @@
         <p>
           <run>
             <lit>Higgs to Zdark, Zdark only couples through H to SM</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="plLVX-kdfxD" parent-id="pUyQpTxl0XP" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>if you know more about your signal you can target specifically</lit>
           </run>
         </p>
       </text>

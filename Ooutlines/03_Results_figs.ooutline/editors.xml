@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
 <editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
-  <editor content-size="{1452, 749}" vertical-scrollbar-visible-width="15" scroll-position="{0, 3852}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
+  <editor content-size="{1076, 822}" scroll-position="{94, 1336}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
     <sidebar visible="yes" width="158" selected-tab="styles"/>
     <column-states columns-id="b52DL6hgXrN">
       <column-state column-id="cDSetknF6xF" hidden="yes" width="32" summary="state"/>
@@ -15,96 +15,63 @@
     </column-states>
     <note-split-view height="33"/>
     <item-states>
-      <item item-id="a2VY1FIbeXF" expanded="yes"/>
       <item item-id="aR4Nm_F111W" expanded="yes"/>
+      <item item-id="aYoZV4V6Awv" expanded="yes"/>
       <item item-id="aZw3yGBvfli" expanded="yes" note-expanded="yes"/>
       <item item-id="agvliafrap9" expanded="yes"/>
-      <item item-id="ao7in0kuCgx" expanded="yes"/>
       <item item-id="aoJ8fW_D19K" expanded="yes" note-expanded="yes"/>
       <item item-id="ay7jnfCljA9" expanded="yes"/>
       <item item-id="ay8KfPPcEwg" expanded="yes"/>
       <item item-id="az-ypzy73NH" expanded="yes"/>
       <item item-id="b0i5-P_HGVK" note-expanded="yes"/>
-      <item item-id="b9C6Et5I1am" expanded="yes"/>
       <item item-id="bBxEN2lV7Pl" expanded="yes"/>
-      <item item-id="bHbJ3zdEVNJ" expanded="yes"/>
       <item item-id="bIZh-hWn3rN" expanded="yes"/>
       <item item-id="bQ0r6huOTbo" expanded="yes"/>
       <item item-id="bUEsgvFKnkV" expanded="yes" note-expanded="yes"/>
       <item item-id="bjuJYAYN4pk" expanded="yes"/>
       <item item-id="cSKWOl232fm" expanded="yes"/>
-      <item item-id="cTstfPoevtL" expanded="yes"/>
       <item item-id="cYYvh1vgxCI" expanded="yes"/>
       <item item-id="cm9S1Q4e4vT" expanded="yes"/>
-      <item item-id="coMi_tbkT1k" expanded="yes"/>
       <item item-id="cpBHUQO3zOs" expanded="yes"/>
       <item item-id="d-Rb0DEumkJ" expanded="yes"/>
-      <item item-id="dCZOxTr8lgx" expanded="yes" note-expanded="yes"/>
-      <item item-id="dfeoMemvfI0" expanded="yes"/>
-      <item item-id="dooe5u085MV" note-expanded="yes"/>
-      <item item-id="e-vBoHVHw02" expanded="yes"/>
-      <item item-id="e6HPqDBr9fP" expanded="yes" note-expanded="yes"/>
       <item item-id="e6g4G52pn6q" expanded="yes"/>
       <item item-id="eZrigmr6mF4" expanded="yes"/>
-      <item item-id="edFZd0fbazs" expanded="yes" note-expanded="yes"/>
-      <item item-id="exgjEukEJ_G" note-expanded="yes"/>
-      <item item-id="ezPuXzlyVFG" expanded="yes"/>
-      <item item-id="f7tBTBJ4J65" expanded="yes"/>
       <item item-id="fD2AEPWNTDl" expanded="yes"/>
       <item item-id="fGbZErsRBNw" expanded="yes"/>
       <item item-id="fJIqk_1iEfy" note-expanded="yes"/>
-      <item item-id="fOab8ItT__G" expanded="yes"/>
-      <item item-id="fQOL0ZDzriE" expanded="yes" note-expanded="yes"/>
-      <item item-id="fTQlGyB4T8w" expanded="yes"/>
-      <item item-id="f_k82KJI0aC" expanded="yes"/>
-      <item item-id="f_tRwUhWLJd" expanded="yes"/>
-      <item item-id="fiMcLOi06SB" expanded="yes"/>
       <item item-id="flr5-ozDWv2" expanded="yes"/>
       <item item-id="g2OwsH7x2gu" expanded="yes" note-expanded="yes"/>
       <item item-id="g9v5FgiZLvo" expanded="yes"/>
       <item item-id="gDmi8qsw9br" expanded="yes" note-expanded="yes"/>
       <item item-id="gMuz9DD6xxb" note-expanded="yes"/>
       <item item-id="gQfDaItgnGT" expanded="yes"/>
-      <item item-id="gSVAWDZ7mNU" expanded="yes" note-expanded="yes"/>
-      <item item-id="gT5-PDaHHfV" expanded="yes"/>
-      <item item-id="gTsYdDl-f2J" expanded="yes"/>
       <item item-id="gVT-8Kz0JWI" expanded="yes"/>
       <item item-id="gcu44XxfcLb" expanded="yes"/>
       <item item-id="gd_cplR6c7b" expanded="yes"/>
-      <item item-id="go0JMFU0I37" expanded="yes"/>
       <item item-id="go6SfbkYPUR" expanded="yes"/>
-      <item item-id="gwuxyXAeFYc" expanded="yes"/>
       <item item-id="h0A52UYzCRY" expanded="yes"/>
       <item item-id="h6D37mZqtSX" expanded="yes"/>
       <item item-id="h6wx5OvygHh" note-expanded="yes"/>
       <item item-id="h7SBxy-5Yaj" expanded="yes"/>
-      <item item-id="hHsUzL2uWos" expanded="yes"/>
       <item item-id="hP9teZoRms4" expanded="yes"/>
-      <item item-id="hU_zVadBQ5L" expanded="yes"/>
+      <item item-id="hWgkSMMGp3v" expanded="yes"/>
       <item item-id="hc3YLj20tXH" expanded="yes"/>
       <item item-id="hiJwoEHfDYp" note-expanded="yes"/>
       <item item-id="hyjDMeKx6J0" expanded="yes"/>
       <item item-id="hzzTkyv6YnW" note-expanded="yes"/>
-      <item item-id="i2M1hFWixr9" expanded="yes"/>
       <item item-id="i2Sqg8eeC4c" expanded="yes"/>
-      <item item-id="icVBBQR65M9" expanded="yes"/>
       <item item-id="ijAAdbmxOqp" expanded="yes"/>
       <item item-id="isbdLnyCUoI" expanded="yes"/>
       <item item-id="itFN8KdU9yR" expanded="yes"/>
       <item item-id="itHwIHD5qB4" expanded="yes"/>
       <item item-id="j-DPXg3S0cF" expanded="yes"/>
       <item item-id="j9pL9npaYD5" expanded="yes"/>
-      <item item-id="jF8q8wYyNFw" note-expanded="yes"/>
-      <item item-id="jWtAcW8h88S" expanded="yes"/>
+      <item item-id="jc8x8y5gUxs" expanded="yes"/>
       <item item-id="joBunkaThDg" expanded="yes"/>
-      <item item-id="joP6tGIV-hh" expanded="yes"/>
       <item item-id="jqtBjZ5cLI7" expanded="yes"/>
-      <item item-id="jt676YfOOIQ" expanded="yes"/>
       <item item-id="k-ScF6-9v97" expanded="yes"/>
-      <item item-id="kMgofZWZNXf" expanded="yes"/>
       <item item-id="kP6j3TbInH6" expanded="yes"/>
       <item item-id="kPhvNfJ224_" expanded="yes"/>
-      <item item-id="kUmrNZp5-36" expanded="yes"/>
       <item item-id="k_iHg3-z8LJ" expanded="yes"/>
       <item item-id="kbS7T2VIpZb" expanded="yes"/>
       <item item-id="kdEohgr3-AC" note-expanded="yes"/>
@@ -116,51 +83,40 @@
       <item item-id="lBdbkc3KSWV" note-expanded="yes"/>
       <item item-id="lOIRM3r-otb" expanded="yes"/>
       <item item-id="lQiZS3aVU5-" note-expanded="yes"/>
-      <item item-id="lY9dWjlU77V" expanded="yes"/>
       <item item-id="l_ygHJJKib9" expanded="yes"/>
-      <item item-id="lbxZZpqsspC" expanded="yes"/>
-      <item item-id="llAcKTGVHXm" expanded="yes"/>
       <item item-id="lm7_uQ3l1O9" expanded="yes"/>
+      <item item-id="lq56fyA8iLW" expanded="yes"/>
       <item item-id="ls9LOjMmNhY" expanded="yes"/>
       <item item-id="lwzpRKelHeV" expanded="yes"/>
-      <item item-id="mC2HzGFdKsc" expanded="yes" note-expanded="yes"/>
       <item item-id="mEO_4xV92Xz" expanded="yes" note-expanded="yes"/>
       <item item-id="mF93EAloiUx" expanded="yes"/>
       <item item-id="mIfacSQBl4g" expanded="yes"/>
       <item item-id="mZ6UFpjVcZ7" expanded="yes"/>
       <item item-id="mcR9zlcXEYX" expanded="yes"/>
-      <item item-id="mu-ZzMwMuH5" expanded="yes"/>
       <item item-id="n5sZ7YwODGO" note-expanded="yes"/>
-      <item item-id="n8vOYs0t7YI" expanded="yes"/>
       <item item-id="nPbnZA5-GnV" expanded="yes"/>
       <item item-id="nUHme_tk73r" expanded="yes"/>
       <item item-id="n_bV2QS6I0J" expanded="yes"/>
-      <item item-id="nj32QOqT2ZN" expanded="yes"/>
       <item item-id="nmykjHHYOF-" note-expanded="yes"/>
       <item item-id="nw9bIOyP49I" expanded="yes"/>
       <item item-id="o4VUxMK42Sv" note-expanded="yes"/>
       <item item-id="oJ1Z3qEuolV" expanded="yes"/>
-      <item item-id="obiGgw7d1za" note-expanded="yes"/>
-      <item item-id="ocNz71XUePg" expanded="yes"/>
       <item item-id="odLWNbgQAMD" expanded="yes"/>
-      <item item-id="ogvLz5BTSkb" expanded="yes"/>
       <item item-id="p-beIJLXbJK" expanded="yes"/>
-      <item item-id="p1dpgMVVTDG" expanded="yes"/>
       <item item-id="p1s7Js44y0q" expanded="yes"/>
       <item item-id="p4zIBZO0fD8" expanded="yes"/>
       <item item-id="p6QfE6xxIDB" expanded="yes"/>
       <item item-id="p7X843hZED4" expanded="yes" note-expanded="yes"/>
-      <item item-id="pYzNTiwqCct" expanded="yes"/>
       <item item-id="pajYsnc97oF" expanded="yes"/>
       <item item-id="pk5x4b1861J" expanded="yes"/>
       <item item-id="pqhN81qJf22" expanded="yes"/>
     </item-states>
     <selected-items>
-      <item item-id="odLWNbgQAMD"/>
+      <item item-id="iRRS7bbawZs"/>
     </selected-items>
     <selected-columns>
       <column-ref idref="hQDTXD-kJn_"/>
     </selected-columns>
-    <selected-characters range="{25, 0}"/>
+    <selected-characters range="{18, 1}"/>
   </editor>
 </editors>

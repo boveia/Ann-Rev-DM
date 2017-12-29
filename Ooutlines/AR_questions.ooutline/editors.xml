@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
+<editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
+  <editor content-size="{1328, 764}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
+    <sidebar visible="yes" width="158" selected-tab="styles"/>
+    <column-states columns-id="b52DL6hgXrN">
+      <column-state column-id="cDSetknF6xF" hidden="yes" width="32" summary="state"/>
+      <column-state column-id="kmDe5MlE9uM" width="18"/>
+      <column-state column-id="hQDTXD-kJn_" width="1220"/>
+      <column-state column-id="oHuf3qYSbYa" width="70"/>
+      <column-state column-id="kAOZXbQLKLR" width="349"/>
+      <column-state column-id="fSf7pS1NI8r" width="343"/>
+      <column-state column-id="eI70F4vZLW4" width="150"/>
+      <column-state column-id="dqw7AjAgcG5" hidden="yes" width="115" summary="sum"/>
+    </column-states>
+    <note-split-view height="33"/>
+    <item-states>
+      <item item-id="aDJ-fyM92A6" expanded="yes" note-expanded="yes"/>
+      <item item-id="cDUGPB1XI_F" note-expanded="yes"/>
+      <item item-id="dJ8qVuAiT1W" expanded="yes"/>
+      <item item-id="gb7KX7bc-iw" expanded="yes"/>
+      <item item-id="iEcGBEAmY9D" note-expanded="yes"/>
+      <item item-id="ji5NgaH8it-" expanded="yes"/>
+    </item-states>
+    <selected-items>
+      <item item-id="iEcGBEAmY9D"/>
+    </selected-items>
+    <selected-columns>
+      <column-ref idref="kmDe5MlE9uM"/>
+    </selected-columns>
+    <selected-characters range="{37, 0}"/>
+  </editor>
+</editors>
