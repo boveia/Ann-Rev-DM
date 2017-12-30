@@ -143,6 +143,9 @@
     <attachment id="att2" href="attachments/Pasted_Graphic_2.png" type="image"/>
     <attachment id="att1" href="attachments/Pasted_Graphic_2_1.png" type="image"/>
     <attachment id="att3" href="attachments/Pasted_Graphic_3.png" type="image"/>
+    <attachment id="att5" href="attachments/Pasted_Graphic_4.png" type="image"/>
+    <attachment id="att6" href="attachments/Pasted_Graphic_5.png" type="image"/>
+    <attachment id="att7" href="attachments/Pasted_Graphic_6.png" type="image"/>
   </attachments>
   <settings>
     <base-style>
@@ -478,7 +481,7 @@
       <entry/>
       <entry/>
     </item>
-    <item id="aoJ8fW_D19K" parent-id="gDmi8qsw9br" rank="0001">
+    <item id="aoJ8fW_D19K" parent-id="lq56fyA8iLW" rank="00ff">
       <text>
         <p>
           <run>
@@ -1028,6 +1031,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="dO2j4SLVse8" parent-id="hWgkSMMGp3v" rank="00ff">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS monoZ leptonic, AV</lit>
+          </run>
+          <run>
+            <lit><cell refid="att6" expanded="yes" name="Pasted_Graphic_5"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="dgjXcuPrdKr" parent-id="aYoZV4V6Awv" rank="0002">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1137,6 +1159,25 @@
         <p>
           <run>
             <lit>Tevatron and LHC searches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="eXmBoqy_pMJ" parent-id="l2n7360K9GW" rank="0001">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS</lit>
+          </run>
+          <run>
+            <lit><cell refid="att7" expanded="yes" name="Pasted_Graphic_6"/></lit>
           </run>
         </p>
       </text>
@@ -1868,7 +1909,7 @@
       <text>
         <p>
           <run>
-            <lit>CMS monoZ leptonic</lit>
+            <lit>CMS monoZ leptonic, V/AV</lit>
           </run>
           <run>
             <lit><cell refid="att4" expanded="yes" name="Pasted_Graphic"/></lit>
@@ -1891,6 +1932,25 @@
               <value key="font-fixed-pitch">yes</value>
             </style>
             <lit>two-body mediator searches</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="irh_Xts5F8v" parent-id="hWgkSMMGp3v" rank="0001">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS monoZ leptonic, S/PS</lit>
+          </run>
+          <run>
+            <lit><cell refid="att5" expanded="yes" name="Pasted_Graphic_4"/></lit>
           </run>
         </p>
       </text>

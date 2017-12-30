@@ -1,6 +1,8 @@
 Now that we have a handle on the reactions of DM observable at collider experiments, we turn to a description of the searches and experimental constraints for DM at colliders, privileging LHC searches as they generally set the most stringent constraints. For a detailed description of the LHC and the ATLAS, CMS and LHCb experiments, we refer to~\cite{LHC2008,ATLAS2008,CMS2008}. %CD: blurb more? I'd say no. 
 The first period of LHC running (2010-2012) at 7 and 8 TeV center-of-mass energy ($\sqrt{s}$) is termed Run-1, while the second period (2015-2018) is called Run-2. 
-The categorization of these searches follows loosely the description of the benchmark models. We start describing searches for DM interacting through SM bosons~\ref{sec:results_ZHSearches}, then move to generic searches for signals with missing transverse momentum~\ref{sec:results_monoXSearches}, and outline the searches for complete models with DM candidates in Section~\ref{sec:results_SUSYSearches}. Throughout this chapter and in Section~\ref{sec:experimentalChallenges} we will highlight the experimental challenges and the novel experimental techniques used to overcome them, motivated by the strong interest in dark matter searches. 
+The categorization of these searches follows loosely the description of the benchmark models. We start describing searches for DM interacting through SM bosons~\ref{sec:results_ZHSearches}, then move to generic searches for signals with missing transverse momentum~\ref{sec:results_monoXSearches}, and outline the searches for complete models with DM candidates in Section~\ref{sec:results_SUSYSearches}. Throughout this chapter
+%and in Section~\ref{sec:experimentalChallenges} %CD: removed in favour of sidebars
+we will highlight the experimental challenges and the novel experimental techniques used to overcome them, motivated by the strong interest in dark matter searches. 
 We then conclude with searches for long-lived particles within models of DM in
 Section~\ref{sec:results_LLPSearches}. %CD: need to rewrite this sentence, but the idea is: if we hadn't had DM as a motivation motivation we wouldn't have done this difficult stuff. 
 
@@ -90,7 +92,8 @@ We begin this section by describing the LHC searches for missing transverse mome
 %%Intro and event selection
 
 Events containing invisible particles can be identified and selected at colliders if initial state radiation (ISR) is present. For $e^+e^-$ colliders, the most frequently radiated object is a photon, while for hadron colliders gluon radiation dominates. These searches have been called "Mono-X", where X is the radiated object, although the radiation of a single object is only the leading process in a SM-DM $s-$channel interaction~\cite{Haisch:2013ata}. For this reason, the most recent LHC searches for MET with jets~\cite{Sirunyan:2017jix,Aaboud:2017phn} allow for events containing more than one jet in the final state. Since the presence of highly energetic invisible particles would manifest as an excess of events with a significant \MET, the main observable for this search is the number of events in \MET \textit{signal regions}, either exclusive (in bins of \MET) or inclusive (considering all events above a given \MET threshold). 
-The discovery of a signal originating from one of the benchmarks DM models presents different challenges, depending on the DM particle mass and boost. If the mediator is heavy, any light DM particle will receive a boost and appear as an excess in the tails of the SM \MET distribution. If instead the DM particle pair originates from a light mediator, of the same mass range as the Higgs boson, it will manifest itself at low \MET. The low \MET suffers from a much higher rate of both instrumental and SM backgrounds. As a consequence, it is impossible to record and store all events with a low-\MET for further analysis, since at the data-taking stage (within the \textit{trigger} and data acquisition systems) it is difficult to obtain further handles to discriminate signal and background, and the sensitivity to low-\MET signals is compromised. This challenge will be discussed further for both visible and invisible particle searches in Sec.~\ref{sub:trigger}.
+The discovery of a signal originating from one of the benchmarks DM models presents different challenges, depending on the DM particle mass and boost. If the mediator is heavy, any light DM particle will receive a boost and appear as an excess in the tails of the SM \MET distribution. If instead the DM particle pair originates from a light mediator, of the same mass range as the Higgs boson, it will manifest itself at low \MET. The low \MET suffers from a much higher rate of both instrumental and SM backgrounds. As a consequence, it is impossible to record and store all events with a low-\MET for further analysis, since at the data-taking stage (within the \textit{trigger} and data acquisition systems) it is difficult to obtain further handles to discriminate signal and background, and the sensitivity to low-\MET signals is compromised. This challenge will be discussed further for both visible and invisible particle searches in Sec.~\ref{sub:twoBody}.
+
 %and  QCD subprocesses matter - too much detail too little space https://cds.cern.ch/record/159861/files/198507018.pdf
 
 %in OOutline we wanted to quote example numbers, but there is a lot of eyeballing
@@ -100,7 +103,45 @@ The discovery of a signal originating from one of the benchmarks DM models prese
 %up to 3 jets with pT>30 GeV for ATLAS
 Events are selected to enter the \MET signal regions if they contain at least one jet in the central region of the detector ($\eta<2.4$) with \pt $>$ 250 GeV (ATLAS) or \pt $>$ 100 GeV (CMS) and \MET $>$ 250 GeV (ATLAS) or \MET $>$ 200 GeV (CMS). This selection ensures that all events with these characteristics are recorded by the trigger system for further analysis. A lepton veto is used to suppress background from leptonically decaying W bosons. 
 %CMS excludes taus, while ATLAS does not. Too much detail imo. 
-QCD background where large \MET originates from mismeasured jets is rejected by requiring that the $\phi$ direction of the missing transverse momentum vector does not align with the direction of the four-momentum of the jets with the highest \pt (leading jets). The remaining QCD background estimated from data amounts to a maximum of 0.4\% of the total background. The large number of events containing fake \MET due to non-collision background (e.g. cosmic rays, beam-gas interactions, calorimeter problems) is rejected with specific quality criteria discussed in Sec.~\ref{sub:MET}. 
+QCD background where large \MET originates from mismeasured jets is rejected by requiring that the $\phi$ direction of the missing transverse momentum vector does not align with the direction of the four-momentum of the jets with the highest \pt (leading jets). The remaining QCD background estimated from data amounts to a maximum of 0.4\% of the total background. The large number of events containing fake \MET due to non-collision background (e.g. cosmic rays, beam-gas interactions, calorimeter problems), shown in Fig.~\ref{fig:fakeMET} is rejected with specific quality criteria discussed in the following Sidebar.%Sidebar? Textbox?
+
+%Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
+\begin{textbox}[!h]
+\section{Details of \MET reconstruction and fake \MET rejection}
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+\end{textbox}
+
+\begin{figure}[!htpb]
+\includegraphics[width=0.5\textwidth]{figures/FakeMETTemp.png}
+%Caption from the ATLAS monojet but they only have pT
+%https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/EXOT-2015-03/
+\caption{The \MET distribution of the data events passing the [define selection] without any cleaning criteria applied on the leading jet. The Standard Model background indicated in the plots corresponds to the estimates obtained for the analysis signal region, including jet quality requirements. 
+%The jet selection inefficiency of the cleaning selection is O(1\%), which is negligible compared to the observed excess in data. 
+This demonstrates the necessity of a strong non-collision background suppression for this analysis. From~\cite{ToBeFound}.}
+\label{fig:fakeMET}
+\end{figure}
+
 %CMS: up to 4 leading jets 
 The CMS analysis also applies specific vetoes for photons and heavy flavour jets, to reject events with photon ISR or containing top quarks. The CMS analysis also includes a signal region targeting hadronic decays of the W and Z bosons using substructure techniques, which is considered separately in the case of ATLAS and will be discussed in Sec.~\ref{subsub:monoV}. 
 
@@ -119,6 +160,33 @@ The event selection follows that of the signal region, substituting a lepton req
 The distribution of events in the main observable used for the search, the shape of the \MET distribution, is simulated and reweighted for each of the control regions using the most recent perturbative calculations for NLO QCD and QED~\cite{Lindert:2017olm}.  The estimation of the number of $Z\rightarrow \nu\nu$events from the $\gamma$+jet and  $W\rightarrow l\nu$+jets control region needs a specific treatment due to the difference in the processes. This is particularly important for a consistent treatment of the different processes used in the background estimation and of the main theoretical uncertainties, and it will be discussed further in Sec.~\ref{sub:precision}. The full information on the theoretical and experimental uncertainties and their correlations from this procedure is used in a simultaneous fit to control and signal regions, to determine the overall background estimate in each of the \MET regions considered. 
 %and leads to an improvement of 40 to 50% in the search
 Backgrounds from top processes in ATLAS are estimated using a dedicated control region with a requirement of a $b-$jet that is included in the fit, while CMS takes this background from simulation. Smaller diboson backgrounds are estimated from simulation. 
+
+%Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
+\begin{textbox}[!h]
+\section{Precision estimation of background for \MET+X searches}
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+\end{textbox}
 
 %%Experimental uncertainties
 The systematic uncertainties on the background estimate for the jet+MET search range from 2 to 7\% (CMS) and 2 to 10\% (ATLAS), depending on the \MET region. The main uncertainties are due to the identification of leptons (CMS) and the understanding of the jet and \MET calibration (ATLAS). 
@@ -166,7 +234,7 @@ Searches for invisible particles produced in association with a jet are the most
 Moreover, the sensitivity hierarchy of \MET+X searches does not privilege the jet+\MET final state if there is a direct new physics coupling between the vector boson and the DM, as in the case of the EFT model mentioned in Section~\ref{sub:EFT}.
 
 ATLAS and CMS have pursued searches for missing transverse momentum produced in association with a photon%monophoton - if we're running low on citation space, remove CMS monophoton
-\cite{Aaboud:2017dor,CMS-PAS-EXO-16-014},
+\cite{Aaboud:2017dor,CMS-PAS-EXO-16-014},%less lumi, unpublished, ,
 vector boson decaying hadronically %monoV, had, 2015+2016 (CMS) and 2015 (ATLAS)
 \cite{Sirunyan:2017jix,Aaboud:2016qgg} or leptonically %monoV, lep, 2015+2016
 \cite{Aaboud:2017bja, Sirunyan:2017qfc}. 
@@ -177,13 +245,28 @@ either the photon object or the leptonic decays. As an example, the lowest \MET
 value for the search is 100 GeV for the leptonic Z+\MET search~\cite{Sirunyan:2017qfc} %CMS https://arxiv.org/pdf/1711.00431.pdf
 as opposed to 200 GeV for the jet+\MET search~\cite{Sirunyan:2017jix}. 
 
-The background estimation technique for the main $\gamma$/V+\MET search backgrounds 
-mirrors that of the jet+\MET search, where \MET is emulated by removing visible boson decays from the event energy balance in control regions, and transferring the number of 
-measured events to the signal region. 
+The event selection and the background estimation strategy depends on the final state, but generally mirror those of the jet+\MET search. 
+
+The photon+\MET search uses a photon to trigger the events to be recorded for analysis, and selects events containing an isolated photon above 150 GeV and no leptons. The number of events from Z decays to neutrinos in association with a photon can be estimated in events where the lepton veto is inverted and the contribution of visible Z and W boson decays is removed from the transverse momentum balance of the event, and transferred to the signal region. 
+%Don't want Zgamma resonances so restrict mllgamma < 1 TeV, but maybe too much info
+Jets and leptons faking photons are estimated directly from data, and the $\gamma$+jet background where the jet is mismeasured and produced \MET is suppressed by the requirement that the photon and the direction of the \MET vector do not overlap in the azimuthal plane. 
+
+
+The main backgrounds for the photon+\MET search and for the leptonic decays of the 
+
+The estimation of these backgrounds mirrors that of the jet+\MET search, where \MET is emulated by removing visible Z boson decays from the event transverse momentum balance in control regions, and transferring the number of measured events to the signal region. In these cases, the W control region is not used. 
+%The CMS photon+\MET search uses MC simulation. 
+
+
+involve decays of Z to neutrinos, where a photon or an additional vector boson are radiated. 
+
+For this, and for the main 
+
+The background estimation technique for the main $\gamma$/V+\MET search 
+
 
 Another approach is to follow a mono-Higgs event selection and reinterpret the results. 
 
-Jets faking leptons or photons, as well as pions that convert to photons within the detector volume, are reducible backgrounds for these searches. 
 
 The main experimental uncertainties for V+\MET searches
 and the sensitivity to specific 
@@ -209,9 +292,39 @@ Leptonic decays W bosons have also been used in the past for this kind of search
 %monoH, H to invisible detailed earlier on
 
 \subsubsection{Two-body mediator searches}
-
+\label{sub:twoBody}
 %Dijet and dilepton
 %Mention TLA
+
+This is two body mediator searches. 
+
+%Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
+\begin{textbox}[!h]
+\section{Triggering for visible and invisible searches}
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+This is why this is important, this is 10 words. 
+\end{textbox}
+
 
 \subsubsection{Comparison of sensitivity of visible and invisible LHC searches}
 \label{sub:comparisonVisibleInvisible}
@@ -234,23 +347,24 @@ Leptonic decays W bosons have also been used in the past for this kind of search
 
 \subsubsection{Searches for electroweakinos}
 
-\subsection{Experimental challenges for DM searches at the LHC}
-\label{sec:experimentalChallenges}
+%CD: commented all of this out in favour of three sidebars
+%\subsection{Experimental challenges for DM searches at the LHC}
+%\label{sec:experimentalChallenges}
 
-Now that we have seen the searches for invisible particles and their sensitivity to DM models, we will cover the experimental challenges more in detail, as those will be the key to fully exploit %bleurgh
-the Run-2 and Run-3 datasets. 
+%Now that we have seen the searches for invisible particles and their sensitivity to DM models, we will cover the experimental challenges more in detail, as those will be the key to fully exploit %bleurgh
+%the Run-2 and Run-3 datasets. 
 
-\subsubsection{Missing transverse momentum}
-\label{sub:MET} 
+%\subsubsection{Missing transverse momentum}
+%\label{sub:MET} 
 
-Main points:
-\begin{itemize}
-\item The measurement of \MET relies on the precise measurement of all reconstructed physics objects. 
-\item Some description of \MET significance may be needed, but it may also be too academic. 
-\item Fake \MET is rejected using quality cuts.  
-\item Pile-up needs specific techniques because of the soft terms. 
-\item \MET at the trigger level is the driving reason why we can't go lower, see next section.
-\end{itemize}
+%Main points:
+%\begin{itemize}
+%\item The measurement of \MET relies on the precise measurement of all reconstructed physics objects. 
+%\item Some description of \MET significance may be needed, but it may also be too academic. 
+%\item Fake \MET is rejected using quality cuts.  
+%\item Pile-up needs specific techniques because of the soft terms. 
+%\item \MET at the trigger level is the driving reason why we can't go lower, see next section.
+%\end{itemize}
 
 %from ooutline
 
@@ -273,11 +387,11 @@ Main points:
 %MET significance: in VBF CMS search
 %For the 8 TeV dataset, an additional requirement is set on an approximate missing transverse energy significance variable S(Emiss) defined as the ratio of Emiss to the square root of the scalar sum of the transverse energy of all PF objects in the event [62]. Selected events are required to satisfy S(Emiss) > 4?GeV.
 
-\subsubsection{Event selection: triggering on visible and invisible particles}
-\label{sub:trigger}
+%\subsubsection{Event selection: triggering on visible and invisible particles}
+%\label{sub:trigger}
 
-\subsubsection{Precise background estimation}
-\label{sub:precision}
+%\subsubsection{Precise background estimation}
+%\label{sub:precision}
 
 %from ooutline
 %- LHC results				
