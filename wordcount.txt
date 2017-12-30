@@ -1,9 +1,9 @@
 File: AnnRev_Main.tex
 Encoding: ascii
 Words in text: 177
-Words in headers: 31
+Words in headers: 29
 Words outside text (captions, etc.): 0
-Number of headers: 10
+Number of headers: 9
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
@@ -17,7 +17,6 @@ Subcounts:
   112+5+0 (1/0/0/0) Section: FUTURE EVOLUTION OF COLLIDER SEARCHES
   24+2+0 (1/0/0/0) Section: DISCLOSURE STATEMENT
   13+1+0 (1/0/0/0) Section: ACKNOWLEDGMENTS
-  0+2+0 (1/0/0/0) Section: LITERATURE\ CITED
 
 Included file: ./02_Reactions.tex
 Encoding: utf8
@@ -40,20 +39,22 @@ Subcounts:
 
 Included file: ./03_ExperimentalResults.tex
 Encoding: ascii
-Words in text: 3256
-Words in headers: 89
-Words outside text (captions, etc.): 40
-Number of headers: 17
-Number of floats/tables/figures: 0
-Number of math inlines: 34
+Words in text: 4477
+Words in headers: 86
+Words outside text (captions, etc.): 227
+Number of headers: 16
+Number of floats/tables/figures: 1
+Number of math inlines: 38
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  173+0+0 (0/0/1/0) _top_
-  838+8+23 (1/0/9/0) Subsection: Searches for DM in interactions mediated by SM-boson
-  2146+39+17 (7/0/24/0) Subsection: Generic searches for DM with missing transverse momentum
+  170+0+0 (0/0/1/0) _top_
+  837+8+23 (1/0/9/0) Subsection: Searches for DM in interactions mediated by SM-boson
+  0+8+0 (1/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
+  1384+9+55 (2/1/16/0) Section: Details of \MET reconstruction and fake \MET rejection
+  1792+26+149 (5/0/11/0) Section: Precision estimation of background for \MET+X searches
+  294+15+0 (2/0/1/0) Section: Triggering for visible and invisible searches
   0+12+0 (4/0/0/0) Subsection: Searches for SUSY DM
-  99+22+0 (4/0/0/0) Subsection: Experimental challenges for DM searches at the LHC
   0+8+0 (1/0/0/0) Subsection: Searches for DM in association with long-lived particles
 
 Included file: ./03_SummaryTable.tex
@@ -67,18 +68,18 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 File(s) total: AnnRev_Main.tex
-Words in text: 9292
-Words in headers: 177
-Words outside text (captions, etc.): 134
-Number of headers: 39
-Number of floats/tables/figures: 2
-Number of math inlines: 65
+Words in text: 10513
+Words in headers: 172
+Words outside text (captions, etc.): 321
+Number of headers: 37
+Number of floats/tables/figures: 3
+Number of math inlines: 69
 Number of math displayed: 0
 Files: 4
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  177+31+0 (10/0/0/0) File: AnnRev_Main.tex
+  177+29+0 (9/0/0/0) File: AnnRev_Main.tex
   5859+57+85 (12/1/31/0) Included file: ./02_Reactions.tex
-  3256+89+40 (17/0/34/0) Included file: ./03_ExperimentalResults.tex
+  4477+86+227 (16/1/38/0) Included file: ./03_ExperimentalResults.tex
   0+0+9 (0/1/0/0) Included file: ./03_SummaryTable.tex
 
