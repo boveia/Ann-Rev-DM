@@ -105,6 +105,41 @@ This is why this is important, this is 10 words.
 This is why this is important, this is 10 words. 
 This is why this is important, this is 10 words. 
 This is why this is important, this is 10 words. 
+
+%\subsubsection{Missing transverse momentum}
+%\label{sub:MET} 
+
+%Main points:
+%\begin{itemize}
+%\item The measurement of \MET relies on the precise measurement of all reconstructed physics objects. 
+%\item Some description of \MET significance may be needed, but it may also be too academic. 
+%\item Fake \MET is rejected using quality cuts.  
+%\item Pile-up needs specific techniques because of the soft terms. 
+%\item \MET at the trigger level is the driving reason why we can't go lower, see next section.
+%\end{itemize}
+
+%from ooutline
+
+%- Mismeasured MET (combining instrumental effects and beam/cosmics background)				
+%	- CDF				
+%		- beam background: exploit track pointing to jet and calorimeter layers				
+%		- QCD: shitty method from Mario (extrapolation changing the veto)				
+%	- LHC:				
+%		- beam backgrounds: like CDF, more refined				
+%			- can have a % of how many events would have been				
+%		- QCD: matrix method a la SUSY				
+%	- Other backgrounds (diboson, top)				
+%		- Small so using MC				
+%		- LHC has validation regions				
+%			- check ttbar				
+
+%Valerio's talk for relevant plots 
+%https://indico.cern.ch/event/466934/contributions/2590281/attachments/1489278/2314178/20170706_EPS_DMatATLAS.pdf
+
+%MET significance: in VBF CMS search
+%For the 8 TeV dataset, an additional requirement is set on an approximate missing transverse energy significance variable S(Emiss) defined as the ratio of Emiss to the square root of the scalar sum of the transverse energy of all PF objects in the event [62]. Selected events are required to satisfy S(Emiss) > 4?GeV.
+
+
 \end{textbox}
 
 WIMP DM particles at colliders escape detection, and their observation requires one or more visible objects in the same event. Searches that only rely on this feature are for the most part model-agnostic, as they only need to detect an excess of missing transverse momentum left by the DM particles recoiling against SM objects, without making any extra assumption on the DM particles or on their production mechanism. Similar search strategies have been employed as center-of-mass energy and dataset size increased, from LEP to Tevatron to the most recent LHC searches~\cite{Fox:2011fx,Beltran:2010ww,Bai:2010hh}. A generic event selection for excesses of \MET also provides an inclusive sample for more targeted searches as it will be discussed in Chapter~\ref{sec:05_Future}. 
@@ -200,6 +235,19 @@ This is why this is important, this is 10 words.
 This is why this is important, this is 10 words. 
 This is why this is important, this is 10 words. 
 This is why this is important, this is 10 words. 
+%\subsubsection{Precise background estimation}
+%\label{sub:precision}
+
+%from ooutline
+%- LHC results				
+%	citations for most recent
+%	- Differences between ATLAS and CMS:				
+%		- CMS starts with only Z, ATLAS uses Z and W, CMS uses everything including gamma				
+%		- theoretical issues with using Z and W				
+%		- Pozzorini paper: shit is complicated, W and Z are one thing but if you want to do photon it's a different story				
+%			- dependence of result on analysis cuts				
+%			- QCD correction				
+%			- EW corrections				
 \end{textbox}
 
 %%Experimental uncertainties
@@ -284,9 +332,10 @@ due to different up- and down-quark mediator couplings,
 but that was not gauge invariant~\cite{Bell:2015sza}.}. 
 Searches in the \MET+leptonic Z final state provide constraints on 
 \mmed $<$ 650 GeV for \mdm=100 GeV for vector and axial vector mediators. 
-Z+\MET searches are also sensitive to the radiation of a boson 
+W/Z+\MET searches are also uniquely sensitive to the radiation of a boson 
 from the mediator particle in the case of colored scalar models~\cite{Bell:2012rg}, 
 but the Run-2 searches do not present this interpretation. 
+%CD: maybe we add a link to the 8 TeV search but it's worse than monojet 
 
 \subsubsection{Searches with heavy-flavor quarks}
 %ttbar+MET
@@ -366,56 +415,6 @@ This is why this is important, this is 10 words.
 
 %Now that we have seen the searches for invisible particles and their sensitivity to DM models, we will cover the experimental challenges more in detail, as those will be the key to fully exploit %bleurgh
 %the Run-2 and Run-3 datasets. 
-
-%\subsubsection{Missing transverse momentum}
-%\label{sub:MET} 
-
-%Main points:
-%\begin{itemize}
-%\item The measurement of \MET relies on the precise measurement of all reconstructed physics objects. 
-%\item Some description of \MET significance may be needed, but it may also be too academic. 
-%\item Fake \MET is rejected using quality cuts.  
-%\item Pile-up needs specific techniques because of the soft terms. 
-%\item \MET at the trigger level is the driving reason why we can't go lower, see next section.
-%\end{itemize}
-
-%from ooutline
-
-%- Mismeasured MET (combining instrumental effects and beam/cosmics background)				
-%	- CDF				
-%		- beam background: exploit track pointing to jet and calorimeter layers				
-%		- QCD: shitty method from Mario (extrapolation changing the veto)				
-%	- LHC:				
-%		- beam backgrounds: like CDF, more refined				
-%			- can have a % of how many events would have been				
-%		- QCD: matrix method a la SUSY				
-%	- Other backgrounds (diboson, top)				
-%		- Small so using MC				
-%		- LHC has validation regions				
-%			- check ttbar				
-
-%Valerio's talk for relevant plots 
-%https://indico.cern.ch/event/466934/contributions/2590281/attachments/1489278/2314178/20170706_EPS_DMatATLAS.pdf
-
-%MET significance: in VBF CMS search
-%For the 8 TeV dataset, an additional requirement is set on an approximate missing transverse energy significance variable S(Emiss) defined as the ratio of Emiss to the square root of the scalar sum of the transverse energy of all PF objects in the event [62]. Selected events are required to satisfy S(Emiss) > 4?GeV.
-
-%\subsubsection{Event selection: triggering on visible and invisible particles}
-%\label{sub:trigger}
-
-%\subsubsection{Precise background estimation}
-%\label{sub:precision}
-
-%from ooutline
-%- LHC results				
-%	citations for most recent
-%	- Differences between ATLAS and CMS:				
-%		- CMS starts with only Z, ATLAS uses Z and W, CMS uses everything including gamma				
-%		- theoretical issues with using Z and W				
-%		- Pozzorini paper: shit is complicated, W and Z are one thing but if you want to do photon it's a different story				
-%			- dependence of result on analysis cuts				
-%			- QCD correction				
-%			- EW corrections				
 
 \subsection{Searches for DM in association with long-lived particles}
 \label{sec:results_LLPSearches}
