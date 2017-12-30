@@ -140,12 +140,26 @@
   <attachments>
     <attachment id="att4" href="attachments/Pasted_Graphic.png" type="image"/>
     <attachment id="att0" href="attachments/Pasted_Graphic_1.png" type="image"/>
+    <attachment id="att11" href="attachments/Pasted_Graphic_10.png" type="image"/>
+    <attachment id="att12" href="attachments/Pasted_Graphic_11.png" type="image"/>
+    <attachment id="att13" href="attachments/Pasted_Graphic_12.png" type="image"/>
+    <attachment id="att14" href="attachments/Pasted_Graphic_13.png" type="image"/>
+    <attachment id="att15" href="attachments/Pasted_Graphic_14.png" type="image"/>
+    <attachment id="att16" href="attachments/Pasted_Graphic_15.png" type="image"/>
+    <attachment id="att17" href="attachments/Pasted_Graphic_16.png" type="image"/>
+    <attachment id="att18" href="attachments/Pasted_Graphic_17.png" type="image"/>
+    <attachment id="att19" href="attachments/Pasted_Graphic_18.png" type="image"/>
+    <attachment id="att20" href="attachments/Pasted_Graphic_19_1.png" type="image"/>
     <attachment id="att2" href="attachments/Pasted_Graphic_2.png" type="image"/>
+    <attachment id="att21" href="attachments/Pasted_Graphic_20.png" type="image"/>
     <attachment id="att1" href="attachments/Pasted_Graphic_2_1.png" type="image"/>
     <attachment id="att3" href="attachments/Pasted_Graphic_3.png" type="image"/>
     <attachment id="att5" href="attachments/Pasted_Graphic_4.png" type="image"/>
     <attachment id="att6" href="attachments/Pasted_Graphic_5.png" type="image"/>
     <attachment id="att7" href="attachments/Pasted_Graphic_6.png" type="image"/>
+    <attachment id="att8" href="attachments/Pasted_Graphic_7.png" type="image"/>
+    <attachment id="att9" href="attachments/Pasted_Graphic_8.png" type="image"/>
+    <attachment id="att10" href="attachments/Pasted_Graphic_9.png" type="image"/>
   </attachments>
   <settings>
     <base-style>
@@ -373,22 +387,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="aVYb6wvcMvr" parent-id="kP6j3TbInH6" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>examples of VVchichi, mono-Higgs signals, refer to earlier section</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="aYNB51hgk40" parent-id="hP9teZoRms4" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -396,22 +394,6 @@
         <p>
           <run>
             <lit>backgrounds to be determined with high precisions</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="aYoZV4V6Awv" parent-id="bIZh-hWn3rN" rank="00fe">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>intro/transition</lit>
           </run>
         </p>
       </text>
@@ -481,7 +463,7 @@
       <entry/>
       <entry/>
     </item>
-    <item id="aoJ8fW_D19K" parent-id="lq56fyA8iLW" rank="00ff">
+    <item id="aoJ8fW_D19K" parent-id="lq56fyA8iLW" rank="0001">
       <text>
         <p>
           <run>
@@ -643,6 +625,44 @@
       <entry/>
       <entry/>
     </item>
+    <item id="b3SBmu-HyzP" parent-id="bIZh-hWn3rN" rank="00013f">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS V/AV comparison </lit>
+          </run>
+          <run>
+            <lit><cell refid="att18" expanded="yes" name="Pasted_Graphic_17"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="b7K4p1xwDzN" parent-id="bIZh-hWn3rN" rank="0002">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS AV</lit>
+          </run>
+          <run>
+            <lit><cell refid="att8" expanded="yes" name="Pasted_Graphic_7"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="bBxEN2lV7Pl" parent-id="mEO_4xV92Xz" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -687,23 +707,7 @@
             <style>
               <value key="font-fixed-pitch">yes</value>
             </style>
-            <lit>from monojet to other mono-X searches: how those searches relate</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="bQ0r6huOTbo" parent-id="gDmi8qsw9br" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Compare and contrast</lit>
+            <lit>monojet</lit>
           </run>
         </p>
       </text>
@@ -824,6 +828,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="c6N18PI4xxT" parent-id="bIZh-hWn3rN" rank="">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS V/AV, coupling-mass </lit>
+          </run>
+          <run>
+            <lit><cell refid="att15" expanded="yes" name="Pasted_Graphic_14"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="cELfbAyBskd" parent-id="gQfDaItgnGT" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -831,6 +854,41 @@
         <p>
           <run>
             <lit>refer to previous chapter: connection to relic density</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="cMaGQGIUlq6" parent-id="ls9LOjMmNhY" rank="00ff">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS yields </lit>
+          </run>
+          <run>
+            <lit><cell refid="att21" expanded="yes" name="Pasted_Graphic_20"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="cQffvhTCTyi" parent-id="gDmi8qsw9br" rank="">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS backgrounds</lit>
           </run>
         </p>
       </text>
@@ -996,22 +1054,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="d4R1ZBPRMH0" parent-id="i2Sqg8eeC4c" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>smaller/different backgrounds, different thresholds, different systematics, confirmation of signals seen in monojet</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="dH-nsOyG86F" parent-id="cpBHUQO3zOs" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1033,7 +1075,7 @@
     </item>
     <item id="dO2j4SLVse8" parent-id="hWgkSMMGp3v" rank="00ff">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -1041,22 +1083,6 @@
           </run>
           <run>
             <lit><cell refid="att6" expanded="yes" name="Pasted_Graphic_5"/></lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="dgjXcuPrdKr" parent-id="aYoZV4V6Awv" rank="0002">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>the whole list of searches that are similarly done to monojet analysis: monophoton, monoW, monoZ</lit>
           </run>
         </p>
       </text>
@@ -1168,13 +1194,13 @@
       <entry/>
       <entry/>
     </item>
-    <item id="eXmBoqy_pMJ" parent-id="l2n7360K9GW" rank="0001">
+    <item id="eXmBoqy_pMJ" parent-id="gDmi8qsw9br" rank="00ff">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
-            <lit>CMS</lit>
+            <lit>CMS backgrounds</lit>
           </run>
           <run>
             <lit><cell refid="att7" expanded="yes" name="Pasted_Graphic_6"/></lit>
@@ -1302,6 +1328,44 @@
               <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
             </style>
             <lit>Buchmueller&amp;co - Simplified Models for Displaced Dark Matter Signatures [downloaded]</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fSrVcOd1SiO" parent-id="bIZh-hWn3rN" rank="0004">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS colored scalar </lit>
+          </run>
+          <run>
+            <lit><cell refid="att11" expanded="yes" name="Pasted_Graphic_10"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="fY9H3P0Q50H" parent-id="bIZh-hWn3rN" rank="0001">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS S/PS </lit>
+          </run>
+          <run>
+            <lit><cell refid="att17" expanded="yes" name="Pasted_Graphic_16"/></lit>
           </run>
         </p>
       </text>
@@ -1448,7 +1512,7 @@
       <entry/>
       <entry/>
     </item>
-    <item id="gDmi8qsw9br" parent-id="lq56fyA8iLW" rank="00fe">
+    <item id="gDmi8qsw9br" parent-id="lq56fyA8iLW" rank="">
       <text>
         <p>
           <run>
@@ -1472,7 +1536,7 @@
     </item>
     <item id="gGVYiNA-OQw" parent-id="pk5x4b1861J" rank="">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -1510,6 +1574,25 @@
         <p>
           <run>
             <lit>ATLAS, CMS, CDF, D0, LEP, UA1, UA2</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="gQ7OTNmZDUG" parent-id="bIZh-hWn3rN" rank="00003f">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS V/AV </lit>
+          </run>
+          <run>
+            <lit><cell refid="att16" expanded="yes" name="Pasted_Graphic_15"/></lit>
           </run>
         </p>
       </text>
@@ -1621,22 +1704,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="gonvs12kwBJ" parent-id="aYoZV4V6Awv" rank="00003f">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>the only way to know the hierarchy of those searches is if there is a SM coupling. If NP, then the hierarchy of couplings is unknown and one needs to do all of these</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="h0A52UYzCRY" parent-id="ay8KfPPcEwg" rank="00ff">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -1698,6 +1765,25 @@
         <p>
           <run>
             <lit>monotop:</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="hJol3-U-42C" parent-id="bIZh-hWn3rN" rank="00015f">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS PS comparison </lit>
+          </run>
+          <run>
+            <lit><cell refid="att19" expanded="yes" name="Pasted_Graphic_18"/></lit>
           </run>
         </p>
       </text>
@@ -1790,22 +1876,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="hgsC7ejuFMo" parent-id="bQ0r6huOTbo" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Results</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="hiJwoEHfDYp" parent-id="hyjDMeKx6J0" rank="00003f">
       <text>
         <p>
@@ -1860,7 +1930,7 @@
       <entry/>
       <entry/>
     </item>
-    <item id="hzzTkyv6YnW" parent-id="jc8x8y5gUxs" rank="">
+    <item id="hzzTkyv6YnW" parent-id="aZw3yGBvfli" rank="000137">
       <text>
         <p>
           <run>
@@ -1887,13 +1957,16 @@
       <entry/>
       <entry/>
     </item>
-    <item id="i2Sqg8eeC4c" parent-id="p-beIJLXbJK" rank="">
+    <item id="iKiCfbh3TVb" parent-id="gDmi8qsw9br" rank="0003">
       <entry/>
-      <checkbox>unchecked</checkbox>
+      <entry/>
       <text>
         <p>
           <run>
-            <lit>why we do the other searches anyway</lit>
+            <lit>ATLAS DD comparisons V/AV </lit>
+          </run>
+          <run>
+            <lit><cell refid="att14" expanded="yes" name="Pasted_Graphic_13"/></lit>
           </run>
         </p>
       </text>
@@ -1905,7 +1978,7 @@
     </item>
     <item id="iRRS7bbawZs" parent-id="hWgkSMMGp3v" rank="">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -1943,7 +2016,7 @@
     </item>
     <item id="irh_Xts5F8v" parent-id="hWgkSMMGp3v" rank="0001">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -2078,13 +2151,16 @@
       <entry/>
       <entry/>
     </item>
-    <item id="j9pL9npaYD5" parent-id="kPhvNfJ224_" rank="">
+    <item id="j6OOs7Of-ve" parent-id="gDmi8qsw9br" rank="0001">
       <entry/>
-      <checkbox>unchecked</checkbox>
+      <entry/>
       <text>
         <p>
           <run>
-            <lit>of particular interest would be that the newly discovered H boson, arguably the best opportunity for a new physics signal or something</lit>
+            <lit>ATLAS V/AV </lit>
+          </run>
+          <run>
+            <lit><cell refid="att12" expanded="yes" name="Pasted_Graphic_11"/></lit>
           </run>
         </p>
       </text>
@@ -2094,13 +2170,13 @@
       <entry/>
       <entry/>
     </item>
-    <item id="jCqdFx7Hw89" parent-id="l2n7360K9GW" rank="">
+    <item id="j9pL9npaYD5" parent-id="kPhvNfJ224_" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
-            <lit>few jets faking photons except for pi0</lit>
+            <lit>of particular interest would be that the newly discovered H boson, arguably the best opportunity for a new physics signal or something</lit>
           </run>
         </p>
       </text>
@@ -2174,7 +2250,7 @@
       <entry/>
       <entry/>
     </item>
-    <item id="jc8x8y5gUxs" parent-id="bIZh-hWn3rN" rank="">
+    <item id="jc8x8y5gUxs" parent-id="aZw3yGBvfli" rank="00012f">
       <entry/>
       <checkbox>unchecked</checkbox>
       <text>
@@ -2292,22 +2368,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="kP6j3TbInH6" parent-id="aYoZV4V6Awv" rank="0001">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>but if the X does not arise from ISR, e.g. coming from the interaction between DM and SM, this is a more powerful search</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="kPhvNfJ224_" parent-id="jc8x8y5gUxs" rank="00ff">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2387,6 +2447,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="keka4RsS6L-" parent-id="bIZh-hWn3rN" rank="0005">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS colored scalar  </lit>
+          </run>
+          <run>
+            <lit><cell refid="att20" expanded="yes" name="Pasted_Graphic_19"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="kez_fB4Y4pV" parent-id="p4zIBZO0fD8" rank="">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -2429,22 +2508,6 @@
         <p>
           <run>
             <lit>best suited to MET as they are hermetic</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="l2n7360K9GW" parent-id="oJ1Z3qEuolV" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>fake photons (tag object), fragmentation photons</lit>
           </run>
         </p>
       </text>
@@ -2671,7 +2734,7 @@
     </item>
     <item id="lb09tTkyu2D" parent-id="lm7_uQ3l1O9" rank="0001">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -2717,7 +2780,7 @@
       <entry/>
       <entry/>
     </item>
-    <item id="lq56fyA8iLW" parent-id="bIZh-hWn3rN" rank="00ff">
+    <item id="lq56fyA8iLW" parent-id="aZw3yGBvfli" rank="00011f">
       <entry/>
       <checkbox>unchecked</checkbox>
       <text>
@@ -3096,7 +3159,7 @@
       <entry/>
       <entry/>
     </item>
-    <item id="nCMJgciZtv5" parent-id="jc8x8y5gUxs" rank="0001">
+    <item id="nCMJgciZtv5" parent-id="aZw3yGBvfli" rank="00013b">
       <entry/>
       <checkbox>unchecked</checkbox>
       <text>
@@ -3182,6 +3245,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="nVn-CbFS68t" parent-id="bIZh-hWn3rN" rank="0003">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS S/PS </lit>
+          </run>
+          <run>
+            <lit><cell refid="att10" expanded="yes" name="Pasted_Graphic_9"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="n_bV2QS6I0J" parent-id="p1s7Js44y0q" rank="00ff">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3251,6 +3333,25 @@
         <p>
           <run>
             <lit>for monoZ refer back to Bell paper about gauge invariance</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="no4jcQt2bKn" parent-id="gDmi8qsw9br" rank="0002">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS VVchichi </lit>
+          </run>
+          <run>
+            <lit><cell refid="att13" expanded="yes" name="Pasted_Graphic_12"/></lit>
           </run>
         </p>
       </text>
@@ -3358,22 +3459,6 @@
       <entry/>
       <entry/>
     </item>
-    <item id="oJ1Z3qEuolV" parent-id="bQ0r6huOTbo" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>background hierarchy is the same</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
     <item id="oNDpfrMMP-2" parent-id="nPbnZA5-GnV" rank="0002">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3451,22 +3536,6 @@
         <p>
           <run>
             <lit>searches for LLP (sketch)</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="p-beIJLXbJK" parent-id="aYoZV4V6Awv" rank="">
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>if the X from the monoX arises from ISR, then a jet is by far the most common X for these signals, and therefore the monojet analysis is the most powerful</lit>
           </run>
         </p>
       </text>
@@ -3597,6 +3666,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="pJNNDWZ3jhG" parent-id="bIZh-hWn3rN" rank="00023f">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS V </lit>
+          </run>
+          <run>
+            <lit><cell refid="att9" expanded="yes" name="Pasted_Graphic_8"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="pKs-AHaE6z6" parent-id="az-ypzy73NH" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -3669,7 +3757,7 @@
     </item>
     <item id="pk5x4b1861J" parent-id="lm7_uQ3l1O9" rank="">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
