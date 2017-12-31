@@ -20,12 +20,12 @@ Subcounts:
 
 Included file: ./02_Reactions.tex
 Encoding: utf8
-Words in text: 5859
+Words in text: 5955
 Words in headers: 57
 Words outside text (captions, etc.): 85
 Number of headers: 12
 Number of floats/tables/figures: 1
-Number of math inlines: 31
+Number of math inlines: 32
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
@@ -33,18 +33,18 @@ Subcounts:
   749+10+0 (1/0/3/0) Subsection: Observations on DM as a guide for its particle properties
   381+4+0 (1/0/1/0) Subsection: Caveats and grounding assumptions
   610+11+0 (3/0/3/0) Subsection: Higgs and Z boson portals
-  3500+24+85 (5/1/21/0) Subsection: Effective Field Theories and Simplified models of BSM mediators
-  42+5+0 (1/0/0/0) Subsection: Supersymmetric models and other theories
-  536+3+0 (1/0/3/0) Subsection: Long-lived particle models
+  3585+24+85 (5/1/22/0) Subsection: Effective Field Theories and Simplified models of BSM mediators
+  52+5+0 (1/0/0/0) Subsection: Supersymmetric models and other theories
+  537+3+0 (1/0/3/0) Subsection: Long-lived particle models
 
 Included file: ./03_ExperimentalResults.tex
-Encoding: ascii
-Words in text: 4477
-Words in headers: 86
-Words outside text (captions, etc.): 227
+Encoding: iso-8859-1
+Words in text: 5150
+Words in headers: 89
+Words outside text (captions, etc.): 264
 Number of headers: 16
 Number of floats/tables/figures: 1
-Number of math inlines: 38
+Number of math inlines: 60
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
@@ -52,9 +52,9 @@ Subcounts:
   837+8+23 (1/0/9/0) Subsection: Searches for DM in interactions mediated by SM-boson
   0+8+0 (1/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
   1384+9+55 (2/1/16/0) Section: Details of \MET reconstruction and fake \MET rejection
-  1792+26+149 (5/0/11/0) Section: Precision estimation of background for \MET+X searches
-  294+15+0 (2/0/1/0) Section: Triggering for visible and invisible searches
-  0+12+0 (4/0/0/0) Subsection: Searches for SUSY DM
+  2522+26+186 (5/0/31/0) Section: Precision estimation of background for \MET+X searches
+  234+18+0 (2/0/3/0) Section: Challenges in selecting events at the detector level (trigger)
+  3+12+0 (4/0/0/0) Subsection: Searches for SUSY DM
   0+8+0 (1/0/0/0) Subsection: Searches for DM in association with long-lived particles
 
 Included file: ./03_SummaryTable.tex
@@ -68,18 +68,18 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 File(s) total: AnnRev_Main.tex
-Words in text: 10513
-Words in headers: 172
-Words outside text (captions, etc.): 321
+Words in text: 11282
+Words in headers: 175
+Words outside text (captions, etc.): 358
 Number of headers: 37
 Number of floats/tables/figures: 3
-Number of math inlines: 69
+Number of math inlines: 92
 Number of math displayed: 0
 Files: 4
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   177+29+0 (9/0/0/0) File: AnnRev_Main.tex
-  5859+57+85 (12/1/31/0) Included file: ./02_Reactions.tex
-  4477+86+227 (16/1/38/0) Included file: ./03_ExperimentalResults.tex
+  5955+57+85 (12/1/32/0) Included file: ./02_Reactions.tex
+  5150+89+264 (16/1/60/0) Included file: ./03_ExperimentalResults.tex
   0+0+9 (0/1/0/0) Included file: ./03_SummaryTable.tex
 
