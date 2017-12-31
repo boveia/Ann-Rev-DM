@@ -152,6 +152,7 @@
     <attachment id="att20" href="attachments/Pasted_Graphic_19_1.png" type="image"/>
     <attachment id="att2" href="attachments/Pasted_Graphic_2.png" type="image"/>
     <attachment id="att21" href="attachments/Pasted_Graphic_20.png" type="image"/>
+    <attachment id="att22" href="attachments/Pasted_Graphic_21.png" type="image"/>
     <attachment id="att1" href="attachments/Pasted_Graphic_2_1.png" type="image"/>
     <attachment id="att3" href="attachments/Pasted_Graphic_3.png" type="image"/>
     <attachment id="att5" href="attachments/Pasted_Graphic_4.png" type="image"/>
@@ -3077,6 +3078,25 @@
         <p>
           <run>
             <lit>rates</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="mtJJphSDlLP" parent-id="e6g4G52pn6q" rank="0001">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS, scalar/pseudoscalar: </lit>
+          </run>
+          <run>
+            <lit><cell refid="att22" expanded="yes" name="Pasted_Graphic_21"/></lit>
           </run>
         </p>
       </text>
