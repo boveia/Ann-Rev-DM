@@ -206,8 +206,9 @@ In order to reduce theoretical and experimental uncertainties on the main V+jet 
 %not sure we should say that the bin by bin estimates are used, here it's ambiguous
 The event selection follows that of the signal region, substituting a lepton requirement to the lepton veto. The visible decay products in events selected for the control regions are subtracted from the total transverse momentum balance, providing an estimate of the contribution of these backgrounds in the signal region. CMS also uses a $\gamma$+jet control region where the photon is subtracted following the same procedure, to increase the statistical precision of the background estimate. 
 %
-The distribution of events in the main observable used for the search, the shape of the \MET distribution, is simulated and reweighted for each of the control regions using the most recent perturbative calculations for NLO QCD and QED~\cite{Lindert:2017olm}.  The estimation of the number of $Z\rightarrow \nu\nu$events from the $\gamma$+jet and  $W\rightarrow l\nu$+jets control region needs a specific treatment due to the difference in the processes. This is particularly important for a consistent treatment of the different processes used in the background estimation and of the main theoretical uncertainties, and it will be discussed further in the following textbox. The full information on the theoretical and experimental uncertainties and their correlations from this procedure is used in a simultaneous fit to control and signal regions, to determine the overall background estimate in each of the \MET regions considered. 
-%and leads to an improvement of 40 to 50% in the search
+The distribution of events in the main observable used for the search, the shape of the \MET distribution, is simulated and reweighted for each of the control regions using the most recent perturbative calculations for NLO QCD and QED~\cite{Lindert:2017olm}.  The estimation of the number of $Z\rightarrow \nu\nu$events from the $\gamma$+jet and  $W\rightarrow l\nu$+jets control region needs a specific treatment due to the difference in the processes. This is particularly important for a consistent treatment of the different processes used in the background estimation and of the main theoretical uncertainties, and it will be discussed further in the following textbox. %CD: how do we call the thing
+The full information on the theoretical and experimental uncertainties and their correlations from this procedure is used in a simultaneous fit to control and signal regions, to determine the overall background estimate in each of the \MET regions considered. 
+%and leads to an improvement of 40 to 50% in the search according to PhilHarris and Livia, but I wouldn't add that unreferenced
 Backgrounds from top processes in ATLAS are estimated using a dedicated control region with a requirement of a $b-$jet that is included in the fit, while CMS takes this background from simulation. Smaller diboson backgrounds are estimated from simulation. 
 
 %Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
@@ -353,38 +354,31 @@ This is two body mediator searches.
 
 %Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
 \begin{textbox}[!h]
-\section{Triggering for visible and invisible searches}
-The LHC provides collision events every 25 ns. This amount
-of data cannot be recorded in its entirety, and it
-is not all interesting for the experiments' physics program: the
-trigger system decides whether an event is selected for further
-analysis. Its first level is realized in hardware and only uses
-partial detector information for fast decisions in the order of
-$\mu s$, while its second level is software-based and uses more
-refined algorithms and information. 
-
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
+\section{Challenges in selecting events at the detector level (trigger)}
+%Trying to approximate 10 words per line
+The LHC collides protons every 25 $\mathrm{ns}$, producing 40 billion 
+of events per second. This amount of data cannot be 
+recorded in its entirety, and not all events are interesting
+for the experiments' physics programmes. A trigger system is used
+to choose whether an event is selected for further analysis. 
+Its first level is realized in hardware and only uses
+partial detector information for fast decisions in a time of
+the order of $\mathrm{\mu s}$, while its second level is software-based
+and uses more refined algorithms and information to make a
+decision in $\mathrm{ms}$. Since the rates of SM physics processes decrease
+with the transverse momentum of the objects involved, and processes
+with a high momentum transfer have a higher chance of containing
+interesting features or new particles, the trigger system records
+events above a certain threshold e.g. in leading jet \pt or in event \MET. 
+Only a fraction of events that do not satisfy these thresholds is recorded. 
+Simultaneous proton-proton interactions occurring within the detector
+readout time cannot be completely disentangled from the hard process
+of interest. This \textit{pile-up} increases the likelihood of passing 
+the minimum threshold to record events. For this reason, the increase in the
+LHC instantaneous luminosity by virtue of increasing the number of simultaneous
+collisions leads to increases in the thresholds to keep manageable event recording rates,
+and penalizes searches for signals with low MET or \pt,
+unless different data recording techniques are employed.
 \end{textbox}
 
 
