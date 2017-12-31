@@ -294,7 +294,8 @@ This is an observable sensitive to the anomalous production of events with jets 
 
 Searches for invisible particles produced in association with a jet are the most sensitive among the searches employing an object radiated in the initial state, due to the large signal rates from the radiation of a gluon as opposed to the radiation of a photon or a W/Z/Higgs boson. The jet+\MET final state is however also affected by the largest SM and instrumental background, and only covers signals producing a high \MET to comply with data-taking limitations at the trigger level, due to the high-rate backgrounds producing signal-like signatures. It is therefore worth considering other objects as ISR, as those searches will be subject to different backgrounds, different kinds of systematic uncertainties, lower \MET thresholds, and can provide confirmation in case of an excess in the jet+\MET final state~\cite{Birkedal:2004xn,Petriello:2008pu}. 
 %Gershtein:2008bf 2nd monophoton paper, save cites
-Moreover, the sensitivity hierarchy of \MET+X searches does not privilege the jet+\MET final state if there is a direct new physics coupling between the vector boson and the DM, as in the case of the EFT model mentioned in Section~\ref{sub:EFT}.
+Moreover, the sensitivity hierarchy of \MET+X searches does not necessarily privilege the jet+\MET final state if there is a direct new physics coupling between a vector boson and the DM, as in the case of the EFT model mentioned in Section~\ref{sub:EFT}, or if the radiated object is a new particle~\cite{Autran:2015mfa}. 
+%This latter signal motivates searches in the \MET+generic resonance final state CD: keep for later. 
 
 ATLAS and CMS have pursued searches for missing transverse momentum produced in association with a photon%monophoton - if we're running low on citation space, remove CMS monophoton
 \cite{Aaboud:2017dor,CMS-PAS-EXO-16-014},%less lumi, unpublished, ,
@@ -308,6 +309,7 @@ either the photon object or the leptonic decays. As an example, the lowest \MET
 value for the search is 100 GeV for the leptonic Z+\MET search~\cite{Sirunyan:2017qfc} %CMS https://arxiv.org/pdf/1711.00431.pdf
 as opposed to 200 GeV for the jet+\MET search~\cite{Sirunyan:2017jix}. 
 
+%CD: this can be cut except for the first sentence? 
 The event selection and the background estimation strategy depends on the final state, but generally mirror those of the jet+\MET search. 
 The \textbf{photon+\MET searches} use a photon to trigger the events to be recorded for analysis, and selects events containing an isolated photon above 150 GeV and no leptons. The number of events from Z decays to neutrinos in association with a photon can be estimated in events where the lepton veto is inverted and the contribution of visible Z and W boson decays is removed from the transverse momentum balance of the event, and transferred to the signal region. 
 %Don't want Zgamma resonances so restrict mllgamma < 1 TeV, but maybe too much info
@@ -330,7 +332,7 @@ masses of \mmed $<$ 650 GeV for \mdm=100 GeV\footnote{As a side note that is use
 Run-1 V+\MET searches used a version of the vector simplified model
 that enhanced W radiation because of the constructive interference 
 due to different up- and down-quark mediator couplings,
-but that was not gauge invariant~\cite{Bell:2015sza}.}. 
+but that was not gauge invariant~\cite{Bell:2015sza,1475-7516-2016-01-051}.}. 
 Searches in the \MET+leptonic Z final state provide constraints on 
 \mmed $<$ 650 GeV for \mdm=100 GeV for vector and axial vector mediators. 
 W/Z+\MET searches are also uniquely sensitive to the radiation of a boson 
@@ -338,17 +340,78 @@ from the mediator particle in the case of colored scalar models~\cite{Bell:2012r
 but the Run-2 searches do not present this interpretation. 
 %CD: maybe we add a link to the 8 TeV search but it's worse than monojet 
 
+\subsubsection{Search signatures including the Higgs boson}
+%monoH, H to invisible detailed earlier on
+
+%CD: we already said that before
+The newly discovered Higgs boson is of particular interest for DM searches at the LHC. 
+Higgs radiation is kinematically and PDF suppressed, but searches for a mono-Higgs have
+other strong theoretical motivations. 
+Higgs portal models are the simplest incarnation of theories where the coupling
+between the dark sector and the SM is realized through a Higgs boson. Higgs couplings
+to at least a new scalar are necessary for the gauge invariance of simplified models described in
+the previous chapters towards more complete theories. 
+%The rates of signatures including Higgs bosons are small, but 
+Gauge symmetries link Higgs+\MET signatures and signatures including W, Z bosons
+or jets as well as two-body mediator searches~\cite{Liew:2016oon}. 
+%so results from Higgs searches are not to be taken in isolation.  
+
+The search strategy depends on the decay mode of the Higgs boson. 
+Searches in the decay channel 
+$H \rightarrow \gamma\gamma$ in association with \MET~\cite{CMS-PAS-EXO-16-054,Aaboud:2017uak}
+are sensitive to a variety of benchmark models regardless of the small branching fraction, thanks to the 
+high precision in the reconstructed Higgs boson mass and the ability to probe low \MET 
+thresholds compared to other Higgs decay channel as the trigger rates are low. 
+The SM background is estimated using a fit to the diphoton mass distribution, in events categorized
+according to their missing transverse momentum for CMS (50$<$\MET$<$130 GeV and \MET$>130$ GeV)
+or according to specifications optimised for different signal categories.%this is useless but the analysis is needlessly complicated  
+The main uncertainty for the $H \rightarrow \gamma\gamma$ searches using the 2015+2016
+LHC Run-2 dataset is statistical. 
+In the search where the Higgs boson decays into two bottom quarks~\cite{Aaboud:2017yqz}
+in association with \MET$>$150 GeV, 
+all backgrounds except for the QCD background are estimated using MC simulation
+and constrained in dedicated control regions. This search also employs jet substructure
+techniques for events with \MET$>$500 GeV,
+to discriminate boosted Higgs decays from QCD processes. 
+The main systematic uncertainty for the lower \MET signal region is the modelling 
+of the V+jets background, while higher \MET signal region is still statistically limited
+with the 2015+2016 LHC dataset.
+
+In absence of discrepancies between data and background,
+limits are set on the baryonic Higgs benchmark model outlined in
+Sec.~\ref{sub:simplifiedModels} with 
+\gq=1, \gdm=1, \ghZprimeZprime/$m_{Z}$=1, \sinthetab=0.3, 
+%CMS: mZ'=10-10000 GeV, mDM=1-1000 GeV
+%CD: it would be nice to say what this can be reinterpreted to but we have no space
+and on a Z'-2HDM model with $tan\beta$=1, \gZPrime=0.8 and \mdm=100 GeV~\footnote{ 
+In the case of the Z'-2HDM model, CMS and ATLAS set different masses for the 
+new Higgs bosons, 
+%https://docs.google.com/presentation/d/10R9XJaoMDEhXKhd_Wx9yMXEaPl4uXR8IcmuTeLancvg/edit#slide=id.g1f308da957_0_17
+%ATLAS fixes both to 300 GeV, CMS fixes to mA0 
+%For the record:
+%CMS: A and Z' varied between 300-800 and 600-2500 GeV respectively
+%ATLAS: mZ? = 400 to 1400 GeV, mA0 = 200 to 450 GeV
+%The masses of the neutral CP-even scalar (H0) and the charged scalars (H±) from Z?-2HDM model are set to 300 GeV. The DM mass m? is set to 100 GeV 
+%CMS: 
+%Two-Higgs-doublet-Z' signals with a pseudoscalar mass of 300 GeV are excluded at 95\% CL for Z' masses below 900 GeV
+%Baryonic Z' models with a dark matter mass of 1 GeV are excluded at 95% CL for Z' masses below 800 GeV
+so the constraints are not directly comparable. 
+This has been rectified in the coming iteration of these analyses.}. 
+
+%CD: I kinda want to say this but we have no space so why bother
+%the mandala boson is shit, misguided attempts at combining Higgs discovery with every other excess
+
 \subsubsection{Searches with heavy-flavor quarks}
 %ttbar+MET
 %reinterpretation of SUSY
 
-\subsubsection{Search signatures including the Higgs boson}
-%monoH, H to invisible detailed earlier on
 
 \subsubsection{Two-body mediator searches}
 \label{sub:twoBody}
 %Dijet and dilepton
 %Mention TLA
+
+Mention LianTao's paper where baryonic / 2HDM monoHiggs is also constrained. 
 
 This is two body mediator searches. 
 
@@ -378,7 +441,7 @@ the minimum threshold to record events. For this reason, the increase in the
 LHC instantaneous luminosity by virtue of increasing the number of simultaneous
 collisions leads to increases in the thresholds to keep manageable event recording rates,
 and penalizes searches for signals with low MET or \pt,
-unless different data recording techniques are employed.
+unless different data selection and recording techniques are employed.
 \end{textbox}
 
 
