@@ -139,6 +139,8 @@
   <attachments>
     <attachment id="att0" href="attachments/Pasted_Graphic.png" type="image"/>
     <attachment id="att1" href="attachments/Pasted_Graphic_1.png" type="image"/>
+    <attachment id="att2" href="attachments/Pasted_Graphic_2.png" type="image"/>
+    <attachment id="att3" href="attachments/Pasted_Graphic_3.png" type="image"/>
   </attachments>
   <settings>
     <base-style>
@@ -340,6 +342,28 @@
       <entry/>
       <entry/>
     </item>
+    <item id="bmDP0bNUIJT" parent-id="cFq-PH05Ga_" rank="">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS </lit>
+          </run>
+          <run>
+            <lit><cell refid="att2" expanded="yes" name="Pasted_Graphic_2"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="cDUGPB1XI_F" parent-id="dJ8qVuAiT1W" rank="">
       <style>
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
@@ -390,6 +414,44 @@
       <entry/>
       <entry/>
     </item>
+    <item id="cFq-PH05Ga_" parent-id="cpsROJG-Mkx" rank="">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Comparison of results:</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="cpsROJG-Mkx" parent-id="gb7KX7bc-iw" rank="0001">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Why do the scalar and pseudoscalar have such different sensitivity for ATLAS and CMS? </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="dJ8qVuAiT1W" parent-id="ji5NgaH8it-" rank="">
       <style>
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
@@ -400,6 +462,28 @@
         <p>
           <run>
             <lit>02_Reactions</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="dLunYAxZRbo" parent-id="cFq-PH05Ga_" rank="0001">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS </lit>
+          </run>
+          <run>
+            <lit><cell refid="att3" expanded="yes" name="Pasted_Graphic_3"/></lit>
           </run>
         </p>
       </text>
@@ -573,6 +657,44 @@
       <entry/>
       <entry/>
     </item>
+    <item id="lq9EK1Nwpoo" parent-id="ptqqin-i9h_" rank="0001">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>CMS</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="nmdX76L1eJm" parent-id="ptqqin-i9h_" rank="">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>ATLAS</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="odH8MOENV6D" parent-id="fvvIlRDuuVp" rank="0001">
       <style>
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
@@ -583,6 +705,25 @@
         <p>
           <run>
             <lit>03_Results</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ptqqin-i9h_" parent-id="cpsROJG-Mkx" rank="0001">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Comparison with DD</lit>
           </run>
         </p>
       </text>
