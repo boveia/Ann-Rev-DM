@@ -149,6 +149,7 @@
     <attachment id="att17" href="attachments/Pasted_Graphic_16.png" type="image"/>
     <attachment id="att18" href="attachments/Pasted_Graphic_17.png" type="image"/>
     <attachment id="att19" href="attachments/Pasted_Graphic_18.png" type="image"/>
+    <attachment id="att23" href="attachments/Pasted_Graphic_19.png" type="image"/>
     <attachment id="att20" href="attachments/Pasted_Graphic_19_1.png" type="image"/>
     <attachment id="att2" href="attachments/Pasted_Graphic_2.png" type="image"/>
     <attachment id="att21" href="attachments/Pasted_Graphic_20.png" type="image"/>
@@ -889,7 +890,10 @@
       <text>
         <p>
           <run>
-            <lit>ATLAS backgrounds</lit>
+            <lit>ATLAS backgrounds and syst </lit>
+          </run>
+          <run>
+            <lit><cell refid="att23" expanded="yes" name="Pasted_Graphic_19"/></lit>
           </run>
         </p>
       </text>

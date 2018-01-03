@@ -342,6 +342,31 @@
       <entry/>
       <entry/>
     </item>
+    <item id="ahsNActsIY3" parent-id="dJ8qVuAiT1W" rank="0001">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <text>
+        <p>
+          <run>
+            <lit>it is not clear as written now</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>freeze-in</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="bmDP0bNUIJT" parent-id="cFq-PH05Ga_" rank="">
       <style>
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
@@ -493,6 +518,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="eo4VQE-OVWO" parent-id="odH8MOENV6D" rank="">
+      <style>
+        <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Mention what is the lower limit on DM mass </lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="eua3gIky9po" parent-id="aDJ-fyM92A6" rank="0001">
       <style>
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
@@ -616,6 +660,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="kgNq9CMNrX8" parent-id="eo4VQE-OVWO" rank="">
+      <style>
+        <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Felix&apos;s review:  In practice there is an upper bound on the DM mass of about mDM&lt;100TeV from the requirement of perturbative unitarity [3] and in many models one finds lower bounds of mDM&gt;10 GeV from the requirement that DM thermal freeze-out does not spoil the successful predictions of recombination [1]</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="ko8tZ429oI6" parent-id="aDJ-fyM92A6" rank="">
       <style>
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
@@ -686,6 +749,25 @@
         <p>
           <run>
             <lit>ATLAS</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="oKyV4CFMhHc" parent-id="eo4VQE-OVWO" rank="0001">
+      <style>
+        <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>There are other papers by that nice Chicago theorist</lit>
           </run>
         </p>
       </text>
