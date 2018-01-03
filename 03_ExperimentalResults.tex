@@ -543,10 +543,20 @@ resonances is still ultimately limited by data taking constraints.
 \begin{textbox}[!h]
 \section{Challenges in selecting events at the detector level (trigger)}
 %Trying to approximate 10 words per line
+
+%Notes for improvement: 
+%this is too long, needs sharpening. 
+% the points i want to make are:
+% higher thresholds are bad for mediator searches and also in general -> go TLA
+% pileup increases MET thresholds -> get track info at the trigger level
+%it needs a much clearer motivation: model X gives low mass. 
+%probably that needs done in the text because space constraints, but then why using this box-thing (other than tidying things up)? 
+
 The LHC collides protons every 25 $\mathrm{ns}$, producing 40 billion 
-of events per second. This amount of data cannot be 
+of events per second at nominal conditions. This amount of data cannot be 
 recorded in its entirety, and not all events are interesting
-for the experiments' physics programmes. A trigger system is used
+for the experiments' physics programmes. %programmes or programs?
+A trigger system is used
 to choose whether an event is selected for further analysis. 
 Its first level is realized in hardware and only uses
 partial detector information for fast decisions in a time of
@@ -558,17 +568,31 @@ with a high momentum transfer have a higher chance of containing
 interesting features or new particles, the trigger system records
 events above a certain threshold e.g. in leading jet \pt or in event \MET. 
 Only a fraction of events that do not satisfy these thresholds is recorded. 
-Simultaneous proton-proton interactions occurring within the detector
-readout time cannot be completely disentangled from the hard process
-of interest. This \textit{pile-up} increases the likelihood of passing 
-the minimum threshold to record events. For this reason, the increase in the
-LHC instantaneous luminosity by virtue of increasing the number of simultaneous
-collisions leads to increases in the thresholds to keep manageable event recording rates,
-and penalizes searches for signals with low MET or \pt,
-unless specialized data selection and recording techniques are employed. An example of
+Searches for signals with MET or \pt below these thresholds are penalized
+unless novel
+%not novel anymore?
+data recording techniques are employed. An example of
 such a technique is recording only partial event information for later analysis
 (Data Scouting in CMS, Trigger-object Level Analysis in ATLAS, Turbo Stream in LHCb),
-to overcome the data storage constraints.  
+to overcome the data storage constraints. Dijet resonance searches using this technique
+are used to reach lower DM mediator masses than the standard dijet searches
+where full events are recorded. 
+
+Simultaneous proton-proton interactions occurring within the detector
+readout time cannot be completely disentangled from the hard process
+of interest, especially if reconstructing the collision vertex
+is not possible at the trigger level due to CPU constraints. 
+This \textit{pile-up} increases the likelihood of passing 
+the minimum threshold to record events, especially in the \MET triggers.
+For this reason, the increase in the LHC instantaneous luminosity by virtue
+of increasing the number of simultaneous
+collisions leads to increases in the trigger thresholds to
+keep manageable event recording rates. Reconstruction algorithms that suppress
+the effects of pile-up can be employed by ATLAS and CMS directly at the trigger level,
+using information on the event density [cite PUPPI and pile-up suppression in ATLAS]. 
+In future LHC runs, track information to disentangle the provenance of the 
+energy deposits from the collision vertex will be available for
+ATLAS and CMS from dedicated hardware systems [cite FTK, CMS track trigger]. 
 \end{textbox}
 
 %%%SUMMARY TABLE FOR MONOX SEARCHES
@@ -673,8 +697,6 @@ Left for AB.
 %\subsubsection{Data collection and data analysis in ATLAS at the LHC}
 %\label{subsub:datacollection}
 %
-%The data rate delivered by the LHC (up to 40 million collisions per second in nominal conditions) exceeds the 
-%current capabilities for recording events offline, both in terms of recording speed and storage space. 
 %The rare signal events sought are buried in an overwhelming number of background events.
 %It is therefore necessary to have a \textit{trigger} system that in a very short timescale 
 %selects the interesting collision events based on the presence of high transverse momentum physics objects 
