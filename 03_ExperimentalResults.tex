@@ -485,65 +485,53 @@ decays of mediator is a unique feature of collider experiments
 %and can be exploited for dark boson models as well? 
 and one that they are well-prepared for, with a wealth of generic searches for
 two-body resonances. In the following, we will describe two of the most general examples,
-the searches for dijet and dilepton resonances, and the implication of their results
-for models including a Z'-like mediator. 
+the searches for dijet and dilepton resonances, their challenges and the implication of their results
+for models of SM-DM mediation. % including a Z'-like mediator. 
 
 %Describe dijet search
 
-%Where dijets lose sensitivity: low-mass and angular 
+%Where dijet lose sensitivity: wide signals, angular 
+If the resonance is wide, as in the case of mediator models with couplings above [X], 
+the peak will not be sufficiently distinct from the background. In this case, 
+searches exploit the scattering angle of dijet events: 
 
+%$s-$channel scattering processes are more in the center-of-mass frame
+%are not 
+%in case of wide resonances, 
+%and below the trigger thresholds .  
+
+%Where dijets lose sensitivity: low-mass 
+Standard dijet searches lose sensitivity at low masses, where the high QCD
+rates force the experiments to randomly discard a large fraction of background and
+signal events alike (see sidebar). An example of
+such a technique is recording only partial event information for later analysis directly 
+from the trigger system (Data Scouting in CMS, Trigger-object Level Analysis in ATLAS, Turbo Stream in LHCb),
+to overcome the data storage constraints. 
+Dijet resonance searches that use this technique~\cite{CMS-PAS-EXO-16-046,ATLAS:2016xiv}
+can record the full rate of dijet events to much lower dijet invariant masses than the standard dijet
+searches, but have to overcome a number of challenges that go beyond
+a seemingly simple search. The first challenge is demonstrating that the
+performance of the physics objects reconstructed at the trigger level is sufficiently good
+to perform a physics analysis and not just take a decision on whether to keep the event.
+Secondly, the extremely large background rates (up to 10$^X$ events/GeV) grant
+a sufficient statistical precision to observe signals of the order of a few thousand events,
+but also permille-level detector and SM contamination effects. \textbf{CD: check!} 
+An alternative data-taking strategy is to require a high-\pt{} ISR object to trigger
+on the event and reduce the QCD background, but the sensitivity is reduced by this requirement with
+respect to selecting the leading order dijet process. The ISR object can be either a jet and a photon,
+and it recoils against a dijet pair. The dijet pair can be either resolved~\cite{ATLAS:2016bvn} or
+collimated and reconstructed within a large-radius jet tagged with substructure techniques~\cite{Sirunyan:2017nvi}
+\textbf{CD: substitute with PAS}, depending on the ratio between mass and transverse momentum of the resonance
+that boost the decay products. 
+ 
 %TLA and challenges, point to sidebar
 
-%List constraints, why we plot things in the mass-mass plane
-
-%The CMS analysis also scans the coupling-mass plane by fixing the ratio between \mdm and \mmed to ensure perturbativity 
-%CMS sentence: Quark couplings down to 0.05 for mediator masses at 50 GeV are excluded for the spin- 1 simplified models as shown in Fig. 12. 
-
-%Mention LianTao's paper where baryonic / 2HDM monoHiggs is also constrained. 
-
-%Mention other searches: ttbar resonances for pseudoscalar with interference, Higgs-like scalars (CMS boosted) 
-
-%Describe dilepton and remind of why we want to include dilepton
-
-%List constraints from both searches with two coupling options
-
-\subsubsection{Comparison of sensitivity of visible and invisible LHC searches}
-\label{sub:comparisonVisibleInvisible}
-
-It is important to note that generic searches for new two-body resonances
-are by design sensitive to a broad range of theoretical benchmarks, 
-and as such they alone can offer little information on 
-whether a discovery would imply in terms of DM mediators.
-In absence of a signal and within a specific model scenario,
-searches for mediator particle with visible decays
-provide constraints that are complementary to those of searches
-for DM particles, in particular in the off-shell region 2\mdm $>$ \mmed where the mediator
-cannot decay to DM directly but can still decay into much lighter SM particles
-such as leptons and quarks~\footnote{For axial vector models, perturbativity issues
-arise in the off-shell region so that the model is only valid when $\mdm^2\gdm^2/(pi*\mmed^2)<1/2$~\cite{Chala:2015ama,Kahlhoefer:2015bea,Boveia:2016mrp}}.%maybe put this in the reactions chapter
-The relative sensitivity of the two kinds of searches
-is a model- and parameter-dependent statement: for $s-$channel simplified models
-searches for DM particles only dominate if the coupling to DM is much larger
-than the coupling to quarks, and even then reducing \gq reduces the LHC production
-cross-section and therefore the overall sensitivity of \MET+X searches. 
-
-One advantage of searches for invisible particles is their sensitivity to models with
-very light mediators ($<$50 GeV), since the reach of dijet and dilepton searches to low-mass
-resonances is still ultimately limited by data taking constraints. 
-
-%Make sample figure with different scenarios as an example
-
-%It would be nice to make tables of lowest mediator/DM searches+refs for 100 GeV DM mass,
-%as a poor-person approximation of a summary plot we can't make because ATLAS data not public. 
-
- 
 %Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; 
 %insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
 %Consider swapping with the ERC text below?
 \begin{textbox}[!h]
 \section{Challenges in selecting events at the detector level (trigger)}
 %Trying to approximate 10 words per line
-
 %Notes for improvement: 
 %this is too long, needs sharpening. 
 % the points i want to make are:
@@ -551,7 +539,6 @@ resonances is still ultimately limited by data taking constraints.
 % pileup increases MET thresholds -> get track info at the trigger level
 %it needs a much clearer motivation: model X gives low mass. 
 %probably that needs done in the text because space constraints, but then why using this box-thing (other than tidying things up)? 
-
 The LHC collides protons every 25 $\mathrm{ns}$, producing 40 billion 
 of events per second at nominal conditions. This amount of data cannot be 
 recorded in its entirety, and not all events are interesting
@@ -562,7 +549,9 @@ Its first level is realized in hardware and only uses
 partial detector information for fast decisions in a time of
 the order of $\mathrm{\mu s}$, while its second level is software-based
 and uses more refined algorithms and information to make a
-decision in $\mathrm{ms}$. Since the rates of SM physics processes decrease
+decision in $\mathrm{ms}$. 
+
+\textbf{Trigger prescales} Since the rates of SM physics processes decrease
 with the transverse momentum of the objects involved, and processes
 with a high momentum transfer have a higher chance of containing
 interesting features or new particles, the trigger system records
@@ -571,14 +560,10 @@ Only a fraction of events that do not satisfy these thresholds is recorded.
 Searches for signals with MET or \pt below these thresholds are penalized
 unless novel
 %not novel anymore?
-data recording techniques are employed. An example of
-such a technique is recording only partial event information for later analysis
-(Data Scouting in CMS, Trigger-object Level Analysis in ATLAS, Turbo Stream in LHCb),
-to overcome the data storage constraints. Dijet resonance searches using this technique
-are used to reach lower DM mediator masses than the standard dijet searches
-where full events are recorded. 
+data recording techniques, such as only recording partial event information 
+needed for the search, are employed.
 
-Simultaneous proton-proton interactions occurring within the detector
+\textbf{Pile-up in trigger} Simultaneous proton-proton interactions occurring within the detector
 readout time cannot be completely disentangled from the hard process
 of interest, especially if reconstructing the collision vertex
 is not possible at the trigger level due to CPU constraints. 
@@ -594,6 +579,76 @@ In future LHC runs, track information to disentangle the provenance of the
 energy deposits from the collision vertex will be available for
 ATLAS and CMS from dedicated hardware systems [cite FTK, CMS track trigger]. 
 \end{textbox}
+
+%List constraints, why we plot things in the mass-mass plane
+
+%The CMS analysis also scans the coupling-mass plane by fixing the ratio between \mdm and \mmed to ensure perturbativity 
+%CMS sentence: Quark couplings down to 0.05 for mediator masses at 50 GeV are excluded for the spin- 1 simplified models as shown in Fig. 12. 
+
+%Mention LianTao's paper where baryonic / 2HDM monoHiggs is also constrained. 
+
+%Mention other searches: ttbar resonances for pseudoscalar with interference, Higgs-like scalars (CMS boosted) 
+
+%Describe dilepton and remind of why we want to include dilepton
+
+%List constraints from both searches with two coupling options
+
+The same constraints from dijet and dilepton searches apply to both vector and axial vector mediators:
+the LHC phenomenology (rates and kinematics) is the same for both. Searches for visible mediator decays 
+are sensitive to masses as low as 50 GeV (boosted dijet) and constrain SM-DM couplings \gq as low as 
+0.05 at 60 GeV. Jets from the mediator decay start being spatially separated above mediator masses of 250-300 GeV, 
+and that is where the resolved dijet+ISR topology takes over in terms of sensitivity, with the $\gamma$ ISR + dijet channel
+constraining \gq>0.15-0.2 up to 350 GeV, where the jet ISR + dijet channel is not limited by
+trigger thresholds anymore and is more sensitive due to the higher gluon radiation rates.
+Searches with jets at the trigger level are the most sensitive to low-mass mediators where available,
+excluding simplified models with \gq as low as 0.05 starting from 400 GeV. 
+Standard dijet searches constrain models with DM mediators up to 3 TeV.  
+%but lose sensitivity to lower couplings where they start to be statistically limited. 
+Dilepton searches are more sensitive than dijet searches in case of equal couplings
+of the mediator to leptons and jets, due to the much reduced backgrounds. 
+%what is the minimum coupling by dilepton searches?
+
+\subsubsection{Comparison of sensitivity of visible and invisible LHC searches}
+\label{sub:comparisonVisibleInvisible}
+
+It is important to note that generic searches for new two-body resonances
+are by design sensitive to a broad range of theoretical benchmarks, 
+and as such they alone can offer little information on 
+whether a discovery would imply in terms of DM mediators.
+In absence of a signal and within a specific model scenario,
+searches for mediator particle with visible decays
+provide constraints that are complementary to those of searches
+for DM particles, in particular in the off-shell region 2\mdm $>$ \mmed where the mediator
+cannot decay to DM directly but can still decay into much lighter SM particles
+such as leptons and quarks~\footnote{For axial vector models, perturbativity issues
+arise in the off-shell region so that the model is only valid when 
+$\mdm^2\gdm^2/(pi*\mmed^2)<1/2$~\cite{Chala:2015ama,Kahlhoefer:2015bea,Boveia:2016mrp}}.%maybe put this in the reactions chapter
+The relative sensitivity of the two kinds of searches
+is a model- and parameter-dependent statement: for $s-$channel simplified models
+searches for DM particles only dominate if the coupling to DM is much larger
+than the coupling to quarks, and even then reducing \gq reduces the LHC production
+cross-section and therefore the overall sensitivity of \MET+X searches. 
+
+One advantage of searches for invisible particles is their sensitivity to models with
+very light mediators ($<$50 GeV), since the reach of dijet and dilepton searches to low-mass
+resonances is still ultimately limited by data taking constraints. 
+
+A sketch of the comparison of the sensitivity of searches for visible decays of vector and axial vector mediator models, 
+and invisible DM particles is shown in Fig.~\ref{fig:sensitivityComparison}. The scenarios chosen follow the choices of the Dark Matter Working Group~\cite{Albert:2017onk}, to illustrate the complementarity of different LHC searches for $s-$channel-mediated model of DM and to convey the message that the sensitivity of LHC searches to simplified models of DM depends both on model choice and parameter choice. 
+
+The topmost left-hand side figure shows a leptophobic vector mediator with \gl=0, \gdm=1.0 and \gq=0.25, where dijet searches for visible decays of the mediator constrain both on-shell and off-shell region but are limited by data-taking constraints at masses above roughly 50 GeV, where \MET+X searches take over in the on-shell region. The top-right figure shows the case of an axial vector mediator with reduced quark couplings and equal lepton couplings (\gq=\gl=0.1 and \gdm=1.0), where it can be seen that searches for dilepton resonances cover a larger range of parameter space with respect to dijet resonances but are still limited at low mediator masses; the region constrained by from \MET+jet searches extends to lower DM and mediator masses with respect to the case of the model with \gq=0.25 due to the reduced production rate. The third panel in the bottom left shows the scenario of a vector mediator where lepton couplings are reduced with respect to quark couplings (\gq=0.1, \gl=0.01, \gdm=1.0), where the range of all regions constrained by visible mediator decay searches is considerably reduced with respect to the scenarios with larger couplings. 
+
+%Make sample figure with different scenarios as an example
+
+\begin{figure}[!htpb]
+\includegraphics[width=\textwidth]{figures/DMSummary.pdf}
+\caption{Illustrative examples of the comparison of the sensitivity of searches for visible and invisible mediators in the \mdm-\mmed plane, for different coupling scenarios. No actual data has been used, but experimental observations have been used as inspiration for the figure. From~\cite{AnotherWikipedia}.}
+\label{fig:sensitivityComparison}
+\end{figure}
+
+%It would be nice to make tables of lowest mediator/DM searches+refs for 100 GeV DM mass,
+%as a poor-person approximation of a summary plot we can't make because ATLAS data not public. 
+ 
 
 %%%SUMMARY TABLE FOR MONOX SEARCHES
 \input{03_SummaryTable}
