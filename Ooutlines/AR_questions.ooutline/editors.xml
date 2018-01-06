@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
 <editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
-  <editor content-size="{1328, 718}" scroll-position="{0, 2338}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
+  <editor content-size="{1121, 590}" scroll-position="{0, 2942}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
     <sidebar visible="yes" width="158" selected-tab="styles"/>
     <column-states columns-id="b52DL6hgXrN">
       <column-state column-id="cDSetknF6xF" hidden="yes" width="32" summary="state"/>
@@ -21,6 +21,7 @@
       <item item-id="cFq-PH05Ga_" expanded="yes"/>
       <item item-id="cpsROJG-Mkx" expanded="yes"/>
       <item item-id="dJ8qVuAiT1W" expanded="yes"/>
+      <item item-id="dxCByYxXZ6p" expanded="yes"/>
       <item item-id="eo4VQE-OVWO" expanded="yes"/>
       <item item-id="fvvIlRDuuVp" expanded="yes"/>
       <item item-id="gJ7jgUcq4Nx" expanded="yes"/>
@@ -31,11 +32,11 @@
       <item item-id="ptqqin-i9h_" expanded="yes"/>
     </item-states>
     <selected-items>
-      <item item-id="kgNq9CMNrX8"/>
+      <item item-id="dxCByYxXZ6p"/>
     </selected-items>
     <selected-columns>
-      <column-ref idref="hQDTXD-kJn_"/>
+      <column-ref idref="eI70F4vZLW4"/>
     </selected-columns>
-    <selected-characters range="{61, 0}"/>
+    <selected-characters range="{0, 0}"/>
   </editor>
 </editors>

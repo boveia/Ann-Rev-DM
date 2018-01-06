@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
+<editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
+  <editor content-size="{1180, 733}" scale-mac="1.5" status-visible="no" auto-size-outline-column="no">
+    <sidebar visible="yes" width="158" selected-tab="styles"/>
+    <column-states columns-id="b52DL6hgXrN">
+      <column-state column-id="cDSetknF6xF" hidden="yes" width="32" summary="state"/>
+      <column-state column-id="kmDe5MlE9uM" width="18"/>
+      <column-state column-id="hQDTXD-kJn_" width="1220"/>
+      <column-state column-id="oHuf3qYSbYa" width="70"/>
+      <column-state column-id="kAOZXbQLKLR" width="349"/>
+      <column-state column-id="fSf7pS1NI8r" width="343"/>
+      <column-state column-id="eI70F4vZLW4" width="150"/>
+      <column-state column-id="dqw7AjAgcG5" hidden="yes" width="115" summary="sum"/>
+    </column-states>
+    <note-split-view height="33"/>
+    <item-states>
+      <item item-id="aMiY3B2yov8" expanded="yes" note-expanded="yes"/>
+      <item item-id="cTbf5SKiMXF" expanded="yes"/>
+      <item item-id="clLM1anITP-" expanded="yes"/>
+      <item item-id="cpIHbTuRtiv" expanded="yes"/>
+      <item item-id="enk6kQPyBXx" expanded="yes" note-expanded="yes"/>
+      <item item-id="eq1RwY6eQBe" expanded="yes"/>
+      <item item-id="f7R9ncXjHvV" expanded="yes"/>
+      <item item-id="fGTalxv9V-r" expanded="yes"/>
+      <item item-id="fJgaKRmC2AL" expanded="yes"/>
+      <item item-id="fc60cUOwhB0" expanded="yes"/>
+      <item item-id="jfRFEVyvyKb" expanded="yes"/>
+      <item item-id="jt-qPMW4mCY" expanded="yes"/>
+      <item item-id="ki5Fb9N6y08" expanded="yes"/>
+      <item item-id="lFm3xqyBsL-" expanded="yes"/>
+      <item item-id="lNkjNU-IYlA" expanded="yes"/>
+      <item item-id="mP1QtTvxzbp" expanded="yes"/>
+      <item item-id="nDHY7qtlLFJ" expanded="yes"/>
+      <item item-id="ouFveXKRLbi" expanded="yes"/>
+      <item item-id="pacIh1wTBVC" expanded="yes"/>
+    </item-states>
+    <selected-items>
+      <item item-id="h85yOp_BALq"/>
+    </selected-items>
+    <selected-columns>
+      <column-ref idref="hQDTXD-kJn_"/>
+    </selected-columns>
+    <selected-characters range="{35, 0}"/>
+  </editor>
+</editors>
