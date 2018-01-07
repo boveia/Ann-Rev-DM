@@ -1,0 +1,130 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: AnnRev_Main.aux
+The style file: ar-style5.bst
+Database file #1: AnnRev_Main.bib
+Warning--entry type for "DMWG" isn't style-file defined
+--line 17 of file AnnRev_Main.bib
+Repeated entry---line 57 of file AnnRev_Main.bib
+ : @article{Boveia:2016mrp
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "PlehnLecturesDM" isn't style-file defined
+--line 117 of file AnnRev_Main.bib
+Warning--entry type for "monoXfig" isn't style-file defined
+--line 339 of file AnnRev_Main.bib
+You're missing a field name---line 344 of file AnnRev_Main.bib
+ : 
+ : % url     = "https://commons.wikimedia.org/wiki/File:MonoX.pdf",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 699 of file AnnRev_Main.bib
+ : @article{Kahlhoefer:2015bea
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 829 of file AnnRev_Main.bib
+ : @article{Shoemaker:2011vi
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1301 of file AnnRev_Main.bib
+ : @article{Bell:2016ekl
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1463 of file AnnRev_Main.bib
+ : @article{Bernal:2017kxu
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2194 of file AnnRev_Main.bib
+ : @article{Liew:2016oon
+ :                      ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2772 of file AnnRev_Main.bib
+ :  
+ :  Url = {http://dx.doi.org/10.1038/nphys4049},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2979 of file AnnRev_Main.bib
+ : @article{Banerjee:2017wxi
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "CMSSummary" isn't style-file defined
+--line 3014 of file AnnRev_Main.bib
+Repeated entry---line 3329 of file AnnRev_Main.bib
+ : @article{Aad:2014wza
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "sec:05_Future"
+Warning--I didn't find a database entry for "ToBeFound"
+Warning--I didn't find a database entry for "AAaboud:2017aeu"
+Warning--I didn't find a database entry for "AnotherWikipedia"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in Abercrombie:2015wmb
+Warning--empty journal in Arcadi:2017kky
+Warning--empty journal in Ellis:2010kf
+Warning--empty journal in Patt:2006fw
+Warning--empty journal in Agrawal:2010fh
+Warning--empty journal in Gutschow:2012pw
+Warning--empty journal in Yavin:14092893
+Warning--empty journal in Malik:2014ggr
+Warning--empty journal in Chala:2015ama
+Warning--empty journal in Boveia:2016mrp
+Warning--empty journal in Albert:2017onk
+Warning--empty journal in Sirunyan:2017jix
+Warning--empty journal in Aaboud:2017phn
+Warning--empty author in CMS-PAS-EXO-16-014
+Warning--empty journal in Sirunyan:2017qfc
+Warning--empty journal in Larkoski:2017jix
+Warning--empty author in CMS-PAS-EXO-16-054
+Warning--empty journal in Aaboud:2017rzf
+Warning--empty author in CMS-PAS-EXO-16-051
+Warning--empty journal in Aaboud:2017aeu
+Warning--empty author in CMS-PAS-SUS-17-001
+Warning--empty journal in ATLAS:2016xiv
+Warning--empty journal in ATLAS:2016bvn
+Warning--empty journal in Sirunyan:2017nvi
+Warning--empty journal in CMS:2014ata
+Warning--empty author in ATLAS-CONF-2014-019
+Warning--empty journal in Shochet:2013gaw
+Warning--empty journal in Buckley:2017ijx
+You've used 159 entries,
+            3151 wiz_defined-function locations,
+            1794 strings with 36726 characters,
+and the built_in function-call counts, 47502 in all, are:
+= -- 4326
+> -- 1332
+< -- 210
++ -- 678
+- -- 333
+* -- 4304
+:= -- 8044
+add.period$ -- 141
+call.type$ -- 159
+change.case$ -- 495
+chr.to.int$ -- 134
+cite$ -- 192
+duplicate$ -- 2446
+empty$ -- 4070
+format.name$ -- 770
+if$ -- 10209
+int.to.chr$ -- 26
+int.to.str$ -- 160
+missing$ -- 145
+newline$ -- 622
+num.names$ -- 393
+pop$ -- 739
+preamble$ -- 1
+purify$ -- 477
+quote$ -- 0
+skip$ -- 1878
+stack$ -- 0
+substring$ -- 2723
+swap$ -- 323
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 477
+warning$ -- 28
+while$ -- 276
+width$ -- 0
+write$ -- 1382
+(There were 10 error messages)
