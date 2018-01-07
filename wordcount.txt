@@ -1,6 +1,6 @@
 File: AnnRev_Main.tex
 Encoding: ascii
-Words in text: 177
+Words in text: 171
 Words in headers: 29
 Words outside text (captions, etc.): 0
 Number of headers: 9
@@ -10,17 +10,27 @@ Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   13+6+0 (2/0/0/0) _top_
-  15+1+0 (1/0/0/0) Section: INTRODUCTION
+  0+1+0 (1/0/0/0) Section: INTRODUCTION
   0+8+0 (1/0/0/0) Section: REACTIONS FOR INVISIBLE PARTICLE SEARCHES AT THE LHC
   0+2+0 (1/0/0/0) Section: EXPERIMENTAL RESULTS
   0+4+0 (1/0/0/0) Section: EXTRAPOLATION OF COLLIDER RESULTS
-  112+5+0 (1/0/0/0) Section: FUTURE EVOLUTION OF COLLIDER SEARCHES
+  121+5+0 (1/0/0/0) Section: FUTURE EVOLUTION OF COLLIDER SEARCHES
   24+2+0 (1/0/0/0) Section: DISCLOSURE STATEMENT
   13+1+0 (1/0/0/0) Section: ACKNOWLEDGMENTS
 
+Included file: ./01_Introduction.tex
+Encoding: ascii
+Words in text: 57
+Words in headers: 0
+Words outside text (captions, etc.): 0
+Number of headers: 0
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
 Included file: ./02_Reactions.tex
 Encoding: utf8
-Words in text: 5951
+Words in text: 5962
 Words in headers: 57
 Words outside text (captions, etc.): 85
 Number of headers: 12
@@ -34,12 +44,14 @@ Subcounts:
   381+4+0 (1/0/1/0) Subsection: Caveats and grounding assumptions
   610+11+0 (3/0/3/0) Subsection: Higgs and Z boson portals
   3581+24+85 (5/1/23/0) Subsection: Effective Field Theories and Simplified models of BSM mediators
-  52+5+0 (1/0/0/0) Subsection: Supersymmetric models and other theories
+  63+5+0 (1/0/0/0) Subsection: Supersymmetric models and other theories
   537+3+0 (1/0/3/0) Subsection: Long-lived particle models
 
+
+[1;31m!!! File/text was not valid utf8 encoded. !!![0m
 Included file: ./03_ExperimentalResults.tex
-Encoding: iso-8859-1
-Words in text: 6663
+Encoding: utf8
+Words in text: 6675
 Words in headers: 89
 Words outside text (captions, etc.): 324
 Number of headers: 16
@@ -53,9 +65,34 @@ Subcounts:
   0+8+0 (1/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
   1384+9+55 (2/1/16/0) Section: Details of \MET reconstruction and fake \MET rejection
   3127+26+206 (5/0/39/0) Section: Precision estimation of background for \MET+X searches
-  1142+18+40 (2/1/8/0) Section: Challenges in selecting events at the detector level (trigger)
+  1154+18+40 (2/1/8/0) Section: Challenges in selecting events at the detector level (trigger)
   3+12+0 (4/0/0/0) Subsection: Searches for SUSY DM
   0+8+0 (1/0/0/0) Subsection: Searches for DM in association with long-lived particles
+
+Included file: ./04_Extrapolation.tex
+Encoding: ascii
+Words in text: 971
+Words in headers: 13
+Words outside text (captions, etc.): 186
+Number of headers: 2
+Number of floats/tables/figures: 3
+Number of math inlines: 4
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  329+0+97 (0/1/0/0) _top_
+  642+11+89 (1/2/4/0) Subsection: Comparing LHC constraints from visible and invisible searches with non-collider results
+  0+2+0 (1/0/0/0) Subsection: Relic density
+
+Included file: ./05_FutureEvolution.tex
+Encoding: ascii
+Words in text: 20
+Words in headers: 0
+Words outside text (captions, etc.): 0
+Number of headers: 0
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
 
 Included file: ./03_SummaryTable.tex
 Encoding: ascii
@@ -68,18 +105,22 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 File(s) total: AnnRev_Main.tex
-Words in text: 12791
-Words in headers: 175
-Words outside text (captions, etc.): 418
-Number of headers: 37
-Number of floats/tables/figures: 4
-Number of math inlines: 106
+Words in text: 13856
+Words in headers: 188
+Words outside text (captions, etc.): 604
+Number of headers: 39
+Number of floats/tables/figures: 7
+Number of math inlines: 110
 Number of math displayed: 0
-Files: 4
+Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  177+29+0 (9/0/0/0) File: AnnRev_Main.tex
-  5951+57+85 (12/1/33/0) Included file: ./02_Reactions.tex
-  6663+89+324 (16/2/73/0) Included file: ./03_ExperimentalResults.tex
+  171+29+0 (9/0/0/0) File: AnnRev_Main.tex
+  57+0+0 (0/0/0/0) Included file: ./01_Introduction.tex
+  5962+57+85 (12/1/33/0) Included file: ./02_Reactions.tex
+  6675+89+324 (16/2/73/0) Included file: ./03_ExperimentalResults.tex
+  971+13+186 (2/3/4/0) Included file: ./04_Extrapolation.tex
+  20+0+0 (0/0/0/0) Included file: ./05_FutureEvolution.tex
   0+0+9 (0/1/0/0) Included file: ./03_SummaryTable.tex
 
+(errors:1)
