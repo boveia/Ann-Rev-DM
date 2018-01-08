@@ -56,7 +56,7 @@ Words in headers: 89
 Words outside text (captions, etc.): 438
 Number of headers: 16
 Number of floats/tables/figures: 2
-Number of math inlines: 74
+Number of math inlines: 75
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
@@ -65,24 +65,24 @@ Subcounts:
   0+8+0 (1/0/0/0) Subsection: Generic searches for DM with missing transverse momentum
   1384+9+55 (2/1/16/0) Section: Details of \MET reconstruction and fake \MET rejection
   3127+26+206 (5/0/39/0) Section: Precision estimation of background for \MET+X searches
-  1169+18+154 (2/1/9/0) Section: Challenges in selecting events at the detector level (trigger)
+  1169+18+154 (2/1/10/0) Section: Challenges in selecting events at the detector level (trigger)
   3+12+0 (4/0/0/0) Subsection: Searches for SUSY DM
   0+8+0 (1/0/0/0) Subsection: Searches for DM in association with long-lived particles
 
 Included file: ./04_Extrapolation.tex
 Encoding: ascii
-Words in text: 1000
-Words in headers: 13
+Words in text: 1357
+Words in headers: 24
 Words outside text (captions, etc.): 186
 Number of headers: 2
 Number of floats/tables/figures: 3
-Number of math inlines: 4
+Number of math inlines: 5
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  329+0+97 (0/1/0/0) _top_
-  671+11+89 (1/2/4/0) Subsection: Comparing LHC constraints from visible and invisible searches with non-collider results
-  0+2+0 (1/0/0/0) Subsection: Relic density
+  369+0+97 (0/1/0/0) _top_
+  836+11+89 (1/2/4/0) Subsection: Comparing LHC constraints from visible and invisible searches with non-collider results
+  152+13+0 (1/0/1/0) Subsection: Comparing LHC constraints from visible and invisible searches with the DM relic density
 
 Included file: ./05_FutureEvolution.tex
 Encoding: ascii
@@ -105,12 +105,12 @@ Number of math inlines: 0
 Number of math displayed: 0
 
 File(s) total: AnnRev_Main.tex
-Words in text: 13900
-Words in headers: 188
+Words in text: 14257
+Words in headers: 199
 Words outside text (captions, etc.): 718
 Number of headers: 39
 Number of floats/tables/figures: 7
-Number of math inlines: 111
+Number of math inlines: 113
 Number of math displayed: 0
 Files: 7
 Subcounts:
@@ -118,8 +118,8 @@ Subcounts:
   171+29+0 (9/0/0/0) File: AnnRev_Main.tex
   57+0+0 (0/0/0/0) Included file: ./01_Introduction.tex
   5962+57+85 (12/1/33/0) Included file: ./02_Reactions.tex
-  6690+89+438 (16/2/74/0) Included file: ./03_ExperimentalResults.tex
-  1000+13+186 (2/3/4/0) Included file: ./04_Extrapolation.tex
+  6690+89+438 (16/2/75/0) Included file: ./03_ExperimentalResults.tex
+  1357+24+186 (2/3/5/0) Included file: ./04_Extrapolation.tex
   20+0+0 (0/0/0/0) Included file: ./05_FutureEvolution.tex
   0+0+9 (0/1/0/0) Included file: ./03_SummaryTable.tex
 

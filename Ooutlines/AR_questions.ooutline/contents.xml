@@ -166,6 +166,7 @@
       <print-info-key name="NSJobSavingFileNameExtensionHidden" type="boolean">true</print-info-key>
       <print-info-key name="NSJobSavingURL" type="coded">BAtzdHJlYW10eXBlZIHoA4QBQISEhAVOU1VSTACEhAhOU09iamVjdACFhAFjAJKEhIQITlNTdHJpbmcBlIQBK05maWxlOi8vL1VzZXJzL2JvdmVpYS9MaWJyYXJ5L1BERiUyMFNlcnZpY2VzL1NhdmUlMjBQREYlMjB0byUyMERFVk9OdGhpbmslMjBQcm+Ghg==</print-info-key>
       <print-info-key name="NSPagesPerSheet" type="int">1</print-info-key>
+      <print-info-key name="NSPaperSize" type="size">{595.28001499176025, 841.8900146484375}</print-info-key>
       <print-info-key name="NSReversePageOrder" type="boolean">false</print-info-key>
       <print-info-key name="NSSavePath" type="string">/Users/boveia/Library/PDF Services/Save PDF to DEVONthink Pro</print-info-key>
       <print-info-key name="OOColumnHeaderPrintBehavior" type="int">0</print-info-key>
@@ -328,11 +329,41 @@
           </run>
         </p>
       </text>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
             <lit>t-channel results:</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="aWtABluFOTx" parent-id="pltnGlU6P8l" rank="">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <text>
+        <p>
+          <run>
+            <lit>tidy up and avoid repetition with introduction of chapter 2</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>understand what to do with lambdaCDM</lit>
+          </run>
+        </p>
+      </text>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>relic</lit>
           </run>
         </p>
       </text>
@@ -353,7 +384,7 @@
           </run>
         </p>
       </text>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -372,7 +403,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -425,7 +456,7 @@
           </run>
         </p>
       </text>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -444,7 +475,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -463,7 +494,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -482,7 +513,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -501,7 +532,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -523,7 +554,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -542,7 +573,7 @@
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -561,7 +592,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -580,7 +611,7 @@
     </item>
     <item id="fvvIlRDuuVp" rank="0001">
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -602,7 +633,7 @@
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -621,7 +652,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -646,7 +677,7 @@
           </run>
         </p>
       </text>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -665,7 +696,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -706,7 +737,7 @@
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -725,7 +756,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -747,7 +778,7 @@
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -766,7 +797,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -785,7 +816,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -804,7 +835,7 @@
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -823,7 +854,7 @@
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
@@ -842,11 +873,30 @@
         <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
             <lit>03_Results</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="pltnGlU6P8l" parent-id="ji5NgaH8it-" rank="0002">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>04_Comparisons</lit>
           </run>
         </p>
       </text>
@@ -861,7 +911,7 @@
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
       </style>
       <entry/>
-      <entry/>
+      <checkbox>unchecked</checkbox>
       <text>
         <p>
           <run>
