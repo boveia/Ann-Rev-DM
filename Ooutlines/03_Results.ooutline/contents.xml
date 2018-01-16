@@ -166,7 +166,7 @@
       <print-info-key name="NSJobSavingFileNameExtensionHidden" type="boolean">true</print-info-key>
       <print-info-key name="NSJobSavingURL" type="coded">BAtzdHJlYW10eXBlZIHoA4QBQISEhAVOU1VSTACEhAhOU09iamVjdACFhAFjAJKEhIQITlNTdHJpbmcBlIQBK05maWxlOi8vL1VzZXJzL2JvdmVpYS9MaWJyYXJ5L1BERiUyMFNlcnZpY2VzL1NhdmUlMjBQREYlMjB0byUyMERFVk9OdGhpbmslMjBQcm+Ghg==</print-info-key>
       <print-info-key name="NSPagesPerSheet" type="int">1</print-info-key>
-      <print-info-key name="NSPaperSize" type="size">{595.28001499176025, 841.8900146484375}</print-info-key>
+      <print-info-key name="NSPaperSize" type="size">{595.27557277679443, 841.8897705078125}</print-info-key>
       <print-info-key name="NSReversePageOrder" type="boolean">false</print-info-key>
       <print-info-key name="NSSavePath" type="string">/Users/boveia/Library/PDF Services/Save PDF to DEVONthink Pro</print-info-key>
       <print-info-key name="OOColumnHeaderPrintBehavior" type="int">0</print-info-key>
@@ -645,7 +645,7 @@
       <text>
         <p>
           <run>
-            <lit>then plot as a function of an observable of interest for DM: the neutralino mass </lit>
+            <lit>then plot as a function of an observable of interest for DM: the neutralino mass and the mass of the associated superpartner</lit>
           </run>
         </p>
       </text>
@@ -4895,6 +4895,22 @@
         <p>
           <run>
             <lit>search strategy: in general</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="oD7sjgzOHhv" parent-id="awNegGjiGiH" rank="">
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>DMWG follows this </lit>
           </run>
         </p>
       </text>
