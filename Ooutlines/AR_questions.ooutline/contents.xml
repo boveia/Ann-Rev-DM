@@ -508,6 +508,34 @@
       <entry/>
       <entry/>
     </item>
+    <item id="dGc9-uUjsCD" parent-id="dJ8qVuAiT1W" rank="00fe">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <text>
+        <p>
+          <run>
+            <lit>talk by Yvonne Wong DM@LHC or something, read better this book: </lit>
+          </run>
+          <run>
+            <lit><cell href="http://www.slac.stanford.edu/econf/C040802/papers/L002.PDF" name="http://www.slac.stanford.edu/econf/C040802/papers/L002.PDF" type="link"/></lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>neutrinos</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="dJ8qVuAiT1W" parent-id="ji5NgaH8it-" rank="">
       <style>
         <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
@@ -609,6 +637,25 @@
       <entry/>
       <entry/>
     </item>
+    <item id="fdn8x8jqh0o" parent-id="eua3gIky9po" rank="">
+      <style>
+        <inherited-style name="Highlight 2" idref="dxrN1O306w1"/>
+      </style>
+      <entry/>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Phil and Zeynep on the case</lit>
+          </run>
+        </p>
+      </text>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
     <item id="fvvIlRDuuVp" rank="0001">
       <entry/>
       <checkbox>unchecked</checkbox>
@@ -619,25 +666,6 @@
               <inherited-style name="Heading 1" idref="n02BqyzilMy"/>
             </style>
             <lit>Things that would be nice to do</lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="gJ7jgUcq4Nx" parent-id="fvvIlRDuuVp" rank="">
-      <style>
-        <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-      </style>
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>02_Reactions</lit>
           </run>
         </p>
       </text>
@@ -764,25 +792,6 @@
           </run>
           <run>
             <lit><cell refid="att0" expanded="yes" name="Pasted_Graphic"/></lit>
-          </run>
-        </p>
-      </text>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-      <entry/>
-    </item>
-    <item id="liskpG7K2ED" parent-id="gJ7jgUcq4Nx" rank="">
-      <style>
-        <inherited-style name="Highlight 1" idref="oOB72YiGlyj"/>
-      </style>
-      <entry/>
-      <checkbox>unchecked</checkbox>
-      <text>
-        <p>
-          <run>
-            <lit>Add one representative Feynman diagram per model with all the couplings specified as a MarginNote, they can place it wherever we want upon submission</lit>
           </run>
         </p>
       </text>

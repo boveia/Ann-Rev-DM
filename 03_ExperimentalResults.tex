@@ -83,29 +83,40 @@ In the case of light fermion DM with scalar couplings to the Higgs, direct detec
 
 %Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
 \begin{textbox}[!h]
-\section{Details of \MET reconstruction and fake \MET rejection}
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
+\section{Measuring invisible particles: \MET reconstruction}
+
+%10 words per line, 20 lines
+While at lepton colliders the initial center of mass energy is known and 
+can be used to measure the momentum imbalance due to escaped invisible particles
+in the final state, measuring missing transverse momentum at hadron colliders
+needs to rely on the precise measurement of detector quantities. This includes
+soft energy deposits that are not included in reconstructed objects such as jets or electrons.
+One also needs to reject \MET contributions from additional proton-proton interactions 
+within the same collision event, and events with large \MET originating from 
+spurious non-collision backgrounds such as cosmic rays and detector noise. 
+
+\textbf{Challenge: pile-up in \MET reconstruction} 
+
+Energy deposits from proton-proton interactions that are uncorrelated 
+with the one of interest can have a significant contribution to the overall 
+transverse momentum balance. This is why the combination of tracking information, 
+event and object properties are used not only to remove
+pile-up in the physics objects used to reconstruct \MET, but also in 
+the overall event energy balance. [cite: https://cds.cern.ch/record/2205284/files/JME-16-004-pas.pdf, 
+asked Emma and TJ for best reference]
+The lack of tracking information in the trigger system is a limiting factor 
+in selecting events with low \MET at the trigger level,
+as the rates grow exponentially with the number of additional interactions. 
+%from https://twiki.cern.ch/twiki/pub/AtlasPublic/MissingEtTriggerPublicResults/metxs_vs_mu.pdf
+
+\textbf{Challenge: fake \MET rejection} 
+
+Large \MET causing fake contributions to the highest signal regions in LHC DM searches
+originates from non-collision backgrounds, such as cosmic rays and detector noise. Specific
+quality cuts, including tracking information and the structure of the energy deposited 
+in the various calorimeter layers are applied to reject these events. 
+The number of events passing the jet+\MET analysis selection before these quality cuts
+is ten times larger than the expected SM contribution [cite monojet paper, but only 3.2/fb has fig?].  
 
 %\subsubsection{Missing transverse momentum}
 %\label{sub:MET} 
@@ -212,41 +223,41 @@ The full information on the theoretical and experimental uncertainties and their
 %and leads to an improvement of 40 to 50% in the search according to PhilHarris and Livia, but I wouldn't add that unreferenced
 Backgrounds from top processes in ATLAS are estimated using a dedicated control region with a requirement of a $b-$jet that is included in the fit, while CMS takes this background from simulation. Smaller diboson backgrounds are estimated from simulation. 
 
-%Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
-\begin{textbox}[!h]
-\section{Precision estimation of background for \MET+X searches}
-In order to relate the number of events in the jet+\MET
-signal regions (where $Z\rightarrow \nu\nu$ dominates) and control
-regions (where events with jets produced in association with
-$Z\rightarrow ll$, $W\rightarrow l\nu$ and $\gamma$ are used to maximise
-the statistical power of the background estimation),
-one needs to rely on a precise theory  
-prediction of the ratio of the V+jets cross-sections. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-This is why this is important, this is 10 words. 
-%\subsubsection{Precise background estimation}
-%\label{sub:precision}
-
-%Cite AR on this topi (but it's 2009): \cite{doi:10.1146/annurev.nucl.56.100704.122617}
-%from ooutline
-%- LHC results				
-%	citations for most recent
-%	- Differences between ATLAS and CMS:				
-%		- CMS starts with only Z, ATLAS uses Z and W, CMS uses everything including gamma				
-%		- theoretical issues with using Z and W				
-%		- Pozzorini paper: shit is complicated, W and Z are one thing but if you want to do photon it's a different story				
-%			- dependence of result on analysis cuts				
-%			- QCD correction				
-%			- EW corrections				
-\end{textbox}
+%%Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
+%\begin{textbox}[!h]
+%\section{Precision estimation of background for \MET+X searches}
+%In order to relate the number of events in the jet+\MET
+%signal regions (where $Z\rightarrow \nu\nu$ dominates) and control
+%regions (where events with jets produced in association with
+%$Z\rightarrow ll$, $W\rightarrow l\nu$ and $\gamma$ are used to maximise
+%the statistical power of the background estimation),
+%one needs to rely on a precise theory  
+%prediction of the ratio of the V+jets cross-sections. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%This is why this is important, this is 10 words. 
+%%\subsubsection{Precise background estimation}
+%%\label{sub:precision}
+%
+%%Cite AR on this topi (but it's 2009): \cite{doi:10.1146/annurev.nucl.56.100704.122617}
+%%from ooutline
+%%- LHC results				
+%%	citations for most recent
+%%	- Differences between ATLAS and CMS:				
+%%		- CMS starts with only Z, ATLAS uses Z and W, CMS uses everything including gamma				
+%%		- theoretical issues with using Z and W				
+%%		- Pozzorini paper: shit is complicated, W and Z are one thing but if you want to do photon it's a different story				
+%%			- dependence of result on analysis cuts				
+%%			- QCD correction				
+%%			- EW corrections				
+%\end{textbox}
 
 %%Experimental uncertainties
 The systematic uncertainties on the background estimate for the jet+MET search range from 2 to 7\% (CMS) and 2 to 10\% (ATLAS), depending on the \MET region. The main uncertainties are due to the identification of leptons (CMS) and the understanding of the jet and \MET calibration (ATLAS). 
@@ -551,7 +562,7 @@ TODO: add coupling-mass summary plot for ATLAS
 %insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
 %Consider swapping with the ERC text below?
 \begin{textbox}[!h]
-\section{Challenges in selecting events at the detector level (trigger)}
+\section{Selection of events at the detector level (trigger)}
 %Trying to approximate 10 words per line
 %Notes for improvement: 
 %this is too long, needs sharpening. 
