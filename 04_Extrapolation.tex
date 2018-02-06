@@ -28,7 +28,16 @@
 
 introduce direct detection and ID here? (but probably goes in intro to keep DD people friendly early)
 
-A wide variety of reactions may produce invisible particles at colliders, and, if the mediator mass is within the energy reach of the collider, its experiments are particularly suited to discovering and characterizing the interactions responsible.  Meanwhile, connecting a collider experiment's discovery or non-discovery of invisible particles to dark matter requires direct and indirect detection experiments, where galactic dark matter collides with a terrestrial target, or extragalactic dark matter annihilates.
+A wide variety of reactions may produce invisible particles at colliders, and, if the mediators of the interaction are light enough to be produced on-shell, collider experiments are particularly suited to discovering and characterizing the interactions responsible.  Meanwhile, connecting a collider experiment's discovery or non-discovery of invisible particles to dark matter requires direct and indirect detection experiments, where galactic dark matter collides with a terrestrial target, or extragalactic dark matter annihilates.
+
+Making this connection requires that one assumes a particle physics model.
+Within a given model and under well-specified assumptions, the information obtained in a collider experiment can be related to the information obtained in direct, indirect, and astrophysical probes, and vice versa.
+One can then compare and contrast the different types of information, e.g., to understand where a DM discovery in current DD searches could be further explored with mediator studies at the LHC, and where, amongst the multitude of possible signals, these searches may focus their effort.
+
+In the following, we outline the strategy adopted by the ATLAS and CMS experiments when making comparisons with non-collider results: astrophysical observations (e.g., where is a model consistent with the present DM density in the universe), DD, and ID results. We discuss the assumptions made in the relic density calculation and conclude with relating the constraints on reactions for invisible particles for reactions of DM.
+
+
+
 
 need to reference figure:
 %as shown in Fig~\ref{fig:Complementarity}, where (a-c) SM-DM interactions lead to DM production at collider, scattering at direct detection experiment, and DM annihilation which can lead to signals at indirect detection experiments within standard thermal freeze-out scenario.
@@ -40,9 +49,6 @@ need to reference figure:
 % by probing the physics processes that complement DM production (e.g. new particles from SUSY cascades, or visible decays of light mediator as in Fig~\ref{fig:Complementarity} (d)), 
 %and by enabling to connection of a possible collider signal to its cosmological nature. %bleurgh
 
-Making this connection requires that one assumes a particle physics model.
-Within a given model and under well-specified assumptions, the information obtained in a collider experiment can be related to the information obtained in direct, indirect, and astrophysical probes, and vice versa.
-One can then compare and contrast the different types of information, e.g., to understand where a DM discovery in current DD searches could be further explored with mediator studies at the LHC, and where, amongst the multitude of possible collider signals, these searches may focus their effort
 %Complementarity between multiple experiments will be crucial to confirm and follow-up a discovery and, in the absence of a discovery, to understanding the collider signatures that are most promising.
 
 %what we didn't say: sure, extrapolation requires a model. lhc results are extremely model dependent but that is a feature (learn more about the model)
@@ -52,7 +58,6 @@ One can then compare and contrast the different types of information, e.g., to u
 %We invite you to write a short review on the current searches for dark matter and other invisible particles at the LHC. This review should discuss the important reactions for invisible particle searches, the experimental challenges for observing these reactions, and some of the innovations by ATLAS and CMS that address these challenges. The review should discuss the parameterization of invisible particle cross sections by simplified models, for example, as presented in the recent Dark Matter Forum paper and in the actual practice of ATLAS and CMS. The review should present current results from the LHC experiments. Finally, the review should briefly relate and compare the current LHC results to limits from direct and indirect detection of dark matter. The review should be accessible to students and postdoctoral researchers who would like to enter this area of research.
 
 %what are we going to do (could be cut)
-In the following, we outline the strategy adopted by collider experiments when making comparisons with astrophysical observations (e.g., where is a model consistent with the present DM density in the universe), DD, and ID results. We discuss the assumptions made in the relic density calculation and conclude with relating the constraints on reactions for invisible particles for reactions of DM.
 
 %i really wanted to say the word "consequences of constraints"
 
@@ -70,12 +75,46 @@ In the following, we outline the strategy adopted by collider experiments when m
 %Tevatron and Run-1 LHC searches mainly used EFTs as the common theoretical ground to compare their constraints on DM across experiments, or full models such as SUSY. EFTs are a good and flexible benchmark model to represent DM interactions in DD and ID experiment, since the momentum transfer of the collision is sufficiently low not to resolve the theory beyond the scale of the interaction and certainly below the electroweak scale. As discussed in Sec.~\ref{sub:EFT}, this is not always the case for high-energy collider experiments. The difference in interaction scales also requires that any operator in the model is evolved from the scale of the LHC collisions to the nuclear scale of DD through renormalization group expansion (RGE)~\cite{DEramo:2014nmf} for full consistency of the results. %is it clear enough that this has to be done for simplified models too? 
 %An example of a comparison plot between collider and DD results using EFT operators in the WIMP-nucleon cross-section vs WIMP mass plane\footnote{The formulas to translate LHC limits to this plane can be found in Ref.~\cite{Goodman:2010ku}}, without evolving the operators using RGE but showing the effects of the truncation of the events where the EFT is invalid, is shown for the LHC Run-1 results in Fig.~\ref{fig:SIATLASEFT}. %There isn't enough space to describe the results of the truncation in detail
 
+Typically, ATLAS and CMS extrapolate collider results, in the form of a constraint on the fundamental parameters of a simplified model (masses, couplings), to the predictions of the simplified model for the non-collider observable of interest---for example, the WIMP-nucleon scattering cross section for DD, or the thermal relic density. In Ref.~\cite{Boveia:2016mrp}, the LHC Dark Matter Working Group provides an in-depth discussion of how to perform these extrapolations. Recently, most general LHC search results have selected a single, specific set of BSM-mediated simplified models for presentation purposes, due to their immediate relevance with the first 13~TeV collision data. But many other models can be used~\footnote{For reinterpretation of LHC results and their comparisons to DD and ID for scalar and pseudoscalar mediators, also in the context of 2HDM, see e.g.~\cite{Athron:2017kgt,Banerjee:2017wxi,Ipek:2014gua,Bell:2016ekl}}., and published searches typically provide some form of model-agnostic results for this purpose.
+
+%Invisible particle searches, such as the \MET+jet searches, and fully-visible searches, such as those for dijet resonances, have excluded regions of the parameters of the vector-mediated simplified model.
+As an example of these extrapolations, following Ref.~\cite{Boveia:2016mrp}, CMS has extrapolated the parameter exclusions obtained by a recent set of searches to the spin-independent WIMP-nucleon cross section of a direct detection experiment. The result, Fig.~\ref{fig:SICMS}, with a selection of DD results also shown for comparison, illustrates some general features of many such comparisons. For spin-independent scattering, LHC searches for heavy invisible particles are generally in the position of confirming non-observation of DM in DD searches, whereas LHC invisible particle searches are sensitive to arbitrarily light invisible particles while DD searches are not, and at intermediate DM masses both LHC and DD experiments have great potential for a discovery and could verify each other's claims. For spin-dependent DD scattering (e.g., an axial-vector-mediated model), because the LHC signals are relatively insensitive to the Lorentz structure of the interaction while the DD signals are suppressed, similar plots show that LHC searches play a more powerful role relative to the DD searches over a wide range of invisible particle masses. 
+
+%%ID -> LHC
+In the same way, one can compare collider and ID results using simplified model benchmarks. In traditional comparisons, only one DM annihilation state at a time has been used for the comparison of collider and ID results (e.g. $b\bar{b}$, see for example~\cite{Agrawal:2014una}) but one can also compare ID and LHC results for models annihilating to multiple final state fermions.~\cite{Carpenter:2016thc}.
+
+Recently, some DD and ID collaborations have adopted the benchmark simplified models being used by ATLAS and CMS, see e.g.\cite{PhysRevLett.118.251301,Balazs:2017hxh}. IceCube and other experiments have used constraints from a MSSM scan, see e.g.~\cite{Aartsen:2016zhm}. The pMSSM is also a good framework to highlight the complementarity of LHC, direct and indirect detection experiments, as shown in e.g. Ref,~\cite{Cahill-Rowley:2014twa} and discussed later. %CD: m
+
+%Could cite this for more consistent w/completion and ID: Jacques:2016dqz, but not sure what it adds, I prefer to talk about Linda's result
+%maybe add some quantitative results?
+
+\begin{marginnote}[]
+\entry{The LHC Dark Matter Working Group}{provides  for the translation of LHC limits to DD and ID in~\cite{Boveia:2016mrp}, as well as reference sets of simplified models, calculations of relic density, and other tools to standardize such comparisons~\cite{githubDMWG}.} 
+\end{marginnote}. 
+
+In these extrapolations, it must be noted that the exclusion regions obtained will depend strongly on the assumption of the model, and so one must be careful not to over-generalize.
+The extrapolations are done with full knowledge that the simplified model is merely a crude guess.
+We also note that, as of yet, neither this procedure nor the simplified models themselves are explicitly accounting for effects that may be important for mediators with masses below 100 GeV, such as interference and mixing with SM boson and quarkonia resonances, nor for the evolution of the operators in the model from the LHC collision scale to the nuclear scale of DD~\cite{DEramo:2014nmf}.
+Moreover, all experimental results, be it from DD, ID or collider, are affected by experimental and theoretical uncertainties that are not displayed here.
+We postpone a brief discussion of this topic to Chapter~\cite{sec:05_Future}.
 
 
-Comparison of collider and non-collider results have prevalently been performed in the framework of simplified models and of more complete SUSY models, using upper limits on the collider interaction rates of a specific reaction to constrain the parameter space used to constrain interactions and parameters considered in DD and ID. 
+%These constraints, and the bounds on production cross sections from which they are derived, are the central results
+%While searches for invisible particles at colliders are sensitive to arbitrarily light DM masses, next-generation DD experiments are expected to lower the minimum sensitivity thresholds for DM-SM recoil in the next decade, see e.g.~\cite{Agnese:2016cpb}. 
 
-Comparison using simplified models presented by LHC experiments have so far privileged vector and axial vector $s-$channel models~\footnote{For reinterpretation of LHC results and their comparisons to DD and ID for scalar and pseudoscalar mediators, also in the context of 2HDM, see e.g.~\cite{Athron:2017kgt,Banerjee:2017wxi,Ipek:2014gua,Bell:2016ekl}}.
-LHC experimentalists and theorists within the Dark Matter Working Group have chosen to translate the collider results on visible mediator and invisible DM searches to the nucleon-DM cross-section and ID planes, clearly spelling out parameters and assumptions of the chosen model to convey the model dependence of such comparisons~\cite{Boveia:2016mrp}. 
+
+%within this class of models and interaction Lorentz structure, %We could have a footnote on SD and SI but no room in text?
+
+
+. 
+
+
+
+%have chosen to translate the collider results on visible mediator and invisible DM searches to the nucleon-DM cross-section and ID planes, clearly spelling out parameters and assumptions of the chosen model to convey the model dependence of such comparisons. 
+
+
+%Comparison of collider and non-collider results have prevalently been performed in the framework of simplified models and of more complete SUSY models, using upper limits on the collider interaction rates of a specific reaction to constrain the parameter space used to constrain interactions and parameters considered in DD and ID. 
+
 
 \begin{figure}[!htpb]
 %Can't have both so choose less controversial
@@ -89,27 +128,11 @@ LHC experimentalists and theorists within the Dark Matter Working Group have cho
 %What can be inferred from the plot is that within this class of models and spin assumption %We could have a footnote on SD and SI but no room in text?
 %the ideal region for the discovery of DM is that where WIMPs have masses above 10 GeV, as both collider and DD experiments are sensitive and could verify each other's claims. Next-generation DD experiments are expected to lower the minimum sensitivity thresholds in the next decade, see e.g.~\cite{Agnese:2016cpb}. 
 
-An example of such a comparison between the most recent LHC and DD results is shown in Fig.~\ref{fig:SICMS} for a simplified axial vector model. In this kind of comparisons, it should be noted that the exclusion regions obtained from the different collider searches, as well as their relative importance, depend strongly on the benchmark scenario and its couplings. We also note that neither this procedure nor the simplified models used are yet explicitly accounting for effects that may be important for mediators with masses below 100 GeV, such as interference and mixing with SM boson and quarkonia resonances, nor for the evolution of the operators in the model from the LHC collision scale to the nuclear scale of DD~\cite{DEramo:2014nmf}.
-Moreover, all experimental results, be it from DD, ID or collider, are affected by experimental and theoretical uncertainties that are not displayed here - we postpone a brief discussion of this topic to Chapter~\cite{sec:05_Future}.
-
 %this is Zurek/Landsberg's point to truncate 
 %Proposals exist so that the plots should be truncated for cross-sections corresponding to a minimum mass.  
 %Q: mention discussion from Landsberg? Would be nice. 
 %https://indico.cern.ch/event/563066/contributions/2306614/attachments/1340042/2017991/DMWG-09-20-16.pdf
 %Mention how low can one go in mdm - AB knows better here? 
-What can be inferred from the plot is that, within this class of models and interaction Lorentz structure, %We could have a footnote on SD and SI but no room in text?
-the ideal region for the discovery of DM is that of intermediate DM masses, as both collider and DD experiments are sensitive and could verify each other's claims. While searches for invisible particles at colliders are sensitive to arbitrarily light DM masses, next-generation DD experiments are expected to lower the minimum sensitivity thresholds for DM-SM recoil in the next decade, see e.g.~\cite{Agnese:2016cpb}. 
-
-%%ID -> LHC
-The comparison of collider and ID results using simplified model benchmarks has received further theoretical attention since Ref.~\cite{Boveia:2016mrp}. In traditional comparisons, only one DM annihilation state at a time has been used for the comparison of collider and ID results (e.g. $b\bar{b}$, see for example~\cite{Agrawal:2014una}). The work in~\cite{Carpenter:2016thc} considers multiple final state fermions and interprets ID and LHC results in simplified models with $s-$ and $t-$channel mediators. 
-%Could cite this for more consistent w/completion and ID: Jacques:2016dqz, but not sure what it adds, I prefer to talk about Linda's result
-
-Recently, LHC results have also started to be used by DD collaborations to compare the sensitivity to simplified models of DM, see e.g.\cite{PhysRevLett.118.251301,Balazs:2017hxh}. IceCube and other experiments have used constraints from a MSSM scan, see e.g.~\cite{Aartsen:2016zhm}. The pMSSM is also a good framework to highlight the complementarity of LHC, direct and indirect detection experiments, as shown in e.g. Ref,~\cite{Cahill-Rowley:2014twa} and discussed later. %CD: maybe add some quantitative results?
-
-\begin{marginnote}[]
-\entry{The LHC Dark Matter Working Group}{provides formulas for the translation of LHC limits to DD and ID in~\cite{Boveia:2016mrp}, as well as calculations of the relic density for a number of coupling choices~\cite{githubDMWG}.} 
-\end{marginnote}. 
-
 \subsection{Relic density considerations}
 
 %%relic discussion
@@ -120,13 +143,14 @@ Recently, LHC results have also started to be used by DD collaborations to compa
 
 %need to match this with the stuff in the introduction and make sure it does not repeat
 The current observed abundance of DM in the universe, derived from fits of the Cosmic Microwave Background measured with the Planck satellite~\cite{Ade:2015xua}, is one of the few %the only? 
-available quantitative DM indirect observations. 
-As already shown in Fig.~\ref{fig:sensitivityComparison} LHC experiments overlay a line corresponding to  a dark matter density of $\omega_c = 0.12 h^2$ according to the standard thermal history as calculated from programs such as MadDM and MicrOMEGas~\cite{Backovic:2015cra,Barducci:2016pcb}, to illustrate where a given simplified model is sufficient to explain the observed DM abundance. 
-Conclusions on whether a model is ruled out by information on relic density alone cannot be drawn for simplified models, as there may be additional physics processes beyond those included in the simplified model that influence the DM abundance.
-Moreover, the assumption of a standard thermal history where the current DM density is achieved via freeze-out is only one of the possibilities~\cite{Bernal:2017kxu}. 
+quantitative measures of DM, or indeed of any new physics, available.
+Absent a signal in non-collider experiments, the ability of a model to link its invisible particles with the observed DM abundance is key to distinguishing it from other types of models of physics beyond the Standard Model.
+
+Making this link, however, requires extrapolating from the present day to the early universe along an increasingly tenuous chain of assumptions. For simplified models, this is especially problematic, because the model is designed to describe collider-scale processes; it may not even contain the processes mediating SM-DM interactions in the early universe. Nevertheless, it is interesting to examine where a model can make the link, even if in limited situations~\cite{Busoni:2014gta,Catena:2017xqq}. For example, for the general simplified models in Sec.~[fix], one can compute with programs such as MadDM and MicrOMEGas~\cite{Backovic:2015cra,Barducci:2016pcb} the DM abundance for a standard thermal relic assuming that the interaction described by the simplified model is the one responsible for setting the relic density. Often., e.g. Fig.~\ref{fig:sensitivityComparison}, ATLAS and CMS supplement their results with contours indicating where in the model space this procedure obtains the correct dark matter density of $\omega_c = 0.12 h^2$. Where the model cannot reproduce the correct abundance, it is an indication that either the model requires additional ingredients beyond those included in the simplified model, or that the chain of assumptions is incorrect~\cite{Bernal:2017kxu}.
+
 %does the reader know what a standard thermal history is?
 %how do we treat the assumption of LambdaCDM? way too big a discussion to start here
-Nevertheless, the relic density remains a useful guiding principle for DM searches if these assumptions are correct~\cite{Busoni:2014gta,Catena:2017xqq}. 
+
 
 \subsection{Combined constraints on the parameter space of specific models}
 
