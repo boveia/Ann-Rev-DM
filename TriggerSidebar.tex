@@ -1,8 +1,7 @@
 %Sidebar (50 words minimum, 200 words maximum) briefly discussing a fascinating adjacent topic; 
 %insert below Literature Cited section, but indicate near which section in text the sidebar should be typeset
 %Consider swapping with the ERC text below?
-\begin{textbox}[!h]
-\section{Selection of events at the detector level (trigger)}
+
 %Trying to approximate 10 words per line
 %Notes for improvement: 
 %this is too long, needs sharpening. 
@@ -11,44 +10,27 @@
 % pileup increases MET thresholds -> get track info at the trigger level
 %it needs a much clearer motivation: model X gives low mass. 
 %probably that needs done in the text because space constraints, but then why using this box-thing (other than tidying things up)? 
-The LHC collides protons every 25 $\mathrm{ns}$, producing 40 billion 
-of events per second at nominal conditions. This amount of data cannot be 
-recorded in its entirety, and not all events are interesting
-for the experiments' physics programmes. %programmes or programs?
-A trigger system is used to decide whether an event is selected for further analysis. 
-Its first level is realized in hardware and only uses
-partial detector information for fast decisions in a time of
-the order of $\mathrm{\mu s}$, while its second level is software-based
-and uses more refined algorithms and information to make a
-decision in $\mathrm{ms}$. 
 
-\textbf{Challenge: triggering on low-\pt objects}
-Since the rates of SM physics processes decrease
-with the transverse momentum of the objects involved, and processes
-with a high momentum transfer have a higher chance of containing
-interesting features or new particles, the trigger system records
-events above a certain threshold e.g. in leading jet \pt or in event \MET. 
-Only a fraction of events that do not satisfy these thresholds is recorded. 
-Searches for signals with high-rate backgrounds and 
-MET or jet \pt below these thresholds are 
-therefore penalized unless novel
-%not novel anymore?
-data recording techniques, such as only recording partial event information 
-needed for the search, are employed.
+\begin{textbox}[!h]
+\section{Challenges for event triggering}
 
-\textbf{Challenge: \textit{pile-up} in trigger} Simultaneous proton-proton interactions occurring within the detector
-readout time cannot be completely disentangled from the hard process
-of interest, especially if reconstructing the collision vertex
-is not possible at the trigger level due to CPU constraints. 
-This \textit{pile-up} increases the likelihood of passing 
-the minimum threshold to record events, especially in the \MET triggers.
-For this reason, the increase in the LHC instantaneous luminosity by virtue
-of increasing the number of simultaneous
-collisions leads to increases in the trigger thresholds to
-keep manageable event recording rates. Reconstruction algorithms that suppress
-the effects of pile-up can be employed by ATLAS and CMS directly at the trigger level,
-using information on the objects and energy density within the event~\cite{CMS:2014ata,ATLAS-CONF-2014-019}. 
-In future LHC runs, track information to disentangle the provenance of the 
-energy deposits from the collision vertex will be available for
-ATLAS and CMS from dedicated hardware systems (see e.g. Refs.~\cite{Shochet:2013gaw,1748-0221-6-12-C12065}). 
+The LHC collides protons every 25 $\mathrm{ns}$ in nominal conditions. %(30 billion events per second) 
+%This amount of data cannot be recorded in its entirety. %programmes or programs?
+The decision to record collision events for further analysis is made by the trigger system. 
+Its first hardware-based level uses partial detector information for fast decisions.% $\mathrm{\mu s}$.
+Its second software-based level uses more refined algorithms and further detector information.% to make a decision in $\mathrm{ms}$. 
+
+\textbf{Triggering on low-\pt objects}
+The trigger system records events above a certain threshold e.g. in leading jet \pt or event \MET, since highly energetic processes are more likely to contain interesting features. 
+Only a small fraction of events that do not satisfy these thresholds is recorded. 
+This penalizes searches with signals below these thresholds. 
+However, if only final-state objects reconstructed within the trigger system are recorded, instead of full event information, these storage limitations can be overcome. 
+%unless non-standard data recording techniques are used.
+
+\textbf{\textit{Pile-up} in trigger} 
+Nearly-simultaneous proton-proton interactions (pile-up) can add energy uncorrelated to the hard process of interest, and increase the rate of events passing a given trigger threshold. 
+For this reason, the increase in LHC instantaneous luminosity and dataset size comes at the cost of increased thresholds.% due to increased numbers of simultaneous interactions. 
+Tracking information can be used to determine whether energy deposits originate from the primary collision vertex. 
+Partial tracking information can be used in the trigger reconstruction algorithms~\cite{CMS:2014ata,ATLAS-CONF-2014-019}, and ATLAS and CMS foresee dedicated hardware systems to obtain full tracking information in future LHC runs~\cite{Shochet:2013gaw,1748-0221-6-12-C12065}. 
+ 
 \end{textbox}
