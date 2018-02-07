@@ -640,26 +640,28 @@ Each type of search complements the others; nevertheless, piecing together searc
 %- as an example for comparison of visible and invisible searches only covering a specific model, behold the summary plots
 %- showing the relative power of these searches
 %- mention DMWG (sidebox?) so the reader can get involved or have questions
-As an example, we again consider the case of (axial-)vector mediators, to which both jet+\MET and two-body resonance searches are sensitive.
-Though the model is simple, its parameter space is four-dimensional (two couplings, the \IP mass, and the mediator mass).
+As an example, we again consider the case of vector or axial-vector mediators, to which both jet+\MET and two-body resonance searches are sensitive.
+Though these models are simple, their parameter space is four-dimensional (two couplings, the \IP mass, and the mediator mass).
 Recent ATLAS and CMS results depict their results in a two-dimensional plane of mediator mass and DM mass, following the recommendations of the LHC Dark Matter Working Group\footnote{akin to simplified models of SUSY,where the axes are neutralino mass and superpartner particle mass}.
-Figure~\label{fig:sensitivityComparison} shows a recent ATLAS plot.
+Figure~\label{fig:sensitivityComparison} shows a sampling of recent ATLAS plots.
 The other remaining coupling parameters are fixed to one of several benchmark sets, sets selected based on the sensitivity of early Run-2 searches, on precision constraints, and on the complementarity of different types of searches.
-The constraints from the different searches are displayed as excluded points in this plane, and the models parameters are clearly specified on the plots themselves.  
+The constraints from dijet, dilepton, and \MET+X searches on the interaction model are displayed as excluded regions of the model parameter space.
 
-The basic scenario for vector and axial vector searches is that of a mediator that only couples to quarks, with \gq=0.25, \gl=0. and \gdm=1. This is complemented by a scenario where couplings to quarks are reduced to 0.1, decreasing both production and visible decay, and scenarios where lepton couplings are present.
+The left plot in the figure shows the constraints for couplings \gq=0.25, \gl=0. and \gdm=1.
+In this case, dijet searches exclude mediators between about 200~GeV and 2.6~TeV, while \MET+X searches can constrain even lighter mediators.
+The right plot shows the exclusions for smaller quark couplings, \gq of 0.1, and a non-zero lepton coupling, \gl of 0.01, chosen as indicative of the possible size of loop-induced lepton couplings.
+With lower quark couplings, and thus lower dijet production and decay rates, the regions of masses excluded by the several dijet searches shrink.
+For mediators heavier than 150 gev, the exclusions from the recent dilepton search fare better but do not extend much into the (smaller) region excluded by the jet+\MET search, where mediator decays to DM dominate.
 
-shows the results of LHC searches corresponding to two of these scenarios. The left-hand plot shows a leptophobic vector mediator with \gl=0, \gdm=1.0 and \gq=0.25, where dijet searches for visible decays of the mediator constrain both on-shell and off-shell region but are limited by data-taking constraints at masses above roughly 50 GeV, where \MET+X searches take over in the on-shell region. 
 %An equivalent picture is drawn for the vector mediator, in the top right plot. The bottom right plot shows the case of an axial vector mediator with reduced quark couplings and equal lepton couplings (\gq=\gl=0.1 and \gdm=1.0), where 
-The right plot shows the scenario of a vector mediator where both lepton and quark couplings are reduced with respect to the previous scenario, and lepton couplings are smaller than quark couplings (\gq=0.1, \gl=0.01, \gdm=1.0). 
-The range of all regions constrained by dijet decays of the mediator is considerably reduced with respect to the scenarios with larger couplings. Searches for dilepton resonances cover a larger range of parameter space with respect to dijet resonances but are still limited at mediator masses below 100 GeV, where \MET+jet searches are still sensitive. 
+%The right plot shows the scenario of a vector mediator where both lepton and quark couplings are reduced with respect to the previous scenario, and lepton couplings are smaller than quark couplings (\gq=0.1, \gl=0.01, \gdm=1.0). 
 
 %; the region constrained by from \MET+jet searches extends to lower invisible particles and mediator masses with respect to the case of the model with \gq=0.25 due to the reduced production rate. 
 
 %TODO: make more visible, limit to 2 plots only top left and bottom right
 \begin{figure}[!htpb]
 \includegraphics[width=\textwidth]{figures/SummaryPlotsMassMass.pdf}\caption{
-Regions in a dark matter mass-mediator mass plane excluded at 95\% CL by a selection of ATLAS dark matter searches, for a vector mediator benchmark model with varying coupling scenarios. Top plots: \gq=0.25, \gl=0.0, \gdm=1.0, axial vector (left, separate search constraints) and vector mediator (right, combined search constraints), highlighting the sensitivity of visible searches in this scenario and the near-equivalence of the vector and axial vector as benchmark models for LHC searches. Bottom plots: \gq=0.1, \gl=0.1, \gdm=1.0 for an axial vector mediator (left) and \gq=0.1, \gl=0.01, \gdm=1.0 for a vector mediator (right), highlighting the sensitivity of the lepton searches and its dependence on the chosen coupling value. Dashed curves labeled "thermal relic" indicate combinations of dark matter and mediator mass that are consistent with a dark matter density of $\omega_c = 0.12 h^2$ and a standard thermal history, as computed in MadDM particles~\cite{Backovic:2015cra}. The dotted curve indicates the kinematic threshold where the mediator can decay on-shell into dark matter. }
+Regions in dark matter mass--\Zprime mediator mass excluded at 95\% CL by a selection of ATLAS dark matter searches for two coupling scenarios. Dashed curves labeled "thermal relic" indicate combinations of dark matter and mediator mass that are consistent with a dark matter density of $\omega_c = 0.12 h^2$ and a standard thermal history, as computed in MadDM for this model~\cite{Backovic:2015cra}. The dotted curve indicates the kinematic threshold where the mediator can decay on-shell into dark matter. }
 %\gdm=1.0  \gq=0.25universal to all flavors, and a lepton coupling gl set to zero. This choice of couplings corresponds to the "V1" scenario in arXiv:1703.05703. Leptonic decays are absent at tree level. The results use 13 TeV data except for Phys. Rev. D91 052007 (2015). The exclusions from the ATLAS dijet searches are derived from the limits provided on Gaussian-shaped resonances following the procedure recommended by ATLAS in Appendix A of Phys. Rev. D91 052007 (2015) and in arXiv:1703.09127. Small fluctuations in the contour are a product of the dijet reinterpretation scheme. 
 %To the left of the curve, annihilation processes described by the simplified model deplete ?c below 0.12 h2. A dotted curve indicates the kinematic threshold where the mediator can decay on-shell into dark matter. The exclusion regions, relic density contours, and unitarity curve are not applicable to other choices of coupling values or model.
 \label{fig:sensitivityComparison}
@@ -675,14 +677,15 @@ Regions in a dark matter mass-mediator mass plane excluded at 95\% CL by a selec
 %-- one cannot generalize about DM from a single simplified model, different production mechanism
 %-- the interaction is ruled out for a particular DM mass
 
-These plots show that the relative sensitivity of visible and invisible searches is a model- and parameter-dependent statement. For $s-$channel simplified models where the couplings to SM are not negligible compared to the dark sector coupling, visible searches that more specifically target the mediator are more constraining than their invisible counterparts, in particular if the invisible particle is heavy and cannot be produced at the collider. 
+Thus, the relative sensitivity of visible and invisible searches is a model- and coupling-dependent statement.
+One advantage of searches for invisible particles is their sensitivity to models with very light mediators ($<$50 GeV) and light \mdm, since the reach of dijet and dilepton searches to low-mass resonances is still ultimately limited by data taking constraints. 
+%Visearches that more specifically target the mediator are more constraining than their invisible counterparts, in particular if the invisible particle is heavy and cannot be produced at the collider. 
 %Invisible particle searches however would dominate whenever the 
 %for invisible particles only dominate if the coupling to invisible particles is much larger than the coupling to quarks, and even then reducing \gq reduces the LHC production cross-section and therefore the overall sensitivity of \MET+X searches. When visible searches 
-One advantage of searches for invisible particles is their sensitivity to models with very light mediators ($<$50 GeV) and light \mdm, since the reach of dijet and dilepton searches to low-mass resonances is still ultimately limited by data taking constraints. 
 %In absence of a signal and within a specific model scenario, searches for mediator particle with visible decays provide constraints that are complementary to those of searches for invisible particles, in particular in the off-shell region 2\mdm $>$ \mmed where the mediator cannot decay to invisible particles directly but can still decay into much lighter SM particles such as leptons and quarks. 
 
-[redundancy check?]
-We finally remark again that none of these results rule out invisible particles with a given mass; they rule out {\it interactions} with invisible particles of that mass.
+%[redundancy check?]
+%We finally remark again that none of these results rule out invisible particles with a given mass; they rule out {\it interactions} with invisible particles of that mass.
 
 %- pitfalls: they can't go as low in mMed or m invisible as invisible searches (that only uses more boosted MET)
 %-- one cannot generalize about DM from a single simplified model, different production mechanism
