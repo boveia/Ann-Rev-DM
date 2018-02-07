@@ -1,20 +1,31 @@
 %only here
-In this chapter, we describe reactions of DM from the perspective of experimental collider physicists, focusing on a selection of simple models that provide distinct and testable LHC signatures, without the ambition of theoretical completeness. For other perspectives on the models used for early LHC searches for DM, see~\cite{Kahlhoefer:2017dnp,Abercrombie:2015wmb,Arcadi:2017kky,Feng:2010gw}. 
+DM produced at colliders would register just as neutrinos do, which is to say: not at all. 
+In this chapter, we describe DM production from a pragmatic, collider physicist's perspective, focusing on a selection of simple models with distinct and testable LHC signatures\footnote{For other perspectives, see Refs.~\cite{Kahlhoefer:2017dnp,Abercrombie:2015wmb,Arcadi:2017kky,Feng:2010gw}.}.
+Moreover, we will use the term {\it invisible particles} (\IP) rather than DM when emphasizing that detecting such particles need not be a discovery of DM\footnote{For example, invisible particles may decay after leaving the detector, a decay that is essential prompt on cosmological time scales.}.
 
 %%% what we have in chapter 2
 
-The large body of theoretical literature on DM models featuring additional BSM particles drives the design of experimental searches in two complementary directions. In the case of self-consistent models of DM such as fully-developed SUSY models, all experimental handles are exploited for targeted searches that are sensitive to specific model features. 
-These models will be described in the next section. However, the desire to make no assumptions on the DM phenomenology and to cast a net as wide as possible remains. 
-The adoption of much simpler model as first LHC Run-2 DM benchmarks led to the design of more generic searches targeting the broad features of those models. 
+The body of DM model literature can be divided into two extremes.%, each driving experimental searches in two complementary directions.
+Fully-realized, self-consistent models such as SUSY provide specific features that can be exploited for narrowly-targeted searches, while simplified models with a few ingredients can capture broad collider signatures of classes of models, serving as benchmarks for more general but less optimal searches.
+Key to both are the determinative details of the interactions between the DM and the SM, rather than the DM itself.
+
+
+
+%These models will be described in the next section.
 %sentence cut from here
 %The success of such simple, at times incomplete and not always theoretically sound models has been due to their ability to predict the key features and observables related to DM production at the LHC with only a limited number of new particles and theory parameters, factoring out the more complex processes that do not affect LHC phenomenology as they e.g. occur at higher energy scales. As proven by the history of SM discoveries, this simple approach can be used to discover the most prominent DM-SM interaction processes in the wake of the LHC start-up. 
 
-Even if we cannot observe Dark Matter itself at colliders, we can look for visible particles that are associated to the interactions between Dark Matter and normal matter. The details of the models specify the nature and amount of accompanying particles. A similar situation arises in the SM. Colliders cannot detect neutrinos directly but can detect particles coupled to the W and Z bosons, the nature of which are determined by the details of the weak interaction. Since the nature of the interaction between SM and DM remains a mystery, we do not know these determinative details. We narrow our choice of models to those satisfying the requirements discussed in the introduction, and add further assumptions to restrict the scope of this review to models that are more widely studied:
+To restrict the scope of this review,
+%% -To narrow our choice of DM models to those  assumptions to
+
+%% to models that are more widely studied:
+
 
 \begin{enumerate}
-\item We largely privilege  models that include a $Z_2$ symmetry to stabilize DM;
-\item We describe models where the DM particle interacts with SM particles, either directly or indirectly;
-\item We privilege models that have a connection with thermal relic from freeze-out. We remark however that there are other models from other cosmological histories (e.g. freeze-in) that can be considered and would lead to interesting LHC signatures~\cite{Bernal:2017kxu}. 
+\item we describe only models where the DM interacts with SM hadrons, either directly or effectively;
+\item we privilege models that include a $Z_2$ symmetry to stabilize DM;
+\item we emphasize models connecting to a thermal, frozen-out relic; others, based on alternate cosmological histories (e.g. freeze-in), also have interesting LHC signatures~\cite{Bernal:2017kxu}
+
 %Citation from DMFs
 %[49] J. Abdallah, H. Araujo, A. Arbey, A. Ashkenazi, A. Belyaev, et al., Simplified models for dark matter searches at the LHCSubmitted to Phys.Dark Univ. arXiv:1506.03116.
 % [47] A. A. Petrov, W. Shepherd, Searching for dark matter at LHC with mono- Higgs production, Phys.Lett. B730 (2014) 178–183. arXiv:1311.1511, doi:10.1016/j.physletb.2014.01.051.
@@ -24,34 +35,57 @@ Even if we cannot observe Dark Matter itself at colliders, we can look for visib
 % A. Buras, P. Gambino, M. Gorbahn, S. Jager, L. Silvestrini, Universal unitarity triangle and physics beyond the Standard Model, Phys.Lett. B500 (2001) 161–167. arXiv:hep-ph/0007085, doi:10.1016/S0370-2693(01) 00061-2.
 % 2575
 % [54] G. D’Ambrosio, G. Giudice, G. Isidori, A. Strumia, Minimal Flavor Viola- tion: An effective field theory approach, Nucl.Phys. B645 (2002) 155–187. arXiv:hep-ph/0207036, doi:10.1016/S0550-3213(02)00836-2.
-\item We primarily consider models where DM is a Dirac fermion, relying on existing theory material developed for early Run-2 searches. Departures from these assumptions are discussed in~\cite{Abercrombie:2015wmb}. 
+\item we stress models employed for early LHC Run-2 searches, where the DM is a Dirac fermion, and the model mimics the pattern of flavor violation found in the SM (Minimal Flavor Violation, or MFV~\cite{DAmbrosio:2002vsn}).
 %Other cases yield similar phenomenology for LHC searches, with some exceptions that we describe in this chapter.
 %The Dawn of FIMP Dark Matter: A Review of Models and Constraints  - https://arxiv.org/pdf/1706.07442.pdf, Minimal Decaying Dark Matter and the LHC - https://arxiv.org/pdf/1305.6587.pdf
 \end{enumerate}
-
-For the most part, models are chosen to mimic the pattern of flavor violation found in the SM (Minimal Flavor Violation, or MFV~\cite{DAmbrosio:2002vsn}). 
+Departures from these assumptions are discussed further in~\cite{Abercrombie:2015wmb}. 
 
 %In the following we enumerate the possible reactions of DM at colliders within these assumptions.
 
 \subsection{Higgs and Z boson portals}
 \label{sec:HZPortalModels}
 
-We start from models that do not add any other particle to the SM except the DM and later continue to models with more complex particle content and interactions. 
+%Simple models connecting DM to SM through the bosons of the SM 
 
-Models where the SM particle sector is coupled to DM through an existing or a new particle are called \textit{portal models}. Models where the SM particle sector is coupled to the dark sector through an existing or a new particle are called portal models. If one adds only a neutral DM particle to the SM content, one arrives at Z or Higgs portal models, which economically relate DM to the SM fermions through a neutral gauge boson. No other SM particle can serve as portal at leading order. 
+Extending the SM with a single DM particle, and nothing else, one may arrive at portal models where the Z or Higgs boson mediates the DM--SM interaction.%, which economically relate DM to the SM fermions through a neutral gauge boson.
+This is our first example of a {\it mediator}, a 'dark sector' particle that governs the DM-SM interaction.
+While the \textbf{Z portal} is perhaps the simplest model of DM that one can construct, LEP and direct detection experiments strongly constrain it, as discussed in Sec.~\ref{sec:results_ZHSearches}. 
+\textbf{Higgs portal} models~\cite{Patt:2006fw,Englert:2011yb,Djouadi:2011aa} are more promising, as only the recent generations of collider and direct detection experiments has reached the energies and luminosities necessary to search for them.%faintly-coupled mediators with EW-scale (Higgs-scale) masses.
+Direct collider searches for the invisibly-decaying Higgs bosons are augmented by measurements of other Higgs properties, which can be very sensitive to couplings to new particles.
 
-%Models where the SM particle sector is coupled to the dark sector through an existing or a new particle are called \textit{portal models}. This kind of model leads to the most economical particle content for reactions at the LHC, as one only needs to add a neutral DM particle to the SM content if one of the SM particles is the portal particle. SM fermions cannot be portal particles under the assumption of a $Z_2$ symmetry, as they would allow the decay of DM. Photons, W bosons and gluons can't be portal particles either, as DM does not absorb nor emit light, nor it does it have electromagnetic or strong charge. The only viable SM portal particles remaining are the Z and the Higgs bosons. 
+The Z and Higgs portal models have relatively simple phenomenology.
+The mediators (the Z or Higgs boson) are light in comparison to the LHC energy and can be produced on-shell.
+Even if the \IP are much heavier, and invisible decays of the mediator are absent, collider searches may still study the Z and Higgs and constrain these models through their fully-visible decays.
 
-There are compelling theoretical and experimental arguments to explore SM portal models at modern colliders. 
-The electroweak (EW) scale seems to be a special energy scale in nature, where the weak bosons, Higgs boson, and top quark masses lay. Moreover, it is natural to have mediators at this scale within DM theories predicting new weakly interacting particles~\cite{Cotta:2012nj,Arcadi:2014lta}.
-However, only the recent generations of collider and direct detection experiments have had sufficient energy and luminosity to search for faintly-coupled mediators with EW-scale masses.
+%% For scalar or vector DM, this interaction is renormalizable and leads to a UV-complete theory. If DM is a fermion, further particles mediating the interaction are required to make the theory self-consistent~\cite{Freitas:2015hsa,Escudero:2016gzx,deSimone:2014pda}. 
+%% For fermionic DM heavier than a few TeV, the model is not perturbative anymore. 
 
-In \textbf{Z portal} models the DM particle couples to a Z boson. While this is perhaps the simplest model that one can construct involving DM and no other new particles, there are strong constraints on this model from LEP and from direct detection experiments, as discussed in Sec.~\ref{sec:results_ZHSearches}. 
+% No other SM particle can serve as portal at leading order.  
+%We start from models that do not add any other particle to the SM except the DM and later continue to models with more complex particle content and interactions. 
 
-The discovery of a SM-like Higgs boson
+%% Models where the SM particle sector is coupled to DM through an existing or a new particle are called \textit{portal models}.
+%% Models where the SM particle sector is coupled to the dark sector through an existing or a new particle are called portal models.
+
+%If one adds only a neutral DM particle to the SM content, one arrives at 
+
+%Models where the SM particle sector is coupled to the dark sector through an existing or a new particle are called \textit{portal models}. This kind of model leads to the most economical particle content for reactions at the LHC, as one only needs to add a neutral DM particle to the SM content if one of the SM particles is the portal particle. SM fermions cannot be portal particles under the assumption of a $Z_2$ symmetry, as they would allow the decay of DM. Photons, W bosons and gluons can't be portal particles either, as DM does not absorb nor emit light, nor it does it have electromagnetic or strong charge. The only viable SM portal particles remaining are the Z and the Higgs bosons.
+
+
+%% These
+
+%% It is natural to have mediators at this scale within DM theories predicting new weakly interacting particles~\cite{Cotta:2012nj,Arcadi:2014lta}.
+%% However, only the recent generations of collider and direct detection experiments have had sufficient energy and luminosity to search for faintly-coupled mediators with EW-scale (Higgs-scale) masses.
+
+
+%% There are compelling theoretical and experimental arguments for these models
+%% The electroweak (EW) scale seems to be a special energy scale in nature, where the weak bosons, Higgs boson, and top quark masses lay.
+
+
+
+%% The discovery of a SM-like Higgs boson
 %~\cite{Aad:2012tfa,Chatrchyan:2012xdj} 
-has now made it possible to test \textbf{Higgs portal} models, where the interaction between DM and SM particles is dominated by processes involving exchanges of the Higgs boson (see e.g. Refs.~\cite{Patt:2006fw,Englert:2011yb,Djouadi:2011aa}). For scalar or vector DM, this interaction is renormalizable and leads to a UV-complete theory. If DM is a fermion, further particles mediating the interaction are required to make the theory self-consistent~\cite{Freitas:2015hsa,Escudero:2016gzx,deSimone:2014pda}. 
-For fermionic DM heavier than a few TeV, the model is not perturbative anymore. 
+%% has now made it possible to test 
 %and references therein? In case there is more room for H portal citations, should cite also: 
 %https://arxiv.org/pdf/1304.2417.pdf
 %From Escudero:2016gzx
@@ -64,7 +98,6 @@ For fermionic DM heavier than a few TeV, the model is not perturbative anymore.
 %and the SM states are special in that they involve gauge-invariant operators of dimension
 %dO ≤ 4, and thus can be induced by physics at arbitrarily high scales with unsuppressed
 %couplings. 
-Since the properties of the Higgs bosons are modified by decays to DM, precision measurements of the Higgs width and couplings offer a probe for these models complementary to direct searches for the invisible particles, as described in the next chapter. 
 %This class of models is already constrained by electroweak precision measurements, but still viable if the DM mass is about half the Higgs mass. 
 
 %We could have a picture of constraints here?
@@ -75,24 +108,34 @@ Since the properties of the Higgs bosons are modified by decays to DM, precision
 \subsection{Effective Field Theories and Simplified models of BSM mediators}
 \label{sec:BSMMediatorModels}
 
-In the Z and Higgs portal models, the relationship between the mass of the mediators and the collision energy has important consequences for collider signals. If the collision energy is large in comparison to the mass of the mediators, then the mediators are produced on-shell and resonant effects are apparent. If on the other hand the collision energy is lower than the mediating particle mass, a situation arises similar to the Fermi model of weak interactions.
- 
+One step further in complexity beyond the Z and Higgs portal models are models where the mediator is also a new particle, such as a heavier version of the $Z$ boson (a $Z^\prime$) or an additional scalar.
+
+If the new mediators are light enough for the LHC to produce them on-shell, one can observe them via their invisible decays and also via their resonant decays to SM.
+If, on the other hand, the mediator is a relatively heavy BSM particle, a situation arises similar to the Fermi model of weak interactions.
+
+
+
 %~\cite{Fermi2008}. 
+
+%The adoption of much simpler model as first LHC Run-2 DM benchmarks led to the design of more generic searches targeting the broad features of those models. 
 
 \subsubsection{Effective Field Theories}
 \label{sub:EFT}
 
-For the situation where the collision energy is much lower than the mediator mass, 
-the physics of the interaction appears much simpler. In such a contact interaction,
-a single rate parameter and the spin structure of the interaction describe the collider phenomenology.
-One may hope that the situation is this simple for DM at modern colliders, as all unknown
-interaction details are conveniently integrated out. This can encompass cases where new particles are much heavier than the SM bosons that mediate the interaction. In this case, we describe the collider production of invisible particles through Effective Field Theories (EFTs)~\cite{Goodman:2010ku, Shoemaker:2011vi,Bai:2010hh}.  
-A sketch of an EFT process at colliders is shown in panel (a) of Fig.~\ref{fig:monoX}.
-The only parameter characterizing an EFT operator, in addition to the type of DM particle and to the type of SM-DM interaction, is the scale of the contact interaction, which control the overall rate of the process. For example, in the case of a $s-$channel completion of the EFT, this interaction scale is proportional to the mass of the mediator particle, which is in turn related to the momentum transfer. 
+%Colliders cannot detect neutrinos directly but can detect particles coupled to the W and Z bosons, the nature of which are determined by the details of the weak interaction.
+%Since the nature of the interaction between SM and DM remains a mystery, we do not know these determinative details.
 
-If instead the mediator mass is within the reach of the typical momentum transfer in the collision, the model needs to include further details of the SM-DM interactions~\cite{Fox:2011pm},
+In some situations, such as when the mediator is heavy compared to the collision energy, the DM--SM interaction appears to be a contact interaction, with all observables completely determine by one rate parameter, the contact interacion scale, that controls the production rate, and a Lorentz structure choice, which has a modest effect on the transverse momentum distributions of the invisible particles.
+In this case, Effective Field Theories (EFTs)~\cite{Goodman:2010ku, Shoemaker:2011vi,Bai:2010hh} provide a description of the production of invisible particles.
+A sketch of an EFT process is shown in panel (a) of Fig.~\ref{fig:monoX}.
+One may hope that such as description is sufficient for the LHC; the unknown high-energy details of a complicated interaction are conveniently integrated out.
+Moreover, since EFTs do not fix a mediation mechanism, they provide a framework to systematically explore a wide range of possible physics.
+
+%For example, in the case of a $s-$channel completion of the EFT, this interaction scale is proportional to the mass of the mediator particle, which is in turn related to the momentum transfer. 
+
+If, instead, the interaction physics (e.g., the mediator mass) is within reach of the typical momentum transfer in the collision, one can profit from specifying further details of the SM--DM interactions~\cite{Fox:2011pm}.
 %~\cite{Buchmueller:2013dya,DeSimone:2016fbz,Berlin:2014cfa}, 
-such as the mass of the mediator particle. If those details are unknown (e.g. the EFT completion is not known), one can use the EFT as a framework to provide results for reinterpretation once a completion is known~\cite{Racco:2015dxa,Busoni:2013lha} and to motivate exploration of distinct kinematic regions and signatures. 
+Without those details, one can still use the EFT language to provide results for later reinterpretation once a completion is known~\cite{Racco:2015dxa,Busoni:2013lha}. 
 
 %\begin{marginnote}[]
 %\entry{EFT truncation}{If a completion of the EFT is not available, procedures describing how to truncate the events where the EFT description is not valid are available~\cite{Racco:2015dxa,Busoni:2014sya,Busoni:2013lha,Busoni:2014haa}. A recommendation on how to present EFT results from LHC searches can be found in~\cite{Abercrombie:2015wmb}.}
