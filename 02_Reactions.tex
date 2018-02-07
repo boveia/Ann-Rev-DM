@@ -128,14 +128,15 @@ One step further in complexity beyond the Z and Higgs portal models are models w
 %Since the nature of the interaction between SM and DM remains a mystery, we do not know these determinative details.
 
 In some situations, such as when a BSM mediator is heavy compared to the collision energy, the DM--SM interaction appears to be a contact interaction, with all observables completely determined by one rate parameter, the contact interacion scale, that controls the production rate, and a Lorentz structure choice, which has a modest effect on the transverse momentum distributions of the invisible particles.
-In this case, Effective Field Theories (EFTs)~\cite{Goodman:2010ku, Shoemaker:2011vi,Bai:2010hh} provide a description of the production of invisible particles.
+In this case, Effective Field Theories (EFTs)~\cite{Goodman:2010ku,Bai:2010hh,Fox:2011pm} provide a description of the production of invisible particles.
+%removed citation: Shoemaker:2011vi,
 A sketch of an EFT process is shown in panel (a) of Fig.~\ref{fig:monoX}.
 One may hope that such as description is sufficient for the LHC; the unknown high-energy details of a complicated interaction are conveniently integrated out.
 Moreover, since EFTs do not fix a mediation mechanism, they provide a framework to systematically explore a wide range of possible physics.
 
 %For example, in the case of a $s-$channel completion of the EFT, this interaction scale is proportional to the mass of the mediator particle, which is in turn related to the momentum transfer. 
 
-If, instead, the interaction physics is kinematically accessible (e.g., the mediator mass is within reach of the typical momentum transfer in the collision), one should replace the EFT description with a model specifying further details of the SM--DM interactions~\cite{Fox:2011pm}.
+If, instead, the interaction physics is kinematically accessible (e.g., the mediator mass is within reach of the typical momentum transfer in the collision), one should replace the EFT description with a model specifying further details of the SM--DM interactions~\cite{Shoemaker:2011vi}.
 %~\cite{Buchmueller:2013dya,DeSimone:2016fbz,Berlin:2014cfa}, 
 Without those details, however, one can still use the EFT language to provide results for later reinterpretation once a completion is known~\cite{Racco:2015dxa,Busoni:2013lha}. 
 
@@ -151,11 +152,14 @@ For example, at the LHC, a heavy neutral \Zprime mediator would often decay into
 %in the same fashion that the on-shell decays of the Z provide more information about the weak interactions than 
 %neutral current scattering at low energies.
 
-Under the reductionist assumption that only a few new particles will be important in the early phase of a discovery, simplified models can be developed for tree-level pair production of invisible particles~\cite{Alwall:2008ag, Agrawal:2010fh, Alves:2011wf, Choudhury:2015lha}. The set of such models currently employed for ATLAS and CMS searches is described in Ref.~\cite{Abercrombie:2015wmb}, which builds upon much work from the wider dark matter community (e.g.~\cite{Fox:2011pm,Yavin:14092893,Malik:2014ggr,Abdallah:2015ter}) 
+Under the reductionist assumption that only a few new particles will be important in the early phase of a discovery, simplified models can be developed for tree-level pair production of invisible particles (e.g.~\cite{Alwall:2008ag, Alves:2011wf}). 
+%Removed citations: Agrawal:2010fh, Choudhury:2015lha
+The set of such models currently employed for ATLAS and CMS searches is described in Ref.~\cite{Abercrombie:2015wmb}, which builds upon much work from the wider dark matter community (e.g.~\cite{Fox:2011pm,Abdallah:2015ter}) 
+%Removed citations Yavin:14092893,Malik:2014ggr,
 Though these simplified models must be embedded in a larger theory to satisfy theory constraints~\cite{Kahlhoefer:2015bea}, they are sufficient to describe the leading order collider phenomenology in many cases.
 
 \begin{marginnote}[]
-\entry{The ATLAS/CMS Dark Matter Forum}{provided reference implementations of the models in Ref.~\cite{Abercrombie:2015wmb} at [Add reference.]} and are implemented in models for various event generators such as DMSimp [Cite]. 
+\entry{The ATLAS/CMS Dark Matter Forum}{provided reference implementations of the models in Ref.~\cite{Abercrombie:2015wmb} at \url{https://gitlab.cern.ch/lhc-dmwg-material/model-repository}} and are implemented in models for various event generators (e.g. DMSimp~\cite{NewMadgraphModels}). 
 \end{marginnote}. 
 
 %JUNK: Since the simulation of the entire parameter space for these models by the experiments is computationally intensive, the DM Forum had agreed on a limited set of benchmark parameters to be tested~\cite{Abercrombie:2015wmb}, privileging those that change the LHC kinematics of the search (e.g. give a harder \MET spectrum) rather than those that only change the cross-section of the process and can therefore be reinterpreted from the search results. For example, the kinematics and cross-section of the vector and axial vector mediators is very similar at the LHC, while the DD and ID cross-sections change. 
@@ -167,16 +171,17 @@ Though these simplified models must be embedded in a larger theory to satisfy th
 
 \begin{figure}[!htpb]
 \includegraphics[width=\textwidth]{figures/MonoX.pdf}
-\caption{Sketches of (a) the DM--SM interaction in an effective field theory (EFT), (b) a corresponding simplified model mediated by a BSM particle (with additional radiation off one initial state quark) and (c) the same model where the mediator decays back into SM, with coupling constant for the mediator-quark-quark vertex, \gq, and constant for the mediator-DM vertex, \gdm. From~\cite{monoXfig}.}
+\caption{Sketches of (a) the DM--SM interaction in an effective field theory (EFT), (b) a corresponding simplified model mediated by a BSM particle (with additional radiation off one initial state quark) and (c) the same model where the mediator decays back into SM, with coupling constant for the mediator-quark-quark vertex, \gq, and constant for the mediator-DM vertex, \gdm.}%From~\cite{monoXfig}.}
 \label{fig:monoX}
 \end{figure}
 
 
 The standard models include models with neutral mediator particles singly-produced at the LHC and decaying to pairs of \IP, and to pairs of SM particles (Figure~\ref{fig:monoX} (b) and (c)). Two-body mediator decays are simple, attractive benchmarks. Colored mediators allow vertices involving only one DM particle and phenomenology akin to that of SUSY models with a squark mediator~\cite{Papucci:2014iwa,An:2013xka,Bell:2012rg}. 
 
-Models of BSM mediation can be classified according to the spin of the mediator: spin-1 vector or axial vector mediators (\Zprime), scalar mediators (termed $\phi$ in the following) and spin-2 mediators. Spin-2 mediator benchmarks have not yet been adopted by LHC searches; they produce diboson signatures not present in other models~\cite{Kraml:2017atm,Han:2015cty}.
+Models of BSM mediation can be classified according to the spin of the mediator: spin-1 vector or axial vector mediators (\Zprime), scalar mediators (termed $\phi$ in the following) and spin-2 mediators. Spin-2 mediator benchmarks have not yet been adopted by LHC searches; they produce diboson signatures not present in other models~\cite{Han:2015cty}. %removed cite Kraml:2017atm,
 
-For additional decay signatures, for 'dark sectors' of many additional particles, and for far larger LHC datasets than at present, many more simplified models become interesting. Ref.~\cite{Arcadi:2017kky} provides a review. %[cite co-annihilation codex? other inventories? note that we have already told them about other reviews earlier]
+For additional decay signatures, for 'dark sectors' of many additional particles, and for far larger LHC datasets than at present, many more simplified models become interesting. 
+%Ref.~\cite{Arcadi:2017kky} provides a review. %[cite co-annihilation codex? other inventories? note that we have already told them about other reviews earlier]
 
 
 
