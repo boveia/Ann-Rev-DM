@@ -1,67 +1,17 @@
 \begin{textbox}[!h]
-\section{Measuring invisible particles: \MET reconstruction}
+\section{MEASURING INVISIBLE PARTICLES: \MET RECONSTRUCTION}
 
-%10 words per line, 20 lines
-%While at lepton colliders the initial center of mass energy is known and 
-%can be used as an additional constrain to measure the momentum imbalance due to escaped invisible particles in the final state, measuring missing transverse momentum at hadron colliders
-% TJ: Not sure why you make this distinction?
-% I tend to think about the lepton collider case as offering
-% one extra constraint, i.e. on the total missing *energy*
-% but the directional MPT constraint still requires an
-% inclusive measurement
 Precise measurements throughout each detector systems are crucial to measure \MET in experiments at hadron colliders, 
 as its calculation should include all particles in the event.
-% regardless of whether they are reconstructed as physics objects (jets, electrons...). 
 Contributions that are not attributed to physics objects form the soft component of the \MET~\cite{Aad:2016nrq,CMS-PAS-JME-16-004}. 
 One of the main challenges for \MET measurements is excluding contributions from additional proton-proton interactions whose debris are detected at nearly the same time as the hard scatter (pile-up).
 Searches for invisible particles also need to reject events with large \MET if the visible energy is due to non-collision backgrounds. 
 
 \textbf{Challenge: pile-up in \MET reconstruction.} 
-%Momentum contributions from additional proton-proton interactions can have a significant contribution to the overall transverse momentum balance.
 In addition to suppressing pile-up suppression within the calorimeters, tracking information can be used to determine whether energy deposits originate from the primary collision vertex. 
 The combination of this information is used to remove pile-up both in the physics objects used for \MET calculation and in the overall event energy balance~\cite{CMS-PAS-JME-16-004,ATLAS-CONF-2014-019}. 
-%Trigger rates grow exponentially with the number of additional interactions
-
-%[cite: https://cds.cern.ch/record/2205284/files/JME-16-004-pas.pdf, asked Emma and TJ for best reference]
-%The lack of tracking information in the trigger system is a limiting factor in selecting events with low \MET at the trigger level, as the rates grow exponentially with the number of additional interactions. 
-%from https://twiki.cern.ch/twiki/pub/AtlasPublic/MissingEtTriggerPublicResults/metxs_vs_mu.pdf
 
 \textbf{Challenge: fake \MET rejection.} 
 Non-collision backgrounds, such as cosmic rays, beam background and detector noise have a significant contribution to the tails of the \MET spectrum, as shown in Fig.~\ref{fig:fakeMET}
 Specific quality cuts, based on the presence of tracks associated to the deposited energy and on energy deposited in the various calorimeter layers are applied to reject these events~\cite{ATLAS-CONF-2015-029}. The number of events passing the jet+\MET analysis selection before these quality cuts is about ten times larger than the SM contribution~\cite{Aaboud:2016tnv}. 
 \end{textbox}
-
-%Maybe move this to chapter 3
-
-%\subsubsection{Missing transverse momentum}
-%\label{sub:MET} 
-
-%Main points:
-%\begin{itemize}
-%\item The measurement of \MET relies on the precise measurement of all reconstructed physics objects. 
-%\item Some description of \MET significance may be needed, but it may also be too academic. 
-%\item Fake \MET is rejected using quality cuts.  
-%\item Pile-up needs specific techniques because of the soft terms. 
-%\item \MET at the trigger level is the driving reason why we can't go lower, see next section.
-%\end{itemize}
-
-%from ooutline
-
-%- Mismeasured MET (combining instrumental effects and beam/cosmics background)				
-%	- CDF				
-%		- beam background: exploit track pointing to jet and calorimeter layers				
-%		- QCD: shitty method from Mario (extrapolation changing the veto)				
-%	- LHC:				
-%		- beam backgrounds: like CDF, more refined				
-%			- can have a % of how many events would have been				
-%		- QCD: matrix method a la SUSY				
-%	- Other backgrounds (diboson, top)				
-%		- Small so using MC				
-%		- LHC has validation regions				
-%			- check ttbar				
-
-%Valerio's talk for relevant plots 
-%https://indico.cern.ch/event/466934/contributions/2590281/attachments/1489278/2314178/20170706_EPS_invisible particlesatATLAS.pdf
-
-%MET significance: in VBF CMS search
-%For the 8 TeV dataset, an additional requirement is set on an approximate missing transverse energy significance variable S(Emiss) defined as the ratio of Emiss to the square root of the scalar sum of the transverse energy of all PF objects in the event [62]. Selected events are required to satisfy S(Emiss) > 4?GeV.
