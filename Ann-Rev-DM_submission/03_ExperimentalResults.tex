@@ -1,0 +1,305 @@
+The interactions described in the previous chapter have many consequences in astrophysics (where they could modify the DM density) and in collider and non-collider particle physics experiments.
+
+Collisions of known particles at high energy, observed with well-understood detectors, have been a very successful tool, leading to the discovery of many of the fundamental components of known matter in the SM. 
+While collider experiments alone cannot discover DM, they can discover {\IP}s, and this could open up direct study of DM--SM mediators in other channels and of additional particles in a dark sector. 
+DM--SM interactions may be feeble because they are mediated by a heavy mediator or by a mediator with small couplings to SM.
+High energy and large numbers of collisions are needed to probe for these interactions, and the LHC, which presently collides protons at a center-of-mass energy of 13~TeV, will deliver both in the coming years. 
+
+Below we discuss experimental searches for {\IP}s from three LHC~\cite{LHC2008} experiments, ATLAS, CMS, and LHCb~\cite{ATLAS2008,CMS2008,LHCb2008} and briefly touch on some results from previous colliders.
+The LHC results include up to 36~\ifb of proton-proton data taken through 2017 during Run-2, more than three times what used for the Higgs discovery, but only 1\% of the data expected during the full High Luminosity (HL-LHC) run.
+
+For signature, we outline how the relevant searches are done, some the challenges, and the information they provide on the properties of hypothetical particles (couplings, mediator mass, other parameters of the Lagrangian in a particular model). 
+In a later chapter, we describe how collider information can be related to non-collider DM searches and to the present DM abundance, such as how conclusions drawn from relativistic collisions can be extrapolated to the non-relativistic collisions of DM+nucleons. 
+
+\begin{marginnote}[]
+\entry{Run-1}{First period of LHC running (2010-2012) at 7 and 8 TeV center-of-mass energy, where approximately 20~\ifb of data were collected by ATLAS and CMS.} 
+\entry{Run-2} {Second, ongoing period of LHC running (2015-2018) at 13 TeV center-of-mass energy, planning to collect approximately 100~\ifb of data.}
+\entry{HL-LHC} {High-Luminosity LHC running period, planned to start in 2026 to collect 3000~\ifb.}
+\end{marginnote}
+
+\subsection{Searches for invisible particles production mediated by SM-bosons}
+\label{sec:results_ZHSearches}
+
+For copious production of low-mass {\IP}s, colliders already provide spectacular evidence: the huge rate of neutrino production mediated by the W and Z bosons. 
+Neutrino production via the Z boson is often the largest background to searches for new {\IP}s and is important to understand well.
+The rate of would differ from the SM prediction if the Z boson is coupled to additional {\IP}s lighter than about half its mass.
+The most precise measurement of the invisible Z width, 499.1 $\pm$ 1.5 MeV, has been inferred from the total width at LEP~\cite{ALEPH:2005ab}.
+This can be used to constrain the parameters of models such as Z portals~\cite{Carena:2003aj,Escudero:2016gzx}.
+The coupling between the Z and an invisible Dirac fermion is constrained to be smaller than 2-3\% for {\IP}s that are significantly lighter than half the Z mass.
+A less-precise direct measurement of the Z's invisible width, also by LEP, uses invisible decays with a photon emitted as initial state radiation (ISR), selecting events with a single photon, the total invisible transverse momentum inferred from momentum balance with the visible particles (\MET), and little other event activity.
+This \MET+ISR has become a key signature for invisible particle searches at colliders. 
+At the LHC, precision measurements continue to test the production and decay of Z bosons for the effects of {\IP}s. 
+For example, ATLAS has measured the ratio of cross sections for jet and \MET production, dominated by invisibly-decaying Z bosons, to production of Z bosons decaying to dilepton pairs, a ratio which is sensitive to the production of additional {\IP}s~\cite{Aaboud:2017buf}. 
+
+The Z boson is also key to invisible decays of the newly-discovered Higgs boson.
+Higgs decays to neutrinos contribute to less than 0.1\% of its total decay width in the SM, proceeding through a pair of Z bosons that then both decay invisibly.
+With present data, this rate could become observable if the Higgs is coupled to additional {\IP}s~\cite{Khachatryan:2016vau,Aad:2015pla}.
+To constrain the invisible width of the Higgs, ATLAS and CMS cannot directly measure its total width in a model-independent fashion~\cite{Dobrescu:2012td}.
+Searches instead attempt to directly observe these decays via their recoil against visible particles (substantial \MET), or by comparing measurements of the Higgs parameters under additional assumptions about the BSM physics.
+Direct Higgs to invisible searches have used Run-1 and Run-2 data, combining several strong and electroweak production channels.
+Combining direct and indirect searches, the most stringent bound on the fraction of invisible decays of the Higgs boson is 23\%~\cite{Khachatryan:2016whc,Aad:2015pla}.
+This places constraints on Higgs portal couplings of 1-2\% for Dirac {\IP}s much lighter than half the Higgs mass. 
+
+\subsection{Generic searches for invisible particles from BSM mediation}
+\label{sec:results_monoXSearches}
+
+Searches for invisible decays via SM mediators (the Z or Higgs) can be viewed as special cases of searches for more general BSM mediation of {\IP}s.
+Since mediator decays to {\IP}s are suppressed if the \IP mass is heavier than half the mediator mass, the fixed masses of SM mediators place a $\sim45$ --65~GeV upper bound on the \IP mass that can be observed.
+Moreover, the distribution of \MET in such events has a similar shape to that of the Z-mediated neutrino background.
+
+\input{METSidebar}
+
+For heavier BSM mediators, this is not necessarily the case.
+Their decay to {\IP}s can produce \MET distributions substantially different than the SM background.
+The complexity of the processes mediating invisible particle production determines the composition of the visible recoil, and so searches are employed across many different visible particle signatures. 
+Nevertheless, many collider searches, from LEP to Tevatron to the most recent LHC searches (e.g.~\cite{Fox:2011fx,Bai:2010hh}), %Beltran:2010ww,
+aim to be model-agnostic, designed to detect an excess of \MET over the SM background with minimal assumptions about the visible objects in the recoil.
+Selecting events (triggering) in a model-agnostic way can often be done by looking for substantial \MET, but for models that do not produce large \MET, one is forced to assume more about the visible recoil.
+We start with the 'jet+\MET' search, which illustrates techniques used in other general invisible particle searches, and shares with them many of the same challenges.
+Traditionally, these have been called 'mono-X' searches, but the radiation of a single object is only the leading process in the simplest reactions~\cite{Haisch:2013ata}. 
+
+\begin{marginnote}[]
+\entry{A \it trigger}{selects which LHC collisions are recorded for analysis. For descriptions of the ATLAS and CMS triggers, see ~\cite{Smith:2016vcs}.}
+\end{marginnote}
+
+\subsubsection{Searches with jets}
+
+One way to reduce the model dependence of the searches is to require that the recoiling visible particles are produced by SM processes, not in the dark interaction.
+ISR meets this criteria.
+SM bosons are likely to be present in any BSM process, radiated from initial state partons at rates fixed by the SM.
+Because gluon ISR is far more prevalent than the other forms, the jet+\MET search is a key search in this approach.
+
+A LHC jet+\MET search~\cite{Aaboud:2017phn,Sirunyan:2017jix} typically selects collision events with a moderate amount of \MET (in the 13 TeV analyses, typically above 200 GeV, sufficient to record such events at a manageable rate) and at least one jet with transverse momentum, \pt, larger than 100-200 GeV in the central region of the detector ($\eta<2.4$). 
+From this sample, further restrictions on additional hadronic jets and other visible particles are used to suppress contributions from SM processes and from instrumental backgrounds causing spurious \MET.
+These requirements reduce the generality of the analysis but also better isolate signal-like events.
+For example, contributions from W bosons decaying to leptons are reduced by vetoing events with leptons, and top pair production is reduced by limiting the number of jets present.
+The remaining SM multi-jet processes can exhibit large \MET when one or more jets is mismeasured.
+Such mismeasurements often result in \MET along the axis of a jet, and this feature is used to reduce the background to about 1\% of the total.
+Non-collision events (e.g., intersecting cosmic rays, beam-gas interactions, and calorimeter problems) can also produce spurious \MET events.
+Fig.~\ref{fig:fakeMET} shows that such events dominates a high \MET data sample unless rejected with criteria tailored to the expected collision time and detector hardware.
+
+After the above criteria, one arrives at a sample composed mainly of invisible decays of the Z boson (approximately 55-70\% of the total background).
+A substantial rate of semi-leptonic decays of the W boson also survives the lepton veto when the lepton is not reconstructed (approximately 20-35\% of the total background.
+
+The main observable is typically the number of events in one or more \MET \textit{signal regions}, either exclusive (in bins of \MET) or inclusive (considering all events above a given \MET threshold). 
+
+\begin{marginnote}[]
+\entry{Signal region}{a population of events enriched in contributions from signal processes. Data in this region are compared to SM predictions to search for new processes. }
+\entry{Control region}{a population depleted of signal contributions but with other characteristics close to the signal region. Control data are used to model or validate SM predictions.}
+\end{marginnote}
+
+\begin{figure}[!htpb]
+\includegraphics[width=0.5\textwidth]{figures/FakeMET}
+\caption{The \MET distribution of events, selected for high total hadronic energy and at least two jets with \pt{} $>$ 400 and 200 GeV, before (open circles) and after (filled circles) rejecting spurious \MET backgrounds~\cite{CMS-PAS-JME-16-004}. The predictions of MC simulations (shaded) are also shown.
+Strong non-collision background suppression is vital to \MET+X analyses.}
+\label{fig:fakeMET}
+\end{figure}
+
+Because {\IP}s have feeble interactions with the colliding partons, and thus low production cross sections, these searches need very precises estimate of the shapes of the backgrounds.
+A background estimate solely from MC simulation is subject to uncertainties on both theory and detector simulation affecting the total cross-sections and is therefore not precise enough.
+To estimate the Z- and W-mediated neutrino backgrounds, recent ATLAS and CMS searches combine the information from data, in signal-free \textit{control regions} selecting visible boson+jet processes (W, Z, $\gamma$) and the most recent perturbative calculations~\cite{Lindert:2017olm}, much more precise estimates.
+Backgrounds from top processes in ATLAS are estimated using a control region with $b-$jets, while CMS takes this background from simulation.
+Estimates of smaller backgrounds rely more heavily on simulation.
+
+To date, precision achieved for the background estimate is 2--7\% (CMS) and 2--10\% (ATLAS), depending on the \MET range.
+The remaining uncertainties mainly arise from the identification of leptons (CMS) and the understanding of the jet and \MET calibration (ATLAS). 
+
+With no excesses observed, these searches can set 95\% CL limits on the production cross-section of {\IP}s, typically spanning from 0.5 \pb to 2 \fb depending on the \MET threshold~\cite{Aaboud:2017phn}.
+ATLAS and CMS also report constraints on a selection of mediator models.
+These constraints can be interpreted as limits on the interactions between the mediator and the SM (e.g.\gq) under specific sets of model assumptions, not on the mass and other properties of the {\IP}s per se.
+As an example, for the simplified model with (axial-)vector mediators, mediator masses of up to 1.5--1.9~TeV~\cite{Aaboud:2017phn,Sirunyan:2017jix} are ruled out for an invisible coupling of \gdm=1. For lighter mediators than this bound, the search can exclude SM couplings of order 0.1, or alternatively lower \gdm values than unity.
+With this amount of data, the searches are also becoming sensitive to lower-rate interactions mediated by (pseudo-)scalar mediators, and a recent ATLAS search~\cite{Aaboud:2017phn} sets explicit constraints on colored scalar mediators, where, for unit couplings and invisible particle masses of up to 100 GeV, the mass of the mediator is constrained to be above 1.7 TeV. 
+Jet+\MET results from LHC Run-1 and the Tevatron have also reported constraints on EFT models.  
+
+Since this type of searches can constrain a wider variety of interactions than explicitly considered, steps have been taken to allow easy reinterpretation of the results. 
+ATLAS and CMS provide more detailed experimental results on the HEPData platform~\cite{Maguire:2017ypu}.
+CMS also provides a simplified likelihood function encapsulating the result~\cite{Collaboration:2242860,Sirunyan:2017jix}.
+
+
+\subsubsection{Searches with photons and vector bosons}
+\label{subsub:monoV}
+
+Besides gluons, other particles can constitute visible-particle recoil.
+In models where the recoil must arise from ISR, the rates for photon and electroweak boson radiation are much smaller than for gluon radiation.
+Nevertheless, searches in \MET+photon and \MET+Z channels can play a complementary role alongside jet+\MET, with a smaller and different mix of backgrounds and different systematic uncertainties.
+ATLAS and CMS have both performed searches in each channel.
+With lower backgrounds, events can be recorded with lower kinematic thresholds, resulting in lower MET and visible \pt{} selections.
+For example, the lowest \MET value probed by the Z+\MET search, where the Z decays into leptons~\cite{Sirunyan:2017qfc,Aaboud:2017bja}, is around 100 GeV, vs. 
+200 GeV for the jet+\MET search~\cite{Sirunyan:2017jix}.
+
+These searches can play a much more powerful role when the recoil arises from the dark interaction itself rather than ISR.
+In these cases, photon or vector boson recoil (e.g.~\cite{Birkedal:2004xn,Carpenter:2012rg}), rather than gluon recoil, may be the dominant signature.
+In these searches, the event selection and the background estimation strategies generally mirror those of the jet+\MET search, but vary with the type of recoil, taking advantage of the special features of the signal.
+In the photon+\MET searches~\cite{Aaboud:2017dor,CMS-PAS-EXO-16-014}, components of hadronic showers mis-identified as isolated photons are a sizable background to be rejected.
+The searches with electroweak bosons decaying hadronically use jet substructure techniques~\cite{Sirunyan:2017jix,Aaboud:2016qgg} to recover information about boson mass and decay in events where the decay products from the high-\pt{} boson are collimated.
+QCD jets will not present any substructure~\cite{Larkoski:2017jix}, while the decay products of vector bosons grouped into large-radius jets have a typical two-prong pattern from the hadronization of the quark-antiquark pair.
+
+None of these searches yet observes a signal. The searches are not in general as sensitive as the jet+\MET search to models where the visible recoil arises from ISR, because of smaller signal acceptance and comparable signal to background ratio, but they can be remarkably competitive---after the jet+\MET searches, the photon+\MET searches are the next-to-most powerful probe.
+However, these searches provide the most stringent limits on some models where the boson in question is directly involved in the dark interaction~\cite{Berlin:2014cfa}.
+
+\subsubsection{Search signatures including the Higgs boson}
+
+One can also look for the newly-discovered Higgs boson in the recoil, but due to the heavy mass of the Higgs and the small heavy-flavor content of the proton, the rate of Higgs ISR is insignificant. 
+Thus, searches for \MET+Higgs target dark interactions in which the Higgs is a direct participant, and therefore the interaction is closely tied to the Higgs sector. 
+This is a feature of many models that extend the SM scalar sector.
+
+Dedicated searches for \MET+Higgs select Higgs events similar to the inclusive Higgs measurements, then require substantial \MET to reduce the backgrounds to the search.
+In the Run-2 data, searches in the $H \rightarrow \gamma\gamma$~\cite{CMS-PAS-EXO-16-054,Aaboud:2017uak} and $H \rightarrow b\bar{b}$~\cite{Aaboud:2017yqz} channels have been performed.
+Searches in the $ZZ, WW$ and $\tau\tau$ channels are expected to contribute as well, once substantially more data is collected. 
+
+The \MET+$H \rightarrow \gamma\gamma$ searches~\cite{CMS-PAS-EXO-16-054,Aaboud:2017uak} benefit from their ability to precisely constrain the diphoton pair to the Higgs boson mass.
+They are still statistically-limited.
+The relatively low backgrounds allow probing for anomalous \MET as low as 50 GeV~\cite{CMS-PAS-EXO-16-054} .
+The diphoton invariant mass is fitted in different signal categories, each optimized for different types of signal models.
+The search for Higgs decaying to two bottom quarks~\cite{Aaboud:2017yqz} requires \MET$>$150 GeV. All backgrounds except for the QCD background are estimated using MC simulation and constrained in dedicated control regions. 
+It also employs jet substructure techniques for \MET$>$500 GeV to select boosted Higgs decays from a background of QCD processes.
+The main systematic uncertainty for the lower \MET signal region is the modelling of the V+jets background, while higher \MET signal region is still statistically limited with the current dataset.
+
+Absent signal, limits are set on the baryonic Higgs benchmark model outlined in Sec.~\ref{sub:simplifiedModels} with  \gq=1, \gdm=1, \ghZprimeZprime/$m_{Z}$=1, \sinthetab=0.3, 
+and on a Z'-2HDM models~\footnote{ In the case of the Z'-2HDM particles model, CMS and ATLAS set different masses for the new Higgs bosons, 
+so the constraints are not yet directly comparable.}.
+
+Higgs+\MET and Z+\MET searches are also sensitive to extended scalar sectors such as two Higgs doublets with a scalar or pseudoscalar mediator~\cite{Bauer:2017ota,Goncalves:2016iyg,Bell:2016ekl}.
+
+\subsubsection{Searches with third-generation quarks}
+
+In scalar- and pseudo-scalar-mediated simplified models, one can exploit the production mechanism in the search design. For instance, the mediator can be produced along with two top or bottom quarks, leading to a signature of \MET and multiple b-jets.
+
+A recent ATLAS search in these channel~\cite{Aaboud:2017rzf} is optimized for both recoil consisting of semileptonic and fully hadronic top quark decays and recoil with one or two bottom quarks.
+This signature is similar to that of third-generation quark superpartners and can be part of dedicated SUSY searches or used for reinterpretation~\cite{Aaboud:2017aeu,Sirunyan:2017leh}.
+SUSY searches suppress most of the $t\bar{t}$ background, matching specific models to specific, low-background signal regions. 
+Relative to these approaches, the search in Ref.~\cite{Aaboud:2017rzf} is less narrowly targeted at specific models, where control regions can be more reliably developed, instead relying more heavily on simulation.
+The sensitivity of searches of \MET associated to top quarks is comparable for the two strategies. 
+
+No excess is observed in any of these searches. 
+For \IP masses of 1 GeV, color-neutral pseudo-scalar mediators of mass 20-50 GeV~\cite{Aaboud:2017aeu} and scalar mediators of masses up to 100 GeV~\cite{Sirunyan:2017leh} are excluded. 
+Signatures with $b\bar{b}$ pairs are less sensitive to models that do not explicitly privilege bottom quarks, but can set much higher limits on colored mediator masses in case of preferential couplings to bottom quarks~\cite{Agrawal:2014una}. 
+
+Other LHC searches in this category are those only including only one top or bottom quark (also called mono-top or mono-bottom searches)~\cite{Sirunyan:2018gka, Aad:2014wza}.
+They place constraints on models that include singly-produced {\IP}s through flavor-changing neutral currents~\cite{Boucheneb:2014wza}.
+
+\subsection{Searches for SUSY invisible particles}
+\label{sec:results_SUSYSearches}
+
+So far, motivated by simple models, the \MET+X experimental searches discussed make few choices about the visible recoil particles, i.e. the species of a single particle, yet these already lead to a plethora of diverse signatures.
+
+Models with more degrees of freedom may vastly expand the set of signatures to be explored.
+Supersymmetry (SUSY) adds, along with {\IP}s, many more ingredients: a full copy of the SM particle spectrum.
+Each superpartner features particular decay chains that can be targeted to a greater or lesser degree, privileging either generality or maximal sensitivity. 
+Compared to the generic searches above, SUSY searches general opt for a more specific decay topology and thus apply more stringent event selections based on the expected kinematic features, often using discriminating variables based on a combined mass of visible and invisible particles (see e.g.~\cite{Lester:1999tx}) to recover the ability to resolve various resonant decays.
+
+SUSY has received much attention by ATLAS and CMS, and many searches for its particles, such as for squarks and gluinos, have a long history at earlier coliders as well.
+In this section, we give a flavor of experimental results of more recent interest.
+
+No SUSY search so far has produced a conclusive signal. However, given its multifarious signatures, it's difficult to make general statements about the current status, even for simplified models of SUSY. Perhaps the best one can say is that searches for strongly-produced superpartners constrain them for masses approaching a couple of TeV (see Fig.~\ref{fig:SUSYSummary_ew} and e.g.~\cite{Aaboud:2017bac,Sirunyan:2017yse}), for neutralino masses up to a TeV, and, on the other hand, other processes are less constrained.
+Direct production of weakly-coupled superpartners has a much smaller production rate, and hence the constraints on them are significantly weaker.
+Third-generation squarks are generally only constrained to be at least several hundred GeV for neutralinos of similar masses, see e.g.~\cite{Sirunyan:2017wif,Aaboud:2016wna}.
+But there are numerous exceptions to these blanket statements, even before one remembers that the masses exclusions shown in the figure only apply to specific slices of a multi-dimensional model parameter space.
+
+\begin{figure}[!htpb]
+\includegraphics[width=\textwidth]{figures/SUSY_electroweak.pdf}
+\caption{Mass reach of ATLAS and CMS searches for a selection of results targeting electroweak SUSY production, available as of December 2017. From~\cite{ATLASSUSYSummary,CMSSUSYSummary}.\label{fig:SUSYSummary_ew}}
+\end{figure}
+
+Though LHC searches have mainly probed strongly-produced SUSY channels so far, searches for rare processes are now entering their prime.
+With the data now collected, one can explore the electroweakino parameter space (see e.g.~\cite{Sirunyan:2018ubx,ATLAS:2017uun}).
+Searches for gauge boson superpartners (gauginos) can reach approximately 1 TeV if the superpartners of SM leptons are light, and the search can benefit from a high leptonic branching ratio, whereas their reach is lower if their decays proceed through W and Z bosons. %can reach 600 GeV 
+More luminosity also provides access to new regions of parameter space for specific signatures, e.g. ``compressed'' regions where small mass differences between superpartners lead the signals to lie buried in large backgrounds at low \MET~\cite{Aaboud:2017leg,Sirunyan:2017zss}.
+Small mass differences can also suppress superpartner decays, resulting in long lifetimes. This can be exploited to study regions with a mass difference as low as 0.2 GeV for Higgsino models~\cite{ATL-PHYS-PUB-2017-019}.
+Other mechanisms of decay suppression can do this as well (e.g. split SUSY~\cite{Sirunyan:2018vjp}). 
+
+Despite the unwieldy diversity SUSY signatures, a sufficiently specific model can provide a concrete framework on which to build an understanding of the combined effect of many experimental constraints. Ref.\cite{Conley:2010du}, continued in LHC experiments ~\cite{Aad:2015baa, Khachatryan:2016nvf}, uses the pMSSM to define a finite (though large) parameter space for whichthe  wealth of experimental constraints can be systematically evaluated.
+Though this approach is not exhaustive, it can identify under-examined signatures for future emphasis.
+Besides particle physics data, one may also identify the LSP with astrophysical DM to focus more specifically on regions compatible with a given cosmology, as in Ref.~\cite{Aaboud:2016wna}.
+
+Collaborations such as GAMBIT~\cite{Athron:2017ard} and Mastercode~\cite{Bagnaschi:2017tru} have combined a variety of tools to aid in such efforts.
+These codes encapsulate search results in statistical outputs which can be combined to construct global constraints for the models of interest. 
+For example, one may compile the likelihood functions for the parameters of a SUSY model given the results from collider, direct, and indirect detection experiments.
+
+\subsection{Searches in association with long-lived particles}
+\label{sec:results_LLPSearches}
+
+Prompt decays produce visible recoil originating at the collision point, and thus it can be reconstructed using the techniques for which the experiments were designed.
+The long-lived mediators described in Chapter~\ref{sec:LLPModels} present different experimental challenges. 
+For short lifetimes, long-lived particles (LLPs) can decay inside the tracking detectors, appearing as displaced decay vertices. 
+Some SUSY decay chains lead to disappearing tracks, if the visible particles decay into the LSP and soft particles (see e.g.~\cite{Aaboud:2017mpt, CMS:2014gxa}).
+Even longer-lived particles can decay in the calorimeters or in the muon spectrometers
+or they may even exit the detector cavern completely before decaying. 
+These complications add yet another dimension of complexity to such searches, because observing the events may require dedicated triggers, reconstruction algorithms, and even detectors\cite{Ball:2016zrp,Chou:2016lxi}. 
+
+Searches at colliders use a variety of experimental signatures to target different types of dark bosons, such as dark vector or scalar bosons.
+An LHCb search for dimuon resonances~\cite{Aaij:2017rft} is sensitive to visible decays of vector mediators in the mass range between 10 and 70 GeV.
+This search can use the entire sample of dimuon decays delivered to LHCb, recorded at the full collision rate directly at the trigger level~\cite{Aaij:2016rxn}. 
+Below 10 GeV, experiments at electron-positron colliders have searched for dilepton resonances or missing mass produced in association with ISR photons (see e.g.~\cite{Lees:2014xha,Lees:2017lec}).
+LHCb also searches dimuon events for scalar bosons with masses between 250 MeV and 4.7 GeV~\cite{Aaij:2016qsm}, for a range of lifetimes.
+Dark bosons can also arise in Higgs decays via a hidden-sector mechanism.
+For example, the searches in~\cite{ATLAS:2016jza,CMS-PAS-HIG-16-035} look for exotic Higgs decays into collimated ''lepton-jets', constraining the decay rate to be below 10\% for a range of dark photon lifetimes. 
+Ref.~\cite{Curtin:2014cca} provides a review of many possibilities.
+
+\subsection{Consequences of neutral-mediated models: visible decays}
+\label{sec:MediatorSearches}
+\label{sub:twoBody}
+
+Dark interactions might also be probed without actually producing {\IP}s.
+For example, if the mediator particle can be produced via interactions with quarks, it may also decay into quarks. 
+In this case, dijet and top-top resonance searches (see e.g. ~\cite{Liew:2016oon,Chala:2015ama}) can constrain it.
+
+Dijet resonance searches have been used routinely at hadron colliders to probe for new particles at newly-reached collision energies.
+They exploit an expected absence of features in the dijet invariant mass distribution to estimate the search background directly from a fit to the data, minimizing modelling and theory uncertainties.
+This permits the observation of low-rate localized excesses (width/mass up to $\sim15$\%) from resonant dijet production~\cite{Aaboud:2017yvp,CMS-PAS-EXO-16-056}.
+For wider signals, searches exploiting the scattering angle of dijet events can be used~\cite{CMS-PAS-EXO-16-046,Aaboud:2017yvp}. 
+
+\input{TriggerSidebar}
+
+At the LHC, typical dijet searches lose sensitivity at masses below about 1 TeV~\cite{An:2012ue,Dobrescu:2013coa}, where high rates force the experiments to discard a large fraction of the data in the trigger.
+Some challenges of triggering are discussed in the Sidebar. 
+One can reduce this threshold to 400 GeV~\cite{CMS-PAS-EXO-16-056,ATLAS:2016xiv} by recording much less information for these low-mass events~\cite{Aaij:2016rxn,CMS-PAS-EXO-16-056,Aaboud:2016leb}.
+Alternatively, one can look at the subset of dijet events where a high-\pt{} ISR object happens to trigger~\cite{ATLAS:2016bvn,Sirunyan:2017nvi}.
+Even lower mediator masses can be reached exploiting substructure techniques when the mediator decays are collimated into a single jet~\cite{Sirunyan:2017nvi,Aaboud:2018zba}.
+Dedicated searches for resonances of third-generation quarks~\cite{lowMassDiB,CMS-PAS-HIG-16-025,Aaboud:2017hnm} are also performed.
+
+Dilepton resonance searches also constrain mediator couplings to leptons~\cite{Aaboud:2017buh,Khachatryan:2016zqb}. 
+For dielectron and dimuon searches, the main backgrounds arise from Drell-Yan processes. These are estimated with simulation corrected for NNLO effects and normalized to the Z boson yield in data.
+
+\begin{figure}[!htpb]
+\includegraphics[width=\textwidth]{figures/CouplingMassPlot.pdf}\caption{Summary of constraints from searches for light dijet resonances from ATLAS and CMS, where discrete points are taken from the coupling-mass limits on a simplified model mediated by an axial-vector $Z^\prime$ coupling exclusively to quarks from the searches mentioned in the text, and interpolated at the crossings. Couplings above the lines are excluded at 95\% CL, up to the values where larger couplings yield a resonance width larger than 15\% (roughly \gq $>$ 0.5).  
+Pre-LHC constraints have been taken from~\cite{Dobrescu:2013coa}.\label{fig:couplingmass}}
+\end{figure}
+
+Fig.\ref{fig:couplingmass} illustrates constraints from the dijet resonance searches mentioned above, on the quark coupling of the mediator in an axial-vector simplified model, as a function of the mediator mass, for a model that assumes no tree-level couplings to leptons and no possible decay to DM.
+Searches for boosted mediator decays are sensitive to masses as low as 50 GeV and quark couplings \gq as low as 0.06 at 60 GeV.
+Jets from the mediator decay are spatially separated for mediator masses above 250-300 GeV, where the $\gamma$ and gluon ISR + dijet channel constrains \gq$>$0.15-0.2.
+Above 400 GeV, where searches with jets at the trigger level become available, they are the most sensitive, excluding \gq as low as 0.05.
+Above a TeV, standard dijet resonance and angular searches constrain quark couplings from 0.1 to unity, up to 5 TeV. 
+
+Mixing between this mediator and the Z boson induces loop-level couplings to leptons. ATLAS and CMS use several sets of coupling benchmarks to illustrate how the experimental constraints depend on these unknown values.
+For equal couplings of the mediator to leptons and jets, dilepton searches at a given mediator mass are far more sensitive than dijet searches. Other values will be discussed further in the next section.
+
+\subsubsection{Comparison of sensitivity of visible and invisible LHC searches}
+\label{sub:comparisonVisibleInvisible}
+
+Fully-visible signatures of a particular dark interaction can be powerful probes of it, and in some cases (e.g., when the {\IP}s are too heavy to be directly produced) are the only way to observe dark interactions at a collider. On the other hand, only \MET searches can observe the invisible particle production directly.
+Each type of search complements the others; nevertheless, piecing together searches in different channels requires a model. Understanding precisely how these searches fit together can be challenging when the model is uncertain.
+
+As an example, we again consider the case of vector or axial-vector mediators, to which both jet+\MET and two-body resonance searches are sensitive.
+Though these models are simple, their parameter space is four-dimensional (two couplings, the \IP mass, and the mediator mass).
+Recent ATLAS and CMS results depict their results in a two-dimensional plane of mediator mass and DM mass, following the recommendations of the LHC Dark Matter Working Group\footnote{akin to simplified models of SUSY, where the axes are neutralino mass and superpartner particle mass}.
+Figure~\label{fig:sensitivityComparison} shows a sampling of recent ATLAS plots.
+The other remaining coupling parameters are fixed to one of several benchmark sets, sets selected based on the sensitivity of early Run-2 searches, on precision constraints, and on the complementarity of different types of searches.
+The constraints from dijet, dilepton, and \MET+X searches on the interaction model are displayed as excluded regions of the model parameter space.
+
+The left plot in the figure shows the constraints for couplings \gq=0.25, \gl=0. and \gdm=1.
+In this case, dijet searches exclude mediators between about 200~GeV and 2.6~TeV, while \MET+X searches can constrain even lighter mediators.
+The right plot shows the exclusions for smaller quark couplings, \gq of 0.1, and a non-zero lepton coupling, \gl of 0.01, chosen as indicative of the possible size of loop-induced lepton couplings.
+With lower quark couplings, and thus lower dijet production and decay rates, the regions of masses excluded by the several dijet searches shrink.
+For mediators heavier than 150 GeV, the exclusions from the recent dilepton search fare better but do not extend much into the (smaller) region excluded by the jet+\MET search, where mediator decays to DM dominate.
+
+\begin{figure}[!htpb]
+\includegraphics[width=\textwidth]{figures/SummaryPlotsMassMass.pdf}\caption{
+Regions in dark matter mass--\Zprime mediator mass excluded at 95\% CL by a selection of ATLAS dark matter searches for two coupling scenarios. Dashed curves labeled "thermal relic" indicate combinations of dark matter and mediator mass that are consistent with a dark matter density of $\omega_c = 0.12 h^2$ and a standard thermal history, as computed in MadDM for this model~\cite{Backovic:2015cra}. The dotted curve indicates the kinematic threshold where the mediator can decay on-shell into dark matter. From~\cite{ATLASSummary}.}
+\label{fig:sensitivityComparison}
+\end{figure}
+
+
+Thus, the relative sensitivity of visible and invisible searches is a model- and coupling-dependent statement.
+One advantage of searches for {\IP}s over the others is their sensitivity to models with very light mediators ($<$50 GeV) and light \mdm, since the reach of dijet and dilepton searches to low-mass resonances is still ultimately limited by data taking constraints. 

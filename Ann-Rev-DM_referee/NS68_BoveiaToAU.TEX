@@ -1,0 +1,2129 @@
+%
+\documentclass{ar-1col}
+\usepackage{cite}
+\usepackage{xspace}
+\usepackage{url}
+\usepackage{slashed}
+\usepackage{soul,upgreek}
+\usepackage{amssymb}
+
+% Definitions
+\newcommand{\chiDM}{\ensuremath{\chi}\xspace}
+%\newcommand{\IP}{\ensuremath{\textrm{IP}}\xspace}
+\newcommand{\IP}{invisible particle}
+\newcommand{\mMed}{\ensuremath{M_{\rm{med}}}\xspace}
+\newcommand{\mmed}{\mMed}
+\newcommand{\gDM}{\ensuremath{g_{\chiDM}}\xspace}
+\newcommand{\gdm}{\gDM}
+\newcommand{\gl}{$g_{\ell}$\xspace}
+\newcommand{\gdmq}{\ensuremath{g_{\chiDM q}}\xspace}
+\newcommand{\gq}{$g_{\mathrm{q}}$\xspace}
+%\newcommand{\ifb}{\ensuremath{\mathrm{fb}^{-1}}\xspace}
+\newcommand{\mdm}{\ensuremath{m_{\chiDM}}\xspace}
+\newcommand{\mDM}{\mdm}
+\newcommand{\ghZprimeZprime}{\ensuremath{g_{hZ'Z'}}\xspace}
+\newcommand{\gZPrime}{\ensuremath{g_{Z'}}\xspace}
+\newcommand{\gZprime}{\ensuremath{g_{Z'}}\xspace}
+\newcommand{\sinthetab}{\ensuremath{\mathrm{sin}(\theta_B})\xspace}
+\newcommand{\sinthetahS}{\ensuremath{\mathrm{sin}(\theta_{hS})}\xspace}
+\newcommand{\pt}{\ensuremath{p_\mathrm{T}}\xspace}
+\newcommand{\pT}{\ensuremath{p_\mathrm{T}}\xspace}
+\newcommand{\MET}{\ensuremath{\slashed{E}_T}\xspace}
+\newcommand{\Zprime}{\ensuremath{{Z}^\prime}\xspace}
+\newcommand{\fb}{\ensuremath{\mathrm{fb}}\xspace}
+\newcommand{\pb}{\ensuremath{\mathrm{pb}}\xspace}
+\newcommand{\ifb}{\ensuremath{\mathrm{fb}^{-1}}\xspace}
+\newcommand{\ipb}{\ensuremath{\mathrm{pb}^{-1}}\xspace}
+\setcounter{secnumdepth}{4}
+
+% Metadata Information
+\jname{Annu. Rev. Nucl. Part. Sci.} \jvol{68} \jyear{2018}
+\doi{10.1146/annurev-nucl-101917-021008}
+
+\begin{document}
+
+\markboth{Boveia $\bullet$ Doglioni}{Dark Matter Searches at Colliders}
+
+\title{Dark Matter Searches at Colliders}
+
+\author{Antonio Boveia$^1$ and Caterina Doglioni$^2$
+\affil{$^1$Physics Department, The Ohio State University, Columbus, Ohio 43210, USA} \affil{$^2$Fysikum, Division of Particle Physics, Lund
+University, 22363 Lund, Sweden}}
+
+\begin{abstract}
+
+Colliders, among the most successful tools of particle physics,
+have revealed much about standard\ matter. This review describes how
+colliders contribute to the search for particle dark matter,
+focusing on the highest-energy collider currently in operation,
+the Large Hadron Collider (LHC)\ at CERN. In the absence of hints as to the character
+of interactions between dark matter and standard matter, this review emphasizes what could be observed in the
+near future, presents the main experimental challenges, and discusses how
+collider searches fit into the broader field of dark matter searches. Finally, it
+highlights a few areas to watch for the future LHC program.
+\end{abstract}
+
+\begin{keywords}
+particle dark matter, invisible particles, weakly interacting
+massive particles, WIMPs, simplified models, colliders, LHC
+\end{keywords}
+
+\maketitle
+
+\tableofcontents
+
+\section{INTRODUCTION}\label{sec:intro}
+
+Dark matter (DM) is perhaps the most persuasive experimental
+evidence for physics beyond the Standard Model (BSM)\ of particle
+physics~\cite{Bertone:2016nfn}. If DM is indeed a
+particle~\cite{Steigman:1979kw}, it has gravitational interactions
+with normal matter. It may also have other, nongravitational
+interactions, but these are relatively rare---DM is dark
+and has no electromagnetic charge. It is also stable, or at least
+\hl{it decays with a lifetime comparable to that of the Universe}\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Please add a reference for this important statement**]}}.
+Finally, there is a great deal of DM---about five times the \hl{standard
+matter} \textbf{\textcolor{red}{[**AU: To avoid confusion, we've retained ``SM'' as the abbreviation for ``Standard Model'' and kept ``SM matter'' where used below, or spelled out ``standard matter''. Please check that the acronym has been applied correctly throughout**]}}described by the SM---with plenty of room to exceed standard matter in its complexity. The
+current abundance of DM in the Universe, derived from
+measurements of the cosmic microwave
+background~\cite{Ade:2015xua}, is one of the few quantitative
+measures of DM, or indeed of any BSM physics. The main consequences of cosmological observations for
+particle DM are described in the sidebar titled Particle Properties of Dark Matter.
+
+\begin{textbox}
+\section{PARTICLE PROPERTIES OF DARK MATTER}
+
+\noindent \textbf{\textcolor{red}{[**AU: OK\ to number these two properties, since they are not preceded by a regular paragraph of text?**]}}Stability: If DM is a particle, it does not seem to decay.
+Conservation laws, such as \textit{R} parity in supersymmetry (SUSY) or $Z_2$ symmetry, can prevent the DM particle from decaying into any
+lighter even-parity SM particle. Additionally, pairs of DM
+particles can be produced by the decay of other particles, charged
+under the same gauge group as the SM, or singly if the
+parent is a color triplet.
+
+Darkness: DM particles are effectively invisible to
+traditional collider experiments made of ordinary matter. However,
+the rest of the event is not. Invisible particles can be
+accompanied by one or more visible recoiling particles, leading to
+missing momentum in the transverse plane, whose magnitude is
+termed \MET. This is one of the main signatures of DM at
+colliders.
+\textbf{\textcolor{red}{[**AU: Please note that this sidebar will not appear above the table of contents, as it does in your original submission**]}}\end{textbox}
+
+The field of particle physics is increasingly keen to understand
+what DM is, if it is indeed a particle. Some
+experiments, termed \MakeLowercase{Direct Detection} (DD) experiments, look for
+galactic DM colliding with underground targets made of SM matter~\cite{0954-3899-43-1-013001}. Others, termed
+\MakeLowercase{Indirect Detection} (ID) experiments, search for the products of
+annihilating DM concentrated within the gravitational
+potential wells of the Milky Way and
+elsewhere~\cite{Gaskins:2016cha}. As yet, none of these experiments have
+found conclusive evidence of DM. If the only interaction
+between DM and SM matter is gravitational, \hl{experiments will never
+observe it}\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: The statement that something will not happen is too strong. Who knows...  maybe gravitational waves from dark matter collisions will be observed in 10 years? Please use one of the following: ``...experiments will potentially never observe it.'' or ``...experiments will probably never observe it directly.''
+**]}}. Nevertheless, the search for particle DM started relatively
+recently, and plenty of room for optimism remains.
+
+Colliders, among the most successful tools of particle physics,
+have revealed much about SM matter. This review describes how
+colliders contribute to the search for DM, focusing on the
+highest-energy collider currently in operation, the Large Hadron
+Collider (LHC)\ at CERN.\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: This would be a good place to introduce the experiments that yield the results (ATLAS, CMS, LHCb) and add references**]}} In the absence of any hints as to the character of DM--SM
+matter interactions, this review emphasizes what could be observed in the near
+future, presents the main experimental challenges, and discusses how
+collider searches fit into the broader field. Finally, it
+highlights a few areas to watch for the future LHC program.
+
+\section{REACTIONS FOR INVISIBLE-PARTICLE SEARCHES AT THE LHC}\label{sec:02_Reactions}
+
+DM produced at colliders would register just as neutrinos do,
+\hl{which is to say not at all}.\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Please revise this colloquialism to refer to the escaping particle, etc., but not ``not at all''**]}} In this section, we describe DM
+production from a pragmatic, collider physicist's perspective,
+focusing on a selection of simple models with distinct and
+testable LHC signatures.\footnote{For other perspectives, see the
+\hl{Reference Material}\textbf{\textcolor{red}{[**AU: Meaning Literature\ Cited?\ OK\ to move footnote into the text and rephrase as ``Other perspectives can be found in Literature Cited''?**]}}.} Moreover, we use the term {invisible
+particles} (rather than DM)\textbf{\textcolor{red}{[**AU: Please note that italics and boldface used for emphasis or to introduce key terms has been removed per house style**]}} when emphasizing that detecting such
+particles need not be a discovery of DM.\footnote{For example,
+{\IP}s may decay after leaving the detector, a decay that is
+essentially prompt on cosmological timescales.}
+
+The body of DM model literature can be divided into two extremes.
+Fully realized, self-consistent models such as supersymmetry (SUSY) provide
+specific features that can be exploited for narrowly targeted
+searches, while simplified models with a few components can
+capture broad collider signatures of classes of models, serving as
+benchmarks for more general but less optimal searches. Key to both
+are the determinative details of the interactions between DM
+and SM matter, rather than the DM itself.
+
+To restrict the scope of this review,
+we (\textit{a}) describe only models where the DM interacts with SM hadrons, \hl{either directly or effectively}\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Unclear.  Even if it's a loop-induced interaction, there has to be a direct coupling between DM and SM matter particles.  If the point was to draw a distinction on SM ``hadrons", then pls expand or emphasize this point**]}}; (\textit{b}) privilege models that include $Z_2$ symmetry to stabilize DM; (\textit{c}) emphasize models connecting to a thermal, frozen-out relic [others, based on alternate cosmological histories (e.g.,
+freeze-in), also have interesting LHC
+signatures~\cite{Bernal:2017kxu}]; and (\textit{d}) emphasize models employed for early LHC \hl{Run 2 searches},\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: This hasn't been defined yet; I suggest moving the margin term below to here**]}} in which
+the DM is a Dirac fermion, and the model mimics the pattern of
+flavor violation found in the SM, namely minimal flavor violation
+(MFV)~\cite{DAmbrosio:2002vsn}. Departures from these assumptions are discussed in~Reference \citen{Abercrombie:2015wmb}.
+
+\subsection{Higgs and {\bf \it{Z}} Boson Portals}\label{sec:HZPortalModels}
+
+By extending the SM with a single DM particle and nothing else, one
+may arrive at portal models where the \textit{Z} or Higgs boson mediates
+the DM--SM matter interaction. This is an example of a {mediator}, a dark sector particle that governs the DM--SM
+matter interaction. While the {\textit{Z} portal} is perhaps the simplest
+model of DM that one can construct, LEP and DD
+experiments strongly constrain it (as discussed in
+Section~\ref{sec:results_ZHSearches} and
+in Reference~\citen{Escudero:2016gzx}). {Higgs portal}
+models~\cite{Patt:2006fw,Djouadi:2011aa} are more promising, as
+only the recent generations of collider and DD
+experiments have reached the energies and luminosities necessary to
+search for them. Direct collider searches for the
+invisibly decaying Higgs bosons are augmented by measurements of
+other Higgs properties, which can be very sensitive to couplings
+to new particles.
+
+The \textit{Z} and Higgs portal models have relatively simple
+phenomenology. The mediator (the \textit{Z} or Higgs boson) is light in
+comparison to the LHC energy and can be produced on-shell. Even if
+the {\IP}s are much heavier and invisible decays of the mediator
+are absent, collider searches may still study the \textit{Z} and Higgs bosons and
+constrain these models through their fully visible decays.
+
+\subsection{Effective Field Theories and Simplified Models of Beyond-the-Standard-Model Mediators}\label{sec:BSMMediatorModels}
+
+More complex than the \textit{Z} and Higgs portal
+models are models in which the mediator is also a new particle, such
+as a heavier version of the $Z$ boson (a $Z^\prime$) or an
+additional scalar.
+
+\begin{figure}[!htpb]
+%\includegraphics[width=\textwidth]{figures/MonoX.pdf}
+\caption{(\textit{a}) The interaction between DM\ and SM matter\ in an EFT. (\textit{b}) A corresponding simplified model mediated
+by a BSM particle (with additional radiation off one initial-state
+quark). (\textit{c}) The same model, in which  the mediator decays back into
+SM matter, with coupling constant for the mediator--quark--quark vertex,
+\gq, and constant for the mediator--DM vertex, \gdm. Abbreviations:\ BSM, beyond the Standard Model; DM, dark matter; EFT, effective field theory; SM, Standard Model.}
+\label{fig:monoX}
+\end{figure}
+
+\subsubsection{Effective field theories}\label{sub:EFT}
+
+In some situations, such as when a BSM mediator is heavy compared
+with the collision energy, the DM--SM matter interaction appears to be a
+contact interaction, with all observables completely determined by
+one rate parameter, the contact interacion scale, that controls
+the production rate, and a Lorentz structure choice, which has a
+modest effect on the \hl{transverse momentum}\textbf{\textcolor{red}{[**AU: OK\ to introduce ``$p_{\mathrm {T}}$ here?**]}} distributions of the
+{\IP}s. In this case, effective field theories
+(EFTs)~\cite{Goodman:2010ku,Bai:2010hh,Fox:2011pm} describe the production of {\IP}s. Figure~\ref{fig:monoX}\textit{a} depicts an EFT
+process. One may
+hope that such a description is sufficient for the LHC; the
+unknown high-energy details of a complicated interaction are
+conveniently integrated out. Moreover, since EFTs do not fix a
+mediation mechanism, they provide a framework to systematically
+explore a wide range of possible physics.
+
+If, instead, the interaction physics is kinematically accessible
+(e.g., the mediator mass is within reach of the typical momentum
+transfer in the collision), one should replace the EFT description
+with a model specifying further details of the DM--SM matter
+interactions~\cite{Shoemaker:2011vi}. Without those details,
+however, one can still use the EFT language to obtain results for
+later reinterpretation once \hl{a completion is
+known}~\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: What/which ``completion''?**]}}\cite{Racco:2015dxa,Busoni:2013lha}.
+
+\subsubsection{Simplified models}\label{sub:simplifiedModels}
+
+When the collision energy is near or higher than the mediator
+mass, complementary avenues to study the mediating interaction
+develop, analogous to the transition from the Fermi model of weak
+interactions at low energies to the SM at higher
+energies. For example, at the LHC, a heavy neutral \Zprime
+mediator would often decay into the partons that produced it, and
+fully reconstructing these visible decays can provide more
+information about the interaction than the invisible decays alone.
+
+Under the reductionist assumption that only a few new particles
+will be important in the early phase of a discovery, simplified
+models can be developed for tree-level pair production of {\IP}s
+(e.g.,~\citen{Alwall:2008ag, Alves:2011wf}). The set of such models
+currently employed for ATLAS and CMS searches is described in
+Reference~\citen{Abercrombie:2015wmb}, which builds upon much research from
+the wider DM community
+(e.g.,~\citen{Fox:2011pm,Abdallah:2015ter}). Although these simplified
+models must be embedded in a larger theory to satisfy theory
+constraints~\cite{Kahlhoefer:2015bea}, in many cases they are sufficient to
+describe the leading-order collider phenomenology.
+
+\begin{marginnote}[]
+\entry{The ATLAS/CMS Dark Matter Forum}{provided the reference
+implementations of the models in Reference~\citen{Abercrombie:2015wmb}
+(see \url{https://gitlab.cern.ch/lhc-dmwg-material/model-repository}})
+and implemented in models for various event generators [e.g.,
+DMSimp~\cite{Backovic:2015soa}]
+\end{marginnote}
+
+The standard models include models with neutral mediator particles
+singly produced at the LHC and decaying both to pairs of {\IP}s and to
+pairs of SM particles (Figure~\ref{fig:monoX}{\em b},{\em
+c}). Two-body mediator decays \hl{offer} simple, attractive benchmarks.\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Changed from ``are'' since decays are not benchmarks**]}}
+Colored mediators allow vertices involving only one DM particle
+and phenomenology akin to that of SUSY models with a squark
+mediator~\cite{Papucci:2014iwa,An:2013xka,Bell:2012rg}.
+
+Models of BSM mediation can be classified according to the spin of
+the mediator: spin-1 vector or axial vector mediators (\Zprime),
+scalar mediators (referred to as $\phi$ below) and spin-2
+mediators. Spin-2 mediator benchmarks have not yet been adopted by
+LHC searches; they produce diboson signatures not present in other
+models~\cite{Han:2015cty}.
+For additional decay signatures, for so-called dark sectors of many
+additional particles, and for LHC data sets far larger than at
+present, many more simplified models become interesting.
+
+{Massive color-neutral spin-1 bosons with vector or
+axial--vector couplings} are nearly ubiquitous in BSM theories, so
+\Zprime bosons as the mediators connect with a wide class of
+models~\cite{Shoemaker:2011vi}. Since the \Zprime coupling to
+quarks must be nonzero for its production at the LHC, both
+invisible and dijet signatures are discovery channels. This
+coupling (or loop-level coupling) to SM partons is also required
+for nuclear recoils in underground DM searches.
+
+The models in use at ATLAS and CMS contain vector,
+axial--vector, or mixed couplings to quarks and a single species of
+{\IP}. The couplings of the \Zprime boson (\gq to all quarks, \gl to
+leptons, and \gDM to {\IP}s), the mass of the invisible particle \mdm, and the
+\Zprime mass \mmed are free parameters. Lepton decays, if not
+included explicitly at tree level, arise through the quark
+coupling at loop level (see Reference~\citen{Albert:2017onk} and
+references therein). Decays of the spin-1 mediator into neutrinos
+are also required by gauge invariance, and add an invisible decay
+channel that can enhance signatures of missing transverse
+momentum, depending on the size of the
+couplings~\cite{Albert:2017onk}. The spin structure of the \Zprime
+couplings does not significantly change the LHC phenomenology, but it
+has a much greater effect in signals in noncollider searches.
+
+\Zprime-mediated models can include additional couplings of the
+\Zprime boson to acquire mass through a new baryonic Higgs boson,
+$h_B$~\cite{Berlin:2014cfa}, that collapses to the simpler model
+above in the limit of very heavy \Zprime boson mass. They can also be
+embedded in a type II two-Higgs doublet model
+(2HDM)~\cite{Berlin:2014cfa}.
+
+With certain values of the model parameters, especially low
+\Zprime mass, the model can satisfy the relic density
+constraints~\cite{Chala:2015ama}. However, if taken in isolation,
+the model is nonrenormalizable, and the axial--vector model
+violates perturbative unitarity in certain regions of the
+off-shell parameter
+space~\cite{Chala:2015ama,Kahlhoefer:2015bea,Boveia:2016mrp}.
+
+{Color-neutral scalar and pseudoscalar bosons} are a BSM
+analog of the Higgs portal model. In comparison to the \Zprime
+models, a BSM (pseudo-)scalar mediator
+model~\cite{Buckley:2014fba} has some additional peculiarities.
+Under MFV, the couplings of the (pseudo-)scalar bosons to fermions
+are mass dependent. As with the Higgs boson, there are three
+familiar consequences: (\textit{a})\ mediator production through loop-induced
+couplings to gluons~\cite{Haisch:2015ioa} and associated with
+heavy-flavor quarks~\cite{Buckley:2014fba}, (\textit{b})\ production
+cross sections that are smaller than those for vector mediators, and (\textit{c})\ visible
+decays of the mediator that are dominantly to third-generation quarks.
+Despite lower production cross sections, the more specific
+experimental signatures enable these models to be tested during
+LHC Run 2.
+
+The (pseudo-)scalar models used by ATLAS and CMS are fully
+specified by the masses of the \IP\  and the mediator, the
+$\phi$--\IP\  coupling (\gdm), and the $\phi$--fermion (\gq) coupling.
+According to the convention used in~Reference \citen{Abercrombie:2015wmb}, \gq is a
+prefactor to the Yukawa couplings to fermions and is set equal for
+all quarks. For the same model parameters, the scalar and
+pseudoscalar models predict similar kinematic distributions.
+
+When introducing an additional scalar, one must consider how this new
+scalar relates to the Higgs boson. Large mixing with the Higgs can
+lead to strong constraints from Higgs measurements, for example,
+when the scalar couples to DM through a Higgs
+portal~\cite{Berlin:2014cfa}. If the mediators are pure SM
+singlets, then the model is not invariant under
+$SU(2)_L$~\cite{Bell:2016ekl}. Mixing
+with the Higgs sector is crucial to restore gauge invariance. Couplings to the electroweak
+gauge bosons can also be added as a consequence of electroweak
+symmetry breaking~\cite{Bauer:2016gys,Englert:2016joy}. The
+tree-level signatures in this case include Higgs or vector bosons
+plus missing transverse momentum and, if the {\IP}s are
+sufficiently light, invisible decays of the Higgs boson.
+
+{Colored scalar and pseudoscalar bosons} allow direct
+coupling between SM particles carrying color and {\IP}s carrying $Z_2$
+charge~\cite{Bai:2013iqa, Papucci:2014iwa, An:2013xka,
+Bell:2012rg}. Colored mediators can have a broader set of
+multijet signatures and kinematic features than the neutral
+mediator models, including the radiation of vector bosons by the
+mediator~\cite{Bell:2012rg}.
+
+In colored (pseudo-)scalar models, the mediator must be heavier
+than the \IP\ so as  to ensure invisible-particle stability. For the current LHC results,
+the coupling between {\IP}s and quarks (\gdmq), the invisible-particle  mass, and
+the mediator mass are free parameters.
+
+The exchange of a scalar colored under \textit{SU}(3) is analogous to
+squarks in the minimal supersymmetric SM\ (MSSM), in which only squarks and neutralinos are light.
+In the MSSM, the coupling between DM and the squark is constrained
+to be small \cite{Abercrombie:2015wmb}. Without the requirements
+of a SUSY framework, this coupling need not be small. For example,
+if DM is a standard thermal relic, the couplings required to
+obtain the correct DM density are generally higher than
+what used by SUSY models. Models with three generations of
+mediators can satisfy flavor constraints and the SM gauge
+symmetry~\cite{Ko:2016zxg}.
+
+\subsubsection{Less-simplified models}\label{sec:LessSimplifiedModels}
+
+Simplified models can guide the design of generic searches but do
+not cover the full complexity of possible collider signatures that
+arise in more complete models. By contrast, relying too
+heavily on a small sample of complete models risks focusing
+searches too narrowly on an unrepresentative set of signatures.
+
+There are a large number of ``less-simplified'' models that
+attempt to find a middle ground between models that are too
+simplistic and those that are unnecessarily complex. Because the
+set of such models grows quickly with the number of components,
+and because there is no broad consensus on which models should be a
+priority, very few of them have been explicitly considered by LHC
+searches. Here, we highlight a few such models with signatures different from those of
+ the simplified models described above.
+
+{Coannihilation} models add two \hl{specifies of dark sector
+particle},\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Presumably a typo?\ If you mean ``species'', pls also change ``one similar in mass to the other'' to ``with similar masses''**]}} one similar in mass to the other (see References \citen{Buschmann:2016hkc} and \citen{Khoze:2017ixx} for examples). The interaction
+between these two states drives the cosmological
+history~\cite{Ellis:1999mm}, as processes involving both types of
+particles can efficiently annihilate into SM particles. The LHC
+signatures include \hl{missing transverse energy}\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Please use ``missing transverse momentum,'' which is more in line with recent notation, and is also what is used in the first sidebar. Also, consider using a different symbol (slash${p_T}$ instead of \MET**]}} and multiple hadronic
+jets accompanied by multiple \hl{resonant or nonresonant hadronic
+jets}.\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: these terms are not in common use (and I can guess what is meant---presumably whether they come from resonances or not); in any case, they should not be used---please rephrase**]}} The signatures can be very diverse, encompassing those typically
+found in wildly different BSM models (e.g., searches for
+leptoquarks). In some cases, these signatures have not received much attention from any
+current LHC search~\cite{Buschmann:2016hkc}.
+
+Most simplified models in use at the LHC assume MFV to ensure that
+the models are compatible with a vast and unwieldy assortment of
+experimental constraints on flavor-violating processes.
+Nevertheless, viable non-MFV\ models can be constructed, but one must then understand the impact of the
+many constraints\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Where are these constraints coming from?\ Perhaps end with ``...constraints from experimental measurements.''**]}} \cite{Blanke:2017tnb}. Mediators that couple to
+DM and a top quark appear in one category of flavor-violating
+model that remains least constrained by low-energy
+measurements~\cite{Boucheneb:2014wza}. These yield a distinct
+``monotop'' LHC signature.
+
+Other~{models with multiple mediators} with small couplings
+to SM particles have been developed to escape existing LHC
+constraints~\cite{Duerr:2016tmh}. The recent discovery of the
+Higgs boson places the LHC at the forefront of the exploration of the
+SM scalar sector. Ultimately, we do not yet know whether this scalar
+sector is limited to the SM Higgs boson. A single scalar mediator
+may not encode all of the important features of the complicated
+phenomenology of more {complex scalar sectors}. Extended
+scalar sector models often involve signatures with \MET accompanied by Higgs or other SM bosons. A step beyond the
+simple scalar mediator model, dictated by gauge invariance, is to take mixing between this
+mediator and the SM Higgs boson
+into account~\cite{Bauer:2016gys,Berlin:2014cfa}. A much larger
+step beyond that is to consider an extended Higgs sector such as a
+2HDM, in which one or more of the scalars
+acts as the mediator~between DM\ and SM\ matter \cite{Bauer:2017ota,Goncalves:2016iyg,Bell:2016ekl}. In
+such models, the new mediator mixes with the Higgs partners
+rather than with the SM Higgs, so the model remains
+compatible with Higgs measurements. 
+
+Some models developed for LHC
+searches focus on one \hl{Yukawa structure (type II)}\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Too technical, as it appears quite suddenly. Please define or add a reference**]}}. The particle
+content includes two \textit{CP}-even bosons (of which one is the SM Higgs
+boson), two \textit{CP}-odd bosons (of which one is the pseudoscalar DM
+mediator), two charged Higgs bosons, and the \IP. Masses and
+couplings of these models are chosen to respect vacuum
+stability~\cite{Goncalves:2016iyg} as well as electroweak and flavor
+constraints, and to reproduce the observed DM abundance.
+
+\subsection{Supersymmetric Models and Other Complete Theories}\label{sec:SUSYModels}
+
+So far, we have considered rather general simplified models
+inspired by interactions found in the SM. Obviously, there are many more possibilities. Additional sources of inspiration for
+searches are the large number of BSM theories that have been
+developed to solve theoretical problems of the SM as well as the
+mechanisms through which these provide {\IP}s.
+
+SUSY is one such class of theories, postulating
+partner particles to all SM degrees of freedom to stabilize the
+mass of a light Higgs boson. Reviews of supersymmetric DM models
+can be found elsewhere \cite{Feng:2010gw}. Here, we broadly
+sketch models relevant to recent experimental progress and emphasize areas
+where we expect future developments.
+
+Supersymmetric relic DM, the archetype for the concept of weakly interacting massive particles (WIMPs),
+has a long history \cite{1984NuPhB.238..453E}. The most
+viable and well-studied \hl{type of supersymmetric relic DM}\textbf{\textcolor{red}{[**AU: Addition correct?**]}} has been neutralino DM. The
+neutralino, a spin-1/2 partner particle to the SM gauge bosons, is
+often assumed to be the lightest supersymmetric particle (LSP).
+\textit{R} parity conservation makes the LSP stable~\cite{Farrar:1978xj}
+and prevents proton decay.
+
+In the MSSM, there are four neutralinos, each of which is a mixture of SM boson
+superpartners: a wino, a bino, and two higgsino fermion states.
+The lightest neutralino may be called bino-like, wino-like, or
+higgsino-like in regions of MSSM parameter space where one of
+these components dominates the mixture. The phenomenology of the neutralinos is different from that of most of the simplified models described in the previous
+section, and it depends on the mixture and on the particle spectrum.
+The LHC signatures feature missing transverse momentum from the
+neutralino and a high multiplicity of other objects (leptons,
+jets) produced in cascade decays of heavier superpartners.
+
+The MSSM is a complete theory with more than 100 independent
+parameters, but \hl{realistic SUSY models} \textbf{\textcolor{red}{[**REVIEWER\ COMMENT: given our complete lack of hints for SUSY, better not classify models as realistic (or not).  Perhaps use ``practical"?  Or, ``For practical reasons, simpler SUSY models with fewer parameters are used for designing SUSY searches and interpreting the results."?**]}}might be far simpler. Such
+models are used as predictive benchmarks for DM searches. One such model is the phenomenological MSSM (pMSSM), which assumes no
+sources of \textit{CP} violation beyond the SM and no flavor-changing neutral
+currents, and retains universal couplings and masses for first- and
+second-generation superpartners, reducing the number of MSSM
+parameters to 19.
+
+Another DM candidate in gauge- or gravity-mediated supersymmetric
+models is the gravitino, a spin-3/2 particle superpartner of the
+graviton. Gravitino interactions are suppressed by the Planck
+scale (10$^{18}$ GeV) before SUSY breaking. This has consequences
+both for their viability as a thermal relic and for their
+phenomenology. In gauge-mediated SUSY, the gravitino can be a DM
+candidate for a nonstandard cosmological
+history~\cite{Dimopoulos:1996vz}. Similar to the neutralino case,
+the identity and masses of heavier states decaying to the
+gravitino LSP determine the gravitino's phenomenology. However, the gravitino
+interactions are very weak, posing problems for both DD and
+ID searches.
+
+Because of the wide variety of potential experimental signatures,
+SUSY searches often adopt a simplified model approach,
+decoupling the particles that determine the lowest-energy collider
+phenomenology [generally the LSP and the next-to-lightest supersymmetric particle (NLSP)] from the rest of a heavier
+particle spectrum~\cite{Alves:2011wf}. As in the general
+simplified models described above, extending the MSSM quickly
+generates a plethora of nonminimal possibilities.
+
+\subsection{Long-Lived Particle Models}\label{sec:LLPModels}
+
+Another class of models found within and beyond SUSY feature suppressed cascade decays of a heavier particle (the NLSP
+in SUSY) to a lighter particle (the DM LSP in SUSY). The
+suppression can be so large that the particle travels a
+macroscopic length within the detector before it decays. Within
+SUSY, one way to achieve this suppression is for the NLSP to decay
+through a heavy intermediary. Split SUSY models are a
+subset of SUSY models in which the gluino must decay through a heavy,
+off-shell squark~\cite{Masiero:2004ft}. The heavier the mass of
+the squark is, the longer lived the gluino will be. Alternatively, the NLSP
+decay can be heavily suppressed by some power of the mass
+difference with the LSP. This mass difference also affects DM
+coannihilation rates and therefore the DM
+abundance~\cite{Ellis:1999mm}. Finally, another way to achieve
+long-lived decays is with parametrically small couplings, as in
+the case of gauge-mediated SUSY models wherein the
+long-lived NLSP decays to its SM partner plus the
+gravitino~\cite{Dimopoulos:1996vz}, in a SUSY analog of Cabibbo-suppressed \textit{B} meson decays in the SM. Because of the prevalence of
+these mechanisms, it is important to look for long-lived cascade
+decays.
+
+In addition to SUSY, one can find long-lived signatures within the
+generic simplified models described in Section \ref{sub:simplifiedModels}
+for sufficiently small couplings. If one assumes thermal freeze-out, then the
+coupling of the mediator to DM pairs is bounded from below to
+obtain a sufficiently large annihilation cross section. However,
+the early Universe mechanism that is
+responsible for the observed DM density is not known. In alternate scenarios,
+such as so-called dark freeze-out in which DM can annihilate directly to
+BSM mediators but not vice versa, the mediator couplings to the SM
+can be far smaller than allowed in standard thermal freeze-out~\cite{Pospelov:2007mp,Das:2010ts}. The freeze-in
+scenario~\cite{Co:2015pka,Bernal:2017kxu} is another possibility
+for very weak DM--SM matter interactions. Despite such small couplings, a
+sufficiently light mediator can be produced at colliders with
+an appreciable cross section. Many such models have been proposed. For example, DM can interact with the SM via a dark
+vector boson of a \textit{U}(1)$^{\prime}$ dark symmetry, equivalent to the SM's \textit{U}(1)
+but with much smaller couplings~\cite{Holdom:1985ag}, such as
+those that originate from kinetic mixing. The mediator can also be a
+dark scalar boson (a so-called dark Higgs) that couples only to the SM,
+akin to a Higgs portal~\cite{Curtin:2014cca}. In both cases, the
+dark boson mediator can be light and
+long lived~\cite{Pospelov:2007mp}, and its visible decays into SM
+particles or associated production with a SM boson provides the
+main collider handle for observation~\cite{Curtin:2014cca}. These
+scenarios can also be probed by complementary beam-dump and fixed-target experiments~\cite{Battaglieri:2017aum}. Simplified
+coannihilation models with long-lived particles (LLPs) have also been
+proposed~\cite{ElHedri:2017nny}.
+
+\subsection{Dark Interactions}\label{sec:darkint}
+
+In the above subsections, we have sketched some of the models and signatures
+that are currently being sought at colliders. We now review
+experimental searches for {\IP}s, in light of the models discussed
+above\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: This sentence would be much more effective and would not break the flow if it would be moved to the end of the paragraph**]}}. However, we have left many models uncovered. From one
+point of view, any model containing stable particles interacting
+feebly with the SM is a theory of DM. Drawing the connections
+between these models and astrophysical DM is challenging, but this
+is the key difference between models of DM and other models of BSM
+physics.
+
+The dark sector can be arbitrarily complex, as long as the
+particles and interactions it contains satisfy cosmological
+observations~\cite{Strassler:2006im, Evans:2017kti}. The models
+listed above are simple examples of such dark sectors, where the
+mediator particles (e.g., dark bosons) provide the connection with
+the SM. Many other models are worthy of mention here, including
+asymmetric DM models, in which dark sector particles and
+antiparticles are not produced in equal amounts, in the same
+fashion as matter and antimatter for SM
+baryons~\cite{Zurek:2013wia}, and models of neutral
+naturalness that realize a mirror copy of the SM without any
+low-mass equivalent of the SUSY colored
+partners~\cite{Craig:2014aea}.\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: I suggest adding to this section perturbative limits on $g_q, g_x$, etc., typical values used (and why---for weak coupling, etc.), as this ``pedagogical'' material would make it easier for less expert readers to follow the discussion. It would also motivate the onslaught of $g_q, g_x$ values presented below. Also, Feynman diagrams would be very helpful, especially to graduate students using this review as an introduction to the topic**]}}
+
+\section{EXPERIMENTAL RESULTS}\label{sec:03_ExperimentalResults}
+
+The interactions described in the previous section have many
+consequences for astrophysics (where they could modify the DM
+density) and for collider and noncollider particle physics
+experiments.
+Collisions of known particles at high energy, observed with
+well-understood detectors, have been a very successful tool,
+leading to the discovery of many of the fundamental components of
+known matter in the SM. While collider experiments alone cannot
+discover DM, they can discover {the existence of \IP}s, and this could open up
+direct study of DM--SM matter mediators in other channels and of
+additional particles in a dark sector. DM--SM matter interactions may be
+feeble because they are mediated by a heavy mediator or by a
+mediator with small couplings to SM. Many high-energy collisions are needed to extensively search for these interactions, and the
+LHC, which presently collides protons at a center-of-mass energy
+of 13~TeV, will deliver both in the coming years.
+
+Below, we discuss experimental searches for {\IP}s from three
+LHC~\cite{LHC2008} experiments, ATLAS, CMS, and
+LHCb~\cite{ATLAS2008,CMS2008,LHCb2008}, and briefly touch on some
+results from previous colliders. The LHC results include up to
+36~\ifb of proton--proton collision data taken through 2017 during Run 2,
+more than three times what was used for the Higgs discovery but only
+1\% of the data expected during the full High-Luminosity LHC (HL-LHC)
+run.
+
+Regarding signatures, we outline how the relevant searches are done, some
+of the challenges, and the information they provide about the properties
+of hypothetical particles (couplings, mediator mass, other
+parameters of the Lagrangian in a particular model). \hl{In a later
+chapter}\textbf{\textcolor{red}{[**AU: Which section(s) specifically?**]}}, we describe how collider information can be related to
+noncollider DM searches and to the present DM abundance, such as
+how conclusions drawn from relativistic collisions can be
+extrapolated to the nonrelativistic collisions of DM+nucleons\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: the second clause seems to be dangling[?].  Perhaps ``The process allows the results drawn from relativistic collisions to be extrapolated to the nonrelativistic collisions of DM+nucleons."
+Note bene: having suggested this, there is too much stress on ``relativistic" vs. ``nonrelativistic" -- which is actually not so relevant here.  You could even simply delete the second clause.**]}}.
+
+\begin{marginnote}[]
+\entry{Run 1}{the first period of LHC running (2010--2012) at 7- and 8-TeV center-of-mass energy, where approximately 20~\ifb of data
+were collected by ATLAS and CMS} \entry{Run 2} {the second, ongoing
+period of LHC running (2015--2018) at 13-TeV center-of-mass
+energy;  approximately 100~\ifb of data are planned to be collected\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: See my remark above regarding placement of this term. I would also update the Run 2 expectations; you can indicate the lumi collected up to the end of 2017**]}}}
+\entry{High-Luminosity LHC (HL-LHC)} {planned to begin operation in 2026 and to collect 3,000~\ifb\ of data}
+\end{marginnote}
+
+\subsection{Searches for Invisible-Particle Production Mediated by Standard Model Bosons}\label{sec:results_ZHSearches}
+
+Colliders have already provided spectacular evidence for copious production of low-mass invisible particles: the huge rate of neutrino production
+mediated by the \textit{W} and \textit{Z} bosons. As a result, neutrino production via the \textit{Z}
+boson is often the largest background to searches for new {\IP}s
+and is important to understand well. The rate of \textbf{\textcolor{red}{[**AU: Text missing here?**]}}would differ from
+the SM prediction if the \textit{Z} boson is coupled to additional {\IP}s
+lighter than approximately half its mass. The most precise measurement of
+the invisible \textit{Z} boson's width, 499.1 $\pm$ 1.5 MeV, has been inferred from
+the total  \textit{Z}
+width at LEP~\cite{ALEPH:2005ab}. This value can be used to
+constrain the parameters of models such as \textit{Z}
+portals~\cite{Carena:2003aj,Escudero:2016gzx}. The coupling
+between the \textit{Z} boson and an invisible Dirac fermion is constrained to be
+\hl{smaller than 2--3\%} \textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Please rephrase...  [Perhaps you mean of the corresponding SM values?]**]}}for {\IP}s that are significantly lighter than
+half the \textit{Z} mass. A less precise direct measurement of the \textit{Z} boson's
+invisible width, also by LEP, uses invisible decays with a photon
+emitted as initial-state radiation (ISR), selecting events with a
+single photon, the total invisible transverse momentum inferred
+from momentum balance with the visible particles (\MET), and
+little other event activity.  ISR+\MET has become a key
+signature for invisible-particle searches at colliders. At the
+LHC, precision measurements continue to test the production and
+decay of \textit{Z} bosons for the effects of {\IP}s. For example, ATLAS
+has measured the ratio of cross sections for jet and \MET
+production, dominated by invisibly decaying \textit{Z} bosons, to
+the production of \textit{Z} bosons decaying to dilepton pairs, a ratio that
+is sensitive to the production of additional
+{\IP}s~\cite{Aaboud:2017buf}.
+
+The \textit{Z} boson is also key to invisible decays of the
+newly discovered Higgs boson. In the SM, decays of the Higgs boson to neutrinos proceed through a pair of \textit{Z} bosons that decay invisibly and contribute less than 0.1\% of the total width of the Higgs boson. With
+present data, this rate could become observable if the Higgs is
+coupled to additional
+{\IP}s~\cite{Khachatryan:2016vau,Aad:2015pla}. To constrain the
+invisible width of the Higgs, ATLAS and CMS cannot directly
+measure its total width in a model-independent
+fashion~\cite{Dobrescu:2012td}; instead, searches attempt to
+directly observe these decays via their recoil against visible
+particles (resulting in substantial \MET) or through a comparison of measurements of the
+Higgs parameters under additional assumptions about the BSM
+physics. Direct Higgs-to-invisible searches have used Run 1 and
+Run 2 data, combining several strong and electroweak production
+channels. A combination of direct and indirect searches yields the most
+stringent upper bound on the fraction of invisible decays of the Higgs
+boson: 23\%~\cite{Khachatryan:2016whc,Aad:2015pla}. This places
+constraints on Higgs portal couplings of 1--2\% for Dirac {\IP}s
+much lighter than half the Higgs mass.
+
+\subsection{Generic Searches for Invisible Particles from Beyond-the-Standard-Model Mediation}\label{sec:results_monoXSearches}
+
+Searches for invisible decays via an SM mediator (the \textit{Z} or Higgs boson)
+can be viewed as special cases of searches for more general BSM
+mediation of {\IP}s. Since mediator decays to {\IP}s are
+suppressed if the invisible-particle  mass is heavier than half the mediator mass,
+the fixed masses of SM mediators place an upper bound of $\sim$45--65 GeV on the invisible-particle mass that can be observed. Moreover, the
+distribution of \MET in such events has a similar shape to that of
+the \textit{Z} boson--mediated neutrino background.
+
+\begin{textbox}
+\section{MEASURING INVISIBLE PARTICLES: \MET RECONSTRUCTION}
+
+\noindent Precise measurements in all detector systems are crucial
+for measurements of \MET in experiments at hadron colliders, as the
+calculation should include all particles in the event.
+Contributions that are not attributed to physics objects form the
+soft component of the \MET~\cite{Aad:2016nrq,CMS-PAS-JME-16-004}.
+One of the main challenges for \MET measurements is excluding
+contributions from additional proton--proton interactions whose
+debris are detected at nearly the same time as the hard scatter
+(pileup). Searches for invisible particles also need to reject
+events with high \MET if the visible energy is due to
+noncollision backgrounds.
+
+{\textbf{\textcolor{red}{[**AU: the three paragraphs are disconnected.  It would be better to form full sentences rather than start the second and third paragraphs with ``Challenge:''**]}}Challenge: pileup in \MET reconstruction.} In addition to
+suppressing pileup suppression within the calorimeters, tracking
+information can be used to determine whether energy deposits
+originate from the primary collision vertex. The combination of
+this information is used to remove pileup both in the physics
+objects used for \MET calculation and in the overall event energy
+balance~\cite{CMS-PAS-JME-16-004,ATLAS-CONF-2014-019}.
+
+{Challenge: fake \MET rejection.} Noncollision
+backgrounds, such as cosmic rays, beam background, and detector
+noise have a significant contribution to the tails of the \MET
+spectrum (Figure~\ref{fig:fakeMET}). Specific quality
+cuts, based on the presence of tracks associated with the deposited
+energy and on the energy deposited in the various calorimeter layers,
+are applied to reject these events~\cite{ATLAS-CONF-2015-029}. The
+number of events passing the jet+\MET analysis selection before
+these quality cuts is approximately 10 times larger than the SM
+contribution~\cite{Aaboud:2016tnv}.\textbf{\textcolor{red}{[**AU: Please insert a callout to this sidebar in the main text**]}}
+\end{textbox}
+
+For heavier BSM mediators, this is not necessarily the case. Their
+decay to {\IP}s can produce \MET distributions substantially
+different from the SM background. The complexity of the processes
+mediating invisible-particle production determines the composition
+of the visible recoil, so searches are employed across many
+different visible-particle signatures. Nevertheless, many collider
+searches, from LEP to the Tevatron to the most recent LHC searches
+(e.g.,~\citen{Fox:2011fx,Bai:2010hh}), aim to be model agnostic,
+designed to detect an excess of \MET over the SM background with
+minimal assumptions about the visible objects in the recoil.
+Selecting events (triggering) in a model-agnostic way\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: need to specify that this is an online or real-time selection**]}} can often be
+done by looking for substantial \MET, but for models that do not
+produce large \MET, one is forced to assume more about the visible
+recoil. We begin with the jet+\MET search, which illustrates
+techniques used in other general invisible-particle searches and
+shares with them many of the same challenges. Traditionally, these
+have been called mono-\textit{X} searches, but the radiation of a single
+object is only the leading process in the simplest
+reactions~\cite{Haisch:2013ata}.
+
+\begin{marginnote}[]
+\entry{Trigger}{selects which LHC collisions are recorded
+for analysis (for descriptions of the ATLAS and CMS triggers, see
+Reference \citen{Smith:2016vcs})\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: This definition is unnecessary, given the sidebar on challenges in triggering**]}}}
+\end{marginnote}
+
+\subsubsection{Searches with jets}
+
+One way to reduce the model dependence of the searches is to
+require that the recoiling visible particles be produced by SM
+processes, not in the dark interaction. ISR meets this criteria.
+SM bosons are likely to be present in any BSM process, radiated
+from initial-state partons at rates fixed by the SM. Because gluon
+ISR is far more prevalent than the other forms, the jet+\MET
+search is key in this approach.
+
+A LHC jet+\MET search~\cite{Aaboud:2017phn,Sirunyan:2017jix}
+typically selects collision events with a moderate amount of \MET
+(in the 13-TeV analyses, typically above 200 GeV, sufficient to
+record such events at a manageable rate) and at least one jet with
+transverse momentum (\pt) higher than 100--200 GeV in the central
+region of the detector ($|\eta|<2.4$).\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Please define $\eta$ here**]}} From this sample, further
+restrictions on additional hadronic jets and other visible
+particles are used to suppress contributions from SM processes and
+from instrumental backgrounds causing spurious \MET. These
+requirements reduce the generality of the analysis but also better
+isolate signal-like events. For example, contributions from \textit{W}
+bosons decaying to leptons are reduced by vetoing events with
+leptons, and top quark pair production is reduced by limiting the number
+of jets present. The remaining SM multijet processes can exhibit
+high \MET when one or more jets are mismeasured. Such
+mismeasurements often result in \MET along the axis of a jet, and
+this feature is used to reduce the background to approximately 1\% of the
+total. Noncollision events (e.g., intersecting cosmic rays,
+beam--gas interactions, and calorimeter problems) can also produce
+spurious \MET events. Figure~\ref{fig:fakeMET} shows that such
+events dominate a high-\MET data sample unless they are rejected with
+criteria tailored to the expected collision time and detector
+hardware.
+
+After the above criteria \hl{are satisfied}\textbf{\textcolor{red}{[**AU: Addition correct?**]}}, one arrives at a sample composed mainly
+of invisible decays of the \textit{Z} boson (approximately 55--70\% of the
+total background). A substantial rate of semileptonic decays of
+the \textit{W} boson also survives the lepton veto when the lepton is not
+reconstructed (approximately 20--35\% of the total background.
+The main observable is typically the number of events in one or
+more \MET signal regions, either exclusive (in bins of
+\MET) or inclusive (considering all events above a given \MET
+threshold).
+
+\begin{marginnote}[]
+\entry{Signal region}{a population of events enriched in
+contributions from signal processes; data in this region are
+compared with SM predictions to search for new processes }
+\entry{Control region}{a population depleted of signal
+contributions but with other characteristics close to the signal
+region; control data are used to model or validate SM
+predictions}
+\end{marginnote}
+
+\begin{figure}[!htpb]
+%\includegraphics[width=0.5\textwidth]{figures/FakeMET}
+\caption{The \MET distribution of events, selected for high total
+hadronic energy and at least two jets with \pt{} $>$ 400 and 200
+GeV, before (\textit{open circles}) and after (\textit{filled circles}) rejection of
+spurious \MET backgrounds~\cite{CMS-PAS-JME-16-004}. The
+predictions of Monte Carlo  simulations (\textit{shaded areas}) are also shown. Strong
+noncollision background suppression is vital to \textit{X}+\MET analyses.}
+\label{fig:fakeMET}
+\end{figure}
+
+Because {\IP}s have feeble interactions with the colliding
+partons, and thus low production cross sections, these searches
+need \hl{very precise} \textbf{\textcolor{red}{[**REVIEWER\ COMMENT: isn't ``very precise" an exaggeration here?  [Even ``precise" is -- in some cases".]  Suggest dropping ``very" (at a minimum...) **]}}estimates of the shapes of the backgrounds. A
+background estimate solely from Monte Carlo simulation is subject to
+uncertainties in both theory and detector simulation affecting the
+total cross sections, and therefore is not precise enough. To
+estimate the \textit{Z}- and \textit{W}-mediated neutrino backgrounds, recent ATLAS
+and CMS searches combine the information from data, in signal-free
+{control regions} selecting visible boson (\textit{W},
+\textit{Z}, $\gamma$)+jet processes, with the most recent perturbative
+calculations~\cite{Lindert:2017olm}, yielding much more precise estimates.
+ATLAS\ estimates backgrounds from top processes using a
+control region with $b$ jets, while CMS takes this background from
+simulation. Estimates of smaller backgrounds rely more heavily on
+simulation.
+
+Currently, the precision achieved for the background estimate is 2--7\%
+(CMS) and 2--10\% (ATLAS), depending on the \MET range. The
+remaining uncertainties arise mainly from the identification of
+leptons (CMS) and the understanding of jet and \MET
+calibration (ATLAS).
+
+\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: This paragraph is a good example of where the reader is mystified as to why the specific values of $g_q, g_x$ are used.  Some more motivation would be quite helpful to the reader**]}}With no excesses observed, these searches set 95\%-CL limits
+on the production cross section of {\IP}s, typically ranging from
+0.5 \pb to 2 \fb, depending on the \MET
+threshold~\cite{Aaboud:2017phn}. ATLAS and CMS also report
+constraints for a selection of mediator models. These constraints
+can be interpreted as limits on the interactions between the
+mediator and the SM (e.g., \gq) under specific sets of model
+assumptions, not on the mass and other properties of the {\IP}s
+per se. As an example, for the simplified model with
+(axial--)vector mediators, mediator masses of up to
+1.5--1.9~TeV~\cite{Aaboud:2017phn,Sirunyan:2017jix} are ruled out
+for an invisible coupling of \gdm=1. For mediators lighter than
+this bound, the search can exclude SM couplings of order 0.1 or,
+alternatively, lower \gdm values than unity. With this amount of
+data, the searches are also becoming sensitive to lower-rate
+interactions mediated by (pseudo-)scalar mediators, and a recent
+ATLAS search~\cite{Aaboud:2017phn} sets explicit constraints on
+colored scalar mediators, where, for unit couplings and invisible
+particle masses of up to 100 GeV, the mass of the mediator is
+constrained to be above 1.7 TeV. Jet+\MET results from LHC Run 1
+and the Tevatron have also reported constraints on EFT models.
+
+Since this type of search can constrain a wider variety of
+interactions than explicitly considered, steps have been taken to
+allow easy reinterpretation of the results. ATLAS and CMS provide
+more detailed experimental results on the HEPData
+platform~\cite{Maguire:2017ypu}. CMS also provides a simplified
+likelihood function encapsulating the
+result~\cite{Collaboration:2242860,Sirunyan:2017jix}.
+
+\subsubsection{Searches with photons and vector bosons}\label{subsub:monoV}
+
+Particles other than gluons can constitute visible-particle
+recoil. In models where the recoil arises from ISR, the rates
+for photon and electroweak boson radiation are much smaller than
+for gluon radiation. Nevertheless, searches in photon+\MET and
+\textit{Z}+\MET channels can play a complementary role alongside jet+\MET\ searches,
+with a smaller and different mix of backgrounds and different
+systematic uncertainties. Both ATLAS and CMS have performed
+searches in each channel. With lower backgrounds, events can be
+recorded with lower kinematic thresholds, resulting in lower \MET
+and visible-\pt{} selections. For example, the lowest \MET value
+probed by the \textit{Z}+\MET search, where the \textit{Z} decays into
+leptons~\cite{Sirunyan:2017qfc,Aaboud:2017bja}, is around 100 GeV,
+versus 200 GeV for the jet+\MET search~\cite{Sirunyan:2017jix}.
+
+These searches can play a much more powerful role when the recoil
+arises from the dark interaction itself rather than ISR. In these
+cases, photon or vector boson recoil
+(e.g.,~\citen{Birkedal:2004xn,Carpenter:2012rg}), rather than gluon
+recoil, may be the dominant signature. In these searches, the
+event selection and the background estimation strategies generally
+mirror those of the jet+\MET search, but vary with the type of
+recoil, taking advantage of the special features of the signal. In
+photon+\MET searches~\cite{Aaboud:2017dor,CMS-PAS-EXO-16-014},
+components of hadronic showers misidentified as isolated photons
+are a sizable background to be rejected. The searches with
+electroweak bosons decaying hadronically use jet substructure
+techniques~\cite{Sirunyan:2017jix,Aaboud:2016qgg} to recover
+information about boson mass and decay in events where the decay
+products from the high-\pt{} boson are collimated. QCD jets do
+not present any substructure~\cite{Larkoski:2017jix}, while the
+decay products of vector bosons grouped into large-radius jets
+have a typical two-prong pattern from the hadronization of the
+quark--antiquark pair.\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: This paragraph, which has to explain substructure etc., is too brief given the topic.  Please expand it and use a more basic description/introduction to the topic**]}}
+
+None of these searches have yet observed a signal. The searches are generally not
+as sensitive as the jet+\MET search to models in which the
+visible recoil arises from ISR, because of smaller signal
+acceptance and a comparable signal-to-background ratio. Nevertheless, they can
+be remarkably competitive:\ The
+photon+\MET searches are the next-to-most-powerful probe after the jet+\MET searches. Moreover,
+these searches provide the most stringent limits on some models
+in which the boson in question is directly involved in the dark
+interaction~\cite{Berlin:2014cfa}.
+
+\subsubsection{Search signatures including the Higgs boson}
+
+\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: This section would benefit from Feyman-like (simplified) diagrams**]}}One can also look for the newly discovered Higgs boson in the
+recoil, but due to the heavy mass of the Higgs and the small
+heavy-flavor content of the proton, the rate of Higgs ISR is
+insignificant. Thus, searches for Higgs+\MET target dark
+interactions in which the Higgs is a direct participant and,
+therefore, the interaction is closely tied to the Higgs sector.
+This is a feature of many models that extend the SM scalar sector.
+
+Dedicated searches for Higgs+\MET  select Higgs events similar to
+the inclusive Higgs measurements, then require substantial \MET to
+reduce the backgrounds to the search. In the Run 2 data, searches
+in the $H \rightarrow
+\gamma\gamma$~\cite{CMS-PAS-EXO-16-054,Aaboud:2017uak} and $H
+\rightarrow b\bar{b}$~\cite{Aaboud:2017yqz} channels have been
+performed. Searches in the $ZZ,~WW$, and $\tau\tau$ channels are
+expected to contribute as well, once substantially more data have been
+collected.
+
+The \MET+$H \rightarrow \gamma\gamma$
+searches~\cite{CMS-PAS-EXO-16-054,Aaboud:2017uak} benefit from
+their ability to precisely constrain the diphoton pair to the
+Higgs boson mass. They are still statistically- limited. The
+relatively low backgrounds enable probing for anomalous \MET as low
+as 50 GeV~\cite{CMS-PAS-EXO-16-054}. The diphoton-invariant mass
+is fitted in different signal categories, each optimized for
+different types of signal models. The search for a Higgs boson decaying to
+two bottom quarks~\cite{Aaboud:2017yqz} requires \MET$>$150 GeV.
+All backgrounds except for the QCD background are estimated using
+Monte Ccarlo simulation and constrained in dedicated control regions. This search
+also employs jet substructure techniques for \MET$>$500 GeV to
+select boosted Higgs decays amid a background of QCD processes.
+The main systematic uncertainty for the lower \MET signal region
+is the modeling of the \textit{V}+jets background, while a higher-\MET
+signal region is still statistically limited with the current
+data set.
+
+In the absence of a signal, limits are placed on the baryonic Higgs benchmark
+model outlined in Section~\ref{sub:simplifiedModels} with \gq=1,
+\gdm=1, \ghZprimeZprime/$m_{Z}$=1, and \sinthetab=0.3, and on a
+\Zprime--2HDM.\footnote{In the case of the \Zprime--2HDM, CMS and ATLAS set different masses for the new Higgs
+bosons, so the constraints are not yet directly comparable.} 
+Higgs+\MET and \textit{Z}+\MET searches are also sensitive to extended
+scalar sectors such as two Higgs doublets with a scalar or
+pseudoscalar
+mediator~\cite{Bauer:2017ota,Goncalves:2016iyg,Bell:2016ekl}.
+
+\subsubsection{Searches with third-generation quarks}
+
+In scalar- and pseudoscalar-mediated simplified models, one can
+exploit the production mechanism in the design of the search. For
+instance, the mediator can be produced along with two top or
+bottom quarks, leading to a signature that includes \MET and multiple \textit{b} jets.
+
+A recent ATLAS search in these channels~\cite{Aaboud:2017rzf} is
+optimized for both recoil consisting of semileptonic and fully
+hadronic top quark decays and recoil with one or two bottom
+quarks. This signature is similar to that of third-generation
+quark superpartners and can be part of dedicated SUSY searches or
+used for reinterpretation~\cite{Aaboud:2017aeu,Sirunyan:2017leh}.
+SUSY searches suppress most of the $t\bar{t}$ background, matching
+specific models to specific, low-background signal regions.
+Relative to these approaches, the search described in
+Reference~\citen{Aaboud:2017rzf} is less narrowly targeted at specific
+models, where control regions can be more reliably developed,
+instead relying more heavily on simulation. The sensitivity of
+searches of \MET associated with top quarks is comparable for the
+two strategies.
+
+No excess is observed in any of these searches. For invisible-particle masses of
+1 GeV, color-neutral pseudoscalar mediators with masses in the range of 20--50
+GeV~\cite{Aaboud:2017aeu} and scalar mediators with mass up to 100
+GeV~\cite{Sirunyan:2017leh} are excluded. Signatures with
+$b\bar{b}$ pairs are less sensitive to models that do not
+explicitly privilege bottom quarks, but they can set much higher limits
+on colored mediator masses in the case of preferential couplings to
+bottom quarks~\cite{Agrawal:2014una}.
+
+Other LHC searches in this category are those including only
+one top or bottom quark (also called monotop or monobottom
+searches)~\cite{Sirunyan:2018gka, Aad:2014wza}. They place
+constraints on models that include singly produced {\IP}s through
+flavor-changing neutral currents~\cite{Boucheneb:2014wza}.
+
+\subsection{Searches for Supersymmetric Invisible Particles}\label{sec:results_SUSYSearches}
+
+So far motivated by simple models, the \textit{X}+\MET experimental
+searches discussed make few choices about the visible recoil
+particles (i.e., the species of a single particle), yet they have
+already led to a plethora of diverse signatures. Models with more degrees of freedom vastly expand the set of
+signatures to be explored. SUSY adds, along with
+{\IP}s, a full copy of the SM particle
+spectrum. Each superpartner features particular decay chains that
+can be targeted to a greater or lesser degree, privileging either
+generality or maximal sensitivity. Compared with the generic
+searches described above, SUSY searches generally opt for a more specific
+decay topology and thus apply more stringent event selections
+based on the expected kinematic features, often using
+discriminating variables based on the combined mass of visible and
+invisible particles (e.g.,~\citen{Lester:1999tx}) to recover
+the ability to resolve various resonant decays.
+
+SUSY has received much attention from ATLAS and CMS, and many
+searches for its particles, such as for squarks and gluinos, have
+a long history at earlier colliders as well. In this section, we
+discuss experimental results of more recent interest.
+
+So far, no SUSY search has produced a conclusive signal. However,
+given its multifarious signatures, it is difficult to make general
+statements about the current status, even for simplified models of
+SUSY. Perhaps the best one can say is that searches for
+strongly produced superpartners constrain them for masses
+approaching \hl{a couple of TeV}\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Too colloquial; replace with ``$\sim$2 TeV''**]}} (Figure~\ref{fig:SUSYSummary_ew})
+(e.g.,~\citen{Aaboud:2017bac,Sirunyan:2017yse}), for neutralino
+masses up to 1 TeV; by contrast, other processes are
+less constrained. Direct production of weakly coupled
+superpartners has a much smaller production rate; therefore, the
+constraints on them are significantly weaker. Third-generation
+squarks are generally only constrained to be at least several
+hundred GeV for neutralinos of similar masses (e.g.,~\citen{Sirunyan:2017wif,Aaboud:2016wna}). But there are
+numerous exceptions to these blanket statements, even before one
+takes into account that the masses exclusions shown in Figure~\ref{fig:SUSYSummary_ew} 
+apply only to specific slices of a multidimensional model parameter
+space.
+
+\begin{figure}[!htpb]
+%\includegraphics[width=\textwidth]{figures/SUSY_electroweak.pdf}
+\caption{Mass reach of (\textit{a})\ CMS and (\textit{b})\ ATLAS searches for a selection of
+results targeting electroweak supersymmetry production, available as of
+December 2017.
+Panel \textit{a} adapted from Reference \citen{CMSSUSYSummary}. Panel \textit{b} adapted from Reference~\citen{ATLASSUSYSummary}.\label{fig:SUSYSummary_ew}}
+\end{figure}
+
+Although LHC searches have so far probed mainly  SUSY channels that are strongly produced, searches for more rare processes are now entering their prime. With the data now collected, one can explore the
+electroweakino parameter space (e.g.,~\citen{Sirunyan:2018ubx,ATLAS:2017uun}). Searches for gauge
+boson superpartners (gauginos) can reach approximately 1 TeV if
+the superpartners of SM leptons are light, and the search can
+benefit from a high leptonic branching ratio, whereas their reach
+is lower if their decays proceed through \textit{W} and \textit{Z} bosons. More
+luminosity also provides access to new regions of parameter space
+for specific signatures, such as so-called compressed regions where small
+mass differences between superpartners cause the signals to lie
+buried in large backgrounds at low
+\MET~\cite{Aaboud:2017leg,Sirunyan:2017zss}. Small mass
+differences can also suppress superpartner decays, resulting in
+long lifetimes that can be exploited to study regions with a mass
+difference as low as 0.2 GeV for Higgsino
+\textbf{\textcolor{red}{[**AU: Should ``Higgsino'' be lowercased here, as above?**]}}models~\cite{ATL-PHYS-PUB-2017-019}. Other mechanisms of decay
+suppression can do this as well [e.g., split
+SUSY~\cite{Sirunyan:2018vjp}].
+
+Despite the unwieldy diversity SUSY signatures, a sufficiently
+specific model can provide a concrete framework on which to build
+an understanding of the combined effect of many experimental
+constraints. The study reported in Reference \citen{Conley:2010du}, continued in LHC
+experiments\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Continued WITHIN the experiments or FOR the experiments?\ By the same authors?**]}}~\cite{Aad:2015baa, Khachatryan:2016nvf}, uses the
+pMSSM to define a finite (although large) parameter space for
+which the wealth of experimental constraints can be systematically
+evaluated. Although this approach is not exhaustive, it can identify
+underexamined signatures for future emphasis\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: The nonexpert reader will be mystified by this statement**]}}. One may also identify the LSP with astrophysical DM
+to focus more specifically on regions compatible with a given
+cosmology~(e.g., \citen{Aaboud:2016wna}).
+
+Collaborations such as GAMBIT~\cite{Athron:2017ard} and
+Mastercode~\cite{Bagnaschi:2017tru} have combined a variety of
+tools to aid in such efforts. These codes encapsulate search
+results in statistical outputs that can be combined to construct
+global constraints for the models of interest. For example, one
+may compile the likelihood functions for the parameters of a SUSY
+model given the results from collider, DD, and ID experiments.
+
+\subsection{Searches in Association with Long-Lived Particles}\label{sec:results_LLPSearches}
+
+Prompt decays produce a visible recoil that originates at the collision
+point; thus, it can be reconstructed using the techniques for
+which the experiments were designed. The long-lived mediators
+described in Section~\ref{sec:LLPModels} present different
+experimental challenges. For short lifetimes, LLPs can decay inside the tracking detectors, appearing as
+displaced decay vertices. Some SUSY decay chains lead to
+disappearing tracks, if the visible particles decay into the LSP
+and soft particles (e.g.,~\citen{Aaboud:2017mpt, CMS:2014gxa}).
+Even longer-lived particles can decay in the calorimeters or in
+the muon spectrometers, or they may exit the detector cavern
+completely before decaying. These complications add yet another
+dimension of complexity to such searches, because observing the
+events may require dedicated triggers, reconstruction algorithms,
+and even detectors \cite{Ball:2016zrp,Chou:2016lxi}.
+
+Searches at colliders use a variety of experimental signatures to
+target different types of dark bosons, such as dark vector or
+scalar bosons. An LHCb search for dimuon
+resonances~\cite{Aaij:2017rft} is sensitive to visible decays of
+vector mediators in the mass range between 10 and 70 GeV. This
+search can use the entire sample of dimuon decays delivered to
+LHCb, recorded at the full collision rate directly at the trigger
+level~\cite{Aaij:2016rxn}. Below 10 GeV, experiments at
+electron--positron colliders have searched for dilepton resonances
+or missing mass produced in association with ISR photons (e.g.,~\citen{Lees:2014xha,Lees:2017lec}). LHCb also searches dimuon
+events for scalar bosons with masses between 250 MeV and 4.7
+GeV~\cite{Aaij:2016qsm}, for a range of lifetimes. Dark bosons can
+also arise in Higgs decays via a hidden-sector mechanism. For
+example, the searches described in References \citen{ATLAS:2016jza} and \citen{CMS-PAS-HIG-16-035}
+look for exotic Higgs decays into collimated lepton-jets,
+constraining the decay rate to be below 10\% for a range of dark
+photon lifetimes. Reference~\citen{Curtin:2014cca} provides a review of
+\hl{many possibilities}\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Do you mean ``many other possibilities''?\ Otherwise it's unclear how this sentence fits with the previous one**]}}.
+
+\subsection{Consequences of Neutral-Mediated Models: Visible Decays}\label{sec:MediatorSearches} \label{sub:twoBody}
+
+Dark interactions might also be probed without actually producing
+{\IP}s. For example, if the mediator particle can be produced via
+interactions with quarks, it may also decay into quarks. In this
+case, dijet and top--top resonance searches (e.g.,~\citen{Liew:2016oon,Chala:2015ama}) can constrain it.
+
+Dijet resonance searches have been routinely used at hadron
+colliders to probe for new particles at newly reached collision
+energies. They exploit an expected absence of features in the
+dijet-invariant mass distribution to estimate the search
+background directly from a fit to the data, minimizing modeling
+and theory uncertainties. This permits the observation of low-rate
+localized excesses (width/mass of up to $\sim$15\%) from resonant
+dijet production~\cite{Aaboud:2017yvp,CMS-PAS-EXO-16-056}. For
+wider signals, searches exploiting the scattering angle of dijet
+events can be used~\cite{CMS-PAS-EXO-16-046,Aaboud:2017yvp}.
+
+\begin{textbox}
+\section{CHALLENGES FOR TRIGGERING AT HADRON COLLIDERS}
+
+\noindent The LHC collides protons every 25 $\mathrm{ns}$ in nominal
+conditions. The decision to record collision events for further
+analysis is made by the trigger
+system~\cite{Smith:2016vcs,Aaboud:2016leb,Khachatryan:2016bia}.
+Its first, hardware-based level uses partial detector information
+for fast decisions. Its second, software-based level uses more
+refined algorithms and has access to further detector information.
+
+{Triggering on low-\pt objects}: The trigger system records
+events above a certain threshold (e.g., leading-jet \pt or event
+\MET), since energetic processes are likely to contain interesting
+features. Only a small fraction of events below these thresholds
+is recorded, penalizing signals with lower-energy signatures.
+However, if only final-state objects reconstructed by the trigger
+system are recorded, instead of full event information, the
+storage limitations can be
+overcome~\cite{Aaij:2016rxn,CMS-PAS-EXO-16-056,Aaboud:2016leb}.
+
+{{Pileup} in trigger}: Pileup can add energy
+uncorrelated to the hard process of interest, increasing the event
+rate for a given trigger threshold; trigger \MET rates increase
+exponentially with the number of additional interactions. For this
+reason, increases in LHC instantaneous luminosity and data set size
+come at the cost of increased thresholds. Dedicated pileup
+suppression algorithms, including partial tracking information, are
+used in trigger
+reconstruction~\cite{CMS:2014ata,ATLAS-CONF-2014-019}. ATLAS and
+CMS foresee dedicated hardware systems to obtain full tracking
+information in future LHC
+runs~\cite{Shochet:2013gaw,1748-0221-6-12-C12065}.
+\end{textbox}
+
+At the LHC, typical dijet searches lose sensitivity at masses
+below approximately 1 TeV~\cite{An:2012ue,Dobrescu:2013coa}, where high
+rates force the experiments to discard a large fraction of the
+data at the level of the trigger (see the sidebar titled Challenges of Triggering at Hadron Colliders). One can reduce this threshold to 400
+GeV~\cite{CMS-PAS-EXO-16-056,ATLAS:2016xiv} by recording much less
+information for these low-mass
+events~\cite{Aaij:2016rxn,CMS-PAS-EXO-16-056,Aaboud:2016leb}.
+Alternatively, one can look at the subset of dijet events in which a
+high-\pt{} ISR object happens to
+trigger\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Some of this has already been mentioned, so please add something that acknowledges as much (e.g., ``as mentioned in Section...'').**]}}~\cite{ATLAS:2016bvn,Sirunyan:2017nvi}. Even lower mediator
+masses can be reached\textbf{\textcolor{red}{[**AU: Is a word missing here?**]}} exploiting substructure techniques when the
+mediator decays are collimated into a single
+jet~\cite{Sirunyan:2017nvi,Aaboud:2018zba}. Dedicated searches for
+resonances of third-generation
+quarks~\cite{lowMassDiB,CMS-PAS-HIG-16-025,Aaboud:2017hnm} are
+also performed.
+
+Dilepton resonance searches also constrain mediator couplings to
+leptons~\cite{Aaboud:2017buh,Khachatryan:2016zqb}. For dielectron
+and dimuon searches, the main backgrounds arise from Drell--Yan
+processes, which are estimated with simulations corrected for next-to-next-to-leading-order
+effects and normalized to the \textit{Z} boson yield in the data.
+
+\begin{figure}[!htpb]
+%\includegraphics[width=\textwidth]{figures/CouplingMassPlot.pdf}
+\caption{Summary of constraints from searches for light dijet
+resonances from ATLAS and CMS, where discrete points are taken
+from the coupling-mass limits on a simplified model mediated by an
+axial--vector $Z^\prime$ coupling exclusively to quarks from the
+searches mentioned in the text, and interpolated at the crossings.
+Couplings above the lines are excluded at 95\% CL, up to the
+values where larger couplings yield a resonance width larger than
+15\% (roughly \gq $>$ 0.5). Abbreviation:\ DM, dark matter. Pre-LHC constraints are from Reference \citen{Dobrescu:2013coa}.}\label{fig:couplingmass}
+\end{figure}
+
+Figure \ref{fig:couplingmass} illustrates constraints from the
+dijet resonance searches mentioned above, on the quark coupling of
+the mediator in an axial--vector simplified model, as a function of
+the mediator mass, for a model that assumes no tree-level
+couplings to leptons and no possible decay to DM. Searches for
+boosted mediator decays are sensitive to masses as low as 50 GeV
+and quark couplings \gq as low as 0.06 at 60 GeV. Jets from the
+mediator decay are spatially separated for mediator masses above
+250--300 GeV, where the $\gamma$ and gluon ISR+dijet channel
+constrains \gq to be greater than 0.15--0.2. Above 400 GeV, where searches with
+jets at the trigger level become available, they are the most
+sensitive, excluding \gq as low as 0.05. Above 1 TeV, standard
+dijet resonance and angular searches constrain quark couplings
+from 0.1 to unity, up to 5 TeV.
+
+Mixing between this mediator and the \textit{Z} boson induces loop-level
+couplings to leptons. ATLAS and CMS use several sets of coupling
+benchmarks to illustrate how the experimental constraints depend
+on these unknown values. For equal couplings of the mediator to
+leptons and jets, dilepton searches at a given mediator mass are
+far more sensitive than dijet searches. Other values are
+discussed further in the next section.
+
+\subsubsection{Comparison of the sensitivity of visible and invisible LHC searches}\label{sub:comparisonVisibleInvisible}
+
+Fully visible signatures of a particular dark interaction can be
+powerful probes of it and, in some cases (e.g., when the {\IP}s
+are too heavy to be directly produced), are the only way to observe
+dark interactions at a collider. By contrast, only \MET
+searches can observe invisible-particle production directly.
+Each type of search complements the others; nevertheless, piecing
+together searches in different channels requires a model.
+Understanding precisely how these searches fit together can be
+challenging when the model is uncertain.
+
+As an example, we again consider the case of vector or
+axial--vector mediators, to which both jet+\MET and two-body
+resonance searches are sensitive. Although these models are simple,
+they involved four parameters: two couplings, the invisible-particle
+mass, and the mediator mass. Recent ATLAS and CMS results depict
+results in a two-dimensional plane of mediator mass and DM
+mass, following the recommendations of the LHC Dark Matter Working
+Group.\footnote{Akin to simplified models of SUSY, where the axes
+are neutralino mass and superpartner particle mass.}
+Figure~\ref{fig:sensitivityComparison} shows a sample of
+recent ATLAS plots. The remaining coupling parameters are
+fixed to one of several benchmark sets that are selected on the basis of the
+sensitivity of early Run 2 searches, precision constraints, and
+the complementarity of different types of searches. Figure~\ref{fig:sensitivityComparison} displays the
+constraints from dijet, dilepton, and \textit{X}+\MET searches on the
+interaction model as excluded regions of the model
+parameter space.
+
+Figure~\ref{fig:sensitivityComparison}\textit{a} shows the constraints for couplings
+\gq=0.25, \gl=0, and \gdm=1. In this case, dijet searches exclude
+mediators between approximately 200~GeV and 2.6~TeV, while \textit{X}+\MET searches
+can constrain even lighter mediators. Figure~\ref{fig:sensitivityComparison}\textit{b} shows the
+exclusions for smaller quark couplings, \gq = 0.1, and a nonzero
+lepton coupling, \gl = 0.01, chosen as indicative of the possible
+size of loop-induced lepton couplings. With lower quark couplings,
+and thus lower dijet production and decay rates, the regions of
+masses excluded by the several dijet searches shrink. For
+mediators heavier than 150 GeV, the exclusions from the recent
+dilepton search fare better but do not extend very far into the
+(smaller) region excluded by the jet+\MET search, where mediator
+decays to DM dominate.
+
+\begin{figure}[!htpb]
+%\includegraphics[width=\textwidth]{figures/SummaryPlotsMassMass.pdf}
+\caption{Regions in dark matter mass--\Zprime mediator mass
+excluded at 95\% CL by a selection of ATLAS dark matter searches
+for two coupling scenarios. Dashed curves labeled ``thermal
+relic'' indicate combinations of dark matter and mediator mass
+that are consistent with a dark matter density of $\omega_c = 0.12
+h^2$ and a standard thermal history, as computed in MadDM for this
+model~\cite{Backovic:2015cra}. The dotted curve indicates the
+kinematic threshold where the mediator can decay on-shell into
+dark matter. Abbreviations:\ DM, dark matter; ISR, initial-state radiation; TLA, \textbf{\textcolor{red}{[**AU: Please define this term here**]}}. Adapted from~Reference \citen{ATLASSummary}.}
+\label{fig:sensitivityComparison}
+\end{figure}
+
+Thus, the relative sensitivity of visible and invisible searches
+is both model and coupling dependent. One advantage of
+searches for {\IP}s is their sensitivity to models
+with very light mediators ($<$50 GeV) and light \mdm, since the
+reach of dijet and dilepton searches to low-mass resonances is
+still ultimately limited by data-taking constraints.
+
+\section{EXTRAPOLATION OF COLLIDER RESULTS}\label{sec:04_Extrapolation}
+
+\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: Please consider using an alternate section title that better reflects to the reader the content, e.g., ``Comparison of collider results with dedicated DM experiments"**]}}A wide variety of reactions may produce {\IP}s at colliders, and
+if the mediators of the interaction are light enough to be
+produced on-shell, collider experiments are particularly well suited to
+discovering and characterizing the interactions responsible.
+Meanwhile, connecting a collider experiment's discovery or
+nondiscovery of {\IP}s to DM requires both DD and
+ID experiments, wherein Galactic DM
+collides with a terrestrial target or extragalactic DM
+annihilates.
+
+Making this connection requires that one assume a particle
+physics model. Within a given model and under well-specified
+assumptions, the information obtained in a collider experiment can
+be related to the information obtained in direct, indirect, and
+astrophysical probes, and vice versa. One can then compare and
+contrast the different types of information, for instance, to understand
+where a DM discovery in current DD searches could be further
+explored with mediator studies at the LHC, and where, among the
+multitude of possible signals, collider searches might focus
+effort.
+
+In the following \hl{subsections}\textbf{\textcolor{red}{[**AU: Addition correct?**]}}, we outline a strategy adopted by the ATLAS and
+CMS experiments when making comparisons with astrophysical
+observations (e.g., where is a model consistent with the present
+DM density in the Universe) and with DD and ID results. We discuss the
+assumptions made in the relic density calculation and in relating
+reactions for {\IP}s to reactions of DM.
+
+\subsection{Comparing LHC Constraints from Visible and Invisible \textbf{\textcolor{red}{[**AU: OK\ to insert ``Particle'' here?**]}}Searches with Noncollider Results}
+
+The collider results from ATLAS and CMS typically appear as constraints
+on production cross sections of specific processes, which are then
+interpreted as statements about the fundamental parameters of a
+simplified model (e.g., masses, couplings). Within the model,
+information about the parameters can then be extrapolated to
+statements about the noncollider observable of interest---for
+example, the WIMP--nucleon scattering cross section for DD searches or the
+thermal relic density. The LHC Dark
+Matter Working Group \cite{Boveia:2016mrp} has provided an in-depth discussion of how to
+perform these extrapolations. Recently, most general LHC search
+results have selected a single, specific set of BSM-mediated
+simplified models for extrapolation, due to their immediate
+relevance for the first 13-TeV collision data. But many other
+models can be used,\footnote{For reinterpretation of LHC results
+and their comparisons to DD and ID searches for scalar and pseudoscalar
+mediators, as well as in the context of 2HDMs, see, for example, References~\citen{Bell:2016ekl}, \citen{Athron:2017kgt}, and \citen{Banerjee:2017wxi}.} and
+published searches typically provide some form of model-agnostic
+results for this purpose.
+
+For example, CMS has extrapolated the parameter exclusions
+obtained by a recent set of searches to the spin-independent
+WIMP--nucleon cross section of a DD experiment. The
+result is depicted in Figure~\ref{fig:SICMS}, which shows a selection of DD results
+for comparison. The figure illustrates general features of
+many such comparisons. For spin-dependent DD scattering, such as an axial-vector-mediated model, the LHC signals are relatively insensitive to the Lorentz structure of the interaction, while the DD signals are suppressed. As a result, the corresponding plots show that LHC searches play a more powerful role relative to the DD searches over a wide range of invisible-particle masses. At intermediate DM masses,
+both LHC and DD experiments have great potential for a discovery
+and could verify one another's claims. For spin-dependent DD
+scattering (e.g., an axial-vector-mediated model), because the LHC
+signals are relatively insensitive to the Lorentz structure of the
+interaction while the DD signals are suppressed, similar plots
+show that LHC searches play a more powerful role relative to the
+DD searches over a wide range of invisible-particle masses.
+
+One can also compare collider and ID results using
+simplified model benchmarks. In traditional comparisons, only one
+DM annihilation state at a time was used for the comparison
+of collider and ID results, as in the case for $b\bar{b}$ (e.g., \citen{Agrawal:2014una}), but one can also compare ID and
+LHC results for models annihilating to multiple final-state
+fermions~\cite{Carpenter:2016thc}.
+
+Recently, some DD and ID collaborations have adopted the benchmark
+simplified models used by ATLAS and CMS (e.g.,
+\citen{PhysRevLett.118.251301,Balazs:2017hxh}). IceCube and other
+experiments have used constraints from a MSSM scan (e.g.,~\citen{Aartsen:2016zhm}). The pMSSM is also a good framework
+to highlight the complementarity of LHC, DD, and ID experiments (as shown in, e.g.,
+Reference~\citen{Cahill-Rowley:2014twa} and discussed \hl{later}\textbf{\textcolor{red}{[**AU: In which section(s) specifically?**]}}).
+
+\begin{marginnote}[]
+\entry{The LHC Dark Matter Working Group}{provides for the
+translation of LHC limits to DD and ID searches~\cite{Boveia:2016mrp},
+as well as calculations of relic density
+(see \url{https://gitlab.cern.ch/lhc-dmwg-material/relic-density})}
+\end{marginnote}
+
+We emphasize that the exclusion regions obtained in this
+way will depend strongly on the assumption of the model. The
+extrapolations are done with full knowledge that the simplified
+model is merely a crude guess, and one must be careful not to
+overgeneralize. Neither this procedure nor the
+simplified models themselves account for effects outside the
+model, such as interference and mixing with SM boson and quarkonia
+resonances, or the evolution of the operators in the model from
+the LHC collision energies to other energy
+scales~\cite{DEramo:2014nmf}. Moreover, all experimental results,
+be they from DD, ID, or collider searches, are affected by experimental and
+theoretical uncertainties that are not displayed \hl{here}\textbf{\textcolor{red}{[**AU: In Figure 6?**]}}.
+
+\begin{figure}[!htpb]
+%\includegraphics[width=0.9\textwidth]{figures/SI_CMSDD_Summary}
+\caption{The 90\%-CL constraints from the CMS experiment in the
+\mdm-spin-independent DM--nucleon plane for a vector mediator,
+Dirac DM, and couplings \gq = 0.25 and \gdm = 1.0, compared with direct detection
+experiments. Abbreviation:\ DM, dark matter. Adapted from Reference~\citen{CMSSummary}.} \label{fig:SICMS}
+\end{figure}
+
+\subsection{Relic Density Considerations}
+
+In the absence of a signal in noncollider experiments, the ability of a
+model to link its {\IP}s with the observed DM abundance is key to
+distinguishing it from other types of models of BSM\ physics. Making this link, however, requires extrapolating
+from the present day to the early Universe along an increasingly
+tenuous chain of assumptions. For simplified models, this is
+especially problematic, because the model is designed to describe
+collider-scale processes; it may not even contain the interactions
+relevant in the early Universe. Nevertheless, it is interesting to
+examine the parameter regions in models that can make the link, even if in limited
+situations~\cite{Busoni:2014gta,Catena:2017xqq}. For example, for
+the general simplified models discussed in
+Section~\ref{sub:simplifiedModels}, one can use programs
+such as MadDM and
+MicrOMEGas~\cite{Backovic:2015cra,Barducci:2016pcb} to compute  the DM
+abundance for a standard thermal relic, assuming that the
+interaction described by the simplified model is the one
+responsible for setting the relic density. Often (e.g.,
+Figure~\ref{fig:sensitivityComparison}), ATLAS and CMS supplement
+their results with contours indicating where within a model this
+procedure obtains the correct DM density of $\omega_c =
+0.12 h^2$. When the model cannot reproduce the correct abundance indicates either that  the model requires additional
+components beyond those included in the simplified model or that
+the chain of assumptions is incorrect~\cite{Bernal:2017kxu}.
+
+\section{FUTURE EVOLUTION OF COLLIDER SEARCHES AND CONCLUSIONS}\label{sec:05_Future}
+
+\textbf{\textcolor{red}{[**AU: OK\ to call this section ``CONCLUSION'' and move the very last paragraph of the article here?\ Per house style, the Future Issues should consist only of numbered sentences**]}}Here we highlight some areas to watch in the coming decade of
+dark matter searches at colliders.
+
+\begin{issues}[FUTURE ISSUES]
+\begin{enumerate}
+
+\item The obvious directions for LHC searches are toward lower-rate
+processes and processes that are more difficult to detect.
+
+\begin{itemize}
+
+\item For such processes, extended scalar sectors and electroweak SUSY
+are among the possible benchmarks. As Run 2 progresses, LHC searches
+are becoming sensitive to the simplest (pseudo-)scalar simplified
+models, opening the door to more realistic models. On a longer
+timescale, the HL-LHC data set will bring sensitivity up to 3
+TeV in scalar mediator masses for unit
+couplings~\cite{CMS-PAS-FTR-16-005} and precision knowledge of the
+SM Higgs sector\hl{, e.g., at the level of 10},\textbf{\textcolor{red}{[**AU: Is a unit missing here?**]}} and the mass reach for
+electroweak production of SUSY partners will increase by a few hundred
+GeV~\cite{Campana:2016cqm}.
+
+\item With data arriving at a slightly less frantic pace, experimentally
+challenging LLP signatures are a growing field,
+and benchmarks similar to Reference~\citen{Abercrombie:2015wmb} are
+needed to help guide the design of these searches. Among many
+ongoing efforts are the bottom-up approach adopted in
+Reference \citen{Buchmueller:2017uqu}, which connects such models with
+the LLP limit of those described in
+Section~\ref{sub:simplifiedModels}.
+
+\end{itemize}
+
+\item Precision searches and efficient triggering of rare signals buried
+in large backgrounds are key to fully exploiting the HL-LHC data set.
+LHCb will make use of a novel triggerless detector readout to
+perform dark photon searches at unprecedented
+sensitivities~\cite{Ilten:2016tkc}. Such efforts should
+inspire ATLAS and CMS to search for rare processes involving
+relatively light new particles, a subject that has been largely
+unexplored~\cite{Alves:2016cqf}. In the familiar jet+\MET search,
+precision estimates of the \textit{V}+jet backgrounds, and of the inputs to
+these predictions, will be crucial. Efforts in that
+direction are ongoing \cite{Blumenschein:2018gtm}.
+
+\item Future hadron and electron--positron colliders have immense
+potential [see, e.g., studies on a future hadron
+collider~\cite{Golling:2016gvc}]. Nevertheless, present studies
+largely continue the approaches already in use at the LHC. A new
+hadron collider would be built to discover New Physics\textbf{\textcolor{red}{[**AU: Capitalization of New Physics OK?**]}};
+therefore, qualitatively different experimental design, benchmark
+models, and analysis strategies should be considered.
+
+\item More useful working comparisons between results from colliders,
+underground searches, and observatories should take into account
+the uncertainties on each type of result, and on the
+extrapolations between them. The main uncertainties for LHC
+searches are outlined in
+Section~\ref{sec:03_ExperimentalResults} and in the experimental
+references; for a summary of DD and ID uncertainties, see
+References~\citen{Feldstein:2014ufa} and \citen{d300ef23986a49099715e661295a4d72} and
+references therein.
+
+\item Comparisons among collider and noncollider particle physics
+experiments are becoming standard; relating particle physics to
+astrophysical observables is crucial to exploit the few clues that
+DM can provide about BSM\ particle physics. We
+strongly encourage further research on this subject (e.g.,
+\citen{Buckley:2017ijx}).
+\end{enumerate}
+\end{issues}
+
+We are optimistic that the variety of powerful searches for
+particle DM, from collider approaches to underground
+experiments to observatories, will lead to much progress toward its discovery
+in the next decade.\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: given that it might not be discovered, how about -- ``the next decade will lead to much progress toward its eventual discovery."
+**]}} At colliders, the tools essential for
+discovering and understanding the fundamental particles of the
+SM\ are being applied. Our understanding of
+collider search targets is also rapidly improving. Along with SUSY
+benchmarks motivated by the hierarchy problem, targets directly
+motivated by DM observations are encouraging a new generation of
+experimentalists to branch out into directions that so far have been only
+sparsely explored. Finally, the LHC is just beginning to
+take data at a new  collision energy of 13~TeV\textbf{\textcolor{red}{[**REVIEWER\ COMMENT: given that we have had three years at 13 TeV and now we are in the fourth year, ``just beginning" is not justified.  Please refer to the beginning of accumulating the full luminosity expected until the end of its operation.**]}}, with the goal of a
+data set that will exceed that presented here by a factor of 100. These
+are exciting times.
+
+\section*{DISCLOSURE STATEMENT}
+
+The authors are not aware of any affiliations, memberships,
+funding, or financial holdings that might be perceived as
+affecting the objectivity of this review.
+
+\section*{ACKNOWLEDGMENTS}
+
+We thank William Kalderon, Teng Jian Khoo, Suchita Kulkarni,
+Priscilla Pani, and Frederik Ruehr for their help and advice in
+preparing this manuscript. We also thank Ulrich Haisch, Valerio
+Ippolito, Christian Ohm, Jessie Shelton, and Mike Williams for
+useful discussion. Research by A.B. is supported by the US Department of
+Energy (grant DE-SC0011726). Research by C.D. is part of a project that
+has received funding from the European Research Council
+under the European Union's Horizon 2020 research and innovation
+program (grant agreement 679305) and from the Swedish
+Research Council.
+
+\begin{thebibliography}{175}
+\expandafter\ifx\csname
+natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem{Bertone:2016nfn}
+Bertone G, Hooper D. Submitted to \textit{Rev. Mod. Phys.}
+\textbf{\textcolor{red}{[**AU: If article is now in press or published, please provide update; if not, reference will be moved to text, per house style**]}}(2016)
+
+\bibitem{Steigman:1979kw}
+Steigman G. \textit{Annu. Rev. Nucl. Part. Sci.} 29:313 (1979)
+
+\bibitem{Ade:2015xua}
+Ade PAR, et~al. \textit{Astron. Astrophys.} 594:A13 (2016)
+
+\bibitem{0954-3899-43-1-013001}
+Undagoitia TM, Rauch L. \textit{J. Phys. G}
+43:013001 (2016)
+
+\bibitem{Gaskins:2016cha}
+Gaskins JM. \textit{Contemp. Phys.} 57:496 (2016)
+
+\bibitem{Bernal:2017kxu}
+Bernal N, et~al. \textit{Int. J. Mod. Phys.} \textit{A} 32:1730023 (2017)
+
+\bibitem{DAmbrosio:2002vsn}
+D'Ambrosio G, Giudice GF, Isidori G, Strumia A. \textit{Nucl.
+Phys.} \textit{B} 645:155 (2002)
+
+\bibitem{Abercrombie:2015wmb}
+Abercrombie D, et~al. arXiv:1507.00966 [hep-ex] (2015)
+
+\bibitem{Escudero:2016gzx}
+Escudero M, Berlin A, Hooper D, Lin MX. \textit{J. Cosmol. Astropart. Phys.} 1612:029
+(2016)
+
+\bibitem{Patt:2006fw}
+Patt B, Wilczek F. arXiv:hep-ph/0605188 (2006)
+
+\bibitem{Djouadi:2011aa}
+Djouadi A, Lebedev O, Mambrini Y, Quevillon J. \textit{Phys.
+Lett.} \textit{B} 709:65 (2012)
+
+\bibitem{Goodman:2010ku}
+Goodman J, et~al. \textit{Phys. Rev.} \textit{D} 82:116010 (2010)
+
+\bibitem{Bai:2010hh}
+Bai Y, Fox PJ, Harnik R. \textit{J. High Energy Phys.} 1012:048 (2010)
+
+\bibitem{Fox:2011pm}
+Fox PJ, Harnik R, Kopp J, Tsai Y. \textit{Phys. Rev.} \textit{D} 85:056011
+(2012)
+
+\bibitem{Shoemaker:2011vi}
+Shoemaker IM, Vecchi L. \textit{Phys. Rev.} \textit{D} 86:015023 (2012)
+
+\bibitem{Racco:2015dxa}
+Racco D, Wulzer A, Zwirner F. \textit{J. High Energy Phys.} 1505:009 (2015)
+
+\bibitem{Busoni:2013lha}
+Busoni G, De~Simone A, Morgante E, Riotto A. \textit{Phys. Lett.}
+\textit{B} 728:412 (2014)
+
+\bibitem{Alwall:2008ag}
+Alwall J, Schuster P, Toro N. \textit{Phys. Rev.} \textit{D} 79:075020
+(2009)
+
+\bibitem{Alves:2011wf}
+{LHC New Physics Work. Group}. \textit{J. Phys.} \textit{G} 39:105005
+(2012)
+
+\bibitem{Abdallah:2015ter}
+Abdallah J, et~al. \textit{Phys. Dark Univ.} 9/10:8 (2015)
+
+\bibitem{Kahlhoefer:2015bea}
+Kahlhoefer F, Schmidt-Hoberg K, Schwetz T, Vogl S. \textit{J. High Energy Phys.}
+02:016 (2016)
+
+\bibitem{Backovic:2015soa}
+Backovic M, et~al. \textit{Eur. Phys. J.} \textit{C} 75:482 (2015)
+
+\bibitem{Papucci:2014iwa}
+Papucci M, Vichi A, Zurek KM. \textit{J. High Energy Phys.} 1411:024 (2014)
+
+\bibitem{An:2013xka}
+An H, Wang LT, Zhang H. \textit{Phys. Rev.} \textit{D} 89:115014 (2014)
+
+\bibitem{Bell:2012rg}
+Bell NF, et~al. \textit{Phys. Rev.} \textit{D} 86:096011 (2012)
+
+\bibitem{Han:2015cty}
+Han C, Lee HM, Park M, Sanz V. \textit{Phys. Lett.} \textit{B} 755:371
+(2016)
+
+\bibitem{Albert:2017onk}
+Albert A, et~al. arXiv:1703.05703 [hep-ex] (2017)
+
+\bibitem{Berlin:2014cfa}
+Berlin A, Lin T, Wang LT. \textit{J. High Energy Phys.} 1406:078 (2014)
+
+\bibitem{Chala:2015ama}
+Chala M, et~al. arXiv:1503.05916 [hep-ph] (2015)
+
+\bibitem{Boveia:2016mrp}
+Boveia A, et~al. arXiv:1603.04156 [hep-ex] (2016)
+
+\bibitem{Buckley:2014fba}
+Buckley MR, Feld D, Goncalves D. \textit{Phys. Rev.} \textit{D} 91:015017
+(2015)
+
+\bibitem{Haisch:2015ioa}
+Haisch U, Re E. \textit{J. High Energy Phys.} 1506:078 (2015)
+
+\bibitem{Bell:2016ekl}
+Bell NF, Busoni G, Sanderson IW. \textit{J. Cosmol. Astropart. Phys.} 1703:015 (2017)
+
+\bibitem{Bauer:2016gys}
+Albert A, et~al. \textit{Phys. Dark Univ.} 16:49 (2017)
+
+\bibitem{Englert:2016joy}
+Englert C, McCullough M, Spannowsky M. \textit{Phys. Dark Univ.}
+14:48 (2016)
+
+\bibitem{Bai:2013iqa}
+Bai Y, Berger J. \textit{J. High Energy Phys.} 11:171 (2013)
+
+\bibitem{Ko:2016zxg}
+Ko P, Natale A, Park M, Yokoya H. \textit{J. High Energy Phys.} 01:086 (2017)
+
+\bibitem{Buschmann:2016hkc}
+Buschmann M, et~al. \textit{J. High Energy Phys.} 09:033 (2016)
+
+\bibitem{Khoze:2017ixx}
+Khoze VV, Plascencia AD, Sakurai K. \textit{J. High Energy Phys.} 06:041 (2017)
+
+\bibitem{Ellis:1999mm}
+Ellis JR, Falk T, Olive KA, Srednicki M. \textit{Astropart. Phys.}
+13:181 (2000); Erratum. \textit{Astropart. Phys.} 15:413 (2001)
+
+\bibitem{Blanke:2017tnb}
+Blanke M, Kast S. \textit{J. High Energy Phys.} 05:162 (2017)
+
+\bibitem{Boucheneb:2014wza}
+Boucheneb I, Cacciapaglia G, Deandrea A, Fuks B. \textit{J. High Energy Phys.}
+01:017 (2015)
+
+\bibitem{Duerr:2016tmh}
+Duerr M, et~al. \textit{J. High Energy Phys.} 09:042 (2016)
+
+\bibitem{Bauer:2017ota}
+Bauer M, Haisch U, Kahlhoefer F. \textit{J. High Energy Phys.} 05:138 (2017)
+
+\bibitem{Goncalves:2016iyg}
+Goncalves D, Machado PAN, No JM. \textit{Phys. Rev.} \textit{D} 95:055027
+(2017)
+
+\bibitem{Feng:2010gw}
+Feng JL. \textit{Annu. Rev. Astron. Astrophys.} 48:495 (2010)
+
+\bibitem{1984NuPhB.238..453E}
+{Ellis} J, et~al. \textit{Nucl. Phys. B} 238:453 (1984)
+
+\bibitem{Farrar:1978xj}
+Farrar GR, Fayet P. \textit{Phys. Lett. B} 76:575 (1978)
+
+\bibitem{Dimopoulos:1996vz}
+Dimopoulos S, Dine M, Raby S, Thomas SD. \textit{Phys. Rev. Lett.}
+76:3494 (1996)
+
+\bibitem{Masiero:2004ft}
+Masiero A, Profumo S, Ullio P. \textit{Nucl. Phys.} \textit{B} 712:86 (2005)
+
+\bibitem{Pospelov:2007mp}
+Pospelov M, Ritz A, Voloshin MB. \textit{Phys. Lett.} \textit{B} 662:53
+(2008)
+
+\bibitem{Das:2010ts}
+Das S, Sigurdson K. \textit{Phys. Rev.} \textit{D} 85:063510 (2012)
+
+\bibitem{Co:2015pka}
+Co RT, D'Eramo F, Hall LJ, Pappadopulo D. \textit{J. Cosmol. Astropart. Phys.} 1512:024
+(2015)
+
+\bibitem{Holdom:1985ag}
+Holdom B. \textit{Phys. Lett. B} 166:196 (1986)
+
+\bibitem{Curtin:2014cca}
+Curtin D, Essig R, Gori S, Shelton J. \textit{J. High Energy Phys.} 02:157 (2015)
+
+\bibitem{Battaglieri:2017aum}
+Battaglieri M, et~al. arXiv:1707.04591 [hep-ph] (2017)
+
+\bibitem{ElHedri:2017nny}
+El~Hedri S, Kaminska A, de~Vries M, Zurita J. \textit{J. High Energy Phys.} 04:118
+(2017)
+
+\bibitem{Strassler:2006im}
+Strassler MJ, Zurek KM. \textit{Phys. Lett.} \textit{B} 651:374 (2007)
+
+\bibitem{Evans:2017kti}
+Evans JA, Gori S, Shelton J. arXiv:1712.03974 [hep-ph] (2017)
+
+\bibitem{Zurek:2013wia}
+Zurek KM. \textit{Phys. Rep.} 537:91 (2014)
+
+\bibitem{Craig:2014aea}
+Craig N, Knapen S, Longhi P. \textit{Phys. Rev. Lett.} 114:061803
+(2015)
+
+\bibitem{LHC2008}
+Evans L, Bryant P. \textit{{J. Instrum.}} 3:{S08001} (2008)
+
+\bibitem{ATLAS2008}
+{{Aad G, et al. (ATLAS Collab.)}} \textit{{J. Instrum.}} 3:{S08003} (2008)
+
+\bibitem{CMS2008}
+{{Khachatryan V, et al. (CMS Collab.)}} \textit{{J. Instrum.}} 3:{S08004} (2008)
+
+\bibitem{LHCb2008}
+{{Alves AA\ Jr., et al. (LHCb Collab.)}} \textit{{J. Instrum.}} 3:{S08005} (2008)
+
+\bibitem{ALEPH:2005ab}
+Schael S, et~al. \textit{Phys. Rep.} 427:257 (2006)
+
+\bibitem{Carena:2003aj}
+Carena M, de~Gouvea A, Freitas A, Schmitt M. \textit{Phys. Rev.}
+\textit{D} 68:113007 (2003)
+
+\bibitem{Aaboud:2017buf}
+{Aaboud M, et al. (ATLAS Collab}.) \textit{Eur. Phys. J.} \textit{C} 77:765 (2017)
+
+\bibitem{Khachatryan:2016vau}
+{ATLAS Collab., CMS Collab}. \textit{J. High Energy Phys.} 08:045 (2016)
+
+\bibitem{Aad:2015pla}
+{Aaboud M, et al. (ATLAS Collab}.) \textit{J. High Energy Phys.} 11:206 (2015)
+
+\bibitem{Dobrescu:2012td}
+Dobrescu BA, Lykken JD. \textit{J. High Energy Phys.} 1302:073 (2013)
+
+\bibitem{Khachatryan:2016whc}
+{Khachatryan V, et al. (CMS Collab}.) \textit{J. High Energy Phys.} 02:135 (2017)
+
+\bibitem{Aad:2016nrq}
+{Aaboud M, et al. (ATLAS Collab}.) \textit{Eur. Phys. J.} \textit{C} 77:241 (2017)
+
+\bibitem{CMS-PAS-JME-16-004}
+{CMS Collab}. \textit{Performance of missing energy reconstruction in 13 TeV }pp \textit{collision data using the CMS detector}.
+Report CMS-PAS-JME-16-004, CERN, Geneva (2016)
+
+\bibitem{ATLAS-CONF-2014-019}
+ATLAS Collab. \textit{Pile-up suppression in missing transverse momentum reconstruction in the ATLAS experiment in proton--proton collisions at} $\sqrt{s}$ = \textit{8 TeV}. Report ATLAS-CONF-2014-019, CERN, Geneva (2014)
+
+\bibitem{ATLAS-CONF-2015-029}
+ATLAS Collab. \textit{Selection of jets produced in 13 TeV proton--proton collisions with the ATLAS detector}.
+Report ATLAS-CONF-2015-029, CERN, Geneva (2015)
+
+\bibitem{Aaboud:2016tnv}
+Aaboud M, et al. ({ATLAS Collab}.) \textit{Phys. Rev.} \textit{D} 94:032005 (2016)
+
+\bibitem{Fox:2011fx}
+Fox PJ, Harnik R, Kopp J, Tsai Y. \textit{Phys. Rev.} \textit{D} 84:014028
+(2011)
+
+\bibitem{Haisch:2013ata}
+Haisch U, Kahlhoefer F, Re E. \textit{J. High Energy Phys.} 1312:007 (2013)
+
+\bibitem{Smith:2016vcs}
+Smith WH. \textit{Annu. Rev. Nucl. Part. Sci.} 66:123 (2016)
+
+\bibitem{Aaboud:2017phn}
+Aaboud M, et al. ({ATLAS Collab}.) arXiv:1711.03301 [hep-ex] (2017)
+
+\bibitem{Sirunyan:2017jix}
+Sirunyan AM, et al. ({CMS Collab}.) arXiv:1712.02345 [hep-ex] (2017)
+
+\bibitem{Lindert:2017olm}
+Lindert JM, et~al. \textit{Eur. Phys. J.} \textit{C} 77:829 (2017)
+
+\bibitem{Maguire:2017ypu}
+Maguire E, Heinrich L, Watt G. \textit{J. Phys. Conf. Ser.}
+898:102006 (2017)
+
+\bibitem{Collaboration:2242860}
+{CMS Collab}. \textbf{\textcolor{red}{[**AU: Please insert publication info or arXiv number for readers' reference**]}}(2017)
+
+\bibitem{Sirunyan:2017qfc}
+Sirunyan AM, et al. ({CMS Collab}.) arXiv:1711.00431 [hep-ex] (2017)
+
+\bibitem{Aaboud:2017bja}
+Aaboud M, et al. ({ATLAS~Collab}.) \textit{Phys. Lett.} \textit{B} 776:318 (2018)
+
+\bibitem{Birkedal:2004xn}
+Birkedal A, Matchev K, Perelstein M. \textit{Phys.Rev.} \textit{D} 70:077701
+(2004)
+
+\bibitem{Carpenter:2012rg}
+Carpenter LM, et~al. \textit{Phys. Rev.} \textit{D} 87:074005 (2013)
+
+\bibitem{Aaboud:2017dor}
+Aaboud M, et al. ({ATLAS~Collab}.) \textit{Eur. Phys. J.} \textit{C} 77:393 (2017)
+
+\bibitem{CMS-PAS-EXO-16-014}
+CMS Collab. \textit{Search for dark matter and large extra dimensions in the} $\gamma$ + \MET \textit{final state in pp Collisions at} $\sqrt{s}$=\textit{13 TeV}. Report CMS-PAS-EXO-16-014, CERN, Geneva (2016)
+
+\bibitem{Aaboud:2016qgg}
+Aaboud M, et al. ({ATLAS~Collab}.) \textit{Phys. Lett.} \textit{B} 763:251 (2016)
+
+\bibitem{Larkoski:2017jix}
+Larkoski AJ, Moult I, Nachman B. arXiv:1709.04464 [hep-ph] (2017)
+
+\bibitem{CMS-PAS-EXO-16-054}
+CMS Collab. \textit{Search for dark matter produced in association with a Higgs boson decaying to two photons.}
+Report CMS-PAS-EXO-16-054, CERN, Geneva (2017)
+
+\bibitem{Aaboud:2017uak}
+Aaboud M, et al. ({ATLAS~Collab}.) \textit{Phys. Rev.} \textit{D} 96:112004 (2017)
+
+\bibitem{Aaboud:2017yqz}
+Aaboud M, et al. ({ATLAS~Collab}.) \textit{Phys. Rev. Lett.} 119:181804 (2017)
+
+\bibitem{Aaboud:2017rzf}
+Aaboud M, et al. ({ATLAS~Collab}.) arXiv:1710.11412 [hep-ex] (2017)
+
+\bibitem{Aaboud:2017aeu}
+Aaboud M, et al. ({ATLAS~Collab}.) arXiv:1711.11520 [hep-ex] (2017)
+
+\bibitem{Sirunyan:2017leh}
+Sirunyan AM, et al. ({CMS Collab}.) arXiv:1711.00752 [hep-ex] (2017)
+
+\bibitem{Agrawal:2014una}
+Agrawal P, Batell B, Hooper D, Lin T. \textit{Phys. Rev.}
+\textit{D} 90:063512 (2014)
+
+\bibitem{Sirunyan:2018gka}
+Sirunyan AM, et al. ({CMS Collab}.) arXiv:1801.08427 [hep-ex] (2018)
+
+\bibitem{Aad:2014wza}
+Aad G, et al. ({ATLAS Collab}.) \textit{Eur. Phys. J.} \textit{C} 75:79 (2015)
+
+\bibitem{Lester:1999tx}
+Lester CG, Summers DJ. \textit{Phys. Lett.} \textit{B} 463:99 (1999)
+
+\bibitem{Aaboud:2017bac}
+Aaboud M, et al. ({ATLAS~Collab}.) \textit{Phys. Rev.} \textit{D} 96:112010 (2017)
+
+\bibitem{Sirunyan:2017yse}
+Sirunyan AM, et al. ({CMS~Collab}.) \textit{J. High Energy Phys.} 12:142 (2017)
+
+\bibitem{Sirunyan:2017wif}
+Sirunyan AM, et al. ({CMS~Collab}.) \textit{J. High Energy Phys.} 10:005 (2017)
+
+\bibitem{Aaboud:2016wna}
+{Aaboud M, et al. (ATLAS~Collab}.) \textit{J. High Energy Phys.} 09:175 (2016)
+
+\bibitem{ATLASSUSYSummary}
+{ATLAS Collab}. {\textit{Supersymmetry public results}. CERN, Geneva. \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/SupersymmetryPublicResults}} (2018)
+
+\bibitem{CMSSUSYSummary}
+{CMS Collab}. {\textit{Supersymmetry public results}. CERN, Geneva.
+\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsSUS}} (2018)
+
+\bibitem{Sirunyan:2018ubx}
+Sirunyan AM, et al. (CMS Collab.) arXiv:1801.03957 [hep-ex] (2018)
+
+\bibitem{ATLAS:2017uun}
+ATLAS Collab. \textit{Search for electroweak production of supersymmetric particles in the two and three lepton final state at} $\sqrt{s}$=\textit{13 TeV with the ATLAS detector}.
+Report ATLAS-CONF-2017-039, CERN, Geneva (2017)
+
+\bibitem{Aaboud:2017leg}
+Aaboud M, et al. ({ATLAS Collab}.) arXiv:1712.08119 [hep-ex] (2017)
+
+\bibitem{Sirunyan:2017zss}
+{Sirunyan AM, et al. (CMS Collab}.) \textit{J. High Energy Phys.} 11:029 (2017)
+
+\bibitem{ATL-PHYS-PUB-2017-019}
+{ATLAS Collab}.  \textbf{\textcolor{red}{[**AU: Please provide journal or arXiv information for readers' reference**]}}(2017)
+
+\bibitem{Sirunyan:2018vjp}
+{CMS Collab}. arXiv:1802.02110 [hep-ex] (2018)
+
+\bibitem{Conley:2010du}
+Conley JA, et~al. \textit{Eur. Phys. J.} \textit{C} 71:1697 (2011)
+
+\bibitem{Aad:2015baa}
+{Aad G, et al. (ATLAS~Collab}.) \textit{J. High Energy Phys.} 10:134 (2015)
+
+\bibitem{Khachatryan:2016nvf}
+{Aaboud M, et al. (CMS~Collab.)} \textit{J. High Energy Phys.} 10:129 (2016)
+
+\bibitem{Athron:2017ard}
+{Athron P, et al. (GAMBIT Collab}.) \textit{Eur. Phys. J.} \textit{C} 77:784 (2017)
+
+\bibitem{Bagnaschi:2017tru}
+Bagnaschi E, et~al. (Mastercode Collab.) arXiv:1710.11091 [hep-ph] (2017)
+
+\bibitem{Aaboud:2017mpt}
+{ATLAS Collab}. arXiv:1712.02118 [hep-ex] (2017)
+
+\bibitem{CMS:2014gxa}
+{Chatrchyan S, et al. (CMS Collab}.) \textit{J. High Energy Phys.} 01:096 (2015)
+
+\bibitem{Ball:2016zrp}
+Ball A, et~al. arXiv:1607.04669 [physics.ins-det] (2016)
+
+\bibitem{Chou:2016lxi}
+Chou JP, Curtin D, Lubatti HJ. \textit{Phys. Lett.} \textit{B} 767:29 (2017)
+
+\bibitem{Aaij:2017rft}
+{Aaij R, et al. (LHCb Collab}.) arXiv:1710.02867 [hep-ex] (2017)
+
+\bibitem{Aaij:2016rxn}
+{Aaij R, et al. (LHCb Collab}.) \textit{Comput. Phys. Commun.} 208:35 (2016)
+
+\bibitem{Lees:2014xha}
+{Lees JP, et al. (BaBar Collab}.) \textit{Phys. Rev. Lett.} 113:201801 (2014)
+
+\bibitem{Lees:2017lec}
+{Lees JP, et al. (BaBar Collab}.) \textit{Phys. Rev. Lett.} 119:131804 (2017)
+
+\bibitem{Aaij:2016qsm}
+{Aaij R, et al. (LHCb Collab}.) \textit{Phys. Rev.} \textit{D} 95:071101 (2017)
+
+\bibitem{ATLAS:2016jza}
+ATLAS Collab. \textit{Search for long-lived neutral particles decaying into displaced lepton jets in proton--proton collisions at} $\sqrt{s}$ = \textit{13 TeV with the ATLAS detector}. Report ATLAS-CONF-2016-042, CERN, Geneva (2016)
+
+\bibitem{CMS-PAS-HIG-16-035}
+CMS Collab. \textit{A search for beyond Standard Model light bosons decaying into muon pairs}.
+Report CMS-PAS-HIG-16-035, CERN, Geneva (2016)
+
+\bibitem{Liew:2016oon}
+Liew SP, Papucci M, Vichi A, Zurek KM. \textit{J. High Energy Phys.} 06:082 (2017)
+
+\bibitem{Aaboud:2017yvp}
+Aaboud M, et al. ({ATLAS Collab}.) \textit{Phys. Rev.} \textit{D} 96:052004 (2017)
+
+\bibitem{CMS-PAS-EXO-16-056}
+CMS Collab. \textit{Searches for dijet resonances in} pp\textit{ collisions at} $\sqrt{s}$=\textit{13 TeV using data collected in 2016}. Report CMS-PAS-EXO-16-056, CERN, Geneva (2017)
+
+\bibitem{CMS-PAS-EXO-16-046}
+CMS Collab.\textit{ Search for new physics with dijet angular distributions in proton--proton collisions at} $\sqrt{s}$=\textit{13 TeV and constraints on dark matter and other models}. Report CMS-PAS-EXO-16-046, CERN, Geneva (2017)
+
+\bibitem{Aaboud:2016leb}
+Aaboud M, et al. ({ATLAS Collab}.) \textit{Eur. Phys. J.} \textit{C} 77:317 (2017)
+
+\bibitem{Khachatryan:2016bia}
+{Khachatryan V, et al. (CMS Collab}.) \textit{J. Instrum.} 12:P01020 (2017)
+
+\bibitem{CMS:2014ata}
+CMS Collab. \textit{Pileup removal algorithms}. Report CMS-PAS-JME-14-001, CERN, Geneva (2014)
+
+\bibitem{Shochet:2013gaw}
+ATLAS Collab. \textit{Fast TracKer} (\textit{FTK}) \textit{technical design report}. Report CERN-LHCC-2013-007/ATLAS-TDR-021, CERN, Geneva
+(2013)
+
+\bibitem{1748-0221-6-12-C12065}
+{Abbaneo D, et al. (CMS Collab}.) \textit{J. Instrum.} 6:C12065 (2011)
+
+\bibitem{An:2012ue}
+An H, Huo R, Wang LT. \textit{Phys. Dark Univ.} 2:50 (2013)
+
+\bibitem{Dobrescu:2013coa}
+Dobrescu BA, Yu F. \textit{Phys. Rev.} \textit{D} 88:035021 (2013); Erratum. \textit{Phys. Rev. D} 90:079901 (2014)
+
+\bibitem{ATLAS:2016xiv}
+{ATLAS Collab}. \textit{Search for light dijet resonances with the ATLAS detector using a
+trigger-object level analysis in LHC }pp \textit{collisions at} $\sqrt{s}$ = \textit{13 TeV}. Report ATLAS-CONF-2016-030, CERN, Geneva (2016)
+
+\bibitem{ATLAS:2016bvn}
+{ATLAS Collab}. \textit{Search for new light resonances decaying to jet pairs and produced in association with a photon or a jet in proton--proton collisions at}
+$\sqrt{s}$ = \textit{13 TeV with the ATLAS detector}. Report ATLAS-CONF-2016-070, CERN, Geneva (2016)
+
+\bibitem{Sirunyan:2017nvi}
+{CMS Collab}. arXiv:1710.00159 [hep-ex] (2017)
+
+\bibitem{Aaboud:2018zba}
+Aaboud M, et~al. (ATLAS\ Collab.) arXiv:1801.08769 [hep-ex] (2018)
+
+\bibitem{lowMassDiB}
+{ATLAS~Collab}. \textit{Search for resonances below 1.2 TeV from the mass distribution of }b-\textit{jet pairs in proton--proton collisions at} $\sqrt{s}$=\textit{13 TeV with the ATLAS detector}. Report ATLAS-CONF-2016-031, CERN, Geneva (2016)
+
+\bibitem{CMS-PAS-HIG-16-025}
+{CMS~Collab}. \textit{Search for a narrow heavy decaying to bottom quark pairs in the 13 TeV data sample}.
+Report {CMS-PAS-HIG-16-025}, CERN, Geneva (2016)
+
+\bibitem{Aaboud:2017hnm}
+Aaboud M, et al. (ATLAS~Collab.)\textit{Phys. Rev. Lett.} 119:191803 (2017)
+
+\bibitem{Aaboud:2017buh}
+{Aaboud M, et al. (ATLAS~Collab.)} \textit{J. High Energy Phys.} 10:182 (2017)
+
+\bibitem{Khachatryan:2016zqb}
+{CMS~Collab}. \textit{Phys. Lett.} \textit{B} 768:57 (2017)
+
+\bibitem{Backovic:2015cra}
+Backovic M, et~al. \textit{Phys. Dark Univ.} 9/10:37 (2015)
+
+\bibitem{ATLASSummary}
+{ATLAS Collab}. {\textit{Summary plots from the ATLAS exotic
+physics group}}. CERN, Geneva. \url{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/EXOTICS/index.html#ATLAS_DarkMatter_Summary} (2017)
+
+
+\bibitem{Athron:2017kgt}
+{Athron P, et al. (GAMBIT Collab}.) \textit{Eur. Phys. J.} \textit{C} 77:568 (2017)
+
+\bibitem{Banerjee:2017wxi}
+Banerjee S, et~al. \textit{J. High Energy Phys.} 07:080 (2017)
+
+\bibitem{Carpenter:2016thc}
+Carpenter LM, Colburn R, Goodman J, Linden T. \textit{Phys. Rev.}
+\textit{D} 94:055027 (2016)
+
+\bibitem{PhysRevLett.118.251301}
+Amole C, et al. (PICO Collab.) \textit{Phys. Rev. Lett.} 118:251301 (2017)
+
+\bibitem{Balazs:2017hxh}
+Balazs C, et~al. \textit{Phys. Rev.} \textit{D} 96:083002 (2017)
+
+\bibitem{Aartsen:2016zhm}
+Aartsen MG, et~al. \textit{Eur. Phys. J.} \textit{C} 77:146 (2017)
+
+\bibitem{Cahill-Rowley:2014twa}
+Cahill-Rowley M, Hewett JL, Ismail A, Rizzo TG. \textit{Phys.
+Rev.} \textit{D} 91:055002 (2015)
+
+\bibitem{DEramo:2014nmf}
+D'Eramo F, Procura M. \textit{J. High Energy Phys.} 04:054 (2015)
+
+\bibitem{CMSSummary}
+{CMS Collab}. {\textit{Dark \MakeLowercase{Matter Summary Plots} from CMS for LHCP and EPS 2017}}. CERN, Geneva. \url{https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsEXO/DM-summary-plots-Jul17.pdf} (2017)
+
+\bibitem{Busoni:2014gta}
+Busoni G, et~al. \textit{J. Cosmol. Astropart. Phys.} 1503:022 (2015)
+
+\bibitem{Catena:2017xqq}
+Catena R, Conrad J, Krauss MB. arXiv:1712.07969 [hep-ph] (2017)
+
+\bibitem{Barducci:2016pcb}
+Barducci D, et~al. \textit{Comput. Phys. Commun.} 222:327 (2018)
+
+\bibitem{CMS-PAS-FTR-16-005}
+{CERN\ Collab. \textit{Estimated sensitivity for new particle searches at the HL-LHC}}.
+Tech. rep. CMS-PAS-FTR-16-005, CERN, Geneva (2017)
+
+\bibitem{Campana:2016cqm}
+Campana P, Klute M, Wells P. \textit{Annu. Rev. Nucl. Part. Sci.}
+66:273 (2016)
+
+\bibitem{Buchmueller:2017uqu}
+Buchmueller O, et~al. \textit{J. High Energy Phys.} 09:076 (2017)
+
+\bibitem{Ilten:2016tkc}
+Ilten P, et~al. \textit{Phys. Rev. Lett.} 116:251803 (2016)
+
+\bibitem{Alves:2016cqf}
+Alves A, et~al. \textit{J. High Energy Phys.} 04:164 (2017)
+
+\bibitem{Blumenschein:2018gtm}
+Blumenschein U, et~al. arXiv:1802.02100 [hep-ex] (2018)
+
+\bibitem{Golling:2016gvc}
+Golling T, et~al. In \textit{CERN Yellow Report}, ed. ML\ Mangano, p. 441. Geneva:\ CERN (2017)
+
+\bibitem{Feldstein:2014ufa}
+Feldstein B, Kahlhoefer F. \textit{J. Cosmol. Astropart. Phys.} 1412:052 (2014)
+
+\bibitem{d300ef23986a49099715e661295a4d72}
+Auchettl K, Balazs C. In-Tech \textbf{\textcolor{red}{[**AU: Please provide journal or arXiv information for readers' reference**]}}(2012)
+
+\bibitem{Buckley:2017ijx}
+Buckley MR, Peter AHG. arXiv:1712.06615 [astro-ph.CO] (2017)
+
+\end{thebibliography}
+
+\section*{RELATED RESOURCES}
+\begin{enumerate}
+\item Bertone G, et al. \textit{Particle Dark Matter: Observations, Models and Searches}. Cambridge, UK: Cambridge Univ. Press (2010)%}
+
+\item Bertone G, Hooper D. {A history of dark matter. Submitted to \textit{Rev. Mod. Phys.}} (2016)\textbf{\textcolor{red}{[**AU: Is this entry the same as Ref. 1?\ Please provide publication update, if available**]}}
+
+\item Plehn T. \textit{Yet another introduction to dark matter}. Lect. notes, Inst. Theor. Phys., Univ. Heidelberg, Ger. \url{http://www.thphys.uni-heidelberg.de/~plehn/pics/dark_matter.pdf} (2017)
+
+\item Arcadi G, et al. {arXiv:1703.07364 [hep-ph]} (2017)%}
+
+\item Kahlhoefer F. \textit{Int. J. Mod. Phys. A} 32:1730006 (2017)
+
+\item {LHC Phys. Cent. CERN.\textit{ WG on dark matter searches at the LHC}. Work. group home page, CERN, Geneva.} \url{http://lpcc.web.cern.ch/content/lhc-dm-wg-wg-dark-matter-searches-lhc} (2015)
+
+\end{enumerate}
+\end{document}

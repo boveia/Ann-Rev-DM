@@ -1,0 +1,152 @@
+% template.tex, dated April 5 2013
+% This is a template file for Annual Reviews 1 column Journals
+%
+% Compilation using ar-1col.cls' - version 1.0, Aptara Inc.
+% (c) 2013 AR
+%
+% Steps to compile: latex latex latex
+%
+% For tracking purposes => this is v1.0 - Apr. 2013
+
+\documentclass{ar-1col}
+\usepackage[numbers]{natbib}
+\usepackage{xspace}
+\usepackage{url}
+\usepackage{slashed}
+\usepackage{amssymb}
+
+\setcounter{secnumdepth}{4}
+
+% Metadata Information
+\jname{Xxxx. Xxx. Xxx. Xxx.}
+\jvol{AA}
+\jyear{YYYY}
+\doi{10.1146/((please add article doi))}
+
+
+% Document starts
+\begin{document}
+
+% Page header
+\markboth{A. Boveia, C. Doglioni}{Dark Matter Searches at Colliders}
+
+% Title
+\title{Dark Matter Searches at Colliders}
+
+% Definitions
+\newcommand{\chiDM}{\ensuremath{\chi}\xspace}
+%\newcommand{\IP}{\ensuremath{\textrm{IP}}\xspace}
+\newcommand{\IP}{invisible particle}
+\newcommand{\mMed}{\ensuremath{M_{\rm{med}}}\xspace}
+\newcommand{\mmed}{\mMed}
+\newcommand{\gDM}{\ensuremath{g_{\chiDM}}\xspace}
+\newcommand{\gdm}{\gDM}
+\newcommand{\gl}{$g_{\mathrm{l}}$\xspace}
+\newcommand{\gdmq}{\ensuremath{g_{\chiDM q}}\xspace}
+\newcommand{\gq}{$g_{\mathrm{q}}$\xspace}
+%\newcommand{\ifb}{\ensuremath{\mathrm{fb}^{-1}}\xspace}
+\newcommand{\mdm}{\ensuremath{m_{\chiDM}}\xspace}
+\newcommand{\mDM}{\mdm}
+\newcommand{\ghZprimeZprime}{\ensuremath{g_{hZ'Z'}}\xspace}
+\newcommand{\gZPrime}{\ensuremath{g_{Z'}}\xspace}
+\newcommand{\gZprime}{\ensuremath{g_{Z'}}\xspace}
+\newcommand{\sinthetab}{\ensuremath{sin(\theta_B}\xspace}
+\newcommand{\sinthetahS}{\ensuremath{sin(\theta_{hS})}\xspace}
+\newcommand{\pt}{\ensuremath{p_\mathrm{T}}\xspace}
+\newcommand{\pT}{\ensuremath{p_\mathrm{T}}\xspace}
+\newcommand{\MET}{\ensuremath{\slashed{E}_T}\xspace}
+\newcommand{\Zprime}{\ensuremath{\mathrm{Z}^\prime}\xspace}
+\newcommand{\fb}{\ensuremath{\mathrm{fb}}\xspace}
+\newcommand{\pb}{\ensuremath{\mathrm{pb}}\xspace}
+\newcommand{\ifb}{\ensuremath{\mathrm{fb}^{-1}}\xspace}
+\newcommand{\ipb}{\ensuremath{\mathrm{pb}^{-1}}\xspace}
+
+%Authors, affiliations address.
+\author{Antonio Boveia,$^1$ Caterina Doglioni, $^2$
+\affil{$^1$The Ohio State University, Physics Department, 191 W. Woodruff Avenue, Columbus, OH 43210, US}
+\affil{$^2$Lund University, Fysikum, Division of Particle Physics, Professorgatan 1, 22363 Lund, Sweden}}
+
+%Abstract
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+%Keywords, etc.
+\begin{keywords}
+particle dark matter, invisible particles, weakly interacting massive particles (WIMPs), simplified models, colliders, LHC \end{keywords}
+\maketitle
+
+%Table of Contents
+\tableofcontents
+
+
+% Heading 1
+\section{INTRODUCTION}
+\label{sec:intro}
+
+%\input{00_Examples}
+
+\input{01_Introduction}
+
+%Heading 1
+\section{REACTIONS FOR INVISIBLE PARTICLE SEARCHES AT THE LHC}
+\label{sec:02_Reactions}
+\input{02_Reactions}
+
+\section{EXPERIMENTAL RESULTS}
+\label{sec:03_ExperimentalResults}
+\input{03_ExperimentalResults}
+
+\section{EXTRAPOLATION OF COLLIDER RESULTS}
+\label{sec:04_Extrapolation}
+\input{04_Extrapolation}
+
+\section{FUTURE EVOLUTION OF COLLIDER SEARCHES AND CONCLUSIONS}
+\label{sec:05_Future}
+\input{05_FutureEvolution}
+\input{05_Conclusions}
+
+\clearpage
+
+%% Summary Points, one sentence each
+%\begin{summary}[SUMMARY POINTS]
+%\begin{enumerate}
+%\item Summary point Note. These should be full sentences.
+%\item Summary point 1. Both broad and targeted searches at the LHC are necessary
+%\item Summary point 2. The LHC is a mediator-producing machine
+%\item Summary point 3. DM is a good motivation to implement novel techniques 
+%\item Summary point 4. DM connected people in the DMF and DMWG, LHC community effort, so the reader can get involved or have questions
+%\item Summary point 5. Complementarity is important to elucidate DM 
+%\item Summary point 6. Nevertheless, these benchmark models have motivated novel search techniques
+%to look for low-coupling, low-mass resonances below the TeV scale that would
+%have otherwise not been explored in early Run-2 data due to experimental difficulties make same point for dark photons
+%\end{enumerate}
+%\end{summary}
+
+
+%Disclosure
+\section*{DISCLOSURE STATEMENT}
+The authors are not aware of any affiliations, memberships, funding, or financial holdings that
+might be perceived as affecting the objectivity of this review. 
+
+% Acknowledgements
+\section*{ACKNOWLEDGMENTS}
+We thank William Kalderon, Teng Jian Khoo, Suchita Kulkarni, Priscilla Pani, and Frederik Ruehr for their help and advice in preparing this manuscript. 
+We also thank Ulrich Haisch, Valerio Ippolito, Christian Ohm, Jessie Shelton, and Mike Williams for useful discussion.
+Work by AB is supported by the US Department of Energy (Grant DE-SC0011726).
+Work by CD is part of a project that has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (Grant Agreement No. 679305) and from the Swedish Research Council. 
+% References
+%
+% Margin notes within bibliography
+%\section*{LITERATURE\ CITED}
+%To download the appropriate bibliography style file, please see \url{http://www.annualreviews.org/page/authors/author-instructions/preparing/latex}. 
+%Please see the Style Guide document for instructions on preparing your Literature Cited.
+%The citations should be numbered in order of appearance. For example:
+
+\bibliography{AnnRev_Main}
+\bibliographystyle{ar-style5}
+
+\section*{RELATED RESOURCES}
+
+\input{RelatedResources}
+\end{document}
