@@ -1,4 +1,7 @@
 %
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL NS68_Boveia_COMP_ToAU.TEX         Fri Jul 20 10:00:03 2018
+%DIF ADD NS68_Boveia_COMP_ToAU_ICHEP.tex   Fri Jul 20 10:00:03 2018
 \documentclass{ar-1col}
 \usepackage{cite}
 \usepackage{xspace}
@@ -39,6 +42,25 @@
 % Metadata Information
 \jname{Annu. Rev. Nucl. Part. Sci.} \jvol{68} \jyear{2018}
 \doi{10.1146/annurev-nucl-101917-021008}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 
@@ -92,7 +114,7 @@ the complexity of the DM particle sector could match or exceed that of ordinary 
 \begin{textbox}
 \section{PARTICLE PROPERTIES OF DARK MATTER}
 
-\begin{enumerate} 
+ \begin{enumerate}  
 
 \item Darkness: Most DM particle candidates produced in particle collisions are effectively invisible to traditional collider experiments. However, any remaining products of the collision event are not. Invisible particles can be
 accompanied by one or more visible recoiling particles, leading to
@@ -107,7 +129,7 @@ lighter even-parity Standard Model particle. DM particles can also be produced i
 under the same gauge group as the Standard Model, or singly if the
 parent is a color triplet.
 
-\end{enumerate} 
+ \end{enumerate}  
 
 \end{textbox}
 
@@ -190,8 +212,9 @@ Departures from these assumptions are discussed in~Reference~\citen{Abercrombie:
 \subsection{Higgs and {\bf \it{Z}} Boson Portals}\label{sec:HZPortalModels}
 
 \begin{figure}[!htpb]
-\includegraphics[width=\textwidth]{figs_standalone/feynman_0}
-\caption{(\textit{a}) The interaction between DM\ and Standard Model particles via an unspecified interaction (e.g., an EFT).
+%DIF < \includegraphics[width=\textwidth]{figures/feynman_0}
+\DIFaddbeginFL \includegraphics[width=\textwidth]{figs_standalone/feynman_0}
+\DIFaddendFL \caption{(\textit{a}) The interaction between DM\ and Standard Model particles via an unspecified interaction (e.g., an EFT).
 (\textit{b}) Examples of simplified model processes where the interaction is mediated by an intermediate particle (with additional radiation off one of the initial-state quarks). 
 (\textit{c}) The same model, in which  the mediator decays back into Standard Model particles, with coupling constant  \gq  for the mediator--quark--quark vertex and constant  \gdm for the mediator--DM vertex. 
 Abbreviations:\ BSM, beyond the Standard Model; DM, dark matter; EFT, effective field theory; SM, Standard Model. \label{fig:feynman_0}}
@@ -345,7 +368,11 @@ tested by LHC searches (for a discussion of unitarity and gauge invariance for t
 
 Models mediated by a \Zprime boson can include additional couplings of the
 \Zprime boson to acquire mass through a new baryonic Higgs boson,
-$h_B$~\cite{Carpenter:2013xra}, through a coupling \ghZprimeZprime. 
+$h_B$~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{Berlin:2014cfa}}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Carpenter:2013xra}}%DIFAUXCMD
+}\DIFaddend , through a coupling \ghZprimeZprime. 
 This model variant collapses to the simpler vector model
 above in the limit of very heavy \Zprime boson mass. 
 Figure~\ref{fig:feynman_1}\textit{a} shows an example Feynman diagram for this case. 
@@ -361,8 +388,9 @@ perturbative unitarity is violated in certain regions of the
 parameter space~\cite{Chala:2015ama,Kahlhoefer:2015bea,Boveia:2016mrp}.
 
 \begin{figure}[!htpb]
-\includegraphics[width=\textwidth]{figs_standalone/feynman_1}
-\caption{
+%DIF < \includegraphics[width=\textwidth]{figures/feynman_1}
+\DIFaddbeginFL \includegraphics[width=\textwidth]{figs_standalone/feynman_1}
+\DIFaddendFL \caption{
 (\textit{a}) Example of a process including baryonic coupling between a vector mediator $Z'$ and an SM Higgs boson. The $Z'$--Higgs coupling is denoted \ghZprimeZprime. 
 (\textit{b}) Example of a process from a \textit{U}(1) $Z'$ boson embedded in a 2HDM, where a vector $Z'$ decays to a pseudoscalar $A^0$ that in turn decays to DM particles. 
 (\textit{c,d}) Examples of a simplified model process where the interaction is mediated by an intermediate scalar or pseudoscalar particle. In panel \textit{c}, the SM--scalar interaction proceeds through a gluon loop \cite{Haisch:2013ata}, whereas in panel \textit{d}, the pseudo(scalar) is produced in association with a pair of heavy-flavor quarks. The coupling constants that are prefactors to the Yukawa couplings in the model are denoted \gq for the mediator--quark--quark vertex and \gdm for the mediator--DM vertex. 
@@ -451,8 +479,9 @@ searches. Here, we highlight a few such models with signatures different from th
  the simplified models described above.
 
 \begin{figure}[!htpb]
-\includegraphics[width=\textwidth]{figs_standalone/feynman_2}
-\caption{
+%DIF < \includegraphics[width=\textwidth]{figures/feynman_2}
+\DIFaddbeginFL \includegraphics[width=\textwidth]{figs_standalone/feynman_2}
+\DIFaddendFL \caption{
 (\textit{a}) Example of a process leading to a single top signature, proceeding through the coupling of a $u$ and a $t$ with a new vector boson, decaying to DM particles. 
 (\textit{b}) Example of a collider diagram from a coannihilation model, where two DM particles are present in the final state (one denoted DM and the other  $X$). 
 (\textit{c}) Example of a diagram from a 2HDM process, with an interaction between an  $H$, an SM $Z$ boson, and an $a$ mediating the SM--DM interaction. 
@@ -903,8 +932,9 @@ Signal regions are either exclusive (in bins of
 threshold).
 
 \begin{figure}[!htpb]
-\includegraphics[width=0.5\textwidth]{figs_standalone/FakeMET}
-\caption{The \MET distribution of events, termed as $E_T^{miss}$ in the x axis, selected for high total
+%DIF < \includegraphics[width=0.5\textwidth]{figures/FakeMET}
+\DIFaddbeginFL \includegraphics[width=0.5\textwidth]{figs_standalone/FakeMET}
+\DIFaddendFL \caption{The \MET distribution of events, \DIFaddbeginFL \DIFaddFL{termed as $E_T^{miss}$ in the x axis, }\DIFaddendFL selected for high total
 hadronic energy and at least two jets with \pt{} $>$ 400 and 200
 GeV, before (\textit{open circles}) and after (\textit{filled circles}) rejection of
 spurious \MET backgrounds~\cite{CMS-PAS-JME-16-004}. The
@@ -981,7 +1011,11 @@ recorded with lower kinematic thresholds, resulting in lower \MET
 and visible-\pt{} selections. For example, the lowest \MET value
 probed by the \textit{Z}+\MET search, where the \textit{Z} decays into
 leptons~\cite{Sirunyan:2017qfc,Aaboud:2017bja}, is around 100 GeV,
-versus 200 GeV for the jet+\MET searches (e.g.~\cite{Sirunyan:2017jix}).
+versus 200 GeV for the jet+\MET \DIFdelbegin \DIFdel{search~\mbox{%DIFAUXCMD
+\cite{Sirunyan:2017jix}}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{searches (e.g.~\mbox{%DIFAUXCMD
+\cite{Sirunyan:2017jix}}%DIFAUXCMD
+)}\DIFaddend .
 
 These searches can play a much more powerful role when the recoil
 arises from the dark interaction itself rather than ISR. In these
@@ -991,7 +1025,11 @@ recoil, may be the dominant signature. The
 event selection and the background estimation strategies generally
 mirror those of the jet+\MET search, but vary with the type of
 recoil, taking advantage of the special features of the signal. 
-Photon+\MET searches~\cite{Aaboud:2017dor,CMS-PAS-EXO-16-053} has lower backgrounds
+Photon+\MET searches~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{Aaboud:2017dor,CMS-PAS-EXO-16-014} }%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Aaboud:2017dor,CMS-PAS-EXO-16-053} }%DIFAUXCMD
+}\DIFaddend has lower backgrounds
 with respect to the jet+\MET searches and therefore retains a comparable albeit
 lower sensitivity. 
 
@@ -1030,44 +1068,78 @@ Dedicated searches for Higgs+\MET  select Higgs events similarly to
 the inclusive Higgs measurements, then require substantial \MET to
 reduce the backgrounds to the search. In the Run 2 data, searches
 in the 
-$H \rightarrow \gamma\gamma$~\cite{Sirunyan:2018fpy,Aaboud:2017uak}, 
-$H \rightarrow \tau\tau$~\cite{Sirunyan:2018fpy}, 
-and
-$H \rightarrow b\bar{b}$~\cite{Aaboud:2017yqz,CMS-PAS-EXO-16-050} channels have been
-performed. Searches in the $ZZ and~WW$ channels are
+$H \rightarrow \gamma\gamma$~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{CMS-PAS-EXO-16-054,Aaboud:2017uak} }%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Sirunyan:2018fpy,Aaboud:2017uak}}%DIFAUXCMD
+, 
+$H \rightarrow \tau\tau$~\mbox{%DIFAUXCMD
+\cite{Sirunyan:2018fpy}}%DIFAUXCMD
+, 
+}\DIFaddend and
+$H \rightarrow b\bar{b}$~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{Aaboud:2017yqz} }%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Aaboud:2017yqz,CMS-PAS-EXO-16-050} }%DIFAUXCMD
+}\DIFaddend channels have been
+performed. Searches in the \DIFdelbegin \DIFdel{$ZZ,~WW$, and $\tau\tau$ }\DIFdelend \DIFaddbegin \DIFadd{$ZZ and~WW$ }\DIFaddend channels are
 expected to contribute as well, once substantially more data have been
 collected.
 
 The \MET+$H \rightarrow \gamma\gamma$
-searches~\cite{Sirunyan:2018fpy,Aaboud:2017uak} benefit from
+searches~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{CMS-PAS-EXO-16-054,Aaboud:2017uak} }%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Sirunyan:2018fpy,Aaboud:2017uak} }%DIFAUXCMD
+}\DIFaddend benefit from
 their ability to precisely constrain the diphoton pair to the
 Higgs boson mass. They are still statistically limited. The
 relatively low backgrounds enable probing for anomalous \MET as low
-as 50 GeV~\cite{Sirunyan:2018fpy}. The diphoton-invariant mass
+as 50 GeV~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{CMS-PAS-EXO-16-054}}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Sirunyan:2018fpy}}%DIFAUXCMD
+}\DIFaddend . The diphoton-invariant mass
 is fitted in different signal categories, each optimized for
 different types of signal models. 
-The $H \rightarrow \tau\tau$ search also benefits from lower SM backgrounds 
-than other \MET+$H$ searches, as it selects events based on the presence 
-of $\tau$ leptons rather than on the presence of large \MET. This search 
-is sensitive to anomalous \MET signals above 105 GeV. 
-The search for a Higgs boson decaying to
-two bottom quarks~\cite{Aaboud:2017yqz,CMS-PAS-EXO-16-050} requires \MET$>$150 or 200 GeV.
-These searches employ jet substructure techniques to
+The \DIFdelbegin \DIFdel{search }\DIFdelend \DIFaddbegin \DIFadd{$H \rightarrow \tau\tau$ search also benefits from lower SM backgrounds 
+than other }\MET\DIFadd{+$H$ searches, as it selects events based on the presence 
+of $\tau$ leptons rather than on the presence of large }\MET\DIFadd{. This search 
+is sensitive to anomalous }\MET \DIFadd{signals above 105 GeV. 
+The search }\DIFaddend for a Higgs boson decaying to
+two bottom quarks~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{Aaboud:2017yqz} }%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Aaboud:2017yqz,CMS-PAS-EXO-16-050} }%DIFAUXCMD
+}\DIFaddend requires \MET$>$150 \DIFdelbegin \DIFdel{GeV.
+All backgrounds except for the QCD background are estimated using
+Monte Carlo simulation and constrained in dedicated control regions. This search
+also employs }\DIFdelend \DIFaddbegin \DIFadd{or 200 GeV.
+These searches employ }\DIFaddend jet substructure techniques \DIFdelbegin \DIFdel{for }%DIFDELCMD < \MET%%%
+\DIFdel{$>$500 GeV }\DIFdelend to
 select boosted Higgs decays amid a background of QCD processes.
-The majority of the backgrounds are estimated using
-data-driven techniques and Monte Carlo simulation and constrained in dedicated control regions. 
+The \DIFdelbegin \DIFdel{main systematic uncertainty for the lower-}%DIFDELCMD < \MET %%%
+\DIFdel{signal region
+is the modeling of the }\textit{\DIFdel{V}}%DIFAUXCMD
+\DIFdel{+jets background, while a higher-}%DIFDELCMD < \MET
+%DIFDELCMD < %%%
+\DIFdel{signal region is still statistically limited with the current
+data set}\DIFdelend \DIFaddbegin \DIFadd{majority of the backgrounds are estimated using
+data-driven techniques and Monte Carlo simulation and constrained in dedicated control regions}\DIFaddend . 
 
 In the absence of a signal, limits are placed on the baryonic Higgs benchmark
-model (outlined in Section~\ref{sub:simplifiedModels} and shown in Figure~\ref{fig:feynman_1}\textit{a})
-with \gq = 1/3 (ATLAS) or 0.25 (CMS), \gdm = 1, and \ghZprimeZprime/$m_{Z}$ = 1, on a
-\Zprime--2HDM (Figure~\ref{fig:feynman_1}\textit{b}).
+model (outlined in Section~\ref{sub:simplifiedModels} and shown in Figure~\ref{fig:feynman_1}\textit{\DIFdelbegin \DIFdel{c}\DIFdelend \DIFaddbegin \DIFadd{a}\DIFaddend })
+with \gq = 1\DIFaddbegin \DIFadd{/3 (ATLAS) or 0.25 (CMS)}\DIFaddend , \gdm = 1, and \ghZprimeZprime/$m_{Z}$ = 1, \DIFdelbegin \DIFdel{and }\DIFdelend on a
+\Zprime--2HDM (Figure~\ref{fig:feynman_1}\textit{\DIFdelbegin \DIFdel{d}\DIFdelend \DIFaddbegin \DIFadd{b}\DIFaddend }).
 \footnote{In the case of the \Zprime--2HDM, CMS and ATLAS set different masses for the new Higgs
 bosons, so the constraints are not yet directly comparable.} 
-Both Higgs+\MET and \textit{Z}+\MET searches are also sensitive to extended
+\DIFaddbegin \DIFadd{Both }\DIFaddend Higgs+\MET and \textit{Z}+\MET searches are also sensitive to extended
 scalar sectors such as two Higgs doublets with a scalar or
-pseudoscalar mediator~\cite{Bauer:2017ota,Goncalves:2016iyg,Bell:2016ekl};
-the search in Reference {CMS-PAS-EXO-16-050} sets limits on the 2HDM + pseudoscalar model of~\cite{Bauer:2017ota}
-shown in Figure ~\ref{fig:feynman_1}\textit{c}.
+pseudoscalar mediator~\cite{Bauer:2017ota,Goncalves:2016iyg,Bell:2016ekl}\DIFaddbegin \DIFadd{;
+the search in Reference }{\DIFadd{CMS-PAS-EXO-16-050}} \DIFadd{sets limits on the 2HDM + pseudoscalar model of~\mbox{%DIFAUXCMD
+\cite{Bauer:2017ota}
+}%DIFAUXCMD
+shown in Figure ~\ref{fig:feynman_1}}\textit{\DIFadd{c}}\DIFaddend .
 
 \subsubsection{Searches with third-generation quarks}
 
@@ -1133,10 +1205,11 @@ statements about the current status, even for simplified models of
 SUSY. Perhaps the best one can say is that searches for
 strongly produced superpartners constrain them for masses
 approaching $\sim$2 TeV for neutralino masses up to 1 TeV
-(e.g.,~\citen{Aaboud:2017bac,Sirunyan:2017yse}); by contrast, other processes are
+\DIFdelbegin \DIFdel{, as shown in Figure~\ref{fig:SUSYSummary_ew}
+}\DIFdelend (e.g.,~\citen{Aaboud:2017bac,Sirunyan:2017yse}); by contrast, other processes are
 less constrained. Direct production of weakly coupled
 superpartners has a much smaller production rate; therefore, the
-constraints on them are significantly weaker, as shown in Figure~\ref{fig:SUSYSummary_ew}.
+constraints on them are significantly weaker\DIFaddbegin \DIFadd{, as shown in Figure~\ref{fig:SUSYSummary_ew}}\DIFaddend .
 Third-generation squarks are generally only constrained to be at least several
 hundred GeV for neutralinos of similar masses (e.g., \citen{Sirunyan:2017wif,Aaboud:2016wna}). But there are
 numerous exceptions to these blanket statements, even before one
@@ -1145,13 +1218,23 @@ apply only to specific slices of a multidimensional model parameter
 space.
 
 \begin{figure}[!htpb]
-\includegraphics[width=\textwidth]{figs_standalone/CMS-SUS-17-004_Figure_010-a.pdf}
+%DIF < \includegraphics[width=\textwidth]{figures/SUSY_electroweak.pdf}
+\DIFaddbeginFL \includegraphics[width=\textwidth]{figs_standalone/CMS-SUS-17-004_Figure_010-a.pdf}
 \includegraphics[width=\textwidth]{figs_standalone/ATLAS_SUSY_EWSummary_higgsino.pdf}
-\caption{Mass reach of (\textit{a})\ CMS and (\textit{b})\ ATLAS searches for a selection of
+\DIFaddendFL \caption{Mass reach of (\textit{a})\ CMS and (\textit{b})\ ATLAS searches for a selection of
 results targeting electroweak supersymmetry production, available as of
-July 2018.
-Panel \textit{a} adapted from Reference \citen{Sirunyan:2018ubx}. 
-Panel \textit{b} adapted from Reference~\citen{ATL-PHYS-PUB-2017-019}.\label{fig:SUSYSummary_ew}}
+\DIFdelbeginFL \DIFdelFL{December 2017.
+}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{July 2018.
+}\DIFaddendFL Panel \textit{a} adapted from Reference \DIFdelbeginFL \DIFdelFL{\mbox{%DIFAUXCMD
+\citen{CMSSUSYSummary}}%DIFAUXCMD
+}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{\mbox{%DIFAUXCMD
+\citen{Sirunyan:2018ubx}}%DIFAUXCMD
+}\DIFaddendFL . 
+Panel \textit{b} adapted from Reference~\DIFdelbeginFL \DIFdelFL{\mbox{%DIFAUXCMD
+\citen{ATLASSUSYSummary}}%DIFAUXCMD
+}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{\mbox{%DIFAUXCMD
+\citen{ATL-PHYS-PUB-2017-019}}%DIFAUXCMD
+}\DIFaddendFL .\label{fig:SUSYSummary_ew}}
 \end{figure}
 
 Although LHC searches have so far probed mainly  SUSY channels that are strongly produced, searches for more rare processes are now entering their prime. With the data now collected, one can explore the
@@ -1277,19 +1360,22 @@ processes, which are estimated with simulations corrected for next-to-next-to-le
 effects and normalized to the \textit{Z} boson yield in the data.
 
 \begin{figure}[!htpb]
-\includegraphics[width=\textwidth]{figs_standalone/CouplingMassPlot.pdf}
-\caption{Summary of constraints from searches for narrow, light dijet
-resonances from ATLAS and CMS available as of
-July 2018, where discrete points are taken
+%DIF < \includegraphics[width=\textwidth]{figures/CouplingMassPlot.pdf}
+\DIFaddbeginFL \includegraphics[width=\textwidth]{figs_standalone/CouplingMassPlot.pdf}
+\DIFaddendFL \caption{Summary of constraints from searches for \DIFaddbeginFL \DIFaddFL{narrow, }\DIFaddendFL light dijet
+resonances from ATLAS and CMS \DIFaddbeginFL \DIFaddFL{available as of
+July 2018}\DIFaddendFL , where discrete points are taken
 from the coupling-mass limits on a simplified model mediated by an
 axial--vector $Z^\prime$ coupling exclusively to quarks from the
 searches mentioned in the text, and interpolated at the crossings.
 Couplings above the lines are excluded at 95\% CL, up to the
 values where larger couplings yield a resonance width larger than
-10-15\% (roughly \gq $>$ 0.5). Abbreviation:\ DM, dark matter.
-Pre-LHC constraints are extracted from Reference \citen{Dobrescu:2013coa},
-while LHC constraints are taken from References \cite{Sirunyan:2017nvi,Aaboud:2018zba,
-ATLAS:2016bvn,Sirunyan:2017nvi,Sirunyan:2018xlo,Aaboud:2018fzt,Aaboud:2017yvp}.}
+\DIFdelbeginFL \DIFdelFL{15}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{10-15}\DIFaddendFL \% (roughly \gq $>$ 0.5). Abbreviation:\ DM, dark matter.
+Pre-LHC constraints are \DIFaddbeginFL \DIFaddFL{extracted }\DIFaddendFL from Reference \citen{Dobrescu:2013coa}\DIFaddbeginFL \DIFaddFL{,
+while LHC constraints are taken from References \mbox{%DIFAUXCMD
+\cite{Sirunyan:2017nvi,Aaboud:2018zba,
+ATLAS:2016bvn,Sirunyan:2017nvi,Sirunyan:2018xlo,Aaboud:2018fzt,Aaboud:2017yvp}}%DIFAUXCMD
+}\DIFaddendFL .}
 \label{fig:couplingmass}
 \end{figure}
 
@@ -1365,26 +1451,29 @@ dilepton search fare better but do not extend very far into the
 decays to DM dominate.
 
 \begin{figure}[!htpb]
-\includegraphics[width=0.7\textwidth]{figs_standalone/ATLAS_DarkMatter_Summary_Vector.pdf}\\
+%DIF < \includegraphics[width=\textwidth]{figures/SummaryPlotsMassMass.pdf}
+\DIFaddbeginFL \includegraphics[width=0.7\textwidth]{figs_standalone/ATLAS_DarkMatter_Summary_Vector.pdf}\\
 \includegraphics[width=0.7\textwidth]{figs_standalone/ATLAS_DarkMatter_Summary_Vector_ModifiedCoupling.pdf}
-\caption{Regions in DM mass--\Zprime mediator mass
-excluded at 95\% CL by a selection of ATLAS searches 
-(from References \cite{ATLAS:2016bvn,Aaboud:2018fzt,Aaboud:2017yvp,
+\DIFaddendFL \caption{Regions in DM mass--\Zprime mediator mass
+excluded at 95\% CL by a selection of ATLAS \DIFdelbeginFL \DIFdelFL{dark matter }\DIFdelendFL searches 
+\DIFaddbeginFL \DIFaddFL{(from References \mbox{%DIFAUXCMD
+\cite{ATLAS:2016bvn,Aaboud:2018fzt,Aaboud:2017yvp,
 Aaboud:2017phn,ATLAS-CONF-2018-005,Aaboud:2017bja,Aaboud:2017dor,
-Aaboud:2017buh}) 
-available as of July 2018, for two coupling scenarios. Dashed curves labeled ``thermal
+Aaboud:2017buh}}%DIFAUXCMD
+) 
+available as of July 2018, }\DIFaddendFL for two coupling scenarios. Dashed curves labeled ``thermal
 relic'' indicate combinations of DM and mediator mass
 that are consistent with a DM density of $\omega_c = 0.12
 h^2$ and a standard thermal history, as computed in MadDM for this
 model~\cite{Backovic:2015cra}. The dotted curve indicates the
 kinematic threshold where the mediator can decay on-shell into
 DM. 
-In panel (a), the couplings of the mediator particle to each generation
-of quarks (\gq) are set to 0.25, the couplings to leptons (\gl)
+\DIFaddbeginFL \DIFaddFL{In panel (a), the couplings of the mediator particle to each generation
+of quarks (}\gq\DIFaddFL{) are set to 0.25, the couplings to leptons (}\gl\DIFaddFL{)
 are set to zero and the coupling to DM is set to unity. 
-In panel (b), \gq is set to 0.1, \gl is set to 0.01
-and the coupling to DM \gdm is set to unity and marked as $g_{DM}$ in this plot.
-Abbreviations:\ DM, dark matter; ISR, initial-state radiation; 
+In panel (b), }\gq \DIFaddFL{is set to 0.1, }\gl \DIFaddFL{is set to 0.01
+and the coupling to DM }\gdm \DIFaddFL{is set to unity and marked as $g_{DM}$ in this plot.
+}\DIFaddendFL Abbreviations:\ DM, dark matter; ISR, initial-state radiation; 
 TLA, trigger-object level analysis. Adapted from~Reference \citen{ATLASSummary}.
 }
 \label{fig:sensitivityComparison}
@@ -1493,7 +1582,7 @@ as well as calculations of relic density
 \end{marginnote}
 
 We emphasize that the exclusion regions obtained in this
-way will depend strongly on the assumptions of the model. The
+way will depend strongly on the \DIFdelbegin \DIFdel{assumption }\DIFdelend \DIFaddbegin \DIFadd{assumptions }\DIFaddend of the model. The
 extrapolations are done with full knowledge that the simplified
 model is merely a crude guess, and one must be careful not to
 overgeneralize. Neither this procedure nor the
@@ -1506,16 +1595,21 @@ be they from DD, ID, or collider searches, are affected by experimental and
 theoretical uncertainties not shown in Figure~\ref{fig:SICMS}.
 
 \begin{figure}[!htpb]
-\includegraphics[width=0.9\textwidth]{figs_standalone/SI_CMSDD_Summary}
-\caption{The 90\%-CL constraints from the CMS experiment 
-from References \cite{Sirunyan:2017nvi,Sirunyan:2018xlo,Sirunyan:2017jix,CMS-PAS-EXO-16-053,Sirunyan:2017qfc}
-in the \mdm-spin-independent DM--nucleon plane for a vector mediator,
-Dirac DM, and benchmark couplings \gq = 0.25 and \gdm = 1.0 (marked as $g_{DM}$ in this plot) chosen as an example of what
+%DIF < \includegraphics[width=0.9\textwidth]{figures/SI_CMSDD_Summary}
+\DIFaddbeginFL \includegraphics[width=0.9\textwidth]{figs_standalone/SI_CMSDD_Summary}
+\DIFaddendFL \caption{The 90\%-CL constraints from the CMS experiment 
+\DIFaddbeginFL \DIFaddFL{from References \mbox{%DIFAUXCMD
+\cite{Sirunyan:2017nvi,Sirunyan:2018xlo,Sirunyan:2017jix,CMS-PAS-EXO-16-053,Sirunyan:2017qfc}
+}%DIFAUXCMD
+}\DIFaddendFL in the \mdm-spin-independent DM--nucleon plane for a vector mediator,
+Dirac DM, and benchmark couplings \gq = 0.25 and \gdm = 1.0 \DIFaddbeginFL \DIFaddFL{(marked as $g_{DM}$ in this plot) }\DIFaddendFL chosen as an example of what
 early LHC searches would be sensitive to, compared with direct detection
-experiments from References \cite{Angloher:2015ewa,Agnese:2015nto,Cui:2017nnn,Akerib:2016vxi,Aprile:2018dbl}. 
-It is important to note that this comparison is only valid for this particular
+experiments \DIFaddbeginFL \DIFaddFL{from References \mbox{%DIFAUXCMD
+\cite{Angloher:2015ewa,Agnese:2015nto,Cui:2017nnn,Akerib:2016vxi,Aprile:2018dbl}}%DIFAUXCMD
+}\DIFaddendFL . 
+\DIFaddbeginFL \DIFaddFL{It is important to note that this comparison is only valid for this particular
 combination of model and parameter choices. 
-Abbreviation:\ DM, dark matter. Adapted from Reference~\citen{CMSSummary}.} \label{fig:SICMS}
+}\DIFaddendFL Abbreviation:\ DM, dark matter. Adapted from Reference~\citen{CMSSummary}.} \label{fig:SICMS}
 \end{figure}
 
 \subsection{Relic Density Considerations}
@@ -1564,12 +1658,12 @@ sparsely explored. Finally, the HL-LHC data set will exceed that presented here 
 are exciting times~\cite{Steigman:1979kw}.
 
 \begin{issues}[FUTURE ISSUES]
-\begin{enumerate}
+ \begin{enumerate} 
 
 \item The obvious directions for LHC searches are toward lower-rate
 processes and processes that are more difficult to detect:
 
-\begin{itemize}
+ \begin{itemize} 
 
 \item Extended scalar sectors and electroweak SUSY
 are among the possible benchmarks for lower rate processes.
@@ -1595,12 +1689,12 @@ Many LLP searches have not yet been done, and not all existing searches have bee
 Therefore, LLP searches have the potential for substantial improvements, 
 much beyond those expected by the accumulation of luminosity. 
 
-\end{itemize}
+ \end{itemize} 
 
 \item Precision searches, detector upgrades, and efficient triggering of rare signals buried
 in large backgrounds are key to fully exploiting the HL-LHC data set: 
 
-\begin{itemize} 
+ \begin{itemize}  
 
 \item In the familiar jet+\MET search,
 precision estimates of the \textit{V}+jet backgrounds, and of the inputs to
@@ -1616,7 +1710,7 @@ LHCb will make use of a novel triggerless detector readout to
 perform dark photon searches with unprecedented
 sensitivities~\cite{Ilten:2016tkc}. 
 
-\end{itemize}
+ \end{itemize} 
 
 \item Future hadron and electron--positron colliders have immense
 potential [see, e.g., studies on a future hadron
@@ -1642,7 +1736,7 @@ astrophysical observables is crucial to exploit the few clues that
 DM can provide about BSM\ particle physics. We
 strongly encourage further research on this subject (e.g.,
 \citen{Buckley:2017ijx}).
-\end{enumerate}
+ \end{enumerate} 
 \end{issues}
 
 
@@ -1676,7 +1770,7 @@ Bertone G, Hooper D, Silk J. \textit{Phys.\ Rep.}\  {405}:279 (2005)
 
 \bibitem{Cohen:2016uyg}
   Cohen T, et al. \textit{Phys.\ Rev.\ Lett.}\  {119}:021102 (2017)
-  
+
 \bibitem{Ellis:1999mm}
 Ellis JR, Falk T, Olive KA, Srednicki M. \textit{Astropart. Phys.}
 13:181 (2000); Erratum. \textit{Astropart. Phys.} 15:413 (2001)
@@ -1798,10 +1892,11 @@ Albert A, et~al. arXiv:1703.05703 [hep-ex] (2017)
 \bibitem{Berlin:2014cfa}
 Berlin A, Lin T, Wang LT. \textit{J. High Energy Phys.} 1406:078 (2014)
 
-\bibitem{Carpenter:2013xra} 
-Carpenter L, et~al. \textit{Phys.\ Rev.\ D} 89:075017 (2014)
+\DIFaddbegin \bibitem{Carpenter:2013xra} 
+\DIFadd{Carpenter L, et~al. }\textit{\DIFadd{Phys.\ Rev.\ D}} \DIFadd{89:075017 (2014)
+}
 
-\bibitem{Chala:2015ama}
+\DIFaddend \bibitem{Chala:2015ama}
 Chala M, et~al. \textit{J. High Energy Phys.} {1507}:089 (2015)
 
 \bibitem{Boveia:2016mrp}
@@ -1875,7 +1970,7 @@ Masiero A, Profumo S, Ullio P. \textit{Nucl. Phys.} \textit{B} 712:86 (2005)
 \bibitem{Pospelov:2007mp}
 Pospelov M, Ritz A, Voloshin MB. \textit{Phys. Lett.} \textit{B} 662:53
 (2008)
-  
+
 \bibitem{Das:2010ts}
 Das S, Sigurdson K. \textit{Phys. Rev.} \textit{D} 85:063510 (2012)
 
@@ -1911,7 +2006,7 @@ Craig N, Knapen S, Longhi P. \textit{Phys. Rev. Lett.} 114:061803
 
 \bibitem{Hochberg:2014dra} 
   Hochberg Y, Kuflik E, Volansky T, Wacker JG.  \textit{Phys.\ Rev.\ Lett.}  {113}:171301 (2014)
-  
+
 
 \bibitem{ALEPH:2005ab}
 Schael S, et~al. \textit{Phys. Rep.} 427:257 (2006)
@@ -2025,12 +2120,16 @@ Gershtein Y, Petriello F, Quackenbush S, Zurek KM. \textit{Phys.\ Rev.\ D }{78}:
 
 \bibitem{Petriello:2008pu} 
 Petriello FJ, Quackenbush S, Zurek KM. \textit{Phys.\ Rev.\ D} {77}:115020 (2008)
-  
+
 \bibitem{Aaboud:2017dor}
 {ATLAS Collab.} \textit{Eur. Phys. J.} \textit{C} 77:393 (2017)
 
-\bibitem{CMS-PAS-EXO-16-053}
-CMS Collab. \textit{Search for new physics in final states with a single photon plus missing transverse momentum in proton-proton collisions at} $\sqrt{s}$=\textit{13 TeV} using 2016 data. Report CMS-PAS-EXO-16-053, CERN, Geneva (2016)
+\DIFdelbegin %DIFDELCMD < \bibitem{CMS-PAS-EXO-16-014}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \bibitem{CMS-PAS-EXO-16-053}
+\DIFaddend CMS Collab. \textit{Search for \DIFdelbegin \DIFdel{dark matter and large extra dimensions }\DIFdelend \DIFaddbegin \DIFadd{new physics }\DIFaddend in \DIFdelbegin \DIFdel{the}\DIFdelend \DIFaddbegin \DIFadd{final states with a single photon plus missing transverse momentum in proton-proton collisions at}\DIFaddend } \DIFdelbegin \DIFdel{$\gamma$ + }%DIFDELCMD < \MET %%%
+\textit{\DIFdel{final state in pp Collisions at}} %DIFAUXCMD
+\DIFdelend $\sqrt{s}$=\textit{13 TeV} \DIFdelbegin \DIFdel{. Report CMS-PAS-EXO-16-014}\DIFdelend \DIFaddbegin \DIFadd{using 2016 data. Report CMS-PAS-EXO-16-053}\DIFaddend , CERN, Geneva (2016)
 
 \bibitem{ATLAS-CONF-2018-005}
 ATLAS Collab. \textit{Search for dark matter in events with a hadronically
@@ -2041,8 +2140,12 @@ ATLAS Collab. \textit{Search for dark matter in events with a hadronically
 \bibitem{Larkoski:2017jix}
 Larkoski AJ, Moult I, Nachman B. arXiv:1709.04464 [hep-ph] (2017)
 
-\bibitem{Sirunyan:2018fpy}
-CMS Collab. arXiv:1806.04771 [hep-ex] (2018)
+\DIFdelbegin %DIFDELCMD < \bibitem{CMS-PAS-EXO-16-054}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \bibitem{Sirunyan:2018fpy}
+\DIFaddend CMS Collab. \DIFdelbegin \textit{\DIFdel{Search for dark matter produced in association with a Higgs boson decaying to two photons.}}
+%DIFAUXCMD
+\DIFdel{Report CMS-PAS-EXO-16-054, CERN, Geneva (2017}\DIFdelend \DIFaddbegin \DIFadd{arXiv:1806.04771 }[\DIFadd{hep-ex}] \DIFadd{(2018}\DIFaddend )
 
 \bibitem{Aaboud:2017uak}
 {ATLAS Collab.} \textit{Phys. Rev.} \textit{D} 96:112004 (2017)
@@ -2050,16 +2153,19 @@ CMS Collab. arXiv:1806.04771 [hep-ex] (2018)
 \bibitem{Aaboud:2017yqz}
 {ATLAS Collab.} \textit{Phys. Rev. Lett.} 119:181804 (2017)
 
-\bibitem{CMS-PAS-EXO-16-050}
-CMS Collab.
-\textit{Search for associated production of dark matter with a Higgs boson that decays to a pair of bottom quarks}
-Report CMS-PAS-EXO-16-050, CERN, Geneva (2018)
+\DIFaddbegin \bibitem{CMS-PAS-EXO-16-050}
+\DIFadd{CMS Collab.
+}\textit{\DIFadd{Search for associated production of dark matter with a Higgs boson that decays to a pair of bottom quarks}}
+\DIFadd{Report CMS-PAS-EXO-16-050, CERN, Geneva (2018)
+}
 
-\bibitem{Aaboud:2017rzf}
+\DIFaddend \bibitem{Aaboud:2017rzf}
 {ATLAS Collab.}  \textit{Eur.\ Phys.\ J.\ C} {78}:18 (2018)
 
 \bibitem{Aaboud:2017aeu}
-{ATLAS Collab.} \textit{J. High Energy Phys.} 06:108 (2018)
+{ATLAS Collab.} \DIFdelbegin \DIFdel{arXiv:1711.11520 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdel{(2017}\DIFdelend \DIFaddbegin \textit{\DIFadd{J. High Energy Phys.}} \DIFadd{06:108 (2018}\DIFaddend )
 
 \bibitem{Sirunyan:2017leh}
 {CMS Collab.} \textit{Phys.\ Rev.\ D} {97}:032009 (2018)
@@ -2069,7 +2175,9 @@ Agrawal P, Batell B, Hooper D, Lin T. \textit{Phys. Rev.}
 \textit{D} 90:063512 (2014)
 
 \bibitem{Sirunyan:2018gka}
-{CMS Collab.} \textit{J. High Energy Phys.} 06:027 (2018)
+{CMS Collab.} \DIFdelbegin \DIFdel{arXiv:1801.08427 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdelend \DIFaddbegin \textit{\DIFadd{J. High Energy Phys.}} \DIFadd{06:027 }\DIFaddend (2018)
 
 \bibitem{Aad:2014wza}
 {ATLAS Collab}. \textit{Eur. Phys. J.} \textit{C} 75:79 (2015)
@@ -2089,24 +2197,48 @@ Lester CG, Summers DJ. \textit{Phys. Lett.} \textit{B} 463:99 (1999)
 \bibitem{Aaboud:2016wna}
 {ATLAS~Collab.} \textit{J. High Energy Phys.} 09:175 (2016)
 
-\bibitem{Sirunyan:2018ubx}
-{CMS Collab.} \textit{J. High Energy Phys.} 160:1803 (2018)
+\DIFdelbegin %DIFDELCMD < \bibitem{CMSSUSYSummary}
+%DIFDELCMD < {%%%
+\DIFdel{CMS Collab}%DIFDELCMD < }%%%
+\DIFdel{. }\textit{\DIFdel{Supersymmetry public results}}%DIFAUXCMD
+\DIFdel{. CERN, Geneva.
+}%DIFDELCMD < \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsSUS} %%%
+\DIFdel{(2018)
+}%DIFDELCMD < 
+
+%DIFDELCMD < \bibitem{ATLASSUSYSummary}
+%DIFDELCMD < {%%%
+\DIFdel{ATLAS Collab}%DIFDELCMD < }%%%
+\DIFdel{. }\textit{\DIFdel{Supersymmetry public results}}%DIFAUXCMD
+\DIFdel{. CERN, Geneva. }%DIFDELCMD < \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/SupersymmetryPublicResults} %%%
+\DIFdel{(2018)
+}%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \bibitem{Sirunyan:2018ubx}
+{CMS Collab.} \DIFdelbegin \DIFdel{arXiv:1801.03957 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdelend \DIFaddbegin \textit{\DIFadd{J. High Energy Phys.}} \DIFadd{160:1803 }\DIFaddend (2018)
 
 \bibitem{ATLAS:2017uun}
 ATLAS Collab. \textit{Search for electroweak production of supersymmetric particles in the two and three lepton final state at} $\sqrt{s}$=\textit{13 TeV with the ATLAS detector}.
 Report ATLAS-CONF-2017-039, CERN, Geneva (2017)
 
 \bibitem{Aaboud:2017leg}
-{ATLAS Collab}. \textit{Phys. Rev.} \textit{D} 97:052010 (2018)
+{ATLAS Collab}. \DIFdelbegin \DIFdel{arXiv:1712.08119 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdel{(2017}\DIFdelend \DIFaddbegin \textit{\DIFadd{Phys. Rev.}} \textit{\DIFadd{D}} \DIFadd{97:052010 (2018}\DIFaddend )
 
 \bibitem{Sirunyan:2017zss}
 {CMS Collab}. \textit{J. High Energy Phys.} 11:029 (2017)
 
 \bibitem{ATL-PHYS-PUB-2017-019}
 {ATLAS Collab}. \textit{Search for direct pair production of higgsinos by the reinterpretation of the disappearing track analysis with 36.1 fb$^{-1}$ of $\sqrt{s}=13$ TeV data collected with the ATLAS experiment} Report ATL-PHYS-PUB-2017-019 (2017)
-               
+
 \bibitem{Sirunyan:2018vjp}
-{CMS Collab}. \textit{J. High Energy Phys.} 05:025 (2018)
+{CMS Collab}. \DIFdelbegin \DIFdel{arXiv:1802.02110 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdelend \DIFaddbegin \textit{\DIFadd{J. High Energy Phys.}} \DIFadd{05:025 }\DIFaddend (2018)
 
 \bibitem{Conley:2010du}
 Conley JA, et~al. \textit{Eur. Phys. J.} \textit{C} 71:1697 (2011)
@@ -2121,10 +2253,14 @@ Conley JA, et~al. \textit{Eur. Phys. J.} \textit{C} 71:1697 (2011)
 GAMBIT Collab. \textit{Eur. Phys. J.} \textit{C} 77:784 (2017)
 
 \bibitem{Bagnaschi:2017tru}
-Mastercode Collab. \textit{Eur. Phys. J.} \textit{C} 78:256 (2018)
+Mastercode Collab. \DIFdelbegin \DIFdel{arXiv:1710.11091 }%DIFDELCMD < [%%%
+\DIFdel{hep-ph}%DIFDELCMD < ] %%%
+\DIFdel{(2017}\DIFdelend \DIFaddbegin \textit{\DIFadd{Eur. Phys. J.}} \textit{\DIFadd{C}} \DIFadd{78:256 (2018}\DIFaddend )
 
 \bibitem{Aaboud:2017mpt}
-{ATLAS Collab}. \textit{J. High Energy Phys.} 06:022 (2018)
+{ATLAS Collab}. \DIFdelbegin \DIFdel{arXiv:1712.02118 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdel{(2017}\DIFdelend \DIFaddbegin \textit{\DIFadd{J. High Energy Phys.}} \DIFadd{06:022 (2018}\DIFaddend )
 
 \bibitem{CMS:2014gxa}
 {CMS Collab}. \textit{J. High Energy Phys.} 01:096 (2015)
@@ -2136,7 +2272,9 @@ Ball A, et~al. arXiv:1607.04669 [physics.ins-det] (2016)
 Chou JP, Curtin D, Lubatti HJ. \textit{Phys. Lett.} \textit{B} 767:29 (2017)
 
 \bibitem{Aaij:2017rft}
-{LHCb Collab}.  \textit{Phys. Rev. Lett.} 120:061801 (2018)
+{LHCb Collab}.  \DIFdelbegin \DIFdel{arXiv:1710.02867 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdel{(2017}\DIFdelend \DIFaddbegin \textit{\DIFadd{Phys. Rev. Lett.}} \DIFadd{120:061801 (2018}\DIFaddend )
 
 
 \bibitem{Lees:2014xha}
@@ -2160,7 +2298,7 @@ Liew SP, Papucci M, Vichi A, Zurek KM. \textit{J. High Energy Phys.} 06:082 (201
 
 \bibitem{Aaboud:2017yvp}
 {ATLAS Collab}. \textit{Phys. Rev.} \textit{D} 96:052004 (2017)
-  
+
 \bibitem{Sirunyan:2018xlo} 
 {CMS Collab.} arXiv:1806.00843 [hep-ex] (2018) 
 
@@ -2178,7 +2316,9 @@ Dobrescu BA, Yu F. \textit{Phys. Rev.} \textit{D} 88:035021 (2013); Erratum. \te
 $\sqrt{s}$ = \textit{13 TeV with the ATLAS detector}. Report ATLAS-CONF-2016-070, CERN, Geneva (2016)
 
 \bibitem{Sirunyan:2017nvi}
-{CMS Collab}. \textit{J. High Energy Phys.} 01:097 (2018) 
+{CMS Collab}. \DIFdelbegin \DIFdel{arXiv:1710.00159 }%DIFDELCMD < [%%%
+\DIFdel{hep-ex}%DIFDELCMD < ] %%%
+\DIFdel{(2017}\DIFdelend \DIFaddbegin \textit{\DIFadd{J. High Energy Phys.}} \DIFadd{01:097 (2018}\DIFaddend ) 
 
 \bibitem{Aaboud:2018zba}
 {ATLAS Collab}. arXiv:1801.08769 [hep-ex] (2018)
@@ -2204,7 +2344,7 @@ Backovic M, et~al. \textit{Phys. Dark Univ.} 9/10:37 (2015)
 
 \bibitem{ATLASSummary}
 ATLAS Collab. \textit{Summary plots from the ATLAS exotic
-physics group}. CERN, Geneva. \url{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/EXOTICS/index.html#ATLAS_DarkMatter_Summary} (2018)
+physics group}. CERN, Geneva. \url{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/EXOTICS/index.html#ATLAS_DarkMatter_Summary} (\DIFdelbegin \DIFdel{2017}\DIFdelend \DIFaddbegin \DIFadd{2018}\DIFaddend )
 
 \bibitem{Acharya:2009gb} 
   Acharya BS, et al. arXiv:0901.3367 [hep-ph] (2009)
@@ -2235,36 +2375,44 @@ Rev.} \textit{D} 91:055002 (2015)
 \bibitem{DEramo:2014nmf}
 D'Eramo F, Procura M. \textit{J. High Energy Phys.} 04:054 (2015)
 
-\bibitem{Angloher:2015ewa} 
-CRESST Collab. \textit{Eur. Phys. J.} \textit{C} 76:25 (2016)
+\DIFaddbegin \bibitem{Angloher:2015ewa} 
+\DIFadd{CRESST Collab. }\textit{\DIFadd{Eur. Phys. J.}} \textit{\DIFadd{C}} \DIFadd{76:25 (2016)
+}
 
 \bibitem{Agnese:2015nto} 
-CDMS Collab. \textit{Phys. Rev. Lett.} 116:071301 (2016)
+\DIFadd{CDMS Collab. }\textit{\DIFadd{Phys. Rev. Lett.}} \DIFadd{116:071301 (2016)
+}
 
 \bibitem{Cui:2017nnn} 
-PandaX-II Collab. \textit{Phys. Rev. Lett.} 119:181302 (2017)
+\DIFadd{PandaX-II Collab. }\textit{\DIFadd{Phys. Rev. Lett.}} \DIFadd{119:181302 (2017)
+}
 
 \bibitem{Akerib:2016vxi} 
-LUX Collab. \textit{Phys. Rev. Lett.} 118:021303 (2017)
+\DIFadd{LUX Collab. }\textit{\DIFadd{Phys. Rev. Lett.}} \DIFadd{118:021303 (2017)
+}
 
 \bibitem{Aprile:2018dbl} 
-XENON Collab. arXiv:1805.12562 [hep-ex] (2018)
+\DIFadd{XENON Collab. arXiv:1805.12562 }[\DIFadd{hep-ex}] \DIFadd{(2018)
+}
 
-\bibitem{CMSSummary}
-CMS Collab. \textit{Dark \MakeLowercase{Matter Summary Plots}}. CERN, Geneva. \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/SummaryPlotsEXO13TeV#Dark_Matter_Summary_plots} (2018)
+\DIFaddend \bibitem{CMSSummary}
+CMS Collab. \textit{Dark \MakeLowercase{Matter Summary Plots}\DIFdelbegin \DIFdel{from CMS for LHCP and EPS 2017}\DIFdelend }. CERN, Geneva. \DIFdelbegin %DIFDELCMD < \url{https://twiki.cern.ch/twiki/pub/CMSPublic/PhysicsResultsEXO/DM-summary-plots-Jul17.pdf} %%%
+\DIFdel{(2017}\DIFdelend \DIFaddbegin \url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/SummaryPlotsEXO13TeV#Dark_Matter_Summary_plots} \DIFadd{(2018}\DIFaddend )
 
 \bibitem{Busoni:2014gta}
 Busoni G, et~al. \textit{J. Cosmol. Astropart. Phys.} 1503:022 (2015)
 
 \bibitem{Catena:2017xqq}
-Catena R, Conrad J, Krauss MB. \textit{Phys. Rev.} \textit{D} 97:103002 (2017)
+Catena R, Conrad J, Krauss MB. \DIFdelbegin \DIFdel{arXiv:1712.07969 }%DIFDELCMD < [%%%
+\DIFdel{hep-ph}%DIFDELCMD < ] %%%
+\DIFdelend \DIFaddbegin \textit{\DIFadd{Phys. Rev.}} \textit{\DIFadd{D}} \DIFadd{97:103002 }\DIFaddend (2017)
 
 \bibitem{Barducci:2016pcb}
 Barducci D, et~al. \textit{Comput. Phys. Commun.} 222:327 (2018)
 
 \bibitem{Steigman:1979kw}
 Steigman G. \textit{Annu. Rev. Nucl. Part. Sci.} 29:313 (1979)
-  
+
 \bibitem{CMS-PAS-FTR-16-005}
 {CMS Collab}. \textit{Estimated sensitivity for new particle searches at the HL-LHC}.
 Tech. rep. CMS-PAS-FTR-16-005, CERN, Geneva (2017)
@@ -2275,8 +2423,9 @@ Campana P, Klute M, Wells P. \textit{Annu. Rev. Nucl. Part. Sci.}
 
 \bibitem{Buchmueller:2017uqu}
 Buchmueller O, et~al. \textit{J. High Energy Phys.} 09:076 (2017)
+\DIFaddbegin 
 
-\bibitem{Blumenschein:2018gtm}
+\DIFaddend \bibitem{Blumenschein:2018gtm}
 Blumenschein U, et~al. arXiv:1802.02100 [hep-ex] (2018)
 
 
@@ -2302,7 +2451,7 @@ Buckley MR, Peter AHG. arXiv:1712.06615 [astro-ph.CO] (2017)
 \end{thebibliography}
 
 \section*{RELATED RESOURCES}
-\begin{enumerate}
+ \begin{enumerate} 
 \item Bertone G, et al. \textit{Particle Dark Matter: Observations, Models and Searches}. Cambridge, UK: Cambridge Univ. Press (2010)%}
 
 \item Bertone G, Hooper D. arXiv:1605.04909 [astro-ph.CO] (2016)
@@ -2315,7 +2464,7 @@ Buckley MR, Peter AHG. arXiv:1712.06615 [astro-ph.CO] (2017)
 
 \item {LHC Physics Center CERN.\textit{ WG on dark matter searches at the LHC}. DMWG Work. Group home page, CERN, Geneva.} \url{http://lpcc.web.cern.ch/content/lhc-dm-wg-wg-dark-matter-searches-lhc} (2015)
 
-\end{enumerate}
+ \end{enumerate} 
 \end{document}
 
   
