@@ -1,0 +1,871 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  18 OCT 2018 18:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**NS68_Boveia_COMP_ToAU.TEX
+(./NS68_Boveia_COMP_ToAU.TEX
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(./ar-1col.cls
+
+LaTeX Warning: You have requested document class `ar-1col',
+               but the document class provides `ar'.
+
+Document Class: ar 2013/03/07 v1.1 Standard LaTeX document class
+\typeheight=\dimen102
+\typewidth=\dimen103
+\extramargin=\skip41
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+\@absbbox=\box26
+\@kwdbox=\box27
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\chkfigcnt=\count87
+\c@table=\count88
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\chk@fig@width=\dimen104
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
+)
+\bibindent=\dimen113
+\marginnotecnt=\count89
+\marginnotebox=\box28
+\bibnotecnt=\count90
+\textboxcnt=\count91
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count92
+\mult@box=\box29
+\multicol@leftmargin=\dimen116
+\c@unbalance=\count93
+\c@collectmore=\count94
+\doublecol@number=\count95
+\multicoltolerance=\count96
+\multicolpretolerance=\count97
+\full@width=\dimen117
+\page@free=\dimen118
+\premulticols=\dimen119
+\postmulticols=\dimen120
+\multicolsep=\skip44
+\multicolbaselineskip=\skip45
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen121
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count98
+\c@finalcolumnbadness=\count99
+\last@try=\dimen122
+\multicolovershoot=\dimen123
+\multicolundershoot=\dimen124
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count100
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip46
+\fb@frw=\dimen125
+\fb@frh=\dimen126
+\FrameRule=\dimen127
+\FrameSep=\dimen128
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks15
+\SOUL@lasttoken=\toks16
+\SOUL@cmds=\toks17
+\SOUL@buffer=\toks18
+\SOUL@token=\toks19
+\SOUL@spaceskip=\skip47
+\SOUL@ttwidth=\dimen129
+\SOUL@uldp=\dimen130
+\SOUL@ulht=\dimen131
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(./NS68_Boveia_COMP_ToAU.aux)
+\openout1 = `NS68_Boveia_COMP_ToAU.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen132
+\scratchbox=\box55
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen133
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 71.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 71.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+
+Overfull \hbox (31.0pt too wide) in paragraph at lines 71--71
+[][] |[] 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <7.5> not available
+(Font)              size <7> substituted on input line 71.
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package color Info: Redefining color shadecolor on input line 73.
+
+(./NS68_Boveia_COMP_ToAU.toc)
+\tf@toc=\write3
+\openout3 = `NS68_Boveia_COMP_ToAU.toc'.
+
+
+Overfull \hbox (90.0pt too wide) in paragraph at lines 112--112
+[][]|[][]
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 134.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 134.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 134.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
+(Font)              size <7> substituted on input line 134.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.75> not available
+(Font)              size <5> substituted on input line 134.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 134.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 134.
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[2
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[3]
+
+pdfTeX warning: pdflatex (file ./figures/feynman_0.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<figures/feynman_0.pdf, id=27, 1854.93pt x 444.66125pt>
+File: figures/feynman_0.pdf Graphic file (type pdf)
+
+<use figures/feynman_0.pdf>
+Package pdftex.def Info: figures/feynman_0.pdf used on input line 193.
+(pdftex.def)             Requested size: 366.0pt x 87.73651pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 193--197
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
+
+ []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[4 <./figures/feynman_0.pdf>]
+Underfull \vbox (badness 2781) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[5]
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[6]
+
+pdfTeX warning: pdflatex (file ./figures/feynman_1.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<figures/feynman_1.pdf, id=65, 2055.68pt x 444.66125pt>
+File: figures/feynman_1.pdf Graphic file (type pdf)
+
+<use figures/feynman_1.pdf>
+Package pdftex.def Info: figures/feynman_1.pdf used on input line 364.
+(pdftex.def)             Requested size: 366.0pt x 79.16708pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 364--369
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--369
+
+ []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[7 <./figures/feynman_1.pdf>]
+
+pdfTeX warning: pdflatex (file ./figures/feynman_2.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<figures/feynman_2.pdf, id=98, 1305.87875pt x 444.66125pt>
+File: figures/feynman_2.pdf Graphic file (type pdf)
+
+<use figures/feynman_2.pdf>
+Package pdftex.def Info: figures/feynman_2.pdf used on input line 454.
+(pdftex.def)             Requested size: 366.0pt x 124.61964pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 454--459
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--459
+
+ []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[8 <./figures/feynman_2.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[12]
+Overfull \hbox (90.0pt too wide) in paragraph at lines 787--787
+[][]|[][]
+ []
+
+
+Underfull \vbox (badness 5893) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[13]
+Overfull \hbox (90.0pt too wide) in paragraph at lines 892--892
+[][]|[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[14] <figures/FakeMET.pdf, id=152, 524.96124pt x 569.12625pt>
+File: figures/FakeMET.pdf Graphic file (type pdf)
+
+<use figures/FakeMET.pdf>
+Package pdftex.def Info: figures/FakeMET.pdf used on input line 906.
+(pdftex.def)             Requested size: 256.19888pt x 277.76273pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 906--912
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 906--912
+
+ []
+
+
+Underfull \vbox (badness 3019) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[15]
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[16 <./figures/FakeMET.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[17]
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[18]
+
+LaTeX Warning: Reference `fig:SUSYSummary_ew' on page 19 undefined on input lin
+e 1138.
+
+<figures/ATLAS_SUSY_EWSummary_higgsino.pdf, id=209, 794.97pt x 578.16pt>
+File: figures/ATLAS_SUSY_EWSummary_higgsino.pdf Graphic file (type pdf)
+
+<use figures/ATLAS_SUSY_EWSummary_higgsino.pdf>
+Package pdftex.def Info: figures/ATLAS_SUSY_EWSummary_higgsino.pdf used on inpu
+t line 1143.
+(pdftex.def)             Requested size: 366.0pt x 266.18619pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 1143--1146
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1146
+
+ []
+
+<figures/CMS-SUS-17-004_Figure_010-a.pdf, id=210, 569.12625pt x 547.04375pt>
+File: figures/CMS-SUS-17-004_Figure_010-a.pdf Graphic file (type pdf)
+
+<use figures/CMS-SUS-17-004_Figure_010-a.pdf>
+Package pdftex.def Info: figures/CMS-SUS-17-004_Figure_010-a.pdf used on input 
+line 1150.
+(pdftex.def)             Requested size: 366.0pt x 351.81798pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 1150--1153
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1153
+
+ []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[19 <./figures/ATLAS_SUSY_EWSummary_higgsino.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[20 <./figures/CMS-SUS-17-004_Figure_010-a.pdf>]
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[21] <figures/CouplingMassPlot.pdf, id=287, 569.12625pt x 385.44pt>
+File: figures/CouplingMassPlot.pdf Graphic file (type pdf)
+
+<use figures/CouplingMassPlot.pdf>
+Package pdftex.def Info: figures/CouplingMassPlot.pdf used on input line 1280.
+(pdftex.def)             Requested size: 366.0pt x 247.88643pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 1280--1289
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1289
+
+ []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[22 <./figures/CouplingMassPlot.pdf, page is rotated 90 degrees>]
+<figures/ATLAS_DarkMatter_Summary_Vector.pdf, id=334, 569.12625pt x 363.3575pt>
+File: figures/ATLAS_DarkMatter_Summary_Vector.pdf Graphic file (type pdf)
+<use figures/ATLAS_DarkMatter_Summary_Vector.pdf>
+Package pdftex.def Info: figures/ATLAS_DarkMatter_Summary_Vector.pdf used on in
+put line 1364.
+(pdftex.def)             Requested size: 292.80112pt x 186.94545pt.
+
+<figures/ATLAS_DarkMatter_Summary_Vector_ModifiedCoupling.pdf, id=335, 569.1262
+5pt x 363.3575pt>
+File: figures/ATLAS_DarkMatter_Summary_Vector_ModifiedCoupling.pdf Graphic file
+ (type pdf)
+
+<use figures/ATLAS_DarkMatter_Summary_Vector_ModifiedCoupling.pdf>
+Package pdftex.def Info: figures/ATLAS_DarkMatter_Summary_Vector_ModifiedCoupli
+ng.pdf used on input line 1365.
+(pdftex.def)             Requested size: 292.80112pt x 186.94545pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 1364--1386
+[] [] 
+ []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[23]
+Underfull \vbox (badness 1107) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[24 <./figures/ATLAS_DarkMatter_Summary_Vector.pdf, page is rotated 90 degrees>
+ <./figures/ATLAS_DarkMatter_Summary_Vector_ModifiedCoupling.pdf, page is rotat
+ed 90 degrees>]
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[25] <figures/SI_CMSDD_Summary.pdf, id=433, 569.12625pt x 327.2225pt>
+File: figures/SI_CMSDD_Summary.pdf Graphic file (type pdf)
+
+<use figures/SI_CMSDD_Summary.pdf>
+Package pdftex.def Info: figures/SI_CMSDD_Summary.pdf used on input line 1511.
+(pdftex.def)             Requested size: 329.39777pt x 189.39473pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 1511--1521
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1521
+
+ []
+
+
+LaTeX Warning: Citation `CMS-PAS-EXO-16-053' on page 26 undefined on input line
+ 1521.
+
+
+LaTeX Warning: Citation `Angloher:2015ewa' on page 26 undefined on input line 1
+521.
+
+
+LaTeX Warning: Citation `Agnese:2015nto' on page 26 undefined on input line 152
+1.
+
+
+LaTeX Warning: Citation `Cui:2017nnn' on page 26 undefined on input line 1521.
+
+
+LaTeX Warning: Citation `Akerib:2016vxi' on page 26 undefined on input line 152
+1.
+
+
+LaTeX Warning: Citation `Aprile:2018dbl' on page 26 undefined on input line 152
+1.
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[26]
+Package color Info: Redefining color shadecolor on input line 1569.
+
+Underfull \vbox (badness 1052) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[27 <./figures/SI_CMSDD_Summary.pdf, page is rotated 90 degrees>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1577.
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 1660--1672
+
+ []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 2212--2214
+\OT1/cmtt/m/n/8 https : / / atlas . web . cern . ch / Atlas / GROUPS / PHYSICS 
+/ CombinedSummaryPlots / EXOTICS /
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 2253--2254
+[]\OT1/cmr/m/n/8 CMS Col-lab. \OT1/cmr/m/it/8 Dark mat-ter sum-mary plots from 
+CMS for LHCP and EPS 2017\OT1/cmr/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2253--2254
+\OT1/cmr/m/n/8 CERN, Geneva. $\OT1/cmtt/m/n/8 https : / / twiki . cern . ch / t
+wiki / pub / CMSPublic / PhysicsResultsEXO /
+ []
+
+
+Underfull \vbox (badness 3803) has occurred while \output is active []
+
+
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[33]
+Overfull \hbox (90.0pt too wide) has occurred while \output is active
+[]
+ []
+
+[34] (./NS68_Boveia_COMP_ToAU.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.25pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 83 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 3275 strings out of 492995
+ 46053 string characters out of 6132703
+ 111015 words of memory out of 5000000
+ 6725 multiletter control sequences out of 15000+600000
+ 26700 words of font info for 100 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,15n,26p,6302b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/stix/STI
+XGeneral-Italic.pfb
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/stix/STIXGeneral-Italic.pfb): glyph `afii61289' undefined
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/h
+elvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helveti
+c/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro
+8a.pfb>
+Output written on NS68_Boveia_COMP_ToAU.pdf (34 pages, 1093625 bytes).
+PDF statistics:
+ 598 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

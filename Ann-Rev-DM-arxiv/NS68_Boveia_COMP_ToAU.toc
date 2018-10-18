@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{2}
+\contentsline {section}{\numberline {2}REACTIONS FOR INVISIBLE-PARTICLE SEARCHES AT THE LHC}{3}
+\contentsline {subsection}{\numberline {2.1}Higgs and {\bf \it {Z}} Boson Portals}{4}
+\contentsline {subsection}{\numberline {2.2}Effective Field Theories and Simplified Models of Beyond-the-Standard-Model Mediators}{5}
+\contentsline {subsubsection}{\numberline {2.2.1}Effective field theories}{5}
+\contentsline {subsubsection}{\numberline {2.2.2}Simplified models}{5}
+\contentsline {subsubsection}{\numberline {2.2.3}Less-simplified models}{8}
+\contentsline {subsection}{\numberline {2.3}Supersymmetric Models and Other Complete Theories}{9}
+\contentsline {subsection}{\numberline {2.4}Long-Lived Particle Models}{10}
+\contentsline {subsection}{\numberline {2.5}Dark Interactions}{11}
+\contentsline {section}{\numberline {3}EXPERIMENTAL RESULTS}{12}
+\contentsline {subsection}{\numberline {3.1}Searches for Invisible-Particle Production Mediated by Standard Model Bosons}{12}
+\contentsline {subsection}{\numberline {3.2}Generic Searches for Invisible Particles from Beyond-the-Standard-Model Mediation}{13}
+\contentsline {subsubsection}{\numberline {3.2.1}Searches with jets}{14}
+\contentsline {subsubsection}{\numberline {3.2.2}Searches with photons and vector bosons}{16}
+\contentsline {subsubsection}{\numberline {3.2.3}Search signatures including the Higgs boson}{17}
+\contentsline {subsubsection}{\numberline {3.2.4}Searches with third-generation quarks}{18}
+\contentsline {subsection}{\numberline {3.3}Searches for Supersymmetric Invisible Particles}{18}
+\contentsline {subsection}{\numberline {3.4}Searches for Long-Lived Particles}{21}
+\contentsline {subsection}{\numberline {3.5}Consequences of Neutral-Mediated Models: Visible Decays}{21}
+\contentsline {subsubsection}{\numberline {3.5.1}Comparison of the sensitivity of visible and invisible LHC searches}{23}
+\contentsline {section}{\numberline {4}COMPARISON OF COLLIDER RESULTS WITH DIRECT AND INDIRECT DETECTION EXPERIMENTS}{25}
+\contentsline {subsection}{\numberline {4.1}Comparing LHC Constraints from Visible- and Invisible-Particle Searches with Noncollider Results}{25}
+\contentsline {subsection}{\numberline {4.2}Relic Density Considerations}{26}
+\contentsline {section}{\numberline {5}OUTLOOK}{27}
